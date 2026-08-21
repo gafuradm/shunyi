@@ -1,0 +1,9 @@
+# Сторонняя библиотека whisper.cpp (битый gitlink-подмодуль удалён из индекса,
+# папка больше не отслеживается)
+whisper.cpp/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
