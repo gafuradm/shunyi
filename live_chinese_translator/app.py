@@ -369,6 +369,20 @@ def float32_to_pcm16(audio):
         return b''
     return (audio * 32767).astype(np.int16).tobytes()
 
+def is_useful_text(text):
+    """True, если в тексте есть реальные символы (китайские иероглифы,
+    латиница, цифры), а не только пунктуация/пусто.
+
+    iFLYTEK Short Form ASR часто присылает отдельные порции с одной пунктуацией
+    ("。", "？") — такой текст бесполезен и не должен считаться результатом.
+    В unicode-режиме класс [w] (буквы/цифры/подчёркивание) матчит и китайские
+    иероглифы, поэтому после удаления пробелов и пунктуации остаются только
+    значимые символы."""
+    if not text:
+        return False
+    stripped = re.sub(r'[\s\W_]+', '', text, flags=re.UNICODE)
+    return len(stripped) > 0
+
 def generate_session_code():
     global CURRENT_SESSION_CODE, CODE_EXPIRES_AT
 
@@ -475,6 +489,14 @@ is_running = True
 # при каждом новом подключении и ставится False в on_message при завершении сессии.
 xf_session_active = True
 
+# Последний полезный (непунктуационный) интерм-текст текущей фразы.
+# ВАЖНО: Short Form ASR присылает реальный текст фразы в статусах 0/1 (interim),
+# а финальный status:2 часто приходит с ПУСТОЙ порцией (только "。" или вообще
+# пусто). Если не сохранять последний интерм, пользователь вместо распознанной
+# речи видит только "。" (см. lecture_20260822_*). При status:2 с пустым текстом
+# используем этот буфер как финальный результат фразы.
+current_interim_text = ""
+
 # ================= Переменные для трансляции экрана =================
 current_teacher_sid = None
 TEACHER_ROOM = "teacher_room"
@@ -542,7 +564,7 @@ def post_process_translation(text):
 
 # ================= ИСПРАВЛЕННАЯ ФУНКЦИЯ WebSocket handler =================
 def on_message(ws, message):
-    global PHRASE_COUNT, LAST_SEGMENT_TIME, LAST_SEGMENTS, xf_session_active
+    global PHRASE_COUNT, LAST_SEGMENT_TIME, LAST_SEGMENTS, xf_session_active, current_interim_text
     try:
         data = json.loads(message)
         
@@ -563,27 +585,45 @@ def on_message(ws, message):
                 # status:2 — конец сессии, дальше слать аудио нельзя (иначе
                 # сервер отвечает "invalid handle" и закрывает сокет). Перестаём
                 # слать и переподключаемся для следующей фразы.
-                if status == 2:
+                is_official_final = (status == 2)
+                if is_official_final:
                     xf_session_active = False
                     logger.info("🔁 iFLYTEK session finalized (status:2), will reconnect")
                 
-                is_official_final = (status == 2)
                 current_time = time.time()
                 
-                if text and len(text.strip()) > 0:
+                # ФИНАЛЬНЫЙ ТЕКСТ ФРАЗЫ. Short Form ASR присылает реальный текст
+                # в статусах 0/1 (interim), а status:2 часто приходит с пустой
+                # порцией (только пунктуация "。" или вообще пусто). Запоминаем
+                # последний полезный интерм в current_interim_text и, если финал
+                # пуст, используем его — иначе пользователь видит только "。" .
+                useful_text = is_useful_text(text)
+                final_text = ""
+                if is_official_final:
+                    if useful_text:
+                        final_text = text
+                    else:
+                        final_text = current_interim_text
+                    current_interim_text = ""
+                else:
+                    if useful_text:
+                        current_interim_text = text
+                        final_text = text
+                
+                if final_text and len(final_text.strip()) > 0:
                     add_to_lecture_history(
-                        text=text,
-                        text_type='recognition_interim' if not is_official_final else 'recognition_final',
+                        text=final_text,
+                        text_type='recognition_final' if is_official_final else 'recognition_interim',
                         language='zh',
                         speaker='teacher',
                         metadata={'status': status, 'is_final': is_official_final}
                     )
                 
-                if text and SHOW_INTERMEDIATE and len(text.strip()) > 0:
-                    if LAST_SEGMENTS and text.startswith(LAST_SEGMENTS[-1]):
-                        text = text
+                if final_text and SHOW_INTERMEDIATE and len(final_text.strip()) > 0:
+                    if LAST_SEGMENTS and final_text.startswith(LAST_SEGMENTS[-1]):
+                        final_text = final_text
                     
-                    LAST_SEGMENTS.append(text)
+                    LAST_SEGMENTS.append(final_text)
                     if len(LAST_SEGMENTS) > 5:
                         LAST_SEGMENTS.pop(0)
                     
@@ -591,13 +631,13 @@ def on_message(ws, message):
                     is_final_by_pause = time_since_last > FINAL_TIMEOUT and len(LAST_SEGMENTS) > 2
                     
                     is_final = is_official_final or (
-                        is_final_by_pause and 
-                        len(text.split()) >= MIN_WORDS_FOR_FINAL
+                        is_final_by_pause and
+                        len(final_text.split()) >= MIN_WORDS_FOR_FINAL
                     )
                     
                     LAST_SEGMENT_TIME = current_time
                     
-                    if text and clients_lang:
+                    if final_text and clients_lang:
                         def translate_and_send(text, sid, lang, is_final):
                             try:
                                 cache_key = f"{lang}:{text}"
@@ -648,7 +688,7 @@ def on_message(ws, message):
                         if not is_final:
                             for sid, lang in list(clients_lang.items()):
                                 socketio.emit("new_translation", {
-                                    "original": text,
+                                    "original": final_text,
                                     "translation": "",  # пусто — клиент показывает оригинал до финала
                                     "is_final": False
                                 }, to=sid)
@@ -658,7 +698,7 @@ def on_message(ws, message):
                                 futures.append(
                                     deepseek_executor.submit(
                                         translate_and_send,
-                                        text, sid, lang, is_final
+                                        final_text, sid, lang, is_final
                                     )
                                 )
                             
@@ -669,8 +709,8 @@ def on_message(ws, message):
                                     pass
                     
                     if is_final:
-                        logger.info(f"📝 FINAL: '{text}'")
-                        FULL_LECTURE_TEXT.append(text)
+                        logger.info(f"📝 FINAL: '{final_text}'")
+                        FULL_LECTURE_TEXT.append(final_text)
                         PHRASE_COUNT += 1
                         emit_stats()
                         
@@ -695,11 +735,12 @@ def on_close(ws, close_status_code, close_msg):
     logger.info(f"WebSocket closed: {close_msg}")
 
 def on_open(ws):
-    global ws_connection, xf_session_active
+    global ws_connection, xf_session_active, current_interim_text
     logger.info("✅ WebSocket connected")
     ws_connection = ws
     # Новая сессия: разрешаем отправку аудио
     xf_session_active = True
+    current_interim_text = ""
     
     init_params = {
         "common": {"app_id": APPID},
@@ -741,7 +782,9 @@ def audio_callback(indata, frames, time_info, status):
                 now_t = time.time()
                 if now_t - _audio_cb_last_log[0] > 10.0:
                     _audio_cb_last_log[0] = now_t
-                    logger.info(f"🎙️ audio_callback: {_audio_cb_count[0]} frames in last 10s, queue={audio_queue.qsize()}")
+                    mx = float(np.max(np.abs(audio_mono)))
+                    rms = float(np.sqrt(np.mean(audio_mono ** 2)))
+                    logger.info(f"🎙️ audio_callback: {_audio_cb_count[0]} frames in last 10s, queue={audio_queue.qsize()}, max={mx:.4f}, rms={rms:.4f}")
                     _audio_cb_count[0] = 0
         except q.Full:
             pass
