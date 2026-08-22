@@ -56,7 +56,11 @@ MAX_HISTORY_SIZE = 10000
 USER_SESSIONS = {}
 
 # Logging configuration
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s:%(message)s",
+    datefmt="%H:%M:%S"
+)
 logger = logging.getLogger(__name__)
 
 # Load environment variables
@@ -103,8 +107,15 @@ ENABLE_REALTIME = True
 SHOW_INTERMEDIATE = True
 MIN_TEXT_LENGTH = 1
 SEND_INTERVAL = 0.3
-FINAL_TIMEOUT = 1.5
-MIN_WORDS_FOR_FINAL = 2
+FINAL_TIMEOUT = 1.2
+# Порог амплитуды (float32), выше которого фрейм считается речью. Тишина фона
+# комнаты ~ max=0.003-0.005, речь через микрофон ~ max=0.07+. Порог 0.008
+# надёжно разделяет шум и речь (проверено на тестах с микрофоном).
+SILENCE_AMP_THRESHOLD = 0.008
+# Для китайского текста без пробелов len(split()) всегда == 1, поэтому
+# финализация по паузе не работала (ждали серверный VAD status:2 ~5с).
+# Считаем финал по числу иероглифов/символов, а не слов.
+MIN_CHARS_FOR_FINAL = 4
 MAX_INTERMEDIATE_AGE = 3.0
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
@@ -383,37 +394,86 @@ def is_useful_text(text):
     stripped = re.sub(r'[\s\W_]+', '', text, flags=re.UNICODE)
     return len(stripped) > 0
 
+def _norm_interim(text):
+    """Нормализованный вид интерм-текста для сравнения версий: убираем пробелы
+    и хвостовую пунктуацию, которую iFLYTEK добавляет к каждому уточнению
+    ("。" в конце фразы). Если нормализованный текст не изменился — сервер
+    просто уточнил ту же фразу, таймер паузы сбрасывать не нужно."""
+    if not text:
+        return ""
+    # Удаляем хвостовую пунктуацию/пробелы (включая "。？！，、；：,.!?…")
+    t = re.sub(r'[\s。？！，、；：,.!?…]+$', '', text)
+    # Удаляем внутренние пробелы (китайский пишется без пробелов)
+    t = re.sub(r'\s+', '', t)
+    return t
+
+def _session_code_for_window(window_ts):
+    """Детерминированный 6-значный код для 45-секундного окна. Одинаков для
+    всех вызовов в пределах окна, в том числе ПОСЛЕ РЕСТАРТА сервера: студент,
+    отсканировавший QR со старым кодом, не получает "Code expired or invalid",
+    пока окно не сменилось."""
+    secret = os.getenv("SESSION_SECRET", "lecture_secret_2024")
+    return hashlib.sha256(f"{secret}_{window_ts}".encode()).hexdigest()[:6].upper()
+
 def generate_session_code():
     global CURRENT_SESSION_CODE, CODE_EXPIRES_AT
 
-    timestamp = int(time.time() / 45)
-    secret = os.getenv("SESSION_SECRET", "lecture_secret_2024")
+    now = time.time()
+    # Детерминированный код текущего 45-сек окна: одинаков для всех вызовов
+    # в пределах окна и переживает рестарт сервера. clear() не используется —
+    # старые коды не инвалидируются принудительно, очистка ленивая.
+    code = _session_code_for_window(int(now / 45))
 
-    CURRENT_SESSION_CODE = hashlib.sha256(
-        f"{secret}_{timestamp}".encode()
-    ).hexdigest()[:6].upper()
-
-    CODE_EXPIRES_AT = time.time() + 45
-
-    ACTIVE_SESSION_CODES.clear()
-    ACTIVE_SESSION_CODES[CURRENT_SESSION_CODE] = {
-        "expires": CODE_EXPIRES_AT,
+    # Запоминаем код для учёта использований (used_by). Запись живёт ~90с
+    # (текущее окно + следующее), чтобы студент с QR успел подтвердить вход.
+    ACTIVE_SESSION_CODES.setdefault(code, {
+        "expires": now + 90,
         "used_by": []
-    }
+    })
+
+    CURRENT_SESSION_CODE = code
+    CODE_EXPIRES_AT = now + 45
 
     return CURRENT_SESSION_CODE
 
 def verify_student_code(student_id, code):
     code = code.upper().strip()
-    
+
+    # Ленивая очистка протухших кодов, чтобы словарь не рос бесконечно.
+    # Актуальные коды (включая предыдущий из QR) остаются до своего expires.
+    now = time.time()
+    for expired in [c for c, d in ACTIVE_SESSION_CODES.items() if now > d["expires"]]:
+        del ACTIVE_SESSION_CODES[expired]
+
+    # Коды сессии детерминированные (45-сек окно), поэтому валидность кода НЕ
+    # зависит от словаря в памяти: после рестарта сервера ACTIVE_SESSION_CODES
+    # пуст, но код текущего/предыдущего окна всё равно должен приниматься.
+    window_now = int(now / 45)
+    expected_codes = {
+        _session_code_for_window(window_now),
+        _session_code_for_window(window_now - 1),
+    }
+
     if code not in ACTIVE_SESSION_CODES:
-        return False, "Code expired or invalid"
-    
+        if code not in expected_codes:
+            return False, "Code expired or invalid"
+        # Детерминированный код валиден — регистрируем лениво, чтобы учёт
+        # used_by/VERIFIED_STUDENTS работал как обычно.
+        ACTIVE_SESSION_CODES[code] = {
+            "expires": now + 90,
+            "used_by": []
+        }
+
     code_data = ACTIVE_SESSION_CODES[code]
-    
+
     if time.time() > code_data["expires"]:
-        del ACTIVE_SESSION_CODES[code]
-        return False, "Code expired"
+        if code in expected_codes:
+            # Код всё ещё в активном окне — продлеваем TTL (словарь мог быть
+            # перезаписан при рестарте или просто прошло >90с с генерации).
+            code_data["expires"] = now + 90
+        else:
+            del ACTIVE_SESSION_CODES[code]
+            return False, "Code expired"
     
     if student_id in code_data["used_by"]:
         if student_id in VERIFIED_STUDENTS and VERIFIED_STUDENTS[student_id].get("verified"):
@@ -496,6 +556,22 @@ xf_session_active = True
 # речи видит только "。" (см. lecture_20260822_*). При status:2 с пустым текстом
 # используем этот буфер как финальный результат фразы.
 current_interim_text = ""
+# Последний интерм-текст фразы (непустой) для сравнения версий: если
+# нормализованный текст не изменился — сервер просто уточнил ту же фразу
+# (добавил "。"), таймер паузы сбрасывать не нужно.
+last_interim_text = ""
+# Время последнего фрейма с реальной речью (амплитуда > порога). Используется
+# в ws_thread для активной финализации по паузе: если речь закончилась и тишина
+# длится > FINAL_TIMEOUT, отправляем серверу status:2, чтобы он мгновенно вернул
+# финальный текст (иначе ждём серверный VAD ~5-10с тишины — это и была задержка).
+last_speech_time = time.time()
+# Отправлен ли серверу status:2 для текущей фразы (активная финализация по паузе).
+# Пока True — ждём финальный ответ сервера и больше не шлём аудио в эту сессию.
+client_finalize_pending = False
+
+# Текст, финализированный клиентски по паузе (is_final_by_pause). Нужен, чтобы
+# при последующем серверном status:2 не добавить ту же фразу в историю повторно.
+client_finalized_text = ""
 
 # ================= Переменные для трансляции экрана =================
 current_teacher_sid = None
@@ -564,7 +640,7 @@ def post_process_translation(text):
 
 # ================= ИСПРАВЛЕННАЯ ФУНКЦИЯ WebSocket handler =================
 def on_message(ws, message):
-    global PHRASE_COUNT, LAST_SEGMENT_TIME, LAST_SEGMENTS, xf_session_active, current_interim_text
+    global PHRASE_COUNT, LAST_SEGMENT_TIME, LAST_SEGMENTS, xf_session_active, current_interim_text, client_finalized_text, last_interim_text, last_speech_time
     try:
         data = json.loads(message)
         
@@ -588,6 +664,7 @@ def on_message(ws, message):
                 is_official_final = (status == 2)
                 if is_official_final:
                     xf_session_active = False
+                    client_finalize_pending = False
                     logger.info("🔁 iFLYTEK session finalized (status:2), will reconnect")
                 
                 current_time = time.time()
@@ -628,14 +705,41 @@ def on_message(ws, message):
                         LAST_SEGMENTS.pop(0)
                     
                     time_since_last = current_time - LAST_SEGMENT_TIME
-                    is_final_by_pause = time_since_last > FINAL_TIMEOUT and len(LAST_SEGMENTS) > 2
-                    
-                    is_final = is_official_final or (
-                        is_final_by_pause and
-                        len(final_text.split()) >= MIN_WORDS_FOR_FINAL
+                    # Для китайского без пробелов финализируем по числу иероглифов
+                    # (не по split()) — пауза в речи (>FINAL_TIMEOUT) сразу даёт финал,
+                    # не дожидаясь серверного VAD status:2 (~5с тишины).
+                    is_final_by_pause = (
+                        time_since_last > FINAL_TIMEOUT and
+                        len(final_text) >= MIN_CHARS_FOR_FINAL
                     )
                     
-                    LAST_SEGMENT_TIME = current_time
+                    is_final = is_official_final or is_final_by_pause
+                    
+                    if is_final_by_pause and not is_official_final:
+                        client_finalized_text = final_text
+                        # Сервер ещё не финализировал (VAD не сработал), но мы уже
+                        # отдали финал. Очищаем буфер: последующий status:2 с пустым
+                        # текстом не должен дублировать эту фразу в истории.
+                        current_interim_text = ""
+                    
+                    # КЛЮЧЕВОЙ ФИКС ЗАДЕРЖКИ: раньше LAST_SEGMENT_TIME обновлялся на
+                    # КАЖДОЕ сообщение, а iFLYTEK шлёт повторные interim-уточнения
+                    # каждые ~0.5с (с добавленной в конец "。"), поэтому пауза
+                    # > FINAL_TIMEOUT никогда не накапливалась и финал приходилось
+                    # ждать от серверного VAD (~5с тишины). Теперь таймер паузы
+                    # сбрасывается ТОЛЬКО при реальном изменении текста фразы.
+                    norm_new = _norm_interim(final_text)
+                    norm_prev = _norm_interim(last_interim_text)
+                    if norm_new != norm_prev:
+                        last_interim_text = final_text
+                        LAST_SEGMENT_TIME = current_time
+                        last_speech_time = current_time
+                        logger.info(f"💬 interim: '{final_text}' (norm: '{norm_new}')")
+                    
+                    # Финал — фраза завершена: готовим буфер к новой фразе
+                    if is_final:
+                        last_interim_text = ""
+                        last_speech_time = current_time
                     
                     if final_text and clients_lang:
                         def translate_and_send(text, sid, lang, is_final):
@@ -709,13 +813,20 @@ def on_message(ws, message):
                                     pass
                     
                     if is_final:
-                        logger.info(f"📝 FINAL: '{final_text}'")
-                        FULL_LECTURE_TEXT.append(final_text)
-                        PHRASE_COUNT += 1
-                        emit_stats()
-                        
-                        if len(FULL_LECTURE_TEXT) % 10 == 0:
-                            threading.Thread(target=auto_save_lecture, daemon=True).start()
+                        # Защита от дубля: серверный status:2 с тем же текстом после
+                        # клиентской финализации по паузе не должен дублировать фразу.
+                        is_duplicate = (
+                            FULL_LECTURE_TEXT and
+                            final_text == FULL_LECTURE_TEXT[-1]
+                        )
+                        logger.info(f"📝 FINAL: '{final_text}'" + (" (duplicate skipped)" if is_duplicate else ""))
+                        if not is_duplicate:
+                            FULL_LECTURE_TEXT.append(final_text)
+                            PHRASE_COUNT += 1
+                            emit_stats()
+                            
+                            if len(FULL_LECTURE_TEXT) % 10 == 0:
+                                threading.Thread(target=auto_save_lecture, daemon=True).start()
         
         elif data.get('code') != 0:
             logger.error(f"Server error: {data.get('message')}")
@@ -735,12 +846,15 @@ def on_close(ws, close_status_code, close_msg):
     logger.info(f"WebSocket closed: {close_msg}")
 
 def on_open(ws):
-    global ws_connection, xf_session_active, current_interim_text
+    global ws_connection, xf_session_active, current_interim_text, client_finalize_pending, last_interim_text, last_speech_time
     logger.info("✅ WebSocket connected")
     ws_connection = ws
     # Новая сессия: разрешаем отправку аудио
     xf_session_active = True
     current_interim_text = ""
+    last_interim_text = ""
+    last_speech_time = time.time()
+    client_finalize_pending = False
     
     init_params = {
         "common": {"app_id": APPID},
@@ -769,6 +883,7 @@ _audio_cb_count = [0]
 _audio_cb_last_log = [0.0]
 
 def audio_callback(indata, frames, time_info, status):
+    global last_speech_time
     if status:
         logger.warning(f"Audio status: {status}")
     
@@ -776,6 +891,13 @@ def audio_callback(indata, frames, time_info, status):
         try:
             audio_mono = indata.copy().flatten()
             if len(audio_mono) > 0:
+                # Обнаружение речи по амплитуде: если фрейм громче порога — это речь,
+                # обновляем время последней речи. ws_thread использует его, чтобы при
+                # паузе > FINAL_TIMEOUT отправить серверу status:2 (мгновенная финализация
+                # вместо ожидания серверного VAD ~5-10с).
+                if float(np.max(np.abs(audio_mono))) > SILENCE_AMP_THRESHOLD:
+                    last_speech_time = time.time()
+                
                 audio_queue.put(audio_mono, timeout=0.1)
                 # Диагностика: раз в 10 секунд логируем, что микрофон отдаёт данные
                 _audio_cb_count[0] += 1
@@ -836,7 +958,7 @@ def audio_thread():
 
 # ================= WebSocket thread =================
 def ws_thread():
-    global ws_connection, is_running, xf_session_active
+    global ws_connection, is_running, xf_session_active, client_finalize_pending
 
     logger.info("🌐 Connecting to WebSocket...")
     last_audio_time = time.time()
@@ -886,6 +1008,32 @@ def ws_thread():
                     if not ws.sock or not ws.sock.connected:
                         break
 
+                    if client_finalize_pending:
+                        # Клиентский status:2 уже ушёл серверу — ждём его финальный
+                        # ответ (придёт в on_message). Аудио в эту сессию больше не
+                        # шлём: сервер закрывает соединение по "invalid handle".
+                        time.sleep(0.05)
+                        continue
+
+                    # АКТИВНАЯ ФИНАЛИЗАЦИЯ по паузе. Речь закончилась (амплитудная
+                    # тишина длится дольше FINAL_TIMEOUT) и накоплен интерм-текст —
+                    # отправляем серверу status:2, чтобы он МГНОВЕННО вернул финальный
+                    # текст. Без этого пришлось бы ждать серверный VAD (~5-10с тишины) —
+                    # это и была задержка ~5с от речи до перевода.
+                    if (current_interim_text
+                            and time.time() - last_speech_time > FINAL_TIMEOUT):
+                        client_finalize_pending = True
+                        logger.info(f"⏱️ Silence {time.time() - last_speech_time:.1f}s > FINAL_TIMEOUT, sending status:2 (interim: '{current_interim_text}')")
+                        ws.send(json.dumps({
+                            "data": {
+                                "status": 2,
+                                "format": "audio/L16;rate=16000",
+                                "encoding": "raw",
+                                "audio": ""
+                            }
+                        }))
+                        continue
+
                     chunk = audio_queue.get(timeout=0.1)
                     last_audio_time = time.time()
 
@@ -912,6 +1060,9 @@ def ws_thread():
                 except q.Empty:
                     if not xf_session_active:
                         break
+                    if client_finalize_pending:
+                        # После клиентского status:2 ждём ответ сервера, тишину не шлём
+                        continue
                     idle_for = time.time() - last_audio_time
                     if idle_for > 0.8:
                         if audio_buffer:
@@ -3671,9 +3822,6 @@ def handle_verification_request():
 
 @socketio.on("verify_code")
 def handle_code_verification(data):
-    if not CURRENT_SESSION_CODE or time.time() > CODE_EXPIRES_AT:
-        generate_session_code()
-    
     sid = request.sid
     code = data.get("code", "").strip().upper()
     student_id = data.get("student_id")
@@ -3745,8 +3893,18 @@ def handle_student_id_submission(data):
 @app.route("/teacher/qr")
 def teacher_qr_dashboard():
     current_code = generate_session_code()
-    
-    base_url = "https://pretympanic-sprucely-concepcion.ngrok-free.dev"
+
+    # Публичный адрес для QR. Если панель открыта через ngrok/прокси — берём
+    # из заголовка запроса. Если через localhost — используем переменную
+    # PUBLIC_BASE_URL или актуальный туннель. Раньше здесь был захардкожен
+    # мёртвый туннель pretympanic-sprucely-concepcion.ngrok-free.dev — QR вёл
+    # на нерабочий адрес, и студент не мог войти.
+    host = request.host
+    if "localhost" in host or "127.0.0.1" in host:
+        base_url = os.getenv("PUBLIC_BASE_URL", "https://lucas-uncadenced-dustin.ngrok-free.dev")
+    else:
+        base_url = f"{request.scheme}://{host}"
+
     qr = qrcode.QRCode(version=1, box_size=15, border=4)
     qr.add_data(f"{base_url}/student?code={current_code}")
     qr.make(fit=True)

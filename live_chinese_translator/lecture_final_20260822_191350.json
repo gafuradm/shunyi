@@ -1,0 +1,62 @@
+{
+  "generated": "2026-08-22T19:13:50.075799",
+  "total_entries": 4,
+  "history": [
+    {
+      "id": 0,
+      "text": "大家好，我们开始上课",
+      "timestamp": 1787396724.3143492,
+      "datetime": "2026-08-22 19:05:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "兄弟在那个阶段",
+      "timestamp": 1787396741.704288,
+      "datetime": "2026-08-22 19:05:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "你这个得去吗",
+      "timestamp": 1787396747.340967,
+      "datetime": "2026-08-22 19:05:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "你是背面的",
+      "timestamp": 1787396754.5127318,
+      "datetime": "2026-08-22 19:05:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    }
+  ]
+}
