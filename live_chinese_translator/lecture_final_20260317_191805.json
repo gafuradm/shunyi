@@ -1,0 +1,916 @@
+{
+  "generated": "2026-03-17T19:18:05.839018",
+  "total_entries": 65,
+  "history": [
+    {
+      "id": 0,
+      "text": "针对这个案子",
+      "timestamp": 1773745795.810879,
+      "datetime": "2026-03-17 19:09:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "你有对哪个的",
+      "timestamp": 1773745855.7162619,
+      "datetime": "2026-03-17 19:10:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "？我有一个是再是我不是的是有关系，公司这两个关系",
+      "timestamp": 1773745863.891722,
+      "datetime": "2026-03-17 19:11:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "。嗯对不是",
+      "timestamp": 1773745865.979848,
+      "datetime": "2026-03-17 19:11:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "。一行可以系",
+      "timestamp": 1773745868.024079,
+      "datetime": "2026-03-17 19:11:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "。嗯是就是说是说写写",
+      "timestamp": 1773745871.601148,
+      "datetime": "2026-03-17 19:11:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "可的",
+      "timestamp": 1773745872.6258519,
+      "datetime": "2026-03-17 19:11:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "的证据",
+      "timestamp": 1773745873.6414971,
+      "datetime": "2026-03-17 19:11:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "唉可",
+      "timestamp": 1773745874.1524282,
+      "datetime": "2026-03-17 19:11:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "有件",
+      "timestamp": 1773745876.272647,
+      "datetime": "2026-03-17 19:11:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "啊有11定要，这不是可说",
+      "timestamp": 1773745879.771509,
+      "datetime": "2026-03-17 19:11:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "。就是不申请",
+      "timestamp": 1773745883.347313,
+      "datetime": "2026-03-17 19:11:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。社区是那这",
+      "timestamp": 1773745898.2084842,
+      "datetime": "2026-03-17 19:11:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "呃",
+      "timestamp": 1773745898.7189429,
+      "datetime": "2026-03-17 19:11:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "这常法的，好的，我你你坐这，我坐",
+      "timestamp": 1773745902.297559,
+      "datetime": "2026-03-17 19:11:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "。好的我就我",
+      "timestamp": 1773745903.318432,
+      "datetime": "2026-03-17 19:11:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "。你过嗯的",
+      "timestamp": 1773745920.222806,
+      "datetime": "2026-03-17 19:12:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "共同合同确认",
+      "timestamp": 1773745923.28468,
+      "datetime": "2026-03-17 19:12:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "。好比就是是",
+      "timestamp": 1773745925.886794,
+      "datetime": "2026-03-17 19:12:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "就说是",
+      "timestamp": 1773745926.904951,
+      "datetime": "2026-03-17 19:12:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "就是times S",
+      "timestamp": 1773746003.1691918,
+      "datetime": "2026-03-17 19:13:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "。啊没有就说的结束，我",
+      "timestamp": 1773746025.6864,
+      "datetime": "2026-03-17 19:13:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "他说我对嗯",
+      "timestamp": 1773746029.303468,
+      "datetime": "2026-03-17 19:13:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "什么关",
+      "timestamp": 1773746032.878368,
+      "datetime": "2026-03-17 19:13:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "？你就说没你这过一下",
+      "timestamp": 1773746034.92266,
+      "datetime": "2026-03-17 19:13:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "。有问的说没事啊这个",
+      "timestamp": 1773746038.5003588,
+      "datetime": "2026-03-17 19:13:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "。换画面子的是的",
+      "timestamp": 1773746042.073087,
+      "datetime": "2026-03-17 19:14:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "。嗯来查一下都给我上面些这个",
+      "timestamp": 1773746045.142637,
+      "datetime": "2026-03-17 19:14:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "这个是那个",
+      "timestamp": 1773746047.1830862,
+      "datetime": "2026-03-17 19:14:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "不允许的事",
+      "timestamp": 1773746048.212238,
+      "datetime": "2026-03-17 19:14:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "。允许",
+      "timestamp": 1773746051.3142421,
+      "datetime": "2026-03-17 19:14:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "那这一个说",
+      "timestamp": 1773746054.380625,
+      "datetime": "2026-03-17 19:14:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "我我录音了",
+      "timestamp": 1773746055.402585,
+      "datetime": "2026-03-17 19:14:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "。不申请回避的",
+      "timestamp": 1773746057.448725,
+      "datetime": "2026-03-17 19:14:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "。什意思",
+      "timestamp": 1773746060.5134988,
+      "datetime": "2026-03-17 19:14:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "？有一点人",
+      "timestamp": 1773746159.8455942,
+      "datetime": "2026-03-17 19:15:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "图像保存",
+      "timestamp": 1773746167.509831,
+      "datetime": "2026-03-17 19:16:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "。全是工不管",
+      "timestamp": 1773746172.15183,
+      "datetime": "2026-03-17 19:16:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "。嗯这不是那我准认也是特能这样算",
+      "timestamp": 1773746176.235463,
+      "datetime": "2026-03-17 19:16:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "。他说可以可以",
+      "timestamp": 1773746177.780007,
+      "datetime": "2026-03-17 19:16:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "。就是这个这这个",
+      "timestamp": 1773746182.366766,
+      "datetime": "2026-03-17 19:16:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "金有",
+      "timestamp": 1773746184.920639,
+      "datetime": "2026-03-17 19:16:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "。这这这个4机都有这个不管",
+      "timestamp": 1773746188.496062,
+      "datetime": "2026-03-17 19:16:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "。就这个这嗯",
+      "timestamp": 1773746191.560873,
+      "datetime": "2026-03-17 19:16:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "嗯",
+      "timestamp": 1773746195.1878662,
+      "datetime": "2026-03-17 19:16:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "哇你一公司我的说",
+      "timestamp": 1773746199.0982778,
+      "datetime": "2026-03-17 19:16:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "公司外公司认是",
+      "timestamp": 1773746200.501419,
+      "datetime": "2026-03-17 19:16:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "那那么可以有",
+      "timestamp": 1773746206.931228,
+      "datetime": "2026-03-17 19:16:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "公司没认这种",
+      "timestamp": 1773746209.495296,
+      "datetime": "2026-03-17 19:16:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "。没有嗯呃",
+      "timestamp": 1773746212.595176,
+      "datetime": "2026-03-17 19:16:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "。常后有",
+      "timestamp": 1773746219.236043,
+      "datetime": "2026-03-17 19:16:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "。然后",
+      "timestamp": 1773746225.878928,
+      "datetime": "2026-03-17 19:17:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "没一要干，没人镜头",
+      "timestamp": 1773746244.313656,
+      "datetime": "2026-03-17 19:17:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "才能够我补个",
+      "timestamp": 1773746246.86693,
+      "datetime": "2026-03-17 19:17:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "头给他甩死。因为我这个",
+      "timestamp": 1773746249.422366,
+      "datetime": "2026-03-17 19:17:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "可以7点",
+      "timestamp": 1773746251.978325,
+      "datetime": "2026-03-17 19:17:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "。就是说这个么",
+      "timestamp": 1773746255.086991,
+      "datetime": "2026-03-17 19:17:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "我那个",
+      "timestamp": 1773746256.111254,
+      "datetime": "2026-03-17 19:17:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "为公司我",
+      "timestamp": 1773746257.64475,
+      "datetime": "2026-03-17 19:17:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "你这德盛公司我不懂",
+      "timestamp": 1773746271.946913,
+      "datetime": "2026-03-17 19:17:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "，这个觉悟",
+      "timestamp": 1773746272.965017,
+      "datetime": "2026-03-17 19:17:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "。什么是主任的",
+      "timestamp": 1773746274.0349598,
+      "datetime": "2026-03-17 19:17:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "？责任心的人人个",
+      "timestamp": 1773746275.575417,
+      "datetime": "2026-03-17 19:17:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "这嗯是",
+      "timestamp": 1773746277.102568,
+      "datetime": "2026-03-17 19:17:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "然后我看看那个",
+      "timestamp": 1773746284.253091,
+      "datetime": "2026-03-17 19:18:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1775 @@
+[2026-03-24 20:23:31] RECOGNITION_INTERIM
+。唉这条曲线呢我们把它记为是lu，那么这一条曲线lu它在M0这一点处
+------------------------------
+[2026-03-24 20:23:32] RECOGNITION_INTERIM
+的
+------------------------------
+[2026-03-24 20:23:34] TRANSLATION
+的
+→ of
+------------------------------
+[2026-03-24 20:23:34] RECOGNITION_INTERIM
+切向量
+------------------------------
+[2026-03-24 20:23:34] TRANSLATION
+切向量
+→ Tangent vector
+------------------------------
+[2026-03-24 20:23:35] TRANSLATION
+。唉这条曲线呢我们把它记为是lu，那么这一条曲线lu它在M0这一点处
+→ . Well, this curve is denoted as l(u), and this curve l(u) at the point M0
+------------------------------
+[2026-03-24 20:23:39] RECOGNITION_INTERIM
+是什么呢
+------------------------------
+[2026-03-24 20:23:39] TRANSLATION
+是什么呢
+→ What is it?
+------------------------------
+[2026-03-24 20:23:42] RECOGNITION_INTERIM
+？要用套语来表示
+------------------------------
+[2026-03-24 20:23:45] TRANSLATION
+？要用套语来表示
+→ How should it be expressed using set notation?
+------------------------------
+[2026-03-24 20:23:48] RECOGNITION_INTERIM
+，曲线a的U在M零这一点处的切向量套一等于什么呢
+------------------------------
+[2026-03-24 20:23:51] TRANSLATION
+，曲线a的U在M零这一点处的切向量套一等于什么呢
+→ , what is the tangent vector τ₁ of the curve a at the point M₀?
+------------------------------
+[2026-03-24 20:23:55] RECOGNITION_INTERIM
+？允值等于啥呢
+------------------------------
+[2026-03-24 20:23:57] TRANSLATION
+？允值等于啥呢
+→ What does the allowable value equal?
+------------------------------
+[2026-03-24 20:24:05] RECOGNITION_INTERIM
+？你看曲线在一点处的切向量
+------------------------------
+[2026-03-24 20:24:07] TRANSLATION
+？你看曲线在一点处的切向量
+→ ? Look at the tangent vector of the curve at a point
+------------------------------
+[2026-03-24 20:24:07] RECOGNITION_INTERIM
+，曲线在一点的切向量嗯
+------------------------------
+[2026-03-24 20:24:12] TRANSLATION
+，曲线在一点的切向量嗯
+→ , what is the tangent vector τ₁ of the curve a at the point M₀? 
+What does the allowable value equal? 
+? Look at the tangent vector of the curve at a point
+------------------------------
+[2026-03-24 20:24:14] RECOGNITION_INTERIM
+，唉 xyz分别对U求偏导了
+------------------------------
+[2026-03-24 20:24:16] TRANSLATION
+，唉 xyz分别对U求偏导了
+→ , then x, y, z are partially differentiated with respect to U respectively.
+------------------------------
+[2026-03-24 20:24:20] RECOGNITION_INTERIM
+，派M0对应的是这个 D里头的点是右0V0了噢
+------------------------------
+[2026-03-24 20:24:23] TRANSLATION
+，派M0对应的是这个 D里头的点是右0V0了噢
+→ At point M₀, the corresponding point in D is (u₀, v₀).
+------------------------------
+[2026-03-24 20:24:24] RECOGNITION_INTERIM
+，所以你看当右取右零的时候，呢这个点就是am零这一点了
+------------------------------
+[2026-03-24 20:24:25] RECOGNITION_INTERIM
+，是吧
+------------------------------
+[2026-03-24 20:24:25] TRANSLATION
+，是吧
+→ , right?
+------------------------------
+[2026-03-24 20:24:26] TRANSLATION
+，所以你看当右取右零的时候，呢这个点就是am零这一点了
+→ , so you see when u equals u₀, then this point is exactly M₀.
+------------------------------
+[2026-03-24 20:24:29] RECOGNITION_INTERIM
+？所以呢它这个歌不能忘是吧
+------------------------------
+[2026-03-24 20:24:32] RECOGNITION_INTERIM
+？曲线在一点处的切向量
+------------------------------
+[2026-03-24 20:24:32] TRANSLATION
+？所以呢它这个歌不能忘是吧
+→ ? So, this song cannot be forgotten, right?
+------------------------------
+[2026-03-24 20:24:34] TRANSLATION
+？曲线在一点处的切向量
+→ Tangent vector of a curve at a point
+------------------------------
+[2026-03-24 20:24:46] RECOGNITION_INTERIM
+，啊这条曲线是关于参变量U的函数，所以它代表的是空间中的一条曲线，这条曲线就是lu，那么这条曲线在M零点处的切向量套一就是X在
+------------------------------
+[2026-03-24 20:24:57] TRANSLATION
+，啊这条曲线是关于参变量U的函数，所以它代表的是空间中的一条曲线，这条曲线就是lu，那么这条曲线在M零点处的切向量套一就是X在
+→ This curve is a function of the parameter \( u \), so it represents a curve in space, denoted as \( l_u \). The tangent vector \( \tau_1 \) of this curve at point \( M_0 \) is the partial derivative of \( X \) with respect to \( u \) at \( M_0 \).
+------------------------------
+[2026-03-24 20:24:59] RECOGNITION_INTERIM
+右0为0这一点处，啊那就记为是P0，在P0这这一点对U求偏的，Y在P0这一点对以vu求偏到Z在70这一点处对U求偏导了
+------------------------------
+[2026-03-24 20:25:04] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 20:25:04] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 20:25:06] RECOGNITION_INTERIM
+。那
+------------------------------
+[2026-03-24 20:25:06] TRANSLATION
+。那
+→ . So
+------------------------------
+[2026-03-24 20:25:08] TRANSLATION
+右0为0这一点处，啊那就记为是P0，在P0这这一点对U求偏的，Y在P0这一点对以vu求偏到Z在70这一点处对U求偏导了
+→ At the point where \( u=0 \), which we denote as \( P_0 \), we take the partial derivative with respect to \( u \) at \( P_0 \): \( Y \) with respect to \( u \) at \( P_0 \), and \( Z \) with respect to \( u \) at the point where \( u=0 \).
+------------------------------
+[2026-03-24 20:25:11] RECOGNITION_INTERIM
+我们在固定U的为右0，那这时候X
+------------------------------
+[2026-03-24 20:25:15] RECOGNITION_INTERIM
+是关于
+------------------------------
+[2026-03-24 20:25:17] TRANSLATION
+是关于
+→ is about
+------------------------------
+[2026-03-24 20:25:18] TRANSLATION
+我们在固定U的为右0，那这时候X
+→ At the point where \( u=0 \), which we denote as \( P_0 \), we take the partial derivative with respect to \( u \) at \( P_0 \): \( Y \) with respect to \( u \) at \( P_0 \), and \( Z \) with respect to \( u \) at the point where \( u=0 \).
+------------------------------
+[2026-03-24 20:25:25] RECOGNITION_INTERIM
+无谓的一元函数，Y也是关于V的一元函数，Z也是关于Z的一元函数
+------------------------------
+[2026-03-24 20:25:30] RECOGNITION_INTERIM
+。啊当位取为0的时候，那么这就是经过
+------------------------------
+[2026-03-24 20:25:31] RECOGNITION_INTERIM
+嗯
+------------------------------
+[2026-03-24 20:25:32] TRANSLATION
+。啊当位取为0的时候，那么这就是经过
+→ Ah, when the parameter is taken as 0, then this passes through
+------------------------------
+[2026-03-24 20:25:34] TRANSLATION
+无谓的一元函数，Y也是关于V的一元函数，Z也是关于Z的一元函数
+→ For a function of a single variable, Y is also a function of =, and Z is also a function of Z.
+------------------------------
+[2026-03-24 20:25:37] TRANSLATION
+嗯
+→ At the point where \( u=0 \), which we denote as \( P_0 \), we take the partial derivative with respect to \( u \) at \( P_0 \): \( Y \) with respect to \( u \) at \( P_0 \), and \( Z \) with respect to \( u \) at the point where \( u=0 \).
+------------------------------
+[2026-03-24 20:25:42] RECOGNITION_INTERIM
+ M0的一条曲线了，啊我们把这条曲线记为是LV，啊所以可以求出LV这一条曲线在M0这一点处的切向量
+------------------------------
+[2026-03-24 20:25:46] TRANSLATION
+ M0的一条曲线了，啊我们把这条曲线记为是LV，啊所以可以求出LV这一条曲线在M0这一点处的切向量
+→ It becomes a curve of M0, ah we denote this curve as L=, ah so we can find the tangent vector of this curve L= at the point M0.
+------------------------------
+[2026-03-24 20:25:50] RECOGNITION_INTERIM
+套二啊这个切向量，那就是X
+------------------------------
+[2026-03-24 20:25:56] TRANSLATION
+套二啊这个切向量，那就是X
+→ For a function of a single variable, Y is also a function of =, and Z is also a function of Z.
+At the point where \( u=0 \), which we denote as \( P_0 \), we take the partial derivative with respect to \( u \) at \( P_0 \): \( Y \) with respect to \( u \) at \( P_0 \), and \( Z \) with respect to \( u \) at the point where \( u=0 \).
+It becomes a curve of M0, ah we denote this curve as L=, ah so we can find the tangent vector of this curve L= at the point M0.
+
+As for this tangent vector, that is X
+------------------------------
+[2026-03-24 20:26:02] RECOGNITION_INTERIM
+。在P0这一点就是右0，V0这一点对V求偏导，Y在70这一点，对于V求偏的Z在P0这一点处对V求偏导了
+------------------------------
+[2026-03-24 20:26:12] TRANSLATION
+。在P0这一点就是右0，V0这一点对V求偏导，Y在70这一点，对于V求偏的Z在P0这一点处对V求偏导了
+→ At the point \( P_0 \), which is \( (u_0, v_0) \), we take the partial derivative with respect to \( v \) at \( P_0 \): \( Y \) with respect to \( v \) at \( P_0 \), and \( Z \) with respect to \( v \) at the point \( P_0 \).
+------------------------------
+[2026-03-24 20:26:12] RECOGNITION_INTERIM
+。根据刚才的分析，这两个向量都经过M0，所以呢
+------------------------------
+[2026-03-24 20:26:14] TRANSLATION
+。根据刚才的分析，这两个向量都经过M0，所以呢
+→ Based on the previous analysis, both vectors pass through M0, so
+------------------------------
+[2026-03-24 20:26:14] RECOGNITION_INTERIM
+相交
+------------------------------
+[2026-03-24 20:26:16] TRANSLATION
+相交
+→ Intersection
+------------------------------
+[2026-03-24 20:26:27] RECOGNITION_INTERIM
+，唉因此这两个向量求叉乘套一叉乘上套二，这就是曲面S在M0这一点处的
+------------------------------
+[2026-03-24 20:26:28] RECOGNITION_INTERIM
+法向量
+------------------------------
+[2026-03-24 20:26:28] TRANSLATION
+法向量
+→ Normal vector
+------------------------------
+[2026-03-24 20:26:31] TRANSLATION
+，唉因此这两个向量求叉乘套一叉乘上套二，这就是曲面S在M0这一点处的
+→ , so taking the cross product of these two vectors, \( \vec{\tau}_1 \times \vec{\tau}_2 \), gives the normal vector to the surface S at the point \( M_0 \).
+------------------------------
+[2026-03-24 20:26:39] RECOGNITION_INTERIM
+是冠吧
+------------------------------
+[2026-03-24 20:26:40] TRANSLATION
+是冠吧
+→ Is it a crown?
+------------------------------
+[2026-03-24 20:26:44] RECOGNITION_INTERIM
+？啊好，那我们来求一下这个法向量如何求呢
+------------------------------
+[2026-03-24 20:26:45] TRANSLATION
+？啊好，那我们来求一下这个法向量如何求呢
+→ Ah, okay, so how do we find this normal vector?
+------------------------------
+[2026-03-24 20:26:46] RECOGNITION_INTERIM
+？线性代数里面都学过了吧
+------------------------------
+[2026-03-24 20:26:49] TRANSLATION
+？线性代数里面都学过了吧
+→ Have you all learned this in linear algebra?
+------------------------------
+[2026-03-24 20:26:50] RECOGNITION_INTERIM
+？两个向量叉成没学
+------------------------------
+[2026-03-24 20:26:53] RECOGNITION_INTERIM
+，这个是
+------------------------------
+[2026-03-24 20:26:54] TRANSLATION
+，这个是
+→ , this is
+------------------------------
+[2026-03-24 20:26:54] RECOGNITION_INTERIM
+啊个经一代数的课
+------------------------------
+[2026-03-24 20:26:55] TRANSLATION
+？两个向量叉成没学
+→ ? Haven't learned about the cross product of two vectors.
+------------------------------
+[2026-03-24 20:26:55] RECOGNITION_INTERIM
+，那你们
+------------------------------
+[2026-03-24 20:26:56] TRANSLATION
+啊个经一代数的课
+→ Ah, okay, so how do we find this normal vector? 
+Have you all learned this in linear algebra? 
+, this is
+------------------------------
+[2026-03-24 20:26:56] RECOGNITION_INTERIM
+知道
+------------------------------
+[2026-03-24 20:26:57] TRANSLATION
+，那你们
+→ , then you all
+------------------------------
+[2026-03-24 20:26:57] RECOGNITION_INTERIM
+。知道
+------------------------------
+[2026-03-24 20:26:59] TRANSLATION
+。知道
+→ . You know
+------------------------------
+[2026-03-24 20:26:59] TRANSLATION
+知道
+→ Know
+------------------------------
+[2026-03-24 20:27:00] RECOGNITION_INTERIM
+。但是知道知道是在中学里知道，对
+------------------------------
+[2026-03-24 20:27:02] TRANSLATION
+。但是知道知道是在中学里知道，对
+→ . But you know, you know it from middle school, right
+------------------------------
+[2026-03-24 20:27:15] RECOGNITION_INTERIM
+。噢可能知道对啊对这再讲一遍论文指导会，啊好的好，那套一插乘上套二两个相加叉乘怎么算？呢它是一个三阶矩阵的行列式，啊差乘上来仍仍然
+------------------------------
+[2026-03-24 20:27:20] TRANSLATION
+。噢可能知道对啊对这再讲一遍论文指导会，啊好的好，那套一插乘上套二两个相加叉乘怎么算？呢它是一个三阶矩阵的行列式，啊差乘上来仍仍然
+→ Oh, maybe you know, right, yes, let's go over this again in the thesis guidance session, ah okay good. So, how do you calculate the cross product of τ₁ and τ₂, the sum of the two cross products? It is the determinant of a third-order matrix, ah, the cross product still
+------------------------------
+[2026-03-24 20:27:30] RECOGNITION_INTERIM
+是一个向量，第一行呢是ijk，啊 I就是X轴上的单位向量，这呢是啊我就用这个箭头，啊这就是代表着向量ijk啊分别代表着X轴Y轴和Z轴
+------------------------------
+[2026-03-24 20:27:32] RECOGNITION_INTERIM
+轴正方向的单位向量
+------------------------------
+[2026-03-24 20:27:34] TRANSLATION
+轴正方向的单位向量
+→ Unit vector in the positive direction of the axis
+------------------------------
+[2026-03-24 20:27:38] TRANSLATION
+是一个向量，第一行呢是ijk，啊 I就是X轴上的单位向量，这呢是啊我就用这个箭头，啊这就是代表着向量ijk啊分别代表着X轴Y轴和Z轴
+→ This is a vector, with the first row being **i, j, k**. Here, **i** is the unit vector on the x-axis, **j** is the unit vector on the y-axis, and **k** is the unit vector on the z-axis. They are typically represented with an arrow symbol (such as \(\vec{i}, \vec{j}, \vec{k}\)) to denote these vectors.
+------------------------------
+[2026-03-24 20:27:39] RECOGNITION_INTERIM
+。唉那第二行呢就是套一这个向量，套一呢就是X
+------------------------------
+[2026-03-24 20:27:42] TRANSLATION
+。唉那第二行呢就是套一这个向量，套一呢就是X
+→ . Well, the second row is the vector τ₁, and τ₁ is X
+------------------------------
+[2026-03-24 20:27:51] RECOGNITION_INTERIM
+。对要求频道外旅有球频道，Z对U球频道，第三行就是套二这个向量，那X对于V求偏导，Y对于V求偏导，Z对V求偏导
+------------------------------
+[2026-03-24 20:27:56] RECOGNITION_INTERIM
+，那这些偏导呢都是在P0这一点处求的啦嗯
+------------------------------
+[2026-03-24 20:27:58] TRANSLATION
+，那这些偏导呢都是在P0这一点处求的啦嗯
+→ , then these partial derivatives are all evaluated at the point P0, hmm.
+------------------------------
+[2026-03-24 20:28:00] RECOGNITION_INTERIM
+。对，啊我就简写了，啊就在P0这一点处求的了
+------------------------------
+[2026-03-24 20:28:02] TRANSLATION
+。对，啊我就简写了，啊就在P0这一点处求的了
+→ Yes, ah, I'll abbreviate it, ah, it's evaluated at the point P0.
+------------------------------
+[2026-03-24 20:28:02] TRANSLATION
+。对要求频道外旅有球频道，Z对U球频道，第三行就是套二这个向量，那X对于V求偏导，Y对于V求偏导，Z对V求偏导
+→ For the channel requiring travel outside the channel, Z for U channel, the third row is the vector τ₂, then the partial derivative of X with respect to =, the partial derivative of Y with respect to =, the partial derivative of Z with respect to =.
+------------------------------
+[2026-03-24 20:28:04] RECOGNITION_INTERIM
+。好，那么现在啊我们来求一下，对
+------------------------------
+[2026-03-24 20:28:09] TRANSLATION
+。好，那么现在啊我们来求一下，对
+→ Okay, so now let's find, for
+------------------------------
+[2026-03-24 20:28:12] RECOGNITION_INTERIM
+，啊这是一个向量，把它的三个分量坐标怎么求？呢你看把I按照第一行展开
+------------------------------
+[2026-03-24 20:28:16] TRANSLATION
+，啊这是一个向量，把它的三个分量坐标怎么求？呢你看把I按照第一行展开
+→ Ah, this is a vector. How do we find its three component coordinates? Well, you see, expand I along the first row.
+------------------------------
+[2026-03-24 20:28:22] RECOGNITION_INTERIM
+，按照第一行展开，那画出I所在的行和列，那剩下的就是Y对右做偏导，就是这个二阶矩阵的行列式
+------------------------------
+[2026-03-24 20:28:28] RECOGNITION_INTERIM
+，唉这个二阶矩阵的行列式。同学们看就是
+------------------------------
+[2026-03-24 20:28:29] RECOGNITION_INTERIM
+，外
+------------------------------
+[2026-03-24 20:28:31] TRANSLATION
+，唉这个二阶矩阵的行列式。同学们看就是
+→ , oh the determinant of this second-order matrix. Students, look, it is
+------------------------------
+[2026-03-24 20:28:31] RECOGNITION_INTERIM
+ Z
+------------------------------
+[2026-03-24 20:28:32] TRANSLATION
+，按照第一行展开，那画出I所在的行和列，那剩下的就是Y对右做偏导，就是这个二阶矩阵的行列式
+→ , expanding along the first row, then cross out the row and column where I is located, and what remains is the partial derivative of Y with respect to the right, which is the determinant of this second-order matrix.
+------------------------------
+[2026-03-24 20:28:33] TRANSLATION
+ Z
+→ Z
+------------------------------
+[2026-03-24 20:28:34] TRANSLATION
+，外
+→ For the channel requiring travel outside the channel, Z for U channel, the third row is the vector τ₂, then the partial derivative of X with respect to =, the partial derivative of Y with respect to =, the partial derivative of Z with respect to =.
+Okay, so now let's find, for
+Ah, this is a vector. How do we find its three component coordinates? Well, you see, expand I along the first row.
+------------------------------
+[2026-03-24 20:28:36] RECOGNITION_INTERIM
+关于UV的雅可比矩阵它的行列式吧
+------------------------------
+[2026-03-24 20:28:38] TRANSLATION
+关于UV的雅可比矩阵它的行列式吧
+→ Regarding the Jacobian matrix of U=, its determinant.
+------------------------------
+[2026-03-24 20:28:40] RECOGNITION_INTERIM
+，是吧
+------------------------------
+[2026-03-24 20:28:40] TRANSLATION
+，是吧
+→ , right?
+------------------------------
+[2026-03-24 20:28:56] RECOGNITION_INTERIM
+？唉这个二阶矩阵的行列式就是yz关于UV的雅可比矩阵的行列式了，唉我就这样来写了啊亚克比矩阵的行列式在这儿，呢这是第一个分量。那么第二个分量呢是划去这所在的行
+------------------------------
+[2026-03-24 20:29:00] RECOGNITION_INTERIM
+行和列，前面再乘一个-1的1+2次幂就是-1啦
+------------------------------
+[2026-03-24 20:29:02] TRANSLATION
+行和列，前面再乘一个-1的1+2次幂就是-1啦
+→ Rows and columns, multiplied by \(-1\) to the power of \(1+2\) in front gives \(-1\).
+------------------------------
+[2026-03-24 20:29:06] TRANSLATION
+？唉这个二阶矩阵的行列式就是yz关于UV的雅可比矩阵的行列式了，唉我就这样来写了啊亚克比矩阵的行列式在这儿，呢这是第一个分量。那么第二个分量呢是划去这所在的行
+→ ? Well, the determinant of this 2x2 matrix is the determinant of the Jacobian matrix of yz with respect to U=. Well, I'll just write it like this, the determinant of the Jacobian matrix is here, and this is the first component. Then, the second component is obtained by crossing out the row and column where this is located.
+------------------------------
+[2026-03-24 20:29:12] RECOGNITION_INTERIM
+，唉-1乘以你看X对U求偏导，Z对右求偏导，X对V求偏导，Z对V求偏导，这就是xz关于UV的雅克比矩阵
+------------------------------
+[2026-03-24 20:29:15] RECOGNITION_INTERIM
+，它的行列式的负数倍嗯
+------------------------------
+[2026-03-24 20:29:17] TRANSLATION
+，它的行列式的负数倍嗯
+→ , its determinant multiplied by \(-1\), hmm
+------------------------------
+[2026-03-24 20:29:18] RECOGNITION_INTERIM
+。这两行换一下位置
+------------------------------
+[2026-03-24 20:29:21] TRANSLATION
+。这两行换一下位置
+→ Swap these two rows.
+------------------------------
+[2026-03-24 20:29:21] RECOGNITION_INTERIM
+，两列换一下位置是不是差一个负号呀
+------------------------------
+[2026-03-24 20:29:22] TRANSLATION
+，唉-1乘以你看X对U求偏导，Z对右求偏导，X对V求偏导，Z对V求偏导，这就是xz关于UV的雅克比矩阵
+→ , well, \(-1\) multiplied by, you see, the partial derivative of X with respect to U, the partial derivative of Z with respect to U, the partial derivative of X with respect to =, and the partial derivative of Z with respect to =—this is the Jacobian matrix of xz with respect to U=.
+------------------------------
+[2026-03-24 20:29:23] TRANSLATION
+，两列换一下位置是不是差一个负号呀
+→ , swapping these two columns changes the sign by a negative, right?
+------------------------------
+[2026-03-24 20:29:24] RECOGNITION_INTERIM
+？唉所以它就是
+------------------------------
+[2026-03-24 20:29:25] TRANSLATION
+？唉所以它就是
+→ ? So it is
+------------------------------
+[2026-03-24 20:29:27] RECOGNITION_INTERIM
+ zx
+------------------------------
+[2026-03-24 20:29:29] TRANSLATION
+ zx
+→ zx
+------------------------------
+[2026-03-24 20:29:41] RECOGNITION_INTERIM
+关于UV的雅克比矩阵，啊在P0这一点处求的偏导这个亚克比矩阵的行列式了。好，第三个分量呢划去K所在的行和列，剩下的是
+------------------------------
+[2026-03-24 20:29:46] TRANSLATION
+关于UV的雅克比矩阵，啊在P0这一点处求的偏导这个亚克比矩阵的行列式了。好，第三个分量呢划去K所在的行和列，剩下的是
+→ Regarding the Jacobian matrix of U=, ah, at the point P0, the partial derivatives yield the determinant of this Jacobian matrix. Well, for the third component, cross out the row and column where K is located, leaving
+------------------------------
+[2026-03-24 20:29:49] RECOGNITION_INTERIM
+ xy关于U为的雅可比矩阵，它的行列式的
+------------------------------
+[2026-03-24 20:29:52] TRANSLATION
+ xy关于U为的雅可比矩阵，它的行列式的
+→ Regarding the Jacobian matrix of U with respect to xy, its determinant
+------------------------------
+[2026-03-24 20:29:57] RECOGNITION_INTERIM
+。好，这样就求出了曲面S在M0这一点处的法向量N了
+------------------------------
+[2026-03-24 20:29:59] TRANSLATION
+。好，这样就求出了曲面S在M0这一点处的法向量N了
+→ Okay, so now we have found the normal vector N of the surface S at the point M0.
+------------------------------
+[2026-03-24 20:30:08] RECOGNITION_INTERIM
+。啊那么它的三个分量，那这个第一个分量我记为大a，第二个分量记为是大B，第三个分量记为是大C
+------------------------------
+[2026-03-24 20:30:09] RECOGNITION_INTERIM
+。你来看
+------------------------------
+[2026-03-24 20:30:11] TRANSLATION
+。你来看
+→ . You see
+------------------------------
+[2026-03-24 20:30:13] TRANSLATION
+。啊那么它的三个分量，那这个第一个分量我记为大a，第二个分量记为是大B，第三个分量记为是大C
+→ Ah, then its three components: the first component I denote as capital A, the second component as capital B, and the third component as capital C.
+------------------------------
+[2026-03-24 20:30:13] RECOGNITION_INTERIM
+，你看
+------------------------------
+[2026-03-24 20:30:14] TRANSLATION
+，你看
+→ , you see
+------------------------------
+[2026-03-24 20:30:16] RECOGNITION_INTERIM
+一开始的前提条件
+------------------------------
+[2026-03-24 20:30:19] TRANSLATION
+一开始的前提条件
+→ Initial premise conditions
+------------------------------
+[2026-03-24 20:30:23] RECOGNITION_INTERIM
+，xyz关于UV在偏向区于地，它的每一点处的雅克比矩阵都是秩为二的矩阵
+------------------------------
+[2026-03-24 20:30:25] RECOGNITION_INTERIM
+，都是置为二的矩阵
+------------------------------
+[2026-03-24 20:30:28] TRANSLATION
+，都是置为二的矩阵
+→ , are all matrices set to two
+------------------------------
+[2026-03-24 20:30:31] TRANSLATION
+，xyz关于UV在偏向区于地，它的每一点处的雅克比矩阵都是秩为二的矩阵
+→ , xyz with respect to U= in the bias region on the ground, its Jacobian matrix at each point is a matrix of rank 2.
+------------------------------
+[2026-03-24 20:30:38] RECOGNITION_INTERIM
+，这就说明所以这儿的ABC这三个数能同时为0吗
+------------------------------
+[2026-03-24 20:30:40] TRANSLATION
+，这就说明所以这儿的ABC这三个数能同时为0吗
+→ , which means can these three numbers ABC here be simultaneously zero?
+------------------------------
+[2026-03-24 20:30:42] RECOGNITION_INTERIM
+？这三行不能成比例了嗯
+------------------------------
+[2026-03-24 20:30:44] TRANSLATION
+？这三行不能成比例了嗯
+→ ? These three rows cannot be proportional, hmm
+------------------------------
+[2026-03-24 20:30:46] RECOGNITION_INTERIM
+，唉所以这儿的ABC不同时为0
+------------------------------
+[2026-03-24 20:30:49] TRANSLATION
+，唉所以这儿的ABC不同时为0
+→ , so here ABC are not simultaneously zero.
+------------------------------
+[2026-03-24 20:30:49] RECOGNITION_INTERIM
+，啊这就是一个非0的
+------------------------------
+[2026-03-24 20:30:51] RECOGNITION_INTERIM
+响亮了
+------------------------------
+[2026-03-24 20:30:52] TRANSLATION
+，啊这就是一个非0的
+→ , which means can these three numbers ABC here be simultaneously zero? 
+? These three rows cannot be proportional, hmm 
+, so here ABC are not simultaneously zero. 
+
+, ah this is a non-zero
+------------------------------
+[2026-03-24 20:30:54] TRANSLATION
+响亮了
+→ It is clear
+------------------------------
+[2026-03-24 20:30:57] RECOGNITION_INTERIM
+，啊非零的向量，而这个向量就是曲面的
+------------------------------
+[2026-03-24 20:30:59] RECOGNITION_INTERIM
+在一个点处的法向量了
+------------------------------
+[2026-03-24 20:31:00] TRANSLATION
+，啊非零的向量，而这个向量就是曲面的
+→ , ah a non-zero vector, and this vector is precisely the surface's
+------------------------------
+[2026-03-24 20:31:00] TRANSLATION
+在一个点处的法向量了
+→ The normal vector at a point
+------------------------------
+[2026-03-24 20:31:08] RECOGNITION_INTERIM
+，唉所以这就是光滑的含义，啊这个曲面是光滑的，这是曲面上处处有菲零的法向量，并且法向量在曲面上是连续变化的啦
+------------------------------
+[2026-03-24 20:31:12] TRANSLATION
+，唉所以这就是光滑的含义，啊这个曲面是光滑的，这是曲面上处处有菲零的法向量，并且法向量在曲面上是连续变化的啦
+→ , ah so this is the meaning of smoothness, ah this surface is smooth, it means there is a non-zero normal vector everywhere on the surface, and the normal vector varies continuously over the surface.
+------------------------------
+[2026-03-24 20:31:23] RECOGNITION_INTERIM
+。唉所以如果曲面的方程呢是参数方程的形式给出的，那么我们要表达这个曲面是光滑的，就是xyz在平面区域地上一阶偏导是连续的，并且xyz关于U为
+------------------------------
+[2026-03-24 20:31:28] RECOGNITION_INTERIM
+再加特别矩阵，在平面区域另一头的每一点处，它都是一个秩为二的矩阵
+------------------------------
+[2026-03-24 20:31:31] RECOGNITION_INTERIM
+，唉这就是曲面是光滑的
+------------------------------
+[2026-03-24 20:31:32] TRANSLATION
+再加特别矩阵，在平面区域另一头的每一点处，它都是一个秩为二的矩阵
+→ Add a special matrix, at each point on the other side of the planar region, it is a matrix of rank two.
+------------------------------
+[2026-03-24 20:31:34] TRANSLATION
+。唉所以如果曲面的方程呢是参数方程的形式给出的，那么我们要表达这个曲面是光滑的，就是xyz在平面区域地上一阶偏导是连续的，并且xyz关于U为
+→ . So if the equation of the surface is given in parametric form, then to express that the surface is smooth, it means that the first-order partial derivatives of x, y, z with respect to the parameters in the planar region D are continuous, and the cross product of the partial derivatives of x, y, z with respect to u and v is non-zero.
+------------------------------
+[2026-03-24 20:31:34] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 20:31:34] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 20:31:34] TRANSLATION
+，唉这就是曲面是光滑的
+→ , ah this is what it means for a surface to be smooth
+------------------------------
+[2026-03-24 20:31:41] RECOGNITION_INTERIM
+，那么我们现在要求的是曲面S在M0点处的切平面它的方程了
+------------------------------
+[2026-03-24 20:31:45] TRANSLATION
+，那么我们现在要求的是曲面S在M0点处的切平面它的方程了
+→ , so now we are to find the equation of the tangent plane to the surface S at the point M0.
+------------------------------
+[2026-03-24 20:31:48] RECOGNITION_INTERIM
+，那现在求出了曲面S在M零点处的法向量了，所以这个曲面
+------------------------------
+[2026-03-24 20:31:50] TRANSLATION
+，那现在求出了曲面S在M零点处的法向量了，所以这个曲面
+→ Now we have found the normal vector to the surface S at the point M0, so this surface
+------------------------------
+[2026-03-24 20:31:50] RECOGNITION_INTERIM
+唉跑到哪去了
+------------------------------
+[2026-03-24 20:31:52] TRANSLATION
+唉跑到哪去了
+→ Oh, where did it go?
+------------------------------
+[2026-03-24 20:31:56] RECOGNITION_INTERIM
+？所以啊去面
+------------------------------
+[2026-03-24 20:31:58] TRANSLATION
+？所以啊去面
+→ ? So, to find the plane
+------------------------------
+[2026-03-24 20:32:02] RECOGNITION_INTERIM
+ S
+------------------------------
+[2026-03-24 20:32:05] TRANSLATION
+ S
+→ S
+------------------------------
+[2026-03-24 20:32:09] RECOGNITION_INTERIM
+在M0这一点处的切平面，它的方程就可以写出了
+------------------------------
+[2026-03-24 20:32:11] TRANSLATION
+在M0这一点处的切平面，它的方程就可以写出了
+→ At the point M0, the equation of the tangent plane can be written.
+------------------------------
+[2026-03-24 20:32:12] RECOGNITION_INTERIM
+是什么呢
+------------------------------
+[2026-03-24 20:32:12] TRANSLATION
+是什么呢
+→ What is it?
+------------------------------
+[2026-03-24 20:32:15] RECOGNITION_INTERIM
+？发现量是ABC
+------------------------------
+[2026-03-24 20:32:18] TRANSLATION
+？发现量是ABC
+→ The quantity found is ABC
+------------------------------
+[2026-03-24 20:32:20] RECOGNITION_INTERIM
+，M0是X0Y0Z0，所以这个切平面的方程怎么写
+------------------------------
+[2026-03-24 20:32:24] TRANSLATION
+，M0是X0Y0Z0，所以这个切平面的方程怎么写
+→ , M0 is X0Y0Z0, so how do we write the equation of this tangent plane
+------------------------------
+[2026-03-24 20:32:24] RECOGNITION_INTERIM
+？唉 A乘以
+------------------------------
+[2026-03-24 20:32:27] TRANSLATION
+？唉 A乘以
+→ ? Well, A multiplied by
+------------------------------
+[2026-03-24 20:32:36] RECOGNITION_INTERIM
+ X减X0加上B乘以Y减Y0加上C乘以Z减Z0是=0的
+------------------------------
+[2026-03-24 20:32:38] TRANSLATION
+ X减X0加上B乘以Y减Y0加上C乘以Z减Z0是=0的
+→ A times X minus X0 plus B times Y minus Y0 plus C times Z minus Z0 equals 0.
+------------------------------
+[2026-03-24 20:32:46] RECOGNITION_INTERIM
+。好，那我们把这个方程啊称为是切平面的一般方程
+------------------------------
+[2026-03-24 20:32:49] TRANSLATION
+。好，那我们把这个方程啊称为是切平面的一般方程
+→ . Well, we call this equation the general equation of the tangent plane.
+------------------------------
+[2026-03-24 20:32:55] RECOGNITION_INTERIM
+，啊切平面的一般方程。好，那么接下来呢我就回答允值你在上一节课说到的一个问题
+------------------------------
+[2026-03-24 20:32:57] TRANSLATION
+，啊切平面的一般方程。好，那么接下来呢我就回答允值你在上一节课说到的一个问题
+→ Ah, the general equation of the tangent plane. Well, next I will answer the question you raised in the previous class.
+------------------------------
+[2026-03-24 20:32:58] RECOGNITION_INTERIM
+，唉你说这个课文和这个切平面
+------------------------------
+[2026-03-24 20:33:02] TRANSLATION
+，唉你说这个课文和这个切平面
+→ Well, you mentioned this text and this tangent plane
+------------------------------
+[2026-03-24 20:33:12] RECOGNITION_INTERIM
+啊之间的关系，啊接下来就回答你的那个问题，你还记得吗？上节课啊你说到这个问题，权威是唉对权威分的。好，那接下来我们从另外一个角度来看，啊你看
+------------------------------
+[2026-03-24 20:33:16] TRANSLATION
+啊之间的关系，啊接下来就回答你的那个问题，你还记得吗？上节课啊你说到这个问题，权威是唉对权威分的。好，那接下来我们从另外一个角度来看，啊你看
+→ Ah, the relationship between them. Ah, next I will answer your question. Do you remember? In the previous class, you mentioned this problem, the total differential, right? Good, then next we will look at it from another perspective. Ah, you see
+------------------------------
+[2026-03-24 20:33:24] RECOGNITION_INTERIM
+，那么这儿给出的曲面的方程呢是参数方程，xyz都是关于UV的
+------------------------------
+[2026-03-24 20:33:26] RECOGNITION_INTERIM
+二元函数
+------------------------------
+[2026-03-24 20:33:28] RECOGNITION_INTERIM
+。同学们看那这一个
+------------------------------
+[2026-03-24 20:33:29] TRANSLATION
+二元函数
+→ Function of two variables
+------------------------------
+[2026-03-24 20:33:30] TRANSLATION
+。同学们看那这一个
+→ Students, look at this one
+------------------------------
+[2026-03-24 20:33:33] RECOGNITION_INTERIM
+曲面的参数方程实际上是给出了一个变化
+------------------------------
+[2026-03-24 20:33:33] TRANSLATION
+，那么这儿给出的曲面的方程呢是参数方程，xyz都是关于UV的
+→ , then the equation of the surface given here is a parametric equation, where x, y, z are all functions of u and v.
+------------------------------
+[2026-03-24 20:33:37] TRANSLATION
+曲面的参数方程实际上是给出了一个变化
+→ The parametric equations of a surface essentially describe a transformation
+------------------------------
+[2026-03-24 20:33:40] RECOGNITION_INTERIM
+，那么这个变化呢就将平面区于地里头的点呢映射到了哪里了
+------------------------------
+[2026-03-24 20:33:44] TRANSLATION
+，那么这个变化呢就将平面区于地里头的点呢映射到了哪里了
+→ , then this transformation maps the points in the planar region D to where?
+------------------------------
+[2026-03-24 20:33:45] RECOGNITION_INTERIM
+？Xyz是在三维欧式空间里头了
+------------------------------
+[2026-03-24 20:33:47] TRANSLATION
+？Xyz是在三维欧式空间里头了
+→ ? xyz is in 3-dimensional Euclidean space
+------------------------------
+[2026-03-24 20:33:58] RECOGNITION_INTERIM
+，唉所以呢它可以做一个变化，啊这个变化就讲地面距地头的点，二维平面里面的点映射到了三维的欧式空间里头，那映射F的值域就是曲面
+------------------------------
+[2026-03-24 20:33:59] RECOGNITION_INTERIM
+ S了
+------------------------------
+[2026-03-24 20:34:02] TRANSLATION
+ S了
+→ S
+------------------------------
+[2026-03-24 20:34:02] TRANSLATION
+，唉所以呢它可以做一个变化，啊这个变化就讲地面距地头的点，二维平面里面的点映射到了三维的欧式空间里头，那映射F的值域就是曲面
+→ , so it can perform a transformation, ah, this transformation maps the points in the planar region D to points in three-dimensional Euclidean space, and the range of the mapping F is the surface.
+------------------------------
+[2026-03-24 20:34:11] RECOGNITION_INTERIM
+。好，那么告诉我们这一片曲面是光滑的，也就是说xyz的一阶偏导是个连续的函数，所以F
+------------------------------
+[2026-03-24 20:34:14] RECOGNITION_INTERIM
+它的一阶偏导是连续的啦
+------------------------------
+[2026-03-24 20:34:15] TRANSLATION
+它的一阶偏导是连续的啦
+→ Its first-order partial derivatives are continuous.
+------------------------------
+[2026-03-24 20:34:17] RECOGNITION_INTERIM
+，也就是说F是连续可微的
+------------------------------
+[2026-03-24 20:34:20] TRANSLATION
+。好，那么告诉我们这一片曲面是光滑的，也就是说xyz的一阶偏导是个连续的函数，所以F
+→ . Good, so this tells us that this surface is smooth, meaning that the first-order partial derivatives of x, y, z are continuous functions, so F
+------------------------------
+[2026-03-24 20:34:20] TRANSLATION
+，也就是说F是连续可微的
+→ , meaning that F is continuously differentiable.
+------------------------------
+[2026-03-24 20:34:22] RECOGNITION_INTERIM
+，连续可微的，当然F是个可微的函数了
+------------------------------
+[2026-03-24 20:34:24] TRANSLATION
+，连续可微的，当然F是个可微的函数了
+→ , continuously differentiable, so of course F is a differentiable function.
+------------------------------
+[2026-03-24 20:34:25] RECOGNITION_INTERIM
+，啊这个函数是个向量值的函数
+------------------------------
+[2026-03-24 20:34:27] RECOGNITION_INTERIM
+，那么它是可微的
+------------------------------
+[2026-03-24 20:34:28] TRANSLATION
+，啊这个函数是个向量值的函数
+→ , ah this function is a vector-valued function
+------------------------------
+[2026-03-24 20:34:29] TRANSLATION
+，那么它是可微的
+→ , then it is differentiable
+------------------------------
+[2026-03-24 20:34:37] RECOGNITION_INTERIM
+。同学们看那 P0点的坐标是U0V0，所以它就对应到了曲面上的一点M0了
+------------------------------
+[2026-03-24 20:34:39] RECOGNITION_INTERIM
+，xx0Y0Z0了
+------------------------------
+[2026-03-24 20:34:40] TRANSLATION
+。同学们看那 P0点的坐标是U0V0，所以它就对应到了曲面上的一点M0了
+→ , students, look, the coordinates of point P0 are (U0, =0), so it corresponds to a point M0 on the surface.
+------------------------------
+[2026-03-24 20:34:42] RECOGNITION_INTERIM
+。那那么现在
+------------------------------
+[2026-03-24 20:34:43] TRANSLATION
+，xx0Y0Z0了
+→ , continuously differentiable, so of course F is a differentiable function. 
+, ah this function is a vector-valued function 
+, then it is differentiable
+------------------------------
+[2026-03-24 20:34:44] RECOGNITION_INTERIM
+我们
+------------------------------
+[2026-03-24 20:34:45] TRANSLATION
+。那那么现在
+→ , ah this function is a vector-valued function, then it is differentiable, students, look, the coordinates of point P0 are (U0, =0), so it corresponds to a point M0 on the surface. So now
+------------------------------
+[2026-03-24 20:34:45] RECOGNITION_INTERIM
+啊给
+------------------------------
+[2026-03-24 20:34:46] TRANSLATION
+我们
+→ We
+------------------------------
+[2026-03-24 20:34:48] TRANSLATION
+啊给
+→ Ah, given
+------------------------------
+[2026-03-24 20:35:01] RECOGNITION_INTERIM
+自变量在右零点，改变量为德尔塔U，又是右减右零了，啊德尔塔U就是右减去一个右零了，啊那在V零点的改变量，啊自变量在为零点的改变量，我们把它记为是德尔塔V了
+------------------------------
+[2026-03-24 20:35:05] TRANSLATION
+自变量在右零点，改变量为德尔塔U，又是右减右零了，啊德尔塔U就是右减去一个右零了，啊那在V零点的改变量，啊自变量在为零点的改变量，我们把它记为是德尔塔V了
+→ The independent variable at the right zero point has an increment of Delta U, which is again right minus right zero, so Delta U is just right minus right zero. Then the increment at the = zero point, the increment of the independent variable at the zero point, we denote it as Delta =.
+------------------------------
+[2026-03-24 20:35:15] RECOGNITION_INTERIM
+。你看U与xyz呢分别是关于U为的二元函数了，所以X当自变量在右0V0分别有改变量德尔塔U和德尔塔V的时候，相应的就有函数值德尔塔X的改变量
+------------------------------
+[2026-03-24 20:35:26] RECOGNITION_INTERIM
+和德尔塔Y德尔塔Z的唉德尔塔X呢就是X在X0点的改变量，啊当然它Y就是Y在Y0点的改变量，德尔塔Z呢
+------------------------------
+[2026-03-24 20:35:27] TRANSLATION
+。你看U与xyz呢分别是关于U为的二元函数了，所以X当自变量在右0V0分别有改变量德尔塔U和德尔塔V的时候，相应的就有函数值德尔塔X的改变量
+→ Look, \( U \) and \( x, y, z \) are functions of two variables \( u \) and \( v \), respectively. So when the independent variables \( u \) and \( v \) have increments \( \Delta u \) and \( \Delta v \) at the point \( (u_0, v_0) \), correspondingly there are increments \( \Delta x, \Delta y, \Delta z \) in the function values \( x, y, z \).
+------------------------------
+[2026-03-24 20:35:29] RECOGNITION_INTERIM
+，这是Z在Z0点的改变量了
+------------------------------
+[2026-03-24 20:35:31] TRANSLATION
+，这是Z在Z0点的改变量了
+→ This is the increment of Z at the point Z0.
+------------------------------
+[2026-03-24 20:35:38] TRANSLATION
+和德尔塔Y德尔塔Z的唉德尔塔X呢就是X在X0点的改变量，啊当然它Y就是Y在Y0点的改变量，德尔塔Z呢
+→ and ΔY, ΔZ, well ΔX is the increment of X at point X0, and of course Y is the increment of Y at point Y0, ΔZ then
+------------------------------
+[2026-03-24 20:35:38] RECOGNITION_INTERIM
+。那么这样同学们看，那就有了向量值函数F的改变量了
+------------------------------
+[2026-03-24 20:35:41] RECOGNITION_INTERIM
+。啊德尔塔F
+------------------------------
+[2026-03-24 20:35:42] TRANSLATION
+。那么这样同学们看，那就有了向量值函数F的改变量了
+→ Then, students, look, this gives the increment of the vector-valued function F.
+------------------------------
+[2026-03-24 20:35:43] TRANSLATION
+。啊德尔塔F
+→ Ah, delta F
+------------------------------
+[2026-03-24 20:35:47] RECOGNITION_INTERIM
+，德尔塔F呢就是这儿的德尔塔X，德尔塔Y，德尔塔Z，吧同学们
+------------------------------
+[2026-03-24 20:35:53] RECOGNITION_INTERIM
+，F是一个映射，它是个向量值的函数
+------------------------------
+[2026-03-24 20:35:55] TRANSLATION
+，F是一个映射，它是个向量值的函数
+→ , F is a mapping, it is a vector-valued function
+------------------------------
+[2026-03-24 20:35:57] TRANSLATION
+，德尔塔F呢就是这儿的德尔塔X，德尔塔Y，德尔塔Z，吧同学们
+→ , delta F is precisely delta X, delta Y, delta Z here, right, students
+------------------------------
+[2026-03-24 20:36:02] RECOGNITION_INTERIM
+，啊值域是三维的，所以向量值函数的改变量德尔塔F就是德尔塔七德尔塔八德尔塔Z了
+------------------------------
+[2026-03-24 20:36:07] TRANSLATION
+，啊值域是三维的，所以向量值函数的改变量德尔塔F就是德尔塔七德尔塔八德尔塔Z了
+→ , ah, the codomain is three-dimensional, so the change in the vector-valued function delta F is precisely delta X, delta Y, delta Z
+------------------------------
+[2026-03-24 20:36:10] RECOGNITION_INTERIM
+，那么映射F是可微的F是可微的，那么这个可微的含义是什么呢
+------------------------------
+[2026-03-24 20:36:14] TRANSLATION
+，那么映射F是可微的F是可微的，那么这个可微的含义是什么呢
+→ , then the mapping F is differentiable. F is differentiable, so what does this differentiability mean?
+------------------------------
+[2026-03-24 20:36:25] RECOGNITION_INTERIM
+？可微的含义就是映射F在M，也就是P零这一点的向量值函数的改变量，它呢就能表示为了
+------------------------------
+[2026-03-24 20:36:29] TRANSLATION
+？可微的含义就是映射F在M，也就是P零这一点的向量值函数的改变量，它呢就能表示为了
+→ ? The meaning of differentiability is that the change in the vector-valued function of the mapping F at M, that is, at point P zero, can be expressed as
+------------------------------
+[2026-03-24 20:36:30] RECOGNITION_INTERIM
+映射F在M零这一点处的全微分
+------------------------------
+[2026-03-24 20:36:33] TRANSLATION
+映射F在M零这一点处的全微分
+→ The total differential of the mapping F at the point M₀
+------------------------------
+[2026-03-24 20:36:37] RECOGNITION_INTERIM
+，映射F在M零这一点处的全微分
+------------------------------
+[2026-03-24 20:36:41] TRANSLATION
+，映射F在M零这一点处的全微分
+→ , then the mapping F is differentiable. F is differentiable, so what does this differentiability mean? The meaning of differentiability is that the change in the vector-valued function of the mapping F at M, that is, at point P zero, can be expressed as the total differential of the mapping F at the point M₀.
+------------------------------
+[2026-03-24 20:36:42] RECOGNITION_INTERIM
+，再加上一个高阶的无穷小呢
+------------------------------
+[2026-03-24 20:36:43] TRANSLATION
+，再加上一个高阶的无穷小呢
+→ , plus a higher-order infinitesimal term.
+------------------------------
+[2026-03-24 20:36:57] RECOGNITION_INTERIM
+，而我们知道这个差是一个向量了，也就换句话来讲，也就是说这个向量的长度比上自变量的改变量的长度，也就是德尔塔U的平方加德尔塔V
+------------------------------
+[2026-03-24 20:37:00] TRANSLATION
+，而我们知道这个差是一个向量了，也就换句话来讲，也就是说这个向量的长度比上自变量的改变量的长度，也就是德尔塔U的平方加德尔塔V
+→ , and we know this difference is a vector, in other words, the length of this vector divided by the length of the change in the independent variables, that is, the square root of ΔU squared plus Δ= squared,
+------------------------------
+[2026-03-24 20:37:03] RECOGNITION_INTERIM
+的平方，在德尔塔由德尔塔为趋近于00的时候
+------------------------------
+[2026-03-24 20:37:05] RECOGNITION_INTERIM
+，它的极限是等于0的啦
+------------------------------
+[2026-03-24 20:37:06] TRANSLATION
+的平方，在德尔塔由德尔塔为趋近于00的时候
+→ squared, when ΔU and Δ= approach 0.
+------------------------------
+[2026-03-24 20:37:07] TRANSLATION
+，它的极限是等于0的啦
+→ , its limit equals 0.
+------------------------------
+[2026-03-24 20:37:08] RECOGNITION_INTERIM
+，唉这就是可微的含义
+------------------------------
+[2026-03-24 20:37:13] RECOGNITION_INTERIM
+。啊映射F是在M0，这一点是可微的，是吧？云之
+------------------------------
+[2026-03-24 20:37:13] TRANSLATION
+，唉这就是可微的含义
+→ , and we know this difference is a vector, in other words, the length of this vector divided by the length of the change in the independent variables, that is, the square root of ΔU squared plus Δ= squared, when ΔU and Δ= approach 0, its limit equals 0. Ah, this is the meaning of differentiability.
+------------------------------
+[2026-03-24 20:37:15] TRANSLATION
+。啊映射F是在M0，这一点是可微的，是吧？云之
+→ Ah, the mapping F is differentiable at the point M0, right? Yunzhi
+------------------------------
+[2026-03-24 20:37:25] RECOGNITION_INTERIM
+。唉这就是映射在可微的含义，在M0点是可微的，就是向量值函数的改变量减去映射F在M0点处的全微分
+------------------------------
+[2026-03-24 20:37:30] TRANSLATION
+。唉这就是映射在可微的含义，在M0点是可微的，就是向量值函数的改变量减去映射F在M0点处的全微分
+→ Ah, this is the meaning of differentiability of a mapping. It is differentiable at the point M0, meaning the increment of the vector-valued function minus the total differential of the mapping F at the point M0.
+------------------------------
+[2026-03-24 20:37:32] RECOGNITION_INTERIM
+，啊这一个向量的长度是比自变量的改变量的长度，高阶的一个无穷小量了
+------------------------------
+[2026-03-24 20:37:34] TRANSLATION
+，啊这一个向量的长度是比自变量的改变量的长度，高阶的一个无穷小量了
+→ , ah, the length of this vector is a higher-order infinitesimal compared to the length of the change in the independent variables.
+------------------------------
+[2026-03-24 20:37:42] RECOGNITION_INTERIM
+。这也就告诉我们当德尔塔U的绝对值和德尔塔V的绝对值充分小的时候
+------------------------------
+[2026-03-24 20:37:44] TRANSLATION
+。这也就告诉我们当德尔塔U的绝对值和德尔塔V的绝对值充分小的时候
+→ This tells us that when the absolute values of ΔU and Δ= are sufficiently small,
+------------------------------
+[2026-03-24 20:37:56] RECOGNITION_INTERIM
+，那我们就可以用映射F在M0这一点处，啊这儿就是F是定义在了二维平面上的，映射，那这儿应该是P0了，啊 F在P零点处的这样一分
+------------------------------
+[2026-03-24 20:37:59] RECOGNITION_INTERIM
+。唉这就告诉我们
+------------------------------
+[2026-03-24 20:38:01] TRANSLATION
+。唉这就告诉我们
+→ Ah, this tells us
+------------------------------
+[2026-03-24 20:38:01] TRANSLATION
+，那我们就可以用映射F在M0这一点处，啊这儿就是F是定义在了二维平面上的，映射，那这儿应该是P0了，啊 F在P零点处的这样一分
+→ , then we can use the mapping F at the point M0, ah, here F is defined on a two-dimensional plane, a mapping, so here it should be P0, ah, the total differential of F at the point P0
+------------------------------
+[2026-03-24 20:38:08] RECOGNITION_INTERIM
+，向量的函数的改变量，我们可以用映射F在P零点处的全微分来近似代替了
+------------------------------
+[2026-03-24 20:38:10] TRANSLATION
+，向量的函数的改变量，我们可以用映射F在P零点处的全微分来近似代替了
+→ , the change in the vector-valued function can be approximated by the total differential of the mapping F at the point P0.
+------------------------------
+[2026-03-24 20:38:18] RECOGNITION_INTERIM
+。现在我们就你再来看一下这个东西是啥？映射F在P一点处的全微分是啥
+------------------------------
+[2026-03-24 20:38:21] TRANSLATION
+。现在我们就你再来看一下这个东西是啥？映射F在P一点处的全微分是啥
+→ . Now let's take another look at what this thing is. What is the total differential of the mapping F at the point P0?
+------------------------------
+[2026-03-24 20:38:35] RECOGNITION_INTERIM
+？唉它是由xyz关于UV的雅可比矩阵，啊在P零点的雅可比矩阵所决定的那个微分映射作用到了支边
+------------------------------
+[2026-03-24 20:38:38] RECOGNITION_INTERIM
+量的改变量，德尔塔U德尔塔为上
+------------------------------
+[2026-03-24 20:38:41] RECOGNITION_INTERIM
+。唉
+------------------------------
+[2026-03-24 20:38:41] TRANSLATION
+。唉
+→ . Well, the meaning here is that these two vectors are orthogonal. The dot product of the two vectors equals 0, so these two vectors are perpendicular.
+------------------------------
+[2026-03-24 20:38:42] TRANSLATION
+量的改变量，德尔塔U德尔塔为上
+→ the change in the quantity, delta U, delta is the superscript
+------------------------------
+[2026-03-24 20:38:44] TRANSLATION
+？唉它是由xyz关于UV的雅可比矩阵，啊在P零点的雅可比矩阵所决定的那个微分映射作用到了支边
+→ ? Well, it is determined by the Jacobian matrix of xyz with respect to U=, ah, the Jacobian matrix at point P0, which defines the differential mapping acting on the increment.
+------------------------------
+[2026-03-24 20:38:45] RECOGNITION_INTERIM
+那么这样我们以址
+------------------------------
+[2026-03-24 20:38:47] TRANSLATION
+那么这样我们以址
+→ So in this way, we have
+------------------------------
+[2026-03-24 20:38:57] RECOGNITION_INTERIM
+代徐，你看这就是这儿就叫平的，啦你看这是关于德尔塔一和德尔塔V的线性函数了，啊所以这就是用平的来代替取德尔塔F呢是
+------------------------------
+[2026-03-24 20:38:58] RECOGNITION_INTERIM
+吃面
+------------------------------
+[2026-03-24 20:39:00] RECOGNITION_INTERIM
+上了一小片了
+------------------------------
+[2026-03-24 20:39:01] TRANSLATION
+吃面
+→ Eat noodles
+------------------------------
+[2026-03-24 20:39:02] TRANSLATION
+代徐，你看这就是这儿就叫平的，啦你看这是关于德尔塔一和德尔塔V的线性函数了，啊所以这就是用平的来代替取德尔塔F呢是
+→ 代徐, you see, this is what we call flat here. Look, this is a linear function in terms of delta U and delta =. So, this is using the flat approximation to replace taking delta F as
+------------------------------
+[2026-03-24 20:39:03] TRANSLATION
+上了一小片了
+→ We have taken a small step.
+
+So in this way, we have
+------------------------------
+[2026-03-24 20:39:04] RECOGNITION_INTERIM
+，唉以平代渠唉我们这儿的
+------------------------------
+[2026-03-24 20:39:06] RECOGNITION_INTERIM
+约旦号化成等号
+------------------------------
+[2026-03-24 20:39:08] TRANSLATION
+约旦号化成等号
+→ The approximately equal sign becomes an equal sign.
+------------------------------
+[2026-03-24 20:39:08] TRANSLATION
+，唉以平代渠唉我们这儿的
+→ , ah, using the flat approximation to replace the curve, as we call it here.
+------------------------------
+[2026-03-24 20:39:10] RECOGNITION_INTERIM
+，这样就得到了前厅面的方程
+------------------------------
+[2026-03-24 20:39:13] TRANSLATION
+，这样就得到了前厅面的方程
+→ Thus, we obtain the equation of the front surface.
+------------------------------
+[2026-03-24 20:39:14] RECOGNITION_INTERIM
+，啊所以切平面
+------------------------------
+[2026-03-24 20:39:17] TRANSLATION
+，啊所以切平面
+→ , ah so the tangent plane
+------------------------------
+[2026-03-24 20:39:19] RECOGNITION_INTERIM
+曲面S在M零这一点处的切平面
+------------------------------
+[2026-03-24 20:39:21] TRANSLATION
+曲面S在M零这一点处的切平面
+→ The tangent plane to the surface S at the point M₀
+------------------------------
+[2026-03-24 20:39:24] RECOGNITION_INTERIM
+，它的参数方程，啊这个方程呢是参数方程
+------------------------------
+[2026-03-24 20:39:26] TRANSLATION
+，它的参数方程，啊这个方程呢是参数方程
+→ , its parametric equation, ah this equation is a parametric equation
+------------------------------
+[2026-03-24 20:39:38] RECOGNITION_INTERIM
+，啊这个参数方程呢你看德尔塔F就是德尔塔X，德尔塔Y德尔塔Z，啊德尔塔X就是X减X0，啊所以X就等于X0+一个
+------------------------------
+[2026-03-24 20:39:44] TRANSLATION
+，啊这个参数方程呢你看德尔塔F就是德尔塔X，德尔塔Y德尔塔Z，啊德尔塔X就是X减X0，啊所以X就等于X0+一个
+→ In this parametric equation, \(\Delta \mathbf{F}\) is \((\Delta x, \Delta y, \Delta z)\), 
+where \(\Delta x = x - x_0\), so \(x = x_0 + \Delta x\).
+------------------------------
+[2026-03-24 20:39:52] RECOGNITION_INTERIM
+ X在P0点对U求偏导乘以德尔塔U就是U减U加上一个X在P0点对V求偏导乘以V减V0
+------------------------------
+[2026-03-24 20:39:56] RECOGNITION_INTERIM
+。啊第二个分量Y减Y0就等于
+------------------------------
+[2026-03-24 20:39:58] RECOGNITION_INTERIM
+ Y
+------------------------------
+[2026-03-24 20:39:58] TRANSLATION
+。啊第二个分量Y减Y0就等于
+→ . Ah, the second component Y minus Y0 equals
+------------------------------
+[2026-03-24 20:40:00] TRANSLATION
+ X在P0点对U求偏导乘以德尔塔U就是U减U加上一个X在P0点对V求偏导乘以V减V0
+→ X at point P₀ with respect to U partial derivative multiplied by delta U is U minus U plus X at point P₀ with respect to = partial derivative multiplied by = minus =₀
+------------------------------
+[2026-03-24 20:40:01] TRANSLATION
+ Y
+→ Y
+------------------------------
+[2026-03-24 20:40:09] RECOGNITION_INTERIM
+在P0点对U求偏导，乘以U减U0加上一个Y在P0点对V求偏导等于V减V0
+------------------------------
+[2026-03-24 20:40:18] TRANSLATION
+在P0点对U求偏导，乘以U减U0加上一个Y在P0点对V求偏导等于V减V0
+→ At point P₀, the partial derivative with respect to U multiplied by U minus U₀, plus the partial derivative of Y with respect to = at point P₀ multiplied by = minus =₀.
+------------------------------
+[2026-03-24 20:40:20] RECOGNITION_INTERIM
+。第三个分量，Z减Z0就等于Z在P0点对个U求偏导等于U减U
+------------------------------
+[2026-03-24 20:40:22] RECOGNITION_INTERIM
+加上Z
+------------------------------
+[2026-03-24 20:40:23] TRANSLATION
+。第三个分量，Z减Z0就等于Z在P0点对个U求偏导等于U减U
+→ The third component, Z minus Z₀ equals the partial derivative of Z with respect to U at point P₀ multiplied by U minus U₀, plus the partial derivative of Z with respect to = at point P₀ multiplied by = minus =₀.
+------------------------------
+[2026-03-24 20:40:23] TRANSLATION
+加上Z
+→ plus Z
+------------------------------
+[2026-03-24 20:40:26] RECOGNITION_INTERIM
+。在P零点，对未求偏导乘以V减去V
+------------------------------
+[2026-03-24 20:40:31] TRANSLATION
+。在P零点，对未求偏导乘以V减去V
+→ At point P₀, the partial derivative with respect to U multiplied by U minus U₀, plus the partial derivative of Y with respect to = at point P₀ multiplied by = minus =₀.
+------------------------------
+[2026-03-24 20:40:35] RECOGNITION_INTERIM
+，啊所以这就是曲面S在M0这一点处的切平面它的参数方程了
+------------------------------
+[2026-03-24 20:40:37] TRANSLATION
+，啊所以这就是曲面S在M0这一点处的切平面它的参数方程了
+→ , so this is the parametric equation of the tangent plane to the surface S at the point M₀.
+------------------------------
+[2026-03-24 20:40:41] RECOGNITION_INTERIM
+，啊这就是以平代曲
+------------------------------
+[2026-03-24 20:40:43] TRANSLATION
+，啊这就是以平代曲
+→ , ah this is approximating the curve with a plane
+------------------------------
+[2026-03-24 20:40:45] RECOGNITION_INTERIM
+，这样我们就得到了切平面的方程
+------------------------------
+[2026-03-24 20:40:47] TRANSLATION
+，这样我们就得到了切平面的方程
+→ , thus we obtain the equation of the tangent plane.
+------------------------------
+[2026-03-24 20:40:50] RECOGNITION_INTERIM
+，所以允之在这儿就有一个问题就能回答了
+------------------------------
+[2026-03-24 20:40:52] TRANSLATION
+，所以允之在这儿就有一个问题就能回答了
+→ , so this allows us to answer a question here.
+------------------------------
+[2026-03-24 20:40:53] RECOGNITION_INTERIM
+，这儿告诉我们什么呢
+------------------------------
+[2026-03-24 20:40:55] TRANSLATION
+，这儿告诉我们什么呢
+→ , what does this tell us here
+------------------------------
+[2026-03-24 20:41:04] RECOGNITION_INTERIM
+？特别的好，函数在一点可微的几何含义
+------------------------------
+[2026-03-24 20:41:10] TRANSLATION
+？特别的好，函数在一点可微的几何含义
+→ ? Excellent. The geometric meaning of a function being differentiable at a point.
+------------------------------
+[2026-03-24 20:41:16] RECOGNITION_INTERIM
+。爱憨书在一点可为，二元函数在一点可微，代表着这个二元函数代表的是几何上是一个曲面，呢曲面在这一点处的切平面是存在的
+------------------------------
+[2026-03-24 20:41:20] TRANSLATION
+。爱憨书在一点可为，二元函数在一点可微，代表着这个二元函数代表的是几何上是一个曲面，呢曲面在这一点处的切平面是存在的
+→ , so this allows us to answer a question here. 
+, what does this tell us here 
+? Excellent. The geometric meaning of a function being differentiable at a point. 
+
+For a univariate function being differentiable at a point, or a bivariate function being differentiable at a point, it means that geometrically, this bivariate function represents a surface, and the tangent plane at this point on the surface exists.
+------------------------------
+[2026-03-24 20:41:25] RECOGNITION_INTERIM
+。由此我们能够直观从几何图形上面判断一个函数在一点处是否特的
+------------------------------
+[2026-03-24 20:41:27] TRANSLATION
+。由此我们能够直观从几何图形上面判断一个函数在一点处是否特的
+→ This allows us to intuitively determine from the geometric graph whether a function is differentiable at a point.
+------------------------------
+[2026-03-24 20:41:27] RECOGNITION_INTERIM
+。你比如说
+------------------------------
+[2026-03-24 20:41:30] RECOGNITION_INTERIM
+这个最妙
+------------------------------
+[2026-03-24 20:41:30] TRANSLATION
+。你比如说
+→ For example,
+------------------------------
+[2026-03-24 20:41:31] TRANSLATION
+这个最妙
+→ This is the most ingenious part
+------------------------------
+[2026-03-24 20:41:35] RECOGNITION_INTERIM
+，Z等于根号下X平方加上一个Y的平方
+------------------------------
+[2026-03-24 20:41:37] RECOGNITION_INTERIM
+，它是个对面
+------------------------------
+[2026-03-24 20:41:38] TRANSLATION
+，它是个对面
+→ , it is a pair of faces
+------------------------------
+[2026-03-24 20:41:38] TRANSLATION
+，Z等于根号下X平方加上一个Y的平方
+→ , Z equals the square root of X squared plus Y squared.
+------------------------------
+[2026-03-24 20:41:40] RECOGNITION_INTERIM
+，顶点在坐标原点
+------------------------------
+[2026-03-24 20:41:42] TRANSLATION
+，顶点在坐标原点
+→ , with the vertex at the origin
+------------------------------
+[2026-03-24 20:41:47] RECOGNITION_INTERIM
+，唉它的一个对面，那么在00这一点处它是个对面，显然在坐标原点这一点处
+------------------------------
+[2026-03-24 20:41:50] RECOGNITION_INTERIM
+，它的切平面是不存在的啦
+------------------------------
+[2026-03-24 20:41:50] TRANSLATION
+，唉它的一个对面，那么在00这一点处它是个对面，显然在坐标原点这一点处
+→ , and it is a pair of faces. At the point (0,0), it is a pair of faces. Clearly, at the coordinate origin, this point
+------------------------------
+[2026-03-24 20:41:52] RECOGNITION_INTERIM
+，所以这个函数在00这一边
+------------------------------
+[2026-03-24 20:41:53] TRANSLATION
+，它的切平面是不存在的啦
+→ , its tangent plane does not exist.
+------------------------------
+[2026-03-24 20:41:53] RECOGNITION_INTERIM
+不可为
+------------------------------
+[2026-03-24 20:41:54] TRANSLATION
+，所以这个函数在00这一边
+→ , so this function at the point (0,0)
+------------------------------
+[2026-03-24 20:41:57] TRANSLATION
+不可为
+→ cannot be
+------------------------------
+[2026-03-24 20:41:59] RECOGNITION_INTERIM
+，唉可微在这一边的切平面一定是存在的
+------------------------------
+[2026-03-24 20:42:00] TRANSLATION
+，唉可微在这一边的切平面一定是存在的
+→ , so if it is differentiable, the tangent plane on this side must exist.
+------------------------------
+[2026-03-24 20:42:03] RECOGNITION_INTERIM
+。啊所以呢从这儿我们看到了函数在一点的
+------------------------------
+[2026-03-24 20:42:06] TRANSLATION
+。啊所以呢从这儿我们看到了函数在一点的
+→ Ah, so from this we see that the function at a point
+------------------------------
+[2026-03-24 20:42:06] RECOGNITION_INTERIM
+这个可微它的几何含义
+------------------------------
+[2026-03-24 20:42:09] TRANSLATION
+这个可微它的几何含义
+→ The geometric meaning of this differentiability
+------------------------------
+[2026-03-24 20:42:10] RECOGNITION_INTERIM
+啊就是曲面在这一点处的切平面是存在的
+------------------------------
+[2026-03-24 20:42:12] TRANSLATION
+啊就是曲面在这一点处的切平面是存在的
+→ Ah, so the tangent plane to the surface exists at this point.
+------------------------------
+[2026-03-24 20:42:15] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 20:42:15] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 20:42:20] RECOGNITION_INTERIM
+，那么第三个问题呢啊我们来
+------------------------------
+[2026-03-24 20:42:21] TRANSLATION
+，那么第三个问题呢啊我们来
+→ , then the third question is, let's
+------------------------------
+[2026-03-24 20:42:29] RECOGNITION_INTERIM
+看啊那这一节课的就第二个问题，啊那就是看一下空间曲线的切线和法平面
+------------------------------
+[2026-03-24 20:42:32] TRANSLATION
+看啊那这一节课的就第二个问题，啊那就是看一下空间曲线的切线和法平面
+→ Look, so the second topic of this lesson, ah, is to examine the tangent lines and normal planes of space curves.
+------------------------------
+[2026-03-24 20:42:48] RECOGNITION_INTERIM
+，空间曲线的切线与法平面
+------------------------------
+[2026-03-24 20:42:51] TRANSLATION
+，空间曲线的切线与法平面
+→ , Tangents and Normal Planes of Space Curves
+------------------------------
+[2026-03-24 20:42:52] RECOGNITION_INTERIM
+。好，那我们啊
+------------------------------
+[2026-03-24 20:42:53] TRANSLATION
+。好，那我们啊
+→ Okay, then we, ah
+------------------------------
+[2026-03-24 20:42:58] RECOGNITION_INTERIM
+刚才我们讨论的是空间曲面，在一点处的切平面和法线啦
+------------------------------
+[2026-03-24 20:43:01] TRANSLATION
+刚才我们讨论的是空间曲面，在一点处的切平面和法线啦
+→ Just now we were discussing the tangent plane and normal line at a point on a space surface.
+------------------------------
+[2026-03-24 20:43:05] RECOGNITION_INTERIM
+。唉那么我们看到根据曲面样的方程给出的不同，那么有三种不同形式
+------------------------------
+[2026-03-24 20:43:08] RECOGNITION_INTERIM
+，唉分别求出去年在一点处的切平面
+------------------------------
+[2026-03-24 20:43:08] TRANSLATION
+。唉那么我们看到根据曲面样的方程给出的不同，那么有三种不同形式
+→ . Well, then we see that depending on the different forms in which the equation of the surface is given, there are three different cases.
+------------------------------
+[2026-03-24 20:43:10] TRANSLATION
+，唉分别求出去年在一点处的切平面
+→ , well, respectively find the tangent plane at a point on the surface last year
+------------------------------
+[2026-03-24 20:43:19] RECOGNITION_INTERIM
+和法线了，啊那么现在要探讨的是空间曲线，它在一点处的切线和法平面那依然那空间曲线有多种不同形式了
+------------------------------
+[2026-03-24 20:43:22] TRANSLATION
+和法线了，啊那么现在要探讨的是空间曲线，它在一点处的切线和法平面那依然那空间曲线有多种不同形式了
+→ and the normal line. Ah, now we are going to discuss the space curve, its tangent line and normal plane at a point. Well, again, the space curve can be given in several different forms.
+------------------------------
+[2026-03-24 20:43:27] RECOGNITION_INTERIM
+。唉我们首先来看一下，如果说空间曲线给出的是参数方程
+------------------------------
+[2026-03-24 20:43:29] TRANSLATION
+。唉我们首先来看一下，如果说空间曲线给出的是参数方程
+→ Well, let's first take a look. If the space curve is given by parametric equations
+------------------------------
+[2026-03-24 20:43:42] RECOGNITION_INTERIM
+，啊空间曲线给出的是参数方程，啊比如说这条曲线L了
+------------------------------
+[2026-03-24 20:43:44] RECOGNITION_INTERIM
+，X
+------------------------------
+[2026-03-24 20:43:45] TRANSLATION
+，X
+→ , X
+------------------------------
+[2026-03-24 20:43:46] RECOGNITION_INTERIM
+无外
+------------------------------
+[2026-03-24 20:43:46] TRANSLATION
+，啊空间曲线给出的是参数方程，啊比如说这条曲线L了
+→ , ah the space curve is given by parametric equations, ah for example this curve L
+------------------------------
+[2026-03-24 20:43:47] RECOGNITION_INTERIM
+ Z
+------------------------------
+[2026-03-24 20:43:47] TRANSLATION
+ Z
+→ Z
+------------------------------
+[2026-03-24 20:43:50] RECOGNITION_INTERIM
+都是关于T的
+------------------------------
+[2026-03-24 20:43:51] RECOGNITION_INTERIM
+函数
+------------------------------
+[2026-03-24 20:43:51] TRANSLATION
+无外
+→ and the normal line. Ah, now we are going to discuss the space curve, its tangent line and normal plane at a point. Well, again, the space curve can be given in several different forms.
+Well, let's first take a look. If the space curve is given by parametric equations
+, X
+------------------------------
+[2026-03-24 20:43:51] TRANSLATION
+都是关于T的
+→ are all about T
+------------------------------
+[2026-03-24 20:43:53] TRANSLATION
+函数
+→ Function
+------------------------------
+[2026-03-24 20:44:07] RECOGNITION_INTERIM
+，啊这就是空间曲线L的参数方程，唉那么这是一段空间曲线，所以这个参变量T呢是取自于区间I上的啊某个区间R上的，那么这是一段光滑的曲线
+------------------------------
+[2026-03-24 20:44:08] RECOGNITION_INTERIM
+线
+------------------------------
+[2026-03-24 20:44:10] TRANSLATION
+线
+→ line
+------------------------------
+[2026-03-24 20:44:10] TRANSLATION
+，啊这就是空间曲线L的参数方程，唉那么这是一段空间曲线，所以这个参变量T呢是取自于区间I上的啊某个区间R上的，那么这是一段光滑的曲线
+→ Ah, this is the parametric equation of the space curve L. Well, this is a segment of a space curve, so the parameter T is taken from an interval I, a certain interval on R. This is a smooth curve.
+------------------------------
+[2026-03-24 20:44:18] RECOGNITION_INTERIM
+，也就是意味着这一段光滑曲线上面，啊每一点处的切向量都是非零的，并且切向量在曲线上是连续变化的
+------------------------------
+[2026-03-24 20:44:19] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 20:44:19] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 20:44:22] TRANSLATION
+，也就是意味着这一段光滑曲线上面，啊每一点处的切向量都是非零的，并且切向量在曲线上是连续变化的
+→ , which means that on this segment of the smooth curve, the tangent vector at every point is non-zero, and the tangent vector varies continuously along the curve.
+------------------------------
+[2026-03-24 20:44:33] RECOGNITION_INTERIM
+，我们在区间a里面取定一点T0，那么这样就得到了曲线L上的一点M0，它的坐标是X0Y0Z0了
+------------------------------
+[2026-03-24 20:44:42] TRANSLATION
+，我们在区间a里面取定一点T0，那么这样就得到了曲线L上的一点M0，它的坐标是X0Y0Z0了
+→ We fix a point \(t_0\) within the interval \(I\), thus obtaining a point \(M_0\) on the curve \(L\), whose coordinates are \((x_0, y_0, z_0)\).
+------------------------------
+[2026-03-24 20:44:43] RECOGNITION_INTERIM
+，啊那其中的X0就是X在T0点的取值，Y0呢就是Y在T0点的取值，啊 Z0就是Z在Z0点的取值
+------------------------------
+[2026-03-24 20:44:53] TRANSLATION
+，啊那其中的X0就是X在T0点的取值，Y0呢就是Y在T0点的取值，啊 Z0就是Z在Z0点的取值
+→ , where \(X_0\) is the value of \(X\) at \(t_0\), \(Y_0\) is the value of \(Y\) at \(t_0\), and \(Z_0\) is the value of \(Z\) at \(t_0\).
+------------------------------
+[2026-03-24 20:44:57] RECOGNITION_INTERIM
+。啊那么在区间a里面取定一点T0，就对应到了曲线L上的一个点，M啊 Mm0的坐标了，啊是X0Y0Z0了
+------------------------------
+[2026-03-24 20:45:03] RECOGNITION_INTERIM
+。好，现在我们来看，那么这一条曲线L在M零这一点处的
+------------------------------
+[2026-03-24 20:45:05] RECOGNITION_INTERIM
+且向量嗯
+------------------------------
+[2026-03-24 20:45:07] TRANSLATION
+且向量嗯
+→ and the vector
+------------------------------
+[2026-03-24 20:45:07] TRANSLATION
+。啊那么在区间a里面取定一点T0，就对应到了曲线L上的一个点，M啊 Mm0的坐标了，啊是X0Y0Z0了
+→ Fix a point \(t_0\) in the interval \([a, b]\), which corresponds to a point \(M_0\) on the curve \(L\), whose coordinates are \((x_0, y_0, z_0)\).
+------------------------------
+[2026-03-24 20:45:07] TRANSLATION
+。好，现在我们来看，那么这一条曲线L在M零这一点处的
+→ . Good, now let's consider the curve L at the point M₀.
+------------------------------
+[2026-03-24 20:45:09] RECOGNITION_INTERIM
+，知道吧嗯
+------------------------------
+[2026-03-24 20:45:13] TRANSLATION
+，知道吧嗯
+→ , you know, right? Okay.
+------------------------------
+[2026-03-24 20:45:14] RECOGNITION_INTERIM
+？曲线a在M0这一点的切向量是什么呢
+------------------------------
+[2026-03-24 20:45:16] TRANSLATION
+？曲线a在M0这一点的切向量是什么呢
+→ What is the tangent vector of the curve at the point M₀?
+------------------------------
+[2026-03-24 20:45:17] RECOGNITION_INTERIM
+？知道是啥
+------------------------------
+[2026-03-24 20:45:18] TRANSLATION
+？知道是啥
+→ ? Do you know what it is?
+------------------------------
+[2026-03-24 20:45:21] RECOGNITION_INTERIM
+？唉 X在T0点，对
+------------------------------
+[2026-03-24 20:45:23] TRANSLATION
+？唉 X在T0点，对
+→ ? Well, at point T₀, for
+------------------------------
+[2026-03-24 20:45:36] RECOGNITION_INTERIM
+ T求导外在T0点的导数 Z在T0点的导数，唉这个向量就是曲线L在M0这一点处的切向量了，那么曲线又经过点M0已知它的方向向量，所以这条切线
+------------------------------
+[2026-03-24 20:45:38] RECOGNITION_INTERIM
+方程就可以写出了
+------------------------------
+[2026-03-24 20:45:41] TRANSLATION
+ T求导外在T0点的导数 Z在T0点的导数，唉这个向量就是曲线L在M0这一点处的切向量了，那么曲线又经过点M0已知它的方向向量，所以这条切线
+→ Take the derivative of T at point T₀, the derivative of Z at point T₀—ah, this vector is precisely the tangent vector of curve L at point M₀. Since the curve passes through point M₀ and its direction vector is known, this tangent line
+------------------------------
+[2026-03-24 20:45:41] TRANSLATION
+方程就可以写出了
+→ The equation can now be written.
+------------------------------
+[2026-03-24 20:45:43] RECOGNITION_INTERIM
+点向式方程，就可以写出X减X0比上一个
+------------------------------
+[2026-03-24 20:45:46] TRANSLATION
+点向式方程，就可以写出X减X0比上一个
+→ The point-direction form equation can be written as: X minus X₀ over
+------------------------------
+[2026-03-24 20:45:52] RECOGNITION_INTERIM
+，8就等于Y减Y0比上一个，它就等于Z减B0，比上一个Z在T0点的导数
+------------------------------
+[2026-03-24 20:45:58] RECOGNITION_INTERIM
+。好，啊我们就求出了曲线L在M0这一点处的切线方程
+------------------------------
+[2026-03-24 20:46:00] TRANSLATION
+。好，啊我们就求出了曲线L在M0这一点处的切线方程
+→ Good, ah, we have now found the equation of the tangent line to curve L at point M₀.
+------------------------------
+[2026-03-24 20:46:01] TRANSLATION
+，8就等于Y减Y0比上一个，它就等于Z减B0，比上一个Z在T0点的导数
+→ , 8 equals Y minus Y₀ over, it equals Z minus B₀, over the derivative of Z at point T₀
+------------------------------
+[2026-03-24 20:46:04] RECOGNITION_INTERIM
+，啊所以要求一条直线的方程那知道它的方向向量
+------------------------------
+[2026-03-24 20:46:07] TRANSLATION
+，啊所以要求一条直线的方程那知道它的方向向量
+→ , ah so to find the equation of a line, we need to know its direction vector
+------------------------------
+[2026-03-24 20:46:08] RECOGNITION_INTERIM
+，又经过一点，通过点向式方程就可以解出来
+------------------------------
+[2026-03-24 20:46:09] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 20:46:09] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 20:46:12] TRANSLATION
+，又经过一点，通过点向式方程就可以解出来
+→ , and passing through a point, we can solve it using the point-direction form equation.
+------------------------------
+[2026-03-24 20:46:18] RECOGNITION_INTERIM
+，啊这是比如说啊这是这样一条曲线a了，啊这一点呢是M0
+------------------------------
+[2026-03-24 20:46:20] TRANSLATION
+，啊这是比如说啊这是这样一条曲线a了，啊这一点呢是M0
+→ , ah for example, ah this is a curve a, ah this point is M0
+------------------------------
+[2026-03-24 20:46:22] RECOGNITION_INTERIM
+，啊那么它在这一点处的切线
+------------------------------
+[2026-03-24 20:46:23] RECOGNITION_INTERIM
+啊
+------------------------------
+[2026-03-24 20:46:23] TRANSLATION
+啊
+→ Ah
+------------------------------
+[2026-03-24 20:46:25] TRANSLATION
+，啊那么它在这一点处的切线
+→ , ah then the tangent line at this point
+------------------------------
+[2026-03-24 20:46:36] RECOGNITION_INTERIM
+切线是它。好，那么经过点M0与曲线L在M零点处的切线垂直的平面
+------------------------------
+[2026-03-24 20:46:39] TRANSLATION
+切线是它。好，那么经过点M0与曲线L在M零点处的切线垂直的平面
+→ The tangent line is this one. Good, then the plane that passes through point M0 and is perpendicular to the tangent line of curve L at point M0
+------------------------------
+[2026-03-24 20:46:42] RECOGNITION_INTERIM
+，那这个平面我们就把它称为是这条曲线L在M零这一点处的
+------------------------------
+[2026-03-24 20:46:46] TRANSLATION
+，那这个平面我们就把它称为是这条曲线L在M零这一点处的
+→ , then this plane we call it the osculating plane of the curve L at the point M0
+------------------------------
+[2026-03-24 20:46:46] RECOGNITION_INTERIM
+沙平里面唉法平面
+------------------------------
+[2026-03-24 20:46:48] TRANSLATION
+沙平里面唉法平面
+→ Osculating plane, ah, normal plane
+------------------------------
+[2026-03-24 20:46:55] RECOGNITION_INTERIM
+，啊那这个法平面，所以我们看到了这个法平面在M零这一点处的法向量是什么向量
+------------------------------
+[2026-03-24 20:46:58] TRANSLATION
+，啊那这个法平面，所以我们看到了这个法平面在M零这一点处的法向量是什么向量
+→ Ah, then this normal plane, so we see that the normal vector of this normal plane at point M0 is what vector?
+------------------------------
+[2026-03-24 20:47:03] RECOGNITION_INTERIM
+？唉就是去线L在M零这一点处的切向量了
+------------------------------
+[2026-03-24 20:47:05] TRANSLATION
+？唉就是去线L在M零这一点处的切向量了
+→ ? Well, that is precisely the tangent vector of the curve L at the point M0.
+------------------------------
+[2026-03-24 20:47:11] RECOGNITION_INTERIM
+，啊所以我们就可以写出曲线L了，在M0这一点处的法平面，它这个方程
+------------------------------
+[2026-03-24 20:47:15] TRANSLATION
+，啊所以我们就可以写出曲线L了，在M0这一点处的法平面，它这个方程
+→ , ah so we can write the equation of the normal plane of the curve L at the point M0
+------------------------------
+[2026-03-24 20:47:17] RECOGNITION_INTERIM
+啊画平面的方程
+------------------------------
+[2026-03-24 20:47:19] TRANSLATION
+啊画平面的方程
+→ Ah, the equation of the normal plane.
+------------------------------
+[2026-03-24 20:47:30] RECOGNITION_INTERIM
+，法向量就是什么？呢 X在距零点的导数，Y在T0点的导数，Z在T0点的导数，啊这个向量就是法向量了
+------------------------------
+[2026-03-24 20:47:38] TRANSLATION
+，法向量就是什么？呢 X在距零点的导数，Y在T0点的导数，Z在T0点的导数，啊这个向量就是法向量了
+→ , what is the normal vector? It is the derivative of X at T0, the derivative of Y at T0, the derivative of Z at T0. Ah, this vector is the normal vector.
+------------------------------
+[2026-03-24 20:47:41] RECOGNITION_INTERIM
+。啊那么所以这个反平面的方程就是在这个反平面内任取一点M，它的坐标是xyz，所以M0M呢就和这个法向量是垂直的啦
+------------------------------
+[2026-03-24 20:47:51] TRANSLATION
+。啊那么所以这个反平面的方程就是在这个反平面内任取一点M，它的坐标是xyz，所以M0M呢就和这个法向量是垂直的啦
+→ Ah, so then the equation of the normal plane is: in this normal plane, take any point M, its coordinates are (x, y, z), so M0M is perpendicular to this normal vector.
+------------------------------
+[2026-03-24 20:47:51] RECOGNITION_INTERIM
+，啊因此它乘以X减X0加上一个它乘以Y减Y0，再加上它乘以Z减Z0到V0
+------------------------------
+[2026-03-24 20:47:52] RECOGNITION_INTERIM
+，啊这就是
+------------------------------
+[2026-03-24 20:47:54] TRANSLATION
+，啊这就是
+→ Ah, this is it.
+------------------------------
+[2026-03-24 20:47:57] RECOGNITION_INTERIM
+曲线L呢在M零这一点处的法平面方程
+------------------------------
+[2026-03-24 20:47:59] RECOGNITION_INTERIM
+。好，那么我问同学们
+------------------------------
+[2026-03-24 20:47:59] TRANSLATION
+，啊因此它乘以X减X0加上一个它乘以Y减Y0，再加上它乘以Z减Z0到V0
+→ , ah therefore it multiplied by X minus X0 plus it multiplied by Y minus Y0, plus it multiplied by Z minus Z0 equals 0
+------------------------------
+[2026-03-24 20:48:01] TRANSLATION
+曲线L呢在M零这一点处的法平面方程
+→ The equation of the normal plane to the curve L at the point M0
+------------------------------
+[2026-03-24 20:48:02] TRANSLATION
+。好，那么我问同学们
+→ . Okay, then I ask the students
+------------------------------
+[2026-03-24 20:48:11] RECOGNITION_INTERIM
+，如果空间曲线和那个方程是参数方程的形式给出的，我们要求它在一点M零处的切线和法平面方程就是要求什么
+------------------------------
+[2026-03-24 20:48:15] TRANSLATION
+，如果空间曲线和那个方程是参数方程的形式给出的，我们要求它在一点M零处的切线和法平面方程就是要求什么
+→ , if the space curve and that equation are given in parametric form, what we need to find for the tangent line and normal plane equation at a point M0 is
+------------------------------
+[2026-03-24 20:48:19] RECOGNITION_INTERIM
+？就是要求曲线在M零这一点处的切线切向量
+------------------------------
+[2026-03-24 20:48:22] TRANSLATION
+？就是要求曲线在M零这一点处的切线切向量
+→ ? That is to find the tangent vector of the curve at the point M0.
+------------------------------
+[2026-03-24 20:48:27] RECOGNITION_INTERIM
+，啊切向量有了，所以切线方程可以求出，那么画平面方程也可以求出来
+------------------------------
+[2026-03-24 20:48:30] TRANSLATION
+，啊切向量有了，所以切线方程可以求出，那么画平面方程也可以求出来
+→ Ah, with the tangent vector obtained, the equation of the tangent line can be determined, and then the equation of the normal plane can also be found.
+------------------------------
+[2026-03-24 20:48:32] RECOGNITION_INTERIM
+。啊非常好啊好，那接下来啊我们再来继续看
+------------------------------
+[2026-03-24 20:48:36] TRANSLATION
+。啊非常好啊好，那接下来啊我们再来继续看
+→ Ah, very good, very good. Then next, let's continue to look at
+------------------------------
+[2026-03-24 20:48:42] RECOGNITION_INTERIM
+，啊那这个如果空间曲线它是由两个曲面
+------------------------------
+[2026-03-24 20:48:44] TRANSLATION
+，啊那这个如果空间曲线它是由两个曲面
+→ Ah, so if a space curve is given by two surfaces
+------------------------------
+[2026-03-24 20:48:45] RECOGNITION_INTERIM
+交出来的一条曲线
+------------------------------
+[2026-03-24 20:48:47] TRANSLATION
+交出来的一条曲线
+→ a curve given by the intersection of two surfaces
+------------------------------
+[2026-03-24 20:48:49] RECOGNITION_INTERIM
+，两个曲面相交可能交出一条曲线来了嗯
+------------------------------
+[2026-03-24 20:48:51] TRANSLATION
+，两个曲面相交可能交出一条曲线来了嗯
+→ , the intersection of two surfaces may yield a curve, hmm
+------------------------------
+[2026-03-24 20:49:04] RECOGNITION_INTERIM
+。唉那么我们就来看一下，啊在什么情况下他一定能够交出一条曲线来？好，假设F是关于xyz的三元函数，啊 G呢也是关于xyz的三元函数，那么这两个三元函数
+------------------------------
+[2026-03-24 20:49:06] RECOGNITION_INTERIM
+的时候都在
+------------------------------
+[2026-03-24 20:49:07] TRANSLATION
+的时候都在
+→ at all times
+------------------------------
+[2026-03-24 20:49:13] TRANSLATION
+。唉那么我们就来看一下，啊在什么情况下他一定能够交出一条曲线来？好，假设F是关于xyz的三元函数，啊 G呢也是关于xyz的三元函数，那么这两个三元函数
+→ So, let's see under what conditions they must intersect to form a curve. 
+Suppose \( F(x, y, z) \) is a function of three variables, and \( G(x, y, z) \) is also a function of three variables, then these two functions of three variables...
+------------------------------
+[2026-03-24 20:49:17] RECOGNITION_INTERIM
+某一点，比如说啊这个 M0M0的坐标是X0、Y0、Z0都在M零点的邻域W上，一阶偏导是连续的
+------------------------------
+[2026-03-24 20:49:23] RECOGNITION_INTERIM
+，啊那这一点呢是在啊 W里面啊或者说W是M0点的一个领域
+------------------------------

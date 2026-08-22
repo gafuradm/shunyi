@@ -1,0 +1,90 @@
+{
+  "generated": "2026-03-06T20:45:06.343063",
+  "total_entries": 6,
+  "history": [
+    {
+      "id": 0,
+      "text": "唉嗯嗯你呀我了你老妈的",
+      "timestamp": 1772800805.7167768,
+      "datetime": "2026-03-06 20:40:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "唉呦",
+      "timestamp": 1772800808.283485,
+      "datetime": "2026-03-06 20:40:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "上跟本big个到你走",
+      "timestamp": 1772800949.077358,
+      "datetime": "2026-03-06 20:42:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "你啥子都不懂",
+      "timestamp": 1772801026.396054,
+      "datetime": "2026-03-06 20:43:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "。啊72年",
+      "timestamp": 1772801077.570903,
+      "datetime": "2026-03-06 20:44:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "那啤酒",
+      "timestamp": 1772801080.128447,
+      "datetime": "2026-03-06 20:44:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

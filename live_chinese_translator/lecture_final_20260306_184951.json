@@ -1,0 +1,174 @@
+{
+  "generated": "2026-03-06T18:49:51.607387",
+  "total_entries": 12,
+  "history": [
+    {
+      "id": 0,
+      "text": "啊斯瓦bursdiia took of Barba",
+      "timestamp": 1772793922.1875079,
+      "datetime": "2026-03-06 18:45:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "得得得",
+      "timestamp": 1772794115.1939251,
+      "datetime": "2026-03-06 18:48:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": " is的esd",
+      "timestamp": 1772794116.217555,
+      "datetime": "2026-03-06 18:48:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": " a jes是W。The land",
+      "timestamp": 1772794118.772671,
+      "datetime": "2026-03-06 18:48:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "不知道is a land",
+      "timestamp": 1772794123.420319,
+      "datetime": "2026-03-06 18:48:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "。See you again, right",
+      "timestamp": 1772794163.3593369,
+      "datetime": "2026-03-06 18:49:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "? 99",
+      "timestamp": 1772794167.441115,
+      "datetime": "2026-03-06 18:49:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": " masra sir Zain",
+      "timestamp": 1772794171.536059,
+      "datetime": "2026-03-06 18:49:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": ". Gas great",
+      "timestamp": 1772794174.078439,
+      "datetime": "2026-03-06 18:49:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": ". For sir sign",
+      "timestamp": 1772794175.61436,
+      "datetime": "2026-03-06 18:49:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": " a lot da lt",
+      "timestamp": 1772794179.702281,
+      "datetime": "2026-03-06 18:49:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": ", I'm a",
+      "timestamp": 1772794182.300935,
+      "datetime": "2026-03-06 18:49:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

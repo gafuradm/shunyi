@@ -1,0 +1,20 @@
+{
+  "generated": "2026-03-10T18:34:26.230920",
+  "total_entries": 1,
+  "history": [
+    {
+      "id": 0,
+      "text": "啊这个题",
+      "timestamp": 1773138801.377694,
+      "datetime": "2026-03-10 18:33:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    }
+  ]
+}

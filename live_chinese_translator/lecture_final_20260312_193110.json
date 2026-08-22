@@ -1,0 +1,931 @@
+{
+  "generated": "2026-03-12T19:31:10.281100",
+  "total_entries": 64,
+  "history": [
+    {
+      "id": 0,
+      "text": "而10这个",
+      "timestamp": 1773314878.682532,
+      "datetime": "2026-03-12 19:27:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "向量就是X轴正方向的单位向量啊",
+      "timestamp": 1773314882.775848,
+      "datetime": "2026-03-12 19:28:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "，这样，所以函数F在P0点关于X的偏导数是存在的，那么函数F在P0点沿着X轴正方向的方向上，就就等于F在P0点关于X的",
+      "timestamp": 1773314897.126805,
+      "datetime": "2026-03-12 19:28:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "偏导数了",
+      "timestamp": 1773314898.150221,
+      "datetime": "2026-03-12 19:28:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "。好，那么我们来看延展",
+      "timestamp": 1773314901.743995,
+      "datetime": "2026-03-12 19:28:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "，X轴是负方向的方向，导数",
+      "timestamp": 1773314906.326407,
+      "datetime": "2026-03-12 19:28:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "，X轴是负方向的方向，导数",
+      "timestamp": 1773314908.652998,
+      "datetime": "2026-03-12 19:28:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", the X-axis is the direction of the negative direction, derivative",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 7,
+      "text": "，那么根据定义啊那在X0这一点处，X0Y0这一点处，也就是X轴负方向就是负a了",
+      "timestamp": 1773314915.0042171,
+      "datetime": "2026-03-12 19:28:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "，唉这个单位向量就是-10了",
+      "timestamp": 1773314918.116192,
+      "datetime": "2026-03-12 19:28:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "，唉这个单位向量就是-10了",
+      "timestamp": 1773314920.145422,
+      "datetime": "2026-03-12 19:28:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", well this unit vector is -1, 0",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 10,
+      "text": "，那么根据定义啊那在X0这一点处，X0Y0这一点处，也就是X轴负方向就是负a了",
+      "timestamp": 1773314923.128719,
+      "datetime": "2026-03-12 19:28:43",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then according to the definition, at the point X0, at the point X0Y0, the negative direction of the X-axis is -a.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 11,
+      "text": "，唉所以根据定义就是FX0加上一个TV1，那么这儿的V1就是-1了",
+      "timestamp": 1773314924.799954,
+      "datetime": "2026-03-12 19:28:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "，唉所以根据定义就是FX0加上一个TV1，那么这儿的V1就是-1了",
+      "timestamp": 1773314930.031678,
+      "datetime": "2026-03-12 19:28:50",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "According to the definition, it is \\( f(x_0) \\) plus \\( T(v_1) \\), where here \\( v_1 \\) is \\(-1\\).",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 13,
+      "text": "，啊这就是T乘以-1，Y0加上TV2，V2不是0了，唉减去一个FX0Y于比上一个T",
+      "timestamp": 1773314934.482359,
+      "datetime": "2026-03-12 19:28:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "二并上一个T，在T趋近于零时的极限",
+      "timestamp": 1773314939.1125388,
+      "datetime": "2026-03-12 19:28:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "二并上一个T，在T趋近于零时的极限",
+      "timestamp": 1773314940.9063199,
+      "datetime": "2026-03-12 19:29:00",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "and the limit as T approaches zero",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 16,
+      "text": "，啊这就是T乘以-1，Y0加上TV2，V2不是0了，唉减去一个FX0Y于比上一个T",
+      "timestamp": 1773314943.0299578,
+      "datetime": "2026-03-12 19:29:03",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah this is T times -1, Y0 plus T=2, =2 is not 0 anymore, eh minus f(X0Y0) divided by -T",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 17,
+      "text": "，唉这个你知道这个 T呢是-10这个方向的",
+      "timestamp": 1773314947.2797859,
+      "datetime": "2026-03-12 19:29:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "动点",
+      "timestamp": 1773314949.31847,
+      "datetime": "2026-03-12 19:29:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "，唉这个你知道这个 T呢是-10这个方向的",
+      "timestamp": 1773314949.39617,
+      "datetime": "2026-03-12 19:29:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", well you know this T is in the direction of -10",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "动点",
+      "timestamp": 1773314950.98833,
+      "datetime": "2026-03-12 19:29:10",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Moving point",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 21,
+      "text": "，呃定点到动点的",
+      "timestamp": 1773314951.8770719,
+      "datetime": "2026-03-12 19:29:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "6项距离呢",
+      "timestamp": 1773314953.409916,
+      "datetime": "2026-03-12 19:29:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "，呃定点到动点的",
+      "timestamp": 1773314953.9658968,
+      "datetime": "2026-03-12 19:29:13",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", uh from the fixed point to the moving point",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 24,
+      "text": "6项距离呢",
+      "timestamp": 1773314955.0365598,
+      "datetime": "2026-03-12 19:29:15",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The distance of 6 terms",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 25,
+      "text": "，所以沿着X轴正方向的有向距离就是负T啦",
+      "timestamp": 1773314958.575629,
+      "datetime": "2026-03-12 19:29:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "，所以沿着X轴正方向的有向距离就是负T啦",
+      "timestamp": 1773314960.683042,
+      "datetime": "2026-03-12 19:29:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", so the directed distance along the positive X-axis is negative T.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 27,
+      "text": "。唉所以在这儿我们乘一个-1之间，像符号前面加一个负号",
+      "timestamp": 1773314964.180937,
+      "datetime": "2026-03-12 19:29:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "。唉所以在这儿我们乘一个-1之间，像符号前面加一个负号",
+      "timestamp": 1773314966.6559849,
+      "datetime": "2026-03-12 19:29:26",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". So here we multiply by -1, which is like adding a negative sign in front of the symbol.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 29,
+      "text": "，啊那么这样这个极限啊这个极限",
+      "timestamp": 1773314968.2731252,
+      "datetime": "2026-03-12 19:29:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "，啊那么这样这个极限啊这个极限",
+      "timestamp": 1773314970.387794,
+      "datetime": "2026-03-12 19:29:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah then this limit, this limit",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 31,
+      "text": "嗯它就是看出F在P0这一面沿着",
+      "timestamp": 1773314973.972608,
+      "datetime": "2026-03-12 19:29:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "嗯它就是看出F在P0这一面沿着",
+      "timestamp": 1773314976.105897,
+      "datetime": "2026-03-12 19:29:36",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Well, it can be seen that F, on this side of P0, is along",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 33,
+      "text": "10这个方向的方向导数啦",
+      "timestamp": 1773314979.0541272,
+      "datetime": "2026-03-12 19:29:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "10这个方向的方向导数啦",
+      "timestamp": 1773314981.01562,
+      "datetime": "2026-03-12 19:29:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The directional derivative in the direction of 10.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 35,
+      "text": "。唉前面乘一个负啊负就是",
+      "timestamp": 1773314982.284308,
+      "datetime": "2026-03-12 19:29:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "。唉前面乘一个负啊负就是",
+      "timestamp": 1773314984.291701,
+      "datetime": "2026-03-12 19:29:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Oh, multiply by a negative in front, negative means",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 37,
+      "text": " F是批评这一点，沿着",
+      "timestamp": 1773314984.68769,
+      "datetime": "2026-03-12 19:29:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": " F是批评这一点，沿着",
+      "timestamp": 1773314986.114611,
+      "datetime": "2026-03-12 19:29:46",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "F is criticizing this point, along",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 39,
+      "text": " X轴负方向的方向导数就等于F在P0这一点，关于X的偏导数的负数倍，而这个前提呢永远是F在P0这一点，关于X的偏导数是存在的",
+      "timestamp": 1773314998.722413,
+      "datetime": "2026-03-12 19:29:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "。那么沿着X轴正方向的方向走，和沿着X轴负方向的方向，导数就是互为相反数",
+      "timestamp": 1773315005.80602,
+      "datetime": "2026-03-12 19:30:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": " X轴负方向的方向导数就等于F在P0这一点，关于X的偏导数的负数倍，而这个前提呢永远是F在P0这一点，关于X的偏导数是存在的",
+      "timestamp": 1773315007.370207,
+      "datetime": "2026-03-12 19:30:07",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The directional derivative in the negative X-axis direction equals the negative of the partial derivative of F with respect to X at point P0, and this holds provided that the partial derivative of F with respect to X at point P0 exists.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 42,
+      "text": "。那么沿着X轴正方向的方向走，和沿着X轴负方向的方向，导数就是互为相反数",
+      "timestamp": 1773315013.703177,
+      "datetime": "2026-03-12 19:30:13",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Then, the derivative along the positive X-axis direction and the derivative along the negative X-axis direction are opposites of each other.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 43,
+      "text": "。好，那那么你根据这个概念呢来，我们上节课呢学习了淀粉啊就是",
+      "timestamp": 1773315014.416026,
+      "datetime": "2026-03-12 19:30:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "。好，那那么你根据这个概念呢来，我们上节课呢学习了淀粉啊就是",
+      "timestamp": 1773315016.744865,
+      "datetime": "2026-03-12 19:30:16",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Well, then, based on this concept, in our last class, we learned about the directional derivative...",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 45,
+      "text": "嗯函数在一点的偏导数、方向、导数，啊这件事什么问题？那么第一个例子，啊这儿的例4呢告诉我们，这个函数在00这一点的关于X和Y的偏导数都是",
+      "timestamp": 1773315027.368842,
+      "datetime": "2026-03-12 19:30:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "或者在的换",
+      "timestamp": 1773315028.547526,
+      "datetime": "2026-03-12 19:30:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "或者在的换",
+      "timestamp": 1773315030.32675,
+      "datetime": "2026-03-12 19:30:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Or in terms of transformation",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 48,
+      "text": "，那并且在00这一面沿着任何一个方向",
+      "timestamp": 1773315033.680632,
+      "datetime": "2026-03-12 19:30:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "，那并且在00这一面沿着任何一个方向",
+      "timestamp": 1773315035.732681,
+      "datetime": "2026-03-12 19:30:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", and on the 00 side, along any direction",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 50,
+      "text": "，啊只要不是坐标轴",
+      "timestamp": 1773315036.225285,
+      "datetime": "2026-03-12 19:30:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "嗯函数在一点的偏导数、方向、导数，啊这件事什么问题？那么第一个例子，啊这儿的例4呢告诉我们，这个函数在00这一点的关于X和Y的偏导数都是",
+      "timestamp": 1773315036.3154728,
+      "datetime": "2026-03-12 19:30:36",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Well, the partial derivatives and directional derivatives of a function at a point, what issues are there? So the first example, Example 4 here tells us that the partial derivatives of this function at the point (0,0) with respect to X and Y are both",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 52,
+      "text": "，啊只要不是坐标轴",
+      "timestamp": 1773315038.219612,
+      "datetime": "2026-03-12 19:30:38",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah, as long as it's not along the coordinate axes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 53,
+      "text": "，啊沿着任何一个方向的方向导数它都是不存在",
+      "timestamp": 1773315040.325066,
+      "datetime": "2026-03-12 19:30:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "趋向于无穷的",
+      "timestamp": 1773315041.7898922,
+      "datetime": "2026-03-12 19:30:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "，啊沿着任何一个方向的方向导数它都是不存在",
+      "timestamp": 1773315042.6131551,
+      "datetime": "2026-03-12 19:30:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah, the directional derivative along any direction does not exist",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 56,
+      "text": "趋向于无穷的",
+      "timestamp": 1773315043.569993,
+      "datetime": "2026-03-12 19:30:43",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "tends to infinity",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 57,
+      "text": "。而这个函数在00这一点处",
+      "timestamp": 1773315049.1056352,
+      "datetime": "2026-03-12 19:30:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "。而这个函数在00这一点处",
+      "timestamp": 1773315050.9697762,
+      "datetime": "2026-03-12 19:30:50",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". And at the point (0,0) of this function",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 59,
+      "text": "，它的极限不存在，所以在00这一点是不连续的啦",
+      "timestamp": 1773315053.083116,
+      "datetime": "2026-03-12 19:30:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "，它的极限不存在，所以在00这一点是不连续的啦",
+      "timestamp": 1773315055.547348,
+      "datetime": "2026-03-12 19:30:55",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", its limit does not exist, so at the point (0,0), it is discontinuous.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 61,
+      "text": "。啊这是我们上节课把这个例子告诉我们的，他沿着在00这一点，沿着任何一个方向的方向导数呢都是不存在的，在00这一点处呢也是不连续的",
+      "timestamp": 1773315065.9166121,
+      "datetime": "2026-03-12 19:31:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "。啊这是我们上节课把这个例子告诉我们的，他沿着在00这一点，沿着任何一个方向的方向导数呢都是不存在的，在00这一点处呢也是不连续的",
+      "timestamp": 1773315069.65677,
+      "datetime": "2026-03-12 19:31:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, this is what the example from our last class told us: at the point (0,0), the directional derivative along any direction does not exist, and at the point (0,0), it is also discontinuous.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 63,
+      "text": "，啊但是在0这片两个偏导数是存在的",
+      "timestamp": 1773315070.017854,
+      "datetime": "2026-03-12 19:31:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

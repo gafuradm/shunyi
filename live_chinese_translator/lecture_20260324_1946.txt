@@ -1,0 +1,1421 @@
+[2026-03-24 19:24:10] RECOGNITION_INTERIM
+见你在那说话你还知道了，你比我到的还晚是
+------------------------------
+[2026-03-24 19:24:17] RECOGNITION_INTERIM
+。嗯不要态度端正，啊建豪你要认真带着对待，那肯定是
+------------------------------
+[2026-03-24 19:24:19] RECOGNITION_INTERIM
+100分嗯肯定是100分
+------------------------------
+[2026-03-24 19:24:24] RECOGNITION_INTERIM
+，是吧？去年虽然也是拿了这个 a了对吧？但是呢没有拿满分
+------------------------------
+[2026-03-24 19:24:26] RECOGNITION_INTERIM
+。嗯啊
+------------------------------
+[2026-03-24 19:24:29] RECOGNITION_INTERIM
+是吧？你认真对待，那绝对是满分的
+------------------------------
+[2026-03-24 19:24:29] RECOGNITION_INTERIM
+。啊
+------------------------------
+[2026-03-24 19:24:34] RECOGNITION_INTERIM
+好，那我们接下来看空间曲面的切平面和法线
+------------------------------
+[2026-03-24 19:24:36] TRANSLATION
+好，那我们接下来看空间曲面的切平面和法线
+→ Alright, let's proceed to look at the tangent plane and normal line of a spatial surface.
+------------------------------
+[2026-03-24 19:24:39] RECOGNITION_INTERIM
+。啊那么上一节课呢我们讲的这个内容啊我们在这儿呢再回顾一下
+------------------------------
+[2026-03-24 19:24:41] TRANSLATION
+。啊那么上一节课呢我们讲的这个内容啊我们在这儿呢再回顾一下
+→ Ah, then in the previous lesson, the content we covered, let's review it here again.
+------------------------------
+[2026-03-24 19:24:52] RECOGNITION_INTERIM
+。好，那假设三元函数F在P0点的领域内它是有定义的，啊并且在P0点的领域内，它的一阶偏导呢是一个连续的函数
+------------------------------
+[2026-03-24 19:24:54] TRANSLATION
+。好，那假设三元函数F在P0点的领域内它是有定义的，啊并且在P0点的领域内，它的一阶偏导呢是一个连续的函数
+→ Okay, so let's assume the ternary function F is defined in a neighborhood of point P0, and within this neighborhood of P0, its first-order partial derivatives are continuous functions.
+------------------------------
+[2026-03-24 19:25:07] RECOGNITION_INTERIM
+，如果看出F在P0点的函数值是等于0的，并且在P0这一点关于Z的偏导不等于0，那么有隐函数存在定理，那fxyz等于0，这个方程呢就确定了一个Z
+------------------------------
+[2026-03-24 19:25:10] RECOGNITION_INTERIM
+，这也是关于xy的二元函数了，对
+------------------------------
+[2026-03-24 19:25:11] TRANSLATION
+，这也是关于xy的二元函数了，对
+→ , which is also a binary function with respect to xy, right
+------------------------------
+[2026-03-24 19:25:15] TRANSLATION
+，如果看出F在P0点的函数值是等于0的，并且在P0这一点关于Z的偏导不等于0，那么有隐函数存在定理，那fxyz等于0，这个方程呢就确定了一个Z
+→ If the function \( F \) is known to have a value of 0 at point \( P_0 \), and its partial derivative with respect to \( z \) at this point is not 0, then according to the implicit function existence theorem, the equation \( F(x, y, z) = 0 \) defines an implicit function \( z = z(x, y) \) in the neighborhood of \( P_0 \).
+------------------------------
+[2026-03-24 19:25:16] RECOGNITION_INTERIM
+。啊而Z关于xy的二元函数，它就代表着空间中的一张曲面了
+------------------------------
+[2026-03-24 19:25:19] TRANSLATION
+。啊而Z关于xy的二元函数，它就代表着空间中的一张曲面了
+→ Ah, and the binary function Z with respect to xy represents a surface in space.
+------------------------------
+[2026-03-24 19:25:20] RECOGNITION_INTERIM
+。所以我们说大fxyz等于0
+------------------------------
+[2026-03-24 19:25:23] TRANSLATION
+。所以我们说大fxyz等于0
+→ . So we say \( F(x, y, z) = 0 \)
+------------------------------
+[2026-03-24 19:25:26] RECOGNITION_INTERIM
+，唉这要满足一定条件之下，它就代表着空间中的一张曲面
+------------------------------
+[2026-03-24 19:25:28] TRANSLATION
+，唉这要满足一定条件之下，它就代表着空间中的一张曲面
+→ , and this, under certain conditions, represents a surface in space.
+------------------------------
+[2026-03-24 19:25:33] RECOGNITION_INTERIM
+。唉所以我们说这种形式的方程呢就把它称为是曲面S的一般方程
+------------------------------
+[2026-03-24 19:25:35] TRANSLATION
+。唉所以我们说这种形式的方程呢就把它称为是曲面S的一般方程
+→ . So we say that an equation of this form is called the general equation of the surface S.
+------------------------------
+[2026-03-24 19:25:46] RECOGNITION_INTERIM
+。好，那么接下来我们来看，如果说曲面S的方程呢是通过啊这个隐函数的形式给出来的啊隐函数的形式给出来的，那么我们如何来求它在一点处的
+------------------------------
+[2026-03-24 19:25:49] TRANSLATION
+。好，那么接下来我们来看，如果说曲面S的方程呢是通过啊这个隐函数的形式给出来的啊隐函数的形式给出来的，那么我们如何来求它在一点处的
+→ . Alright, so next let's consider, if the equation of the surface S is given in the form of an implicit function, given in the form of an implicit function, then how do we find at a point its
+------------------------------
+[2026-03-24 19:25:52] RECOGNITION_INTERIM
+切平面和在这一点不的发现它们的方程嗯
+------------------------------
+[2026-03-24 19:25:54] TRANSLATION
+切平面和在这一点不的发现它们的方程嗯
+→ Tangent plane and at this point, um, their equations for the normal line.
+------------------------------
+[2026-03-24 19:25:54] RECOGNITION_INTERIM
+。啊分别来看
+------------------------------
+[2026-03-24 19:25:55] TRANSLATION
+。啊分别来看
+→ . Now let's look at them separately
+------------------------------
+[2026-03-24 19:25:57] RECOGNITION_INTERIM
+。好，那么
+------------------------------
+[2026-03-24 19:25:59] TRANSLATION
+。好，那么
+→ . Alright, so
+------------------------------
+[2026-03-24 19:26:13] RECOGNITION_INTERIM
+我们假设这个3元函数F在M0这一点处呢是连续可微的，啊并且在M0的梯度呢是不等于0的，唉这就是个非零的向量，那F在M0点的函数值是等于0的，唉这个条件就决定了
+------------------------------
+[2026-03-24 19:26:18] TRANSLATION
+我们假设这个3元函数F在M0这一点处呢是连续可微的，啊并且在M0的梯度呢是不等于0的，唉这就是个非零的向量，那F在M0点的函数值是等于0的，唉这个条件就决定了
+→ We assume that this three-variable function F is continuously differentiable at the point M0, and its gradient at M0 is not equal to 0, which is a non-zero vector. Also, the function value of F at M0 is equal to 0. This condition determines
+------------------------------
+[2026-03-24 19:26:21] RECOGNITION_INTERIM
+有方程能够确定一个隐函数了，所以它F等于0真正的它代表着空间中的一张曲面了
+------------------------------
+[2026-03-24 19:26:22] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 19:26:24] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 19:26:24] TRANSLATION
+有方程能够确定一个隐函数了，所以它F等于0真正的它代表着空间中的一张曲面了
+→ There is an equation that can determine an implicit function, so F equals 0 truly represents a surface in space.
+------------------------------
+[2026-03-24 19:26:32] RECOGNITION_INTERIM
+，那么现在我们在曲面S上经过点M0，任意取一条光滑的曲线M
+------------------------------
+[2026-03-24 19:26:34] RECOGNITION_INTERIM
+，看我在这儿画图了
+------------------------------
+[2026-03-24 19:26:35] TRANSLATION
+，看我在这儿画图了
+→ , see I'm drawing a diagram here
+------------------------------
+[2026-03-24 19:26:36] TRANSLATION
+，那么现在我们在曲面S上经过点M0，任意取一条光滑的曲线M
+→ , then now on the surface S passing through the point M0, we arbitrarily take a smooth curve M
+------------------------------
+[2026-03-24 19:26:41] RECOGNITION_INTERIM
+，在曲面S上的经过点M0的任意取一条光滑的曲线L
+------------------------------
+[2026-03-24 19:26:44] TRANSLATION
+，在曲面S上的经过点M0的任意取一条光滑的曲线L
+→ , on the surface S passing through the point M0, we arbitrarily take a smooth curve L
+------------------------------
+[2026-03-24 19:26:49] RECOGNITION_INTERIM
+，那么这条曲线的参数方程，xyz都是关于T的一元函数了
+------------------------------
+[2026-03-24 19:26:51] TRANSLATION
+，那么这条曲线的参数方程，xyz都是关于T的一元函数了
+→ , then the parametric equations of this curve are such that x, y, z are all unary functions of T.
+------------------------------
+[2026-03-24 19:26:54] RECOGNITION_INTERIM
+，唉那么它是光滑，这个曲线是光滑的，含义是什么呢
+------------------------------
+[2026-03-24 19:26:57] RECOGNITION_INTERIM
+？你们说
+------------------------------
+[2026-03-24 19:26:57] TRANSLATION
+，唉那么它是光滑，这个曲线是光滑的，含义是什么呢
+→ , well then it is smooth; what does it mean that this curve is smooth?
+------------------------------
+[2026-03-24 19:27:00] RECOGNITION_INTERIM
+什么是光滑
+------------------------------
+[2026-03-24 19:27:01] TRANSLATION
+？你们说
+→ , then on the surface S passing through the point M₀, we arbitrarily take a smooth curve L, so the parametric equations of this curve are such that x, y, z are all unary functions of t.
+------------------------------
+[2026-03-24 19:27:03] TRANSLATION
+什么是光滑
+→ What is smoothness
+------------------------------
+[2026-03-24 19:27:06] RECOGNITION_INTERIM
+？就介上处处有
+------------------------------
+[2026-03-24 19:27:08] TRANSLATION
+？就介上处处有
+→ ? then it is smooth everywhere on it
+------------------------------
+[2026-03-24 19:27:08] RECOGNITION_INTERIM
+非0的
+------------------------------
+[2026-03-24 19:27:11] TRANSLATION
+非0的
+→ non-zero
+------------------------------
+[2026-03-24 19:27:14] RECOGNITION_INTERIM
+10面，唉上节课没说啊光滑的
+------------------------------
+[2026-03-24 19:27:16] TRANSLATION
+10面，唉上节课没说啊光滑的
+→ 10 faces, oh we didn't mention last class that it is smooth
+------------------------------
+[2026-03-24 19:27:17] RECOGNITION_INTERIM
+。说了是吧嗯
+------------------------------
+[2026-03-24 19:27:20] RECOGNITION_INTERIM
+？这面没写下来是吧
+------------------------------
+[2026-03-24 19:27:20] TRANSLATION
+。说了是吧嗯
+→ . It was mentioned, right? Hmm
+------------------------------
+[2026-03-24 19:27:21] TRANSLATION
+？这面没写下来是吧
+→ ? This side wasn't written down, right?
+------------------------------
+[2026-03-24 19:27:31] RECOGNITION_INTERIM
+？啊没写下来，那么曲面光滑的含义你就噢这是曲线，曲线光滑，曲线是光滑的，这个是曲线线上面处处有非零的什么向量
+------------------------------
+[2026-03-24 19:27:36] TRANSLATION
+？啊没写下来，那么曲面光滑的含义你就噢这是曲线，曲线光滑，曲线是光滑的，这个是曲线线上面处处有非零的什么向量
+→ ? Ah, it wasn't written down. So, the meaning of a smooth surface—oh, this is a curve, a smooth curve. The curve is smooth, meaning that at every point on the curve, there exists a nonzero... what vector?
+------------------------------
+[2026-03-24 19:27:37] RECOGNITION_INTERIM
+？切且向量，并且切向量在曲线上是连续变化的
+------------------------------
+[2026-03-24 19:27:40] TRANSLATION
+？切且向量，并且切向量在曲线上是连续变化的
+→ ? Tangent vector, and the tangent vector changes continuously along the curve.
+------------------------------
+[2026-03-24 19:27:43] RECOGNITION_INTERIM
+，唉那我们用数学语言来表述这个光滑的含义
+------------------------------
+[2026-03-24 19:27:45] TRANSLATION
+，唉那我们用数学语言来表述这个光滑的含义
+→ , well then let's use mathematical language to express the meaning of smoothness
+------------------------------
+[2026-03-24 19:27:53] RECOGNITION_INTERIM
+。那首先同学们看那这一条光呃曲线的参数方程有了，所以它在一点X0Y0Z零处
+------------------------------
+[2026-03-24 19:27:57] RECOGNITION_INTERIM
+的切向量是什么呢
+------------------------------
+[2026-03-24 19:27:59] TRANSLATION
+。那首先同学们看那这一条光呃曲线的参数方程有了，所以它在一点X0Y0Z零处
+→ First, students, look, the parametric equation of this curve is known, so the tangent vector at the point \((x_0, y_0, z_0)\) can be obtained by differentiating the parametric equation.
+------------------------------
+[2026-03-24 19:28:00] TRANSLATION
+的切向量是什么呢
+→ What is the tangent vector?
+------------------------------
+[2026-03-24 19:28:14] RECOGNITION_INTERIM
+？Xyz分别在这零点处求导构成的这个向量了，唉这个向量就是曲线L在M零这一点处的切向量了
+------------------------------
+[2026-03-24 19:28:22] TRANSLATION
+？Xyz分别在这零点处求导构成的这个向量了，唉这个向量就是曲线L在M零这一点处的切向量了
+→ The vector formed by taking the derivatives of x, y, z at this point—well, this vector is precisely the tangent vector of the curve L at the point M0.
+------------------------------
+[2026-03-24 19:28:27] RECOGNITION_INTERIM
+。唉当T零在区间I上变化的时候，唉那就是给定一个点txyz分别在T点的导数构成的这个向量，那就是曲线在这一点处的
+------------------------------
+[2026-03-24 19:28:34] TRANSLATION
+。唉当T零在区间I上变化的时候，唉那就是给定一个点txyz分别在T点的导数构成的这个向量，那就是曲线在这一点处的
+→ When the parameter \( t \) varies over the interval \( I \), for a given point \( (x(t), y(t), z(t)) \), the vector formed by its derivatives \( (x'(t), y'(t), z'(t)) \) is precisely the tangent vector of the curve at that point.
+------------------------------
+[2026-03-24 19:28:35] RECOGNITION_INTERIM
+切向量了，唉那我们说曲线是光滑的，指的是每一点处
+------------------------------
+[2026-03-24 19:28:37] RECOGNITION_INTERIM
+，啊这个是每一点处
+------------------------------
+[2026-03-24 19:28:37] TRANSLATION
+切向量了，唉那我们说曲线是光滑的，指的是每一点处
+→ The tangent vector. Well, we say a curve is smooth, meaning that at every point
+------------------------------
+[2026-03-24 19:28:38] TRANSLATION
+，啊这个是每一点处
+→ , ah this is at every point
+------------------------------
+[2026-03-24 19:28:40] RECOGNITION_INTERIM
+都有非零的
+------------------------------
+[2026-03-24 19:28:41] TRANSLATION
+都有非零的
+→ has a nonzero
+------------------------------
+[2026-03-24 19:28:53] RECOGNITION_INTERIM
+嗯切向量，啊这是一个非零的向量，啊每一点处都有一个非零的向量，啊非零的切向量，并且切向量在曲线上是连续变化的
+------------------------------
+[2026-03-24 19:28:56] RECOGNITION_INTERIM
+，那怎么叙述它是连续变化的呢
+------------------------------
+[2026-03-24 19:28:57] TRANSLATION
+嗯切向量，啊这是一个非零的向量，啊每一点处都有一个非零的向量，啊非零的切向量，并且切向量在曲线上是连续变化的
+→ The tangent vector, ah this is a nonzero vector, ah at every point there is a nonzero vector, ah a nonzero tangent vector, and the tangent vector changes continuously along the curve.
+------------------------------
+[2026-03-24 19:28:59] TRANSLATION
+，那怎么叙述它是连续变化的呢
+→ , so how do we describe it as changing continuously?
+------------------------------
+[2026-03-24 19:29:00] RECOGNITION_INTERIM
+？切向量是连续变化的
+------------------------------
+[2026-03-24 19:29:02] TRANSLATION
+？切向量是连续变化的
+→ ? The tangent vector changes continuously.
+------------------------------
+[2026-03-24 19:29:07] RECOGNITION_INTERIM
+，嗯唉也就是说关于P的这三个函数，xtytzt它们的一阶
+------------------------------
+[2026-03-24 19:29:09] TRANSLATION
+，嗯唉也就是说关于P的这三个函数，xtytzt它们的一阶
+→ , um, that is to say, regarding these three functions of P, x(t), y(t), z(t), their first-order
+------------------------------
+[2026-03-24 19:29:10] RECOGNITION_INTERIM
+导数都是连续的函数
+------------------------------
+[2026-03-24 19:29:11] TRANSLATION
+导数都是连续的函数
+→ derivatives are all continuous functions
+------------------------------
+[2026-03-24 19:29:24] RECOGNITION_INTERIM
+，唉这就是切向量是连续变化的，啊来满足这样的两条，那这条曲线就是光滑的了。好，那我们在曲面S上的经过点M0，任意取一条光滑的曲线L呢
+------------------------------
+[2026-03-24 19:29:28] TRANSLATION
+，唉这就是切向量是连续变化的，啊来满足这样的两条，那这条曲线就是光滑的了。好，那我们在曲面S上的经过点M0，任意取一条光滑的曲线L呢
+→ Well, this means the tangent vector changes continuously, satisfying these two conditions, so this curve is smooth. Good, then on the surface S, passing through point M0, we arbitrarily take a smooth curve L.
+------------------------------
+[2026-03-24 19:29:31] RECOGNITION_INTERIM
+，啊任意取一条光滑的曲线L，那么这样由于
+------------------------------
+[2026-03-24 19:29:32] TRANSLATION
+，啊任意取一条光滑的曲线L，那么这样由于
+→ , ah, arbitrarily take a smooth curve L, then in this way, since
+------------------------------
+[2026-03-24 19:29:37] RECOGNITION_INTERIM
+曲面的方程是fxyz等于0了，而这条曲线是在曲面上面取的
+------------------------------
+[2026-03-24 19:29:40] TRANSLATION
+曲面的方程是fxyz等于0了，而这条曲线是在曲面上面取的
+→ The equation of the surface is f(x, y, z) = 0, and this curve is taken on the surface.
+------------------------------
+[2026-03-24 19:29:40] RECOGNITION_INTERIM
+，所以这个曲面的方程要满足
+------------------------------
+[2026-03-24 19:29:42] TRANSLATION
+，所以这个曲面的方程要满足
+→ so the equation of the surface must satisfy
+------------------------------
+[2026-03-24 19:29:43] RECOGNITION_INTERIM
+这个曲线呢
+------------------------------
+[2026-03-24 19:29:44] TRANSLATION
+这个曲线呢
+→ This curve, then
+------------------------------
+[2026-03-24 19:29:52] RECOGNITION_INTERIM
+的方程呃曲线上的点也在曲面上了，唉所以就有fxbybzt，这是恒等为0的啦
+------------------------------
+[2026-03-24 19:30:00] RECOGNITION_INTERIM
+。好，那么在左边啊 fxuydzt，这是光明T的复合函数了
+------------------------------
+[2026-03-24 19:30:03] TRANSLATION
+的方程呃曲线上的点也在曲面上了，唉所以就有fxbybzt，这是恒等为0的啦
+→ Fixed version: 
+The equation of the curve ensures that points on the curve also lie on the surface, so we have \( f(x, y, z) = 0 \), which holds identically.
+
+Explanation of changes: 
+1. Replaced the unclear “呃” and “唉” with appropriate English phrasing. 
+2. Corrected “fxbybzt” to the mathematical notation \( f(x, y, z) = 0 \). 
+3. Clarified “恒等为0” as “holds identically” to convey that the equation is satisfied for all points on the curve.
+
+Translation (mathematically accurate, in English only):
+------------------------------
+[2026-03-24 19:30:03] TRANSLATION
+。好，那么在左边啊 fxuydzt，这是光明T的复合函数了
+→ . Well, then on the left side, f(x, y, z, t), this is a composite function of the parameter t.
+------------------------------
+[2026-03-24 19:30:06] RECOGNITION_INTERIM
+，那外层函数大F是可微的，内层函数xyz都是关于K的可导函数
+------------------------------
+[2026-03-24 19:30:10] RECOGNITION_INTERIM
+，唉所以复合函数就是关于T的可导函数了
+------------------------------
+[2026-03-24 19:30:12] TRANSLATION
+，唉所以复合函数就是关于T的可导函数了
+→ , so the composite function is differentiable with respect to t.
+------------------------------
+[2026-03-24 19:30:14] RECOGNITION_INTERIM
+。啊因此复合函数在T0这一点处
+------------------------------
+[2026-03-24 19:30:14] TRANSLATION
+，那外层函数大F是可微的，内层函数xyz都是关于K的可导函数
+→ , then the outer function \( F \) is differentiable, and the inner functions \( x, y, z \) are all differentiable functions with respect to \( t \).
+------------------------------
+[2026-03-24 19:30:17] TRANSLATION
+。啊因此复合函数在T0这一点处
+→ . Therefore, the composite function is differentiable at the point \( t_0 \).
+------------------------------
+[2026-03-24 19:30:30] RECOGNITION_INTERIM
+对T求导，那么当T取T0的时候，对应的xyz分别是X0、Y0、Z0了，啊因此我们就得到了F在M0这一点处对X求偏导，乘以X在T0点的导数加上F在F
+------------------------------
+[2026-03-24 19:30:39] RECOGNITION_INTERIM
+，M0这一点对Y求偏导乘以Y在K0点的导数加上F在M0对Z的偏导乘以Z在T0点的导数这是等于0了
+------------------------------
+[2026-03-24 19:30:41] TRANSLATION
+对T求导，那么当T取T0的时候，对应的xyz分别是X0、Y0、Z0了，啊因此我们就得到了F在M0这一点处对X求偏导，乘以X在T0点的导数加上F在F
+→ Differentiate with respect to \( t \), then when \( t \) takes \( t_0 \), the corresponding \( x, y, z \) are \( x_0, y_0, z_0 \) respectively, so we obtain the partial derivative of \( F \) with respect to \( x \) at the point \( M_0 \), multiplied by the derivative of \( x \) at \( t_0 \), plus \( F \) with respect to
+------------------------------
+[2026-03-24 19:30:42] RECOGNITION_INTERIM
+。唉这个意思呢就是这两个向量
+------------------------------
+[2026-03-24 19:30:45] TRANSLATION
+。唉这个意思呢就是这两个向量
+→ . Well, the meaning here is that these two vectors
+------------------------------
+[2026-03-24 19:30:49] RECOGNITION_INTERIM
+是正交的啦唉两个向量的点乘等于0，啊所以这两个向量是垂直的
+------------------------------
+[2026-03-24 19:30:50] TRANSLATION
+，M0这一点对Y求偏导乘以Y在K0点的导数加上F在M0对Z的偏导乘以Z在T0点的导数这是等于0了
+→ , the partial derivative of \( F \) with respect to \( y \) at the point \( M_0 \) multiplied by the derivative of \( y \) at \( t_0 \), plus the partial derivative of \( F \) with respect to \( z \) at \( M_0 \) multiplied by the derivative of \( z \) at \( t_0 \), equals 0.
+------------------------------
+[2026-03-24 19:30:52] TRANSLATION
+是正交的啦唉两个向量的点乘等于0，啊所以这两个向量是垂直的
+→ are orthogonal. The dot product of the two vectors equals 0, so these two vectors are perpendicular.
+------------------------------
+[2026-03-24 19:31:03] RECOGNITION_INTERIM
+。好，那我们看那这个套呢是曲线L在M0这一点处的切向量了，而这条曲线L呢是在曲面上面经过点M0，你任意取得这样一条曲线了
+------------------------------
+[2026-03-24 19:31:05] RECOGNITION_INTERIM
+。唉
+------------------------------
+[2026-03-24 19:31:07] RECOGNITION_INTERIM
+那我们看到了那这个向量
+------------------------------
+[2026-03-24 19:31:08] TRANSLATION
+。好，那我们看那这个套呢是曲线L在M0这一点处的切向量了，而这条曲线L呢是在曲面上面经过点M0，你任意取得这样一条曲线了
+→ . Well, then we see that this vector \(\tau\) is the tangent vector of the curve \(L\) at the point \(M_0\), and this curve \(L\) lies on the surface and passes through the point \(M_0\); you arbitrarily take such a curve.
+------------------------------
+[2026-03-24 19:31:09] TRANSLATION
+。唉
+→ . Well, the meaning here is that these two vectors are orthogonal. The dot product of the two vectors equals 0, so these two vectors are perpendicular.
+------------------------------
+[2026-03-24 19:31:09] TRANSLATION
+那我们看到了那这个向量
+→ So we see that this vector
+------------------------------
+[2026-03-24 19:31:14] RECOGNITION_INTERIM
+ N，也就是函数F在M0这一点的梯度向量
+------------------------------
+[2026-03-24 19:31:16] TRANSLATION
+ N，也就是函数F在M0这一点的梯度向量
+→ N, which is the gradient vector of the function F at the point M₀
+------------------------------
+[2026-03-24 19:31:22] RECOGNITION_INTERIM
+。它与曲面上经过点M0的任何一条光滑曲线的切向量都是垂直的
+------------------------------
+[2026-03-24 19:31:25] TRANSLATION
+。它与曲面上经过点M0的任何一条光滑曲线的切向量都是垂直的
+→ . It is perpendicular to the tangent vector of any smooth curve on the surface that passes through the point M₀.
+------------------------------
+[2026-03-24 19:31:34] RECOGNITION_INTERIM
+，这就说明这些切向量一定位于经过点M0的同一个平面内的，唉我们把这个平面就称为是曲面S，在M0这一点处的切平面了
+------------------------------
+[2026-03-24 19:31:38] TRANSLATION
+，这就说明这些切向量一定位于经过点M0的同一个平面内的，唉我们把这个平面就称为是曲面S，在M0这一点处的切平面了
+→ This indicates that these tangent vectors must lie in the same plane passing through the point M₀. This plane is called the tangent plane to the surface S at the point M₀.
+------------------------------
+[2026-03-24 19:31:41] RECOGNITION_INTERIM
+，而把这个向量N就称为是曲面S在M0这一点处的法向量
+------------------------------
+[2026-03-24 19:31:43] TRANSLATION
+，而把这个向量N就称为是曲面S在M0这一点处的法向量
+→ , and this vector N is called the normal vector of the surface S at the point M₀.
+------------------------------
+[2026-03-24 19:31:56] RECOGNITION_INTERIM
+，啊法向量啊这个法向量呢就是函数F在M0点的梯度向量。好，那么现在我们来求这个浅平面的方程，那就在切平面a，啊这个曲面S在M0的切平面内
+------------------------------
+[2026-03-24 19:32:00] TRANSLATION
+，啊法向量啊这个法向量呢就是函数F在M0点的梯度向量。好，那么现在我们来求这个浅平面的方程，那就在切平面a，啊这个曲面S在M0的切平面内
+→ , and this normal vector is precisely the gradient vector of the function F at the point M₀. Good, now let's find the equation of this tangent plane. So, within the tangent plane a—ah, the tangent plane to the surface S at M₀—
+------------------------------
+[2026-03-24 19:32:04] RECOGNITION_INTERIM
+内任意取一点M，那 M0M呢就在切平面内，所以它和
+------------------------------
+[2026-03-24 19:32:06] TRANSLATION
+内任意取一点M，那 M0M呢就在切平面内，所以它和
+→ Take any point M within it, then M₀M lies in the tangent plane, so it and
+------------------------------
+[2026-03-24 19:32:13] RECOGNITION_INTERIM
+切平面的法向量N就是垂直的了，那么这样就写出了曲面S在M0这一点处的切平面的方程
+------------------------------
+[2026-03-24 19:32:18] TRANSLATION
+切平面的法向量N就是垂直的了，那么这样就写出了曲面S在M0这一点处的切平面的方程
+→ The normal vector N of the tangent plane is perpendicular, and thus we can write the equation of the tangent plane to the surface S at the point M₀.
+------------------------------
+[2026-03-24 19:32:20] RECOGNITION_INTERIM
+。所以同学们从这儿我们看到了，你给出曲面的方程呢是
+------------------------------
+[2026-03-24 19:32:22] TRANSLATION
+。所以同学们从这儿我们看到了，你给出曲面的方程呢是
+→ So, students, from this we can see that when the equation of the surface is given as
+------------------------------
+[2026-03-24 19:32:24] RECOGNITION_INTERIM
+隐函数的形式给出的，大fxyz=0
+------------------------------
+[2026-03-24 19:32:27] TRANSLATION
+隐函数的形式给出的，大fxyz=0
+→ When the equation of the surface is given in the form of an implicit function, F(x, y, z) = 0
+------------------------------
+[2026-03-24 19:32:35] RECOGNITION_INTERIM
+，这是曲面的方程，我们要求曲面F在啊这个曲面在M0这一点处的切平面的方程
+------------------------------
+[2026-03-24 19:32:38] RECOGNITION_INTERIM
+，关键的是求什么呀
+------------------------------
+[2026-03-24 19:32:39] TRANSLATION
+，这是曲面的方程，我们要求曲面F在啊这个曲面在M0这一点处的切平面的方程
+→ This is the equation of the surface. We need to find the equation of the tangent plane to the surface F, ah, to this surface at the point M₀.
+------------------------------
+[2026-03-24 19:32:41] TRANSLATION
+，关键的是求什么呀
+→ , the key is to find what?
+------------------------------
+[2026-03-24 19:32:46] RECOGNITION_INTERIM
+？关键的是求什么
+------------------------------
+[2026-03-24 19:32:47] TRANSLATION
+？关键的是求什么
+→ What is the key thing to find?
+------------------------------
+[2026-03-24 19:32:52] RECOGNITION_INTERIM
+？曲面在这一点处的
+------------------------------
+[2026-03-24 19:32:53] TRANSLATION
+？曲面在这一点处的
+→ ? The surface at this point
+------------------------------
+[2026-03-24 19:32:57] RECOGNITION_INTERIM
+爱发响，呢你看法向量求出就是N啦
+------------------------------
+[2026-03-24 19:32:59] TRANSLATION
+爱发响，呢你看法向量求出就是N啦
+→ First, the normal vector is found, which is N.
+------------------------------
+[2026-03-24 19:33:03] RECOGNITION_INTERIM
+，是吧？法向量求出，那N与M0M的点乘是等于0了
+------------------------------
+[2026-03-24 19:33:07] TRANSLATION
+，是吧？法向量求出，那N与M0M的点乘是等于0了
+→ , right? The normal vector is found, so the dot product of N and M0M is equal to 0.
+------------------------------
+[2026-03-24 19:33:14] RECOGNITION_INTERIM
+，那 M0是给定的这一点了，那 M是切平面上面任意取得了一点了，啊所以M0M这个向量就是X减X0，Y减Y0，Z减Z0了
+------------------------------
+[2026-03-24 19:33:16] RECOGNITION_INTERIM
+，啊因式
+------------------------------
+[2026-03-24 19:33:19] TRANSLATION
+，啊因式
+→ , ah factorization
+------------------------------
+[2026-03-24 19:33:22] TRANSLATION
+，那 M0是给定的这一点了，那 M是切平面上面任意取得了一点了，啊所以M0M这个向量就是X减X0，Y减Y0，Z减Z0了
+→ , then M0 is the given point, and M is any point taken on the tangent plane, so the vector M0M is (X - X0, Y - Y0, Z - Z0).
+------------------------------
+[2026-03-24 19:33:25] RECOGNITION_INTERIM
+要求曲面在一点处的切平面的方程，那我们关键的就是求曲面在这一点处的
+------------------------------
+[2026-03-24 19:33:28] TRANSLATION
+要求曲面在一点处的切平面的方程，那我们关键的就是求曲面在这一点处的
+→ To find the equation of the tangent plane to a surface at a given point, the key is to determine the normal vector to the surface at that point.
+------------------------------
+[2026-03-24 19:33:33] RECOGNITION_INTERIM
+法向量唉这个法向量就是F，这个函数在M0点的梯度向量嗯
+------------------------------
+[2026-03-24 19:33:35] TRANSLATION
+法向量唉这个法向量就是F，这个函数在M0点的梯度向量嗯
+→ The normal vector, well, this normal vector is the gradient vector of the function F at the point M0, hmm.
+------------------------------
+[2026-03-24 19:33:38] RECOGNITION_INTERIM
+。啊所以同学们看到这个知识点是很简单
+------------------------------
+[2026-03-24 19:33:39] TRANSLATION
+。啊所以同学们看到这个知识点是很简单
+→ Ah, so students see that this concept is quite simple.
+------------------------------
+[2026-03-24 19:33:44] RECOGNITION_INTERIM
+，啊但是如果你掌握不了，让你来求就很复杂，你就不会求
+------------------------------
+[2026-03-24 19:33:46] TRANSLATION
+，啊但是如果你掌握不了，让你来求就很复杂，你就不会求
+→ Ah, but if you haven't mastered it, when asked to find it, it becomes very complicated, and you won't know how to do it.
+------------------------------
+[2026-03-24 19:33:58] RECOGNITION_INTERIM
+。啊所以我们要掌握它啊要求在这一点处的切平面方程，关键就是求曲面S在M0点处的法向量，这个法向量怎么求呢方程？曲面的方程是fxyz等于0
+------------------------------
+[2026-03-24 19:34:00] RECOGNITION_INTERIM
+，这样给出的，所以
+------------------------------
+[2026-03-24 19:34:02] TRANSLATION
+，这样给出的，所以
+→ , given in this way, so
+------------------------------
+[2026-03-24 19:34:07] TRANSLATION
+。啊所以我们要掌握它啊要求在这一点处的切平面方程，关键就是求曲面S在M0点处的法向量，这个法向量怎么求呢方程？曲面的方程是fxyz等于0
+→ Ah, so we need to master it. To find the equation of the tangent plane at this point, the key is to find the normal vector of the surface S at point M0. How do we find this normal vector? The equation of the surface is f(x, y, z) = 0.
+------------------------------
+[2026-03-24 19:34:07] RECOGNITION_INTERIM
+这个曲面在一点处的法向量就是函数大F在M0点的梯度向量
+------------------------------
+[2026-03-24 19:34:09] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 19:34:09] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 19:34:11] TRANSLATION
+这个曲面在一点处的法向量就是函数大F在M0点的梯度向量
+→ The normal vector of the surface at a point is precisely the gradient vector of the function F at point M0.
+------------------------------
+[2026-03-24 19:34:24] RECOGNITION_INTERIM
+，那么接下来我们说啊经过点M零与曲面S在M零点处的切平面垂直的这样一条直线，就称为是曲面S在M0点处的法线
+------------------------------
+[2026-03-24 19:34:27] TRANSLATION
+，那么接下来我们说啊经过点M零与曲面S在M零点处的切平面垂直的这样一条直线，就称为是曲面S在M0点处的法线
+→ , then next we say that a line passing through point M0 and perpendicular to the tangent plane of surface S at point M0 is called the normal line of surface S at point M0.
+------------------------------
+[2026-03-24 19:34:28] RECOGNITION_INTERIM
+。所以从这个概念上我们看到了
+------------------------------
+[2026-03-24 19:34:30] TRANSLATION
+。所以从这个概念上我们看到了
+→ . Therefore, from this concept, we see that
+------------------------------
+[2026-03-24 19:34:33] RECOGNITION_INTERIM
+，市面上在M0点这的法线的方向向量是谁呀
+------------------------------
+[2026-03-24 19:34:35] TRANSLATION
+，市面上在M0点这的法线的方向向量是谁呀
+→ , what is the direction vector of the normal line at point M0?
+------------------------------
+[2026-03-24 19:34:39] RECOGNITION_INTERIM
+？就是曲面S在ma这个店铺的法向量
+------------------------------
+[2026-03-24 19:34:41] RECOGNITION_INTERIM
+，唉也就是
+------------------------------
+[2026-03-24 19:34:41] TRANSLATION
+？就是曲面S在ma这个店铺的法向量
+→ ? That is the normal vector of surface S at point M0.
+------------------------------
+[2026-03-24 19:34:45] TRANSLATION
+，唉也就是
+→ , then next we say that a line passing through point M0 and perpendicular to the tangent plane of surface S at point M0 is called the normal line of surface S at point M0. Therefore, from this concept, we see that, what is the direction vector of the normal line at point M0?
+------------------------------
+[2026-03-24 19:34:51] RECOGNITION_INTERIM
+ F在M0的频度向量了，好，那直线的方向已知经过一点那我们就可以
+------------------------------
+[2026-03-24 19:34:54] TRANSLATION
+ F在M0的频度向量了，好，那直线的方向已知经过一点那我们就可以
+→ The gradient vector of F at M0, good. So the direction of the line is known, and it passes through a point, then we can
+------------------------------
+[2026-03-24 19:34:57] RECOGNITION_INTERIM
+通过点向式方程写出曲面在M0这一点处的法线方程了
+------------------------------
+[2026-03-24 19:34:59] TRANSLATION
+通过点向式方程写出曲面在M0这一点处的法线方程了
+→ Using the point-direction form equation, we can write the equation of the normal line of the surface at point M0.
+------------------------------
+[2026-03-24 19:35:06] RECOGNITION_INTERIM
+。啊好，那这个法线方程，呢啊这就是啊这就是曲面S在M0这一点处的法线方程
+------------------------------
+[2026-03-24 19:35:07] RECOGNITION_INTERIM
+。嗯
+------------------------------
+[2026-03-24 19:35:08] TRANSLATION
+。啊好，那这个法线方程，呢啊这就是啊这就是曲面S在M0这一点处的法线方程
+→ Ah, good, then this normal line equation, well, this is indeed the equation of the normal line of surface S at point M0.
+------------------------------
+[2026-03-24 19:35:13] TRANSLATION
+。嗯
+→ . Well, then next we say that a line passing through point M0 and perpendicular to the tangent plane of surface S at point M0 is called the normal line of surface S at point M0. Therefore, from this concept, we see that, what is the direction vector of the normal line at point M0? 
+The gradient vector of F at M0, good. So the direction of the line is known, and it passes through a point, then we can 
+Using the point-direction form equation, we can write the equation of the normal line of the surface at point M0.
+------------------------------
+[2026-03-24 19:35:22] RECOGNITION_INTERIM
+好
+------------------------------
+[2026-03-24 19:35:28] RECOGNITION_INTERIM
+，那我们说如果将这个曲面给它退化到平面上
+------------------------------
+[2026-03-24 19:35:29] TRANSLATION
+好
+→ Okay. 
+
+Using the point-direction form equation, we can write the equation of the normal line of the surface at point M₀. 
+Ah, good, then this normal line equation—well, this is indeed the equation of the normal line of surface S at point M₀. 
+Well, then next we say that a line passing through point M₀ and perpendicular to the tangent plane of surface S at point M₀ is called the normal line of surface S at point M₀. Therefore, from this definition, we see that—what is the direction vector of the normal line at point M₀? 
+The gradient vector of F at M₀, good. So the direction of the line is known, and it passes through a point, then we can use the point-direction form equation to write the equation of the normal line of the surface at point M₀.
+------------------------------
+[2026-03-24 19:35:33] TRANSLATION
+，那我们说如果将这个曲面给它退化到平面上
+→ , then we say if we degenerate this surface to a plane
+------------------------------
+[2026-03-24 19:35:38] RECOGNITION_INTERIM
+，啊那么它是什么？呢啊退化到平面上，那就是少一个变量，呢比如退化到xoy平面上，那就是fxy等于0了，唉这个方程它能
+------------------------------
+[2026-03-24 19:35:41] RECOGNITION_INTERIM
+它确定了一个什么东西呀
+------------------------------
+[2026-03-24 19:35:42] TRANSLATION
+它确定了一个什么东西呀
+→ What does it determine?
+------------------------------
+[2026-03-24 19:35:44] TRANSLATION
+，啊那么它是什么？呢啊退化到平面上，那就是少一个变量，呢比如退化到xoy平面上，那就是fxy等于0了，唉这个方程它能
+→ Ah, then what is it? Degenerating to a plane means one less variable. For example, degenerating to the xOy plane, that would be \( f(x, y) = 0 \). Ah, this equation can...
+------------------------------
+[2026-03-24 19:35:53] RECOGNITION_INTERIM
+？唉我们说如果函数F在P0点的函数值是等于0的，啊 P0坐标是X0Y0，那么F在P0点关于Y的偏导数是不等于0的，那么这样那这个函数
+------------------------------
+[2026-03-24 19:35:59] RECOGNITION_INTERIM
+ fxy等于0，这个方程就确定了一个隐函数了，那这个隐函数就是
+------------------------------
+[2026-03-24 19:36:02] TRANSLATION
+？唉我们说如果函数F在P0点的函数值是等于0的，啊 P0坐标是X0Y0，那么F在P0点关于Y的偏导数是不等于0的，那么这样那这个函数
+→ ? Well, we say if the function value of F at point P0 is equal to 0, ah, the coordinates of P0 are (X0, Y0), and the partial derivative of F with respect to Y at point P0 is not equal to 0, then this function...
+------------------------------
+[2026-03-24 19:36:05] RECOGNITION_INTERIM
+ Y是关于X的函数了，唉 Y是关于X的函数
+------------------------------
+[2026-03-24 19:36:07] TRANSLATION
+ fxy等于0，这个方程就确定了一个隐函数了，那这个隐函数就是
+→ fxy equals 0, this equation then determines an implicit function, and that implicit function is
+------------------------------
+[2026-03-24 19:36:08] TRANSLATION
+ Y是关于X的函数了，唉 Y是关于X的函数
+→ Y is a function of X, ah, Y is a function of X.
+------------------------------
+[2026-03-24 19:36:17] RECOGNITION_INTERIM
+，所以它的几何图形就代表着平面上的一条曲线了，唉因此大 fxy等于0啊大fxy等于0就可能
+------------------------------
+[2026-03-24 19:36:23] TRANSLATION
+，所以它的几何图形就代表着平面上的一条曲线了，唉因此大 fxy等于0啊大fxy等于0就可能
+→ Therefore, its geometric representation corresponds to a curve in the plane. Hence, the equation \( F(x, y) = 0 \) corresponds to such a curve.
+------------------------------
+[2026-03-24 19:36:26] RECOGNITION_INTERIM
+是平面上一条曲线的方程，唉这个方程呢就是隐式方程的啊隐函数给值的方程了。好
+------------------------------
+[2026-03-24 19:36:28] TRANSLATION
+是平面上一条曲线的方程，唉这个方程呢就是隐式方程的啊隐函数给值的方程了。好
+→ is the equation of a curve in the plane. This equation is precisely the implicit equation, the equation that defines the implicit function. Good.
+------------------------------
+[2026-03-24 19:36:36] RECOGNITION_INTERIM
+，那这种情况下，那同学们看我们如何来求？啊如果它是一条曲线，那么如何来求这条曲线在P0这一点处的
+------------------------------
+[2026-03-24 19:36:39] TRANSLATION
+，那这种情况下，那同学们看我们如何来求？啊如果它是一条曲线，那么如何来求这条曲线在P0这一点处的
+→ , in this case, how do we proceed to find it? Ah, if it is a curve, then how do we find, at this point P0,
+------------------------------
+[2026-03-24 19:36:47] RECOGNITION_INTERIM
+？这是平面上的一条曲线了，啊平面上的一条曲线如何求这条曲线在P0点处的切线和它的法线呢
+------------------------------
+[2026-03-24 19:36:50] TRANSLATION
+？这是平面上的一条曲线了，啊平面上的一条曲线如何求这条曲线在P0点处的切线和它的法线呢
+→ ? This is a curve in the plane. So, how do we find the tangent line and the normal line to this curve at the point P0?
+------------------------------
+[2026-03-24 19:36:57] RECOGNITION_INTERIM
+？经过一点要求，切线和法线的方程，那就是要知道切线和法线的方向向量了
+------------------------------
+[2026-03-24 19:37:00] RECOGNITION_INTERIM
+。那么同学们看
+------------------------------
+[2026-03-24 19:37:01] TRANSLATION
+。那么同学们看
+→ . So, students, look
+------------------------------
+[2026-03-24 19:37:01] TRANSLATION
+？经过一点要求，切线和法线的方程，那就是要知道切线和法线的方向向量了
+→ ? Given a point, to find the equations of the tangent and normal lines, we need to know the direction vectors of the tangent and normal lines.
+------------------------------
+[2026-03-24 19:37:04] RECOGNITION_INTERIM
+，它是由曲面绘画而来的
+------------------------------
+[2026-03-24 19:37:05] TRANSLATION
+，它是由曲面绘画而来的
+→ It is derived from the surface drawing.
+------------------------------
+[2026-03-24 19:37:15] RECOGNITION_INTERIM
+，所以我们就知道了这一条曲线 L啊平面曲线L了，它在P零这一点处的法向量是什么呀
+------------------------------
+[2026-03-24 19:37:19] RECOGNITION_INTERIM
+？法向量
+------------------------------
+[2026-03-24 19:37:19] TRANSLATION
+，所以我们就知道了这一条曲线 L啊平面曲线L了，它在P零这一点处的法向量是什么呀
+→ So, we know that for this curve L, a planar curve L, what is the normal vector at the point P₀?
+------------------------------
+[2026-03-24 19:37:21] TRANSLATION
+？法向量
+→ ? Normal vector
+------------------------------
+[2026-03-24 19:37:29] RECOGNITION_INTERIM
+就是F在P0点对X做偏导，F在P0点对Y求偏导唉
+------------------------------
+[2026-03-24 19:37:32] RECOGNITION_INTERIM
+，这是它的法向量，那么切向量呢
+------------------------------
+[2026-03-24 19:37:33] TRANSLATION
+就是F在P0点对X做偏导，F在P0点对Y求偏导唉
+→ It is the partial derivative of F with respect to X at point P₀, and the partial derivative of F with respect to Y at point P₀.
+------------------------------
+[2026-03-24 19:37:36] TRANSLATION
+，这是它的法向量，那么切向量呢
+→ , this is its normal vector. Then what about the tangent vector?
+------------------------------
+[2026-03-24 19:37:37] RECOGNITION_INTERIM
+切向量是与法向量不一致的啦
+------------------------------
+[2026-03-24 19:37:39] TRANSLATION
+切向量是与法向量不一致的啦
+→ The tangent vector is not the same as the normal vector.
+------------------------------
+[2026-03-24 19:37:42] RECOGNITION_INTERIM
+，唉所以就是F在P0点关于Y求偏导
+------------------------------
+[2026-03-24 19:37:44] TRANSLATION
+，唉所以就是F在P0点关于Y求偏导
+→ , so it is the partial derivative of F with respect to Y at point P₀.
+------------------------------
+[2026-03-24 19:37:46] RECOGNITION_INTERIM
+，负的F在P0点对X求偏导了
+------------------------------
+[2026-03-24 19:37:48] TRANSLATION
+，负的F在P0点对X求偏导了
+→ , negative partial derivative of F with respect to X at point P₀.
+------------------------------
+[2026-03-24 19:37:49] RECOGNITION_INTERIM
+，啊或者是它的负负数倍
+------------------------------
+[2026-03-24 19:37:50] TRANSLATION
+，啊或者是它的负负数倍
+→ , or its negative multiple
+------------------------------
+[2026-03-24 19:38:00] RECOGNITION_INTERIM
+。好，那么前向量和法向量有了，所以我们就可以写出曲线a的平面曲线L在P零这一点处的法线方程
+------------------------------
+[2026-03-24 19:38:03] TRANSLATION
+。好，那么前向量和法向量有了，所以我们就可以写出曲线a的平面曲线L在P零这一点处的法线方程
+→ . Good, so now we have the tangent vector and the normal vector, therefore we can write the equation of the normal line to the plane curve L of curve a at the point P₀.
+------------------------------
+[2026-03-24 19:38:16] RECOGNITION_INTERIM
+，法线方程点线式方程，X减X0比上F在P0点对X求偏导，就等于Y减Y0比上F在P0点，对以Y求偏导了
+------------------------------
+[2026-03-24 19:38:24] RECOGNITION_INTERIM
+。好，那这条曲线L在P0这一点处的切线方程
+------------------------------
+[2026-03-24 19:38:26] TRANSLATION
+，法线方程点线式方程，X减X0比上F在P0点对X求偏导，就等于Y减Y0比上F在P0点，对以Y求偏导了
+→ , the normal line equation in point-direction form: (X - X₀) over (partial derivative of F with respect to X at point P₀) equals (Y - Y₀) over (partial derivative of F with respect to Y at point P₀).
+------------------------------
+[2026-03-24 19:38:26] TRANSLATION
+。好，那这条曲线L在P0这一点处的切线方程
+→ . Good, then the equation of the tangent line to this curve L at the point P₀
+------------------------------
+[2026-03-24 19:38:28] RECOGNITION_INTERIM
+是什么呢
+------------------------------
+[2026-03-24 19:38:29] TRANSLATION
+是什么呢
+→ What is it?
+------------------------------
+[2026-03-24 19:38:30] RECOGNITION_INTERIM
+？切线方程
+------------------------------
+[2026-03-24 19:38:33] TRANSLATION
+？切线方程
+→ ? Tangent line equation
+------------------------------
+[2026-03-24 19:38:35] RECOGNITION_INTERIM
+，点线式方程可以写吧
+------------------------------
+[2026-03-24 19:38:37] TRANSLATION
+，点线式方程可以写吧
+→ , the point-slope form equation can be written, right?
+------------------------------
+[2026-03-24 19:38:50] RECOGNITION_INTERIM
+，唉点线式方程写出来应为该带一个符号，那我们就这样来写啊整理一下，也就是F在P0点对X求偏导乘以X减X0+一个F在P0点，对于Y求偏导乘以Y减Y
+------------------------------
+[2026-03-24 19:38:51] RECOGNITION_INTERIM
+到理样
+------------------------------
+[2026-03-24 19:38:54] TRANSLATION
+到理样
+→ Similarly
+
+Translation (mathematically accurate, in English only):
+------------------------------
+[2026-03-24 19:38:56] RECOGNITION_INTERIM
+。好，啊这是平面上的
+------------------------------
+[2026-03-24 19:38:57] TRANSLATION
+。好，啊这是平面上的
+→ . Okay, ah, this is on the plane
+------------------------------
+[2026-03-24 19:38:59] TRANSLATION
+，唉点线式方程写出来应为该带一个符号，那我们就这样来写啊整理一下，也就是F在P0点对X求偏导乘以X减X0+一个F在P0点，对于Y求偏导乘以Y减Y
+→ , well, the point-slope form equation should include a minus sign, so let's write it like this and tidy it up a bit. That is, the partial derivative of F at point P0 with respect to X times (X minus X0), plus the partial derivative of F at point P0 with respect to Y times (Y minus Y0)
+------------------------------
+[2026-03-24 19:39:00] RECOGNITION_INTERIM
+一条曲线，在一点处的切线和法线的方程
+------------------------------
+[2026-03-24 19:39:06] TRANSLATION
+一条曲线，在一点处的切线和法线的方程
+→ A curve, the equations of the tangent and normal lines at a point
+------------------------------
+[2026-03-24 19:39:10] RECOGNITION_INTERIM
+。好，那我们呢换到啊新的文件里头，接下来呢我们继续这个微分学的几何应用方面的学习
+------------------------------
+[2026-03-24 19:39:14] TRANSLATION
+。好，那我们呢换到啊新的文件里头，接下来呢我们继续这个微分学的几何应用方面的学习
+→ Okay, so let's switch to the new document. Next, we will continue our study on the geometric applications of differential calculus.
+------------------------------
+[2026-03-24 19:39:16] RECOGNITION_INTERIM
+。嗯这是刚才看的曲面的方程呢是隐函数的形式给出的
+------------------------------
+[2026-03-24 19:39:20] TRANSLATION
+。嗯这是刚才看的曲面的方程呢是隐函数的形式给出的
+→ Well, the equation of the surface we just looked at is given in implicit form.
+------------------------------
+[2026-03-24 19:39:23] RECOGNITION_INTERIM
+。好，那在这儿呢给出一个概念，啊这个曲面光滑的概念
+------------------------------
+[2026-03-24 19:39:25] TRANSLATION
+。好，那在这儿呢给出一个概念，啊这个曲面光滑的概念
+→ . Okay, so here we introduce a concept, the concept of a smooth surface.
+------------------------------
+[2026-03-24 19:39:35] RECOGNITION_INTERIM
+。啊刚才我们回顾了是曲线光滑，一条曲线是光滑的，这个是这条曲线上面处处有非零的切向量，并且切向量在曲线上是连续变化的
+------------------------------
+[2026-03-24 19:39:39] RECOGNITION_INTERIM
+，唉那这个曲面是光滑的，啊含义是什么呢
+------------------------------
+[2026-03-24 19:39:40] TRANSLATION
+。啊刚才我们回顾了是曲线光滑，一条曲线是光滑的，这个是这条曲线上面处处有非零的切向量，并且切向量在曲线上是连续变化的
+→ Ah, just now we reviewed that a curve is smooth; a curve is smooth if it has a non-zero tangent vector everywhere on the curve, and the tangent vector changes continuously along the curve.
+------------------------------
+[2026-03-24 19:39:42] TRANSLATION
+，唉那这个曲面是光滑的，啊含义是什么呢
+→ Well, so this surface is smooth. What does that mean?
+------------------------------
+[2026-03-24 19:39:44] RECOGNITION_INTERIM
+？啊曲面S它是光滑的
+------------------------------
+[2026-03-24 19:39:47] TRANSLATION
+？啊曲面S它是光滑的
+→ Ah, the surface S is smooth.
+------------------------------
+[2026-03-24 19:39:50] RECOGNITION_INTERIM
+，那指的是
+------------------------------
+[2026-03-24 19:39:52] TRANSLATION
+，那指的是
+→ , that means
+------------------------------
+[2026-03-24 19:39:53] RECOGNITION_INTERIM
+曲面上
+------------------------------
+[2026-03-24 19:39:54] TRANSLATION
+曲面上
+→ On the surface
+------------------------------
+[2026-03-24 19:39:56] RECOGNITION_INTERIM
+处处
+------------------------------
+[2026-03-24 19:39:59] RECOGNITION_INTERIM
+有非0的
+------------------------------
+[2026-03-24 19:40:00] TRANSLATION
+处处
+→ Everywhere
+------------------------------
+[2026-03-24 19:40:00] TRANSLATION
+有非0的
+→ There exists a nonzero
+------------------------------
+[2026-03-24 19:40:01] RECOGNITION_INTERIM
+法向量
+------------------------------
+[2026-03-24 19:40:04] TRANSLATION
+法向量
+→ Normal vector
+------------------------------
+[2026-03-24 19:40:09] RECOGNITION_INTERIM
+，并且
+------------------------------
+[2026-03-24 19:40:10] RECOGNITION_INTERIM
+法向量
+------------------------------
+[2026-03-24 19:40:10] TRANSLATION
+法向量
+→ Normal vector
+------------------------------
+[2026-03-24 19:40:10] TRANSLATION
+，并且
+→ , and
+------------------------------
+[2026-03-24 19:40:16] RECOGNITION_INTERIM
+在曲面上
+------------------------------
+[2026-03-24 19:40:19] TRANSLATION
+在曲面上
+→ On the surface
+------------------------------
+[2026-03-24 19:40:21] RECOGNITION_INTERIM
+连续变化
+------------------------------
+[2026-03-24 19:40:23] TRANSLATION
+连续变化
+→ Continuous variation
+------------------------------
+[2026-03-24 19:40:29] RECOGNITION_INTERIM
+，啊这是
+------------------------------
+[2026-03-24 19:40:32] TRANSLATION
+，啊这是
+→ , and 
+On the surface 
+Continuous variation
+------------------------------
+[2026-03-24 19:40:39] RECOGNITION_INTERIM
+曲面光滑的含义，啊曲面上处处有非零的法向量，并且法向量在曲面上是连续变化的
+------------------------------
+[2026-03-24 19:40:43] TRANSLATION
+曲面光滑的含义，啊曲面上处处有非零的法向量，并且法向量在曲面上是连续变化的
+→ The meaning of a smooth surface, ah, is that there is a nonzero normal vector everywhere on the surface, and the normal vector varies continuously on the surface.
+------------------------------
+[2026-03-24 19:40:48] RECOGNITION_INTERIM
+。好，那我们如果曲面的方程是fxyz等于0，啊这是曲面S的方程
+------------------------------
+[2026-03-24 19:40:57] TRANSLATION
+。好，那我们如果曲面的方程是fxyz等于0，啊这是曲面S的方程
+→ . Good, then if the equation of the surface is f(x, y, z) = 0, ah, this is the equation of the surface S.
+------------------------------
+[2026-03-24 19:41:00] RECOGNITION_INTERIM
+，那么曲面上在一点处，比如说M这一点处，它的坐标是xyz，那曲面S在M这一点处的法向量
+------------------------------
+[2026-03-24 19:41:02] RECOGNITION_INTERIM
+就是
+------------------------------
+[2026-03-24 19:41:06] TRANSLATION
+就是
+→ That is to say, 
+On the surface, 
+Continuous variation. 
+The meaning of a smooth surface, ah, is that there is a nonzero normal vector everywhere on the surface, and the normal vector varies continuously on the surface. 
+Good, then if the equation of the surface is f(x, y, z) = 0, ah, this is the equation of the surface S.
+------------------------------
+[2026-03-24 19:41:10] TRANSLATION
+，那么曲面上在一点处，比如说M这一点处，它的坐标是xyz，那曲面S在M这一点处的法向量
+→ , then on the surface at the point, for example at this point M, its coordinates are xyz, so the normal vector of the surface S at this point M
+------------------------------
+[2026-03-24 19:41:20] RECOGNITION_INTERIM
+ F在M这一点处的梯度向量了，唉这个法向量是非零的那这个梯度向量是个非零的向量，唉并且法向量在曲线上是连续变化，唉这个呃画向量在曲面上
+------------------------------
+[2026-03-24 19:41:22] RECOGNITION_INTERIM
+上连续变化，那我们怎么表示呢
+------------------------------
+[2026-03-24 19:41:23] TRANSLATION
+ F在M这一点处的梯度向量了，唉这个法向量是非零的那这个梯度向量是个非零的向量，唉并且法向量在曲线上是连续变化，唉这个呃画向量在曲面上
+→ The gradient vector of F at point M, ah, this normal vector is nonzero, so this gradient vector is a nonzero vector, ah, and the normal vector varies continuously on the curve, ah, this, uh, vector on the surface
+------------------------------
+[2026-03-24 19:41:25] TRANSLATION
+上连续变化，那我们怎么表示呢
+→ varies continuously. How do we represent this?
+------------------------------
+[2026-03-24 19:41:26] RECOGNITION_INTERIM
+？怎么表示
+------------------------------
+[2026-03-24 19:41:30] TRANSLATION
+？怎么表示
+→ How do we represent this?
+------------------------------
+[2026-03-24 19:41:31] RECOGNITION_INTERIM
+是连续变化的，也就是说F
+------------------------------
+[2026-03-24 19:41:33] TRANSLATION
+是连续变化的，也就是说F
+→ is continuously varying, that is to say, F
+------------------------------
+[2026-03-24 19:41:36] RECOGNITION_INTERIM
+这个三元函数它是一阶偏导连续的函数吧
+------------------------------
+[2026-03-24 19:41:39] TRANSLATION
+这个三元函数它是一阶偏导连续的函数吧
+→ This ternary function is a function with continuous first-order partial derivatives, right?
+------------------------------
+[2026-03-24 19:41:39] RECOGNITION_INTERIM
+，唉啊那是两个，啊这两个
+------------------------------
+[2026-03-24 19:41:42] TRANSLATION
+，唉啊那是两个，啊这两个
+→ , oh that's two, ah these two
+------------------------------
+[2026-03-24 19:41:47] RECOGNITION_INTERIM
+数学的表述啊数学语言的表述，数学符号的表述，它就表示的是这个曲面是光滑的
+------------------------------
+[2026-03-24 19:41:49] TRANSLATION
+数学的表述啊数学语言的表述，数学符号的表述，它就表示的是这个曲面是光滑的
+→ Mathematical expressions, the language of mathematics, the representation by mathematical symbols, indicate that this surface is smooth.
+------------------------------
+[2026-03-24 19:41:55] RECOGNITION_INTERIM
+，啊曲面上处处有非零的法向量，并且法向量在曲面上是连续的变化的
+------------------------------
+[2026-03-24 19:41:58] RECOGNITION_INTERIM
+。嗯好
+------------------------------
+[2026-03-24 19:42:00] TRANSLATION
+，啊曲面上处处有非零的法向量，并且法向量在曲面上是连续的变化的
+→ , ah the surface has a non-zero normal vector everywhere, and the normal vector changes continuously on the surface.
+------------------------------
+[2026-03-24 19:42:01] TRANSLATION
+。嗯好
+→ . Okay, good.
+------------------------------
+[2026-03-24 19:42:09] RECOGNITION_INTERIM
+，嗯那么接下来啊我们看第二种情形，嗯就是这儿的曲面的方程是
+------------------------------
+[2026-03-24 19:42:11] TRANSLATION
+，嗯那么接下来啊我们看第二种情形，嗯就是这儿的曲面的方程是
+→ , well then next we look at the second case, that is, the equation of the surface here is
+------------------------------
+[2026-03-24 19:42:19] RECOGNITION_INTERIM
+显函数的形式，啊曲面S它的方程是显函数的形式给出的
+------------------------------
+[2026-03-24 19:42:20] TRANSLATION
+显函数的形式，啊曲面S它的方程是显函数的形式给出的
+→ The surface S is given in explicit function form.
+------------------------------
+[2026-03-24 19:42:23] RECOGNITION_INTERIM
+，Z等于fxy
+------------------------------
+[2026-03-24 19:42:24] TRANSLATION
+，Z等于fxy
+→ , Z equals f of x y
+------------------------------
+[2026-03-24 19:42:26] RECOGNITION_INTERIM
+。嗯啊其中的
+------------------------------
+[2026-03-24 19:42:28] TRANSLATION
+。嗯啊其中的
+→ . Well then, next we look at the second case, that is, the equation of the surface here is 
+The surface S is given in explicit function form, 
+Z equals f of x y.
+------------------------------
+[2026-03-24 19:42:42] RECOGNITION_INTERIM
+ xy是在平面区域D上变化的，如果说这一片曲面是光滑的，啊那也就是说关于xy的二元函数F要在平面区于地上，一阶偏导等于
+------------------------------
+[2026-03-24 19:42:43] RECOGNITION_INTERIM
+连续的函数
+------------------------------
+[2026-03-24 19:42:46] TRANSLATION
+连续的函数
+→ Continuous function
+------------------------------
+[2026-03-24 19:42:48] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-24 19:42:48] TRANSLATION
+。好
+→ . Good
+------------------------------
+[2026-03-24 19:42:50] TRANSLATION
+ xy是在平面区域D上变化的，如果说这一片曲面是光滑的，啊那也就是说关于xy的二元函数F要在平面区于地上，一阶偏导等于
+→ xy vary over the planar region D. If this piece of surface is smooth, that is to say, the binary function F with respect to xy must have continuous first-order partial derivatives over the planar region D.
+------------------------------
+[2026-03-24 19:42:56] RECOGNITION_INTERIM
+，那么这种情况下，我们如何来求出曲面在一点处的切平面和法线呢
+------------------------------
+[2026-03-24 19:42:58] TRANSLATION
+，那么这种情况下，我们如何来求出曲面在一点处的切平面和法线呢
+→ , then in this case, how do we find the tangent plane and the normal line at a point on the surface?
+------------------------------
+[2026-03-24 19:43:03] RECOGNITION_INTERIM
+？那么刚才我们看到了要求曲面在一点处的切平面和法线，关键的是求什么呀
+------------------------------
+[2026-03-24 19:43:06] TRANSLATION
+？那么刚才我们看到了要求曲面在一点处的切平面和法线，关键的是求什么呀
+→ ? So just now we saw that to find the tangent plane and the normal line at a point on the surface, the key is to find what?
+------------------------------
+[2026-03-24 19:43:18] RECOGNITION_INTERIM
+？唉关键的是求曲面在一点处的法向量了，唉特别好，啊这是关键的一点。好，那这样的目标明确了，那接下来就朝着这个目标去努力，我们就要去求这个法向量了
+------------------------------
+[2026-03-24 19:43:19] RECOGNITION_INTERIM
+。啊那么
+------------------------------
+[2026-03-24 19:43:20] TRANSLATION
+。啊那么
+→ Ah, then
+------------------------------
+[2026-03-24 19:43:21] TRANSLATION
+？唉关键的是求曲面在一点处的法向量了，唉特别好，啊这是关键的一点。好，那这样的目标明确了，那接下来就朝着这个目标去努力，我们就要去求这个法向量了
+→ ? Well, the key is to find the normal vector of the surface at a point. Ah, that's excellent, this is the crucial point. Good, now that the objective is clear, we will work towards this goal next—we need to find this normal vector.
+------------------------------
+[2026-03-24 19:43:28] RECOGNITION_INTERIM
+刚才呢我们已经知道fxyz等于0，如果曲面的方程是fxy等于0，那么这个曲线在一点处的法向量就是F
+------------------------------
+[2026-03-24 19:43:35] RECOGNITION_INTERIM
+，在这一点处的梯度向量了，那么现在曲面的方程是Z等于fxy怎么办
+------------------------------
+[2026-03-24 19:43:38] TRANSLATION
+刚才呢我们已经知道fxyz等于0，如果曲面的方程是fxy等于0，那么这个曲线在一点处的法向量就是F
+→ Just now we have known that f(x,y,z)=0. If the equation of the surface is f(x,y)=0, then the normal vector of this curve at a point is F.
+------------------------------
+[2026-03-24 19:43:38] RECOGNITION_INTERIM
+？挺好，怎么办
+------------------------------
+[2026-03-24 19:43:40] TRANSLATION
+？挺好，怎么办
+→ ? Great, what should we do?
+------------------------------
+[2026-03-24 19:43:43] RECOGNITION_INTERIM
+？动动脑筋
+------------------------------
+[2026-03-24 19:43:45] TRANSLATION
+？动动脑筋
+→ ? Use your brain
+------------------------------
+[2026-03-24 19:43:46] TRANSLATION
+，在这一点处的梯度向量了，那么现在曲面的方程是Z等于fxy怎么办
+→ , at this point, we have the gradient vector. So now, what if the equation of the surface is Z equals f(x,y)?
+------------------------------
+[2026-03-24 19:43:47] RECOGNITION_INTERIM
+。刚才知道了，如果能表示为fxyz等于0
+------------------------------
+[2026-03-24 19:43:49] TRANSLATION
+。刚才知道了，如果能表示为fxyz等于0
+→ . We just learned that if it can be expressed as f(x,y,z) equals 0
+------------------------------
+[2026-03-24 19:43:51] RECOGNITION_INTERIM
+，那么去年这一年的画销量就求出来了
+------------------------------
+[2026-03-24 19:43:54] TRANSLATION
+，那么去年这一年的画销量就求出来了
+→ Then the sales volume of paintings for last year has been calculated.
+------------------------------
+[2026-03-24 19:43:57] RECOGNITION_INTERIM
+，唉特别好，啊我构造一个函数大F，啊怎么构造
+------------------------------
+[2026-03-24 19:44:00] TRANSLATION
+，唉特别好，啊我构造一个函数大F，啊怎么构造
+→ , oh excellent, ah I construct a function capital F, ah how to construct
+------------------------------
+[2026-03-24 19:44:04] RECOGNITION_INTERIM
+？大fxyz就等于fxy减去一个Z啦
+------------------------------
+[2026-03-24 19:44:06] TRANSLATION
+？大fxyz就等于fxy减去一个Z啦
+→ ? Then capital F of x, y, z equals f of x, y minus z.
+------------------------------
+[2026-03-24 19:44:09] RECOGNITION_INTERIM
+。那么这就是大fxyz等于0了
+------------------------------
+[2026-03-24 19:44:11] RECOGNITION_INTERIM
+。唉
+------------------------------
+[2026-03-24 19:44:11] TRANSLATION
+。唉
+→ . Well, the meaning here is that these two vectors are orthogonal. The dot product of the two vectors equals 0, so these two vectors are perpendicular.
+------------------------------
+[2026-03-24 19:44:12] TRANSLATION
+。那么这就是大fxyz等于0了
+→ . Then this means that capital F of x, y, z equals 0.
+------------------------------
+[2026-03-24 19:44:27] RECOGNITION_INTERIM
+所以由刚才的第一种情形，因此这个曲面S在M0，比如说M0它的坐标是X0Y0Z0，那么它在这个区间Z等于fxy上面，所以这儿的Z0就
+------------------------------
+[2026-03-24 19:44:28] RECOGNITION_INTERIM
+等于什么呀
+------------------------------
+[2026-03-24 19:44:32] TRANSLATION
+等于什么呀
+→ What does it equal?
+------------------------------
+[2026-03-24 19:44:33] RECOGNITION_INTERIM
+？F在X0Y0的函数值吧
+------------------------------
+[2026-03-24 19:44:34] RECOGNITION_INTERIM
+。唉
+------------------------------
+[2026-03-24 19:44:34] TRANSLATION
+。唉
+→ . Well, the meaning here is that these two vectors are orthogonal. The dot product of the two vectors equals 0, so these two vectors are perpendicular.
+------------------------------
+[2026-03-24 19:44:35] TRANSLATION
+所以由刚才的第一种情形，因此这个曲面S在M0，比如说M0它的坐标是X0Y0Z0，那么它在这个区间Z等于fxy上面，所以这儿的Z0就
+→ Therefore, from the first case discussed earlier, we know that the surface \( S \) at the point \( M_0 \) (with coordinates \((x_0, y_0, z_0)\)) satisfies the equation \( z = f(x, y) \), so here \( z_0 \) equals \( f(x_0, y_0) \).
+------------------------------
+[2026-03-24 19:44:36] TRANSLATION
+？F在X0Y0的函数值吧
+→ ? The function value of F at (X0, Y0), right?
+------------------------------
+[2026-03-24 19:44:37] RECOGNITION_INTERIM
+啊这个 M0呢在去年S上
+------------------------------
+[2026-03-24 19:44:40] RECOGNITION_INTERIM
+。好，那么现在我们来看一下
+------------------------------
+[2026-03-24 19:44:41] TRANSLATION
+啊这个 M0呢在去年S上
+→ Ah, this point M0 lies on the surface S.
+------------------------------
+[2026-03-24 19:44:43] TRANSLATION
+。好，那么现在我们来看一下
+→ . Well, now let's take a look at
+------------------------------
+[2026-03-24 19:44:47] RECOGNITION_INTERIM
+，克什米尔S在M零这一点处的提呃法向量
+------------------------------
+[2026-03-24 19:44:48] TRANSLATION
+，克什米尔S在M零这一点处的提呃法向量
+→ , the unit normal vector of the surface S at the point M0
+------------------------------
+[2026-03-24 19:45:06] RECOGNITION_INTERIM
+，画向量啊我们用N来表示，也就是函数大F在M0这一点的梯度向量，啦啊所以这个梯度向量那第一个分量就是大F在M0点处关于X的偏导
+------------------------------
+[2026-03-24 19:45:13] RECOGNITION_INTERIM
+，也就是小F在X0Y0这一点处对X求偏导
+------------------------------
+[2026-03-24 19:45:15] TRANSLATION
+，画向量啊我们用N来表示，也就是函数大F在M0这一点的梯度向量，啦啊所以这个梯度向量那第一个分量就是大F在M0点处关于X的偏导
+→ , when drawing vectors, we use N to denote it, which is the gradient vector of the function F at the point M0. So, the first component of this gradient vector is the partial derivative of F with respect to X at the point M0.
+------------------------------
+[2026-03-24 19:45:16] TRANSLATION
+，也就是小F在X0Y0这一点处对X求偏导
+→ , that is, the partial derivative of little F with respect to X at the point (X0, Y0)
+------------------------------
+[2026-03-24 19:45:24] RECOGNITION_INTERIM
+，大F在M零关于Y求偏导，呢就是小F在X0Y0这一点对Y求偏导，大F在M零对C求偏导等于多少
+------------------------------
+[2026-03-24 19:45:27] RECOGNITION_INTERIM
+？-1
+------------------------------
+[2026-03-24 19:45:31] TRANSLATION
+？-1
+→ , the unit normal vector of the surface S at the point M₀, when drawing vectors, we denote it by N, which is the gradient vector of the function F at the point M₀. So, the first component of this gradient vector is the partial derivative of F with respect to X at the point M₀, that is, the partial derivative of little f with respect to X at the point (X₀, Y₀).
+------------------------------
+[2026-03-24 19:45:34] RECOGNITION_INTERIM
+唉等于-1，啊所以这就求出了曲间S在M0这一点处的法向量了
+------------------------------
+[2026-03-24 19:45:35] TRANSLATION
+，大F在M零关于Y求偏导，呢就是小F在X0Y0这一点对Y求偏导，大F在M零对C求偏导等于多少
+→ , the partial derivative of capital F with respect to Y at point M₀ is the partial derivative of little f with respect to Y at the point (X₀, Y₀). What is the partial derivative of capital F with respect to Z at point M₀ equal to?
+------------------------------
+[2026-03-24 19:45:36] TRANSLATION
+唉等于-1，啊所以这就求出了曲间S在M0这一点处的法向量了
+→ Well, λ equals -1, so we have found the normal vector of the surface S at the point M₀.
+------------------------------
+[2026-03-24 19:45:41] RECOGNITION_INTERIM
+。那么法向量求出
+------------------------------
+[2026-03-24 19:45:43] TRANSLATION
+。那么法向量求出
+→ . Then the normal vector is found.
+------------------------------
+[2026-03-24 19:45:48] RECOGNITION_INTERIM
+，我们就可以求得曲面S在M0这一点处的
+------------------------------
+[2026-03-24 19:45:50] RECOGNITION_INTERIM
+切平面的方程
+------------------------------
+[2026-03-24 19:45:51] TRANSLATION
+，我们就可以求得曲面S在M0这一点处的
+→ , we can find the normal vector of the surface S at the point M₀.
+------------------------------
+[2026-03-24 19:45:53] TRANSLATION
+切平面的方程
+→ Equation of the tangent plane
+------------------------------
+[2026-03-24 19:45:56] RECOGNITION_INTERIM
+，切平面的方程是什么呀
+------------------------------
+[2026-03-24 19:45:58] TRANSLATION
+，切平面的方程是什么呀
+→ What is the equation of the tangent plane?
+------------------------------
+[2026-03-24 19:46:01] RECOGNITION_INTERIM
+？怎么写点是个
+------------------------------
+[2026-03-24 19:46:04] TRANSLATION
+？怎么写点是个
+→ How do we write the equation of the tangent plane?
+------------------------------
+[2026-03-24 19:46:07] RECOGNITION_INTERIM
+法向量知道了，变成一个对
+------------------------------
+[2026-03-24 19:46:09] RECOGNITION_INTERIM
+。还一个企业向目
+------------------------------
+[2026-03-24 19:46:10] TRANSLATION
+法向量知道了，变成一个对
+→ The normal vector is known, it becomes a pair of
+------------------------------
+[2026-03-24 19:46:11] RECOGNITION_INTERIM
+切切业面性
+------------------------------
+[2026-03-24 19:46:12] TRANSLATION
+。还一个企业向目
+→ . Another enterprise objective
+------------------------------
+[2026-03-24 19:46:13] TRANSLATION
+切切业面性
+→ Tangent plane equation
+------------------------------
+[2026-03-24 19:46:25] RECOGNITION_INTERIM
+，切片面上的一个向量，经过点M0的切平面的向量，唉也就是在切平面上任取一点M，它的坐标是xyz，那 M0M，这就在切平面上，它就和这个法向量垂直了
+------------------------------

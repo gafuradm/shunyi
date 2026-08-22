@@ -1,0 +1,1626 @@
+[2026-03-10 19:16:41] RECOGNITION_INTERIM
+在双方都在哪，就是我们需育期应该在考试能出来，对对对，那那我找一找吧上一次是没有，上一届是4-6嗯嗯嗯以
+------------------------------
+[2026-03-10 19:16:42] TRANSLATION
+？通我到
+→ ？通我到
+------------------------------
+[2026-03-10 19:16:49] TRANSLATION
+。嗯行
+→ 。嗯行
+------------------------------
+[2026-03-10 19:16:50] TRANSLATION
+。我们就问了
+→ 。我们就问了
+------------------------------
+[2026-03-10 19:16:53] RECOGNITION_INTERIM
+ qp三次呃渲染没分。6 30保。5为40，啊也我是说这个证明可微性最个肯定是应该到我的。其实
+------------------------------
+[2026-03-10 19:16:54] RECOGNITION_INTERIM
+然后那时候连自己
+------------------------------
+[2026-03-10 19:16:56] TRANSLATION
+，我看好像不在咱们那个通知群里头
+→ ，我看好像不在咱们那个通知群里头
+------------------------------
+[2026-03-10 19:16:56] RECOGNITION_INTERIM
+这个这的一个是噢去年的
+------------------------------
+[2026-03-10 19:16:58] TRANSLATION
+。就是在这这是
+→ 。就是在这这是
+------------------------------
+[2026-03-10 19:16:59] TRANSLATION
+市里头噢
+→ 市里头噢
+------------------------------
+[2026-03-10 19:17:00] RECOGNITION_INTERIM
+后来不知道为什么就越来越少唉
+------------------------------
+[2026-03-10 19:17:11] TRANSLATION
+在双方都在哪，就是我们需育期应该在考试能出来，对对对，那那我找一找吧上一次是没有，上一届是4-6嗯嗯嗯以
+→ 在双方都在哪，就是我们需育期应该在考试能出来，对对对，那那我找-找吧上-次是没有，上-届是4-6嗯嗯嗯以
+------------------------------
+[2026-03-10 19:17:11] RECOGNITION_INTERIM
+，你是对外不是这个还的，没找为同，是在就是周一的课程，我在他来学里是吧？那周二的课程这问题就是以别人
+------------------------------
+[2026-03-10 19:17:13] RECOGNITION_INTERIM
+也自己怪我觉得
+------------------------------
+[2026-03-10 19:17:16] RECOGNITION_INTERIM
+先组的是个什么问这
+------------------------------
+[2026-03-10 19:17:17] RECOGNITION_INTERIM
+是这个
+------------------------------
+[2026-03-10 19:17:22] RECOGNITION_INTERIM
+。正好了回来了
+------------------------------
+[2026-03-10 19:17:23] TRANSLATION
+ qp三次呃渲染没分。6 30保。5为40，啊也我是说这个证明可微性最个肯定是应该到我的。其实
+→  qp三次呃渲染没分。630保。5为40，啊也我是说这个证明可微性最个肯定是应该到我的。其实
+------------------------------
+[2026-03-10 19:17:23] RECOGNITION_INTERIM
+。你继续三个了
+------------------------------
+[2026-03-10 19:17:24] TRANSLATION
+然后那时候连自己
+→ 然后那时候连自己
+------------------------------
+[2026-03-10 19:17:24] RECOGNITION_INTERIM
+。就这样的意思
+------------------------------
+[2026-03-10 19:17:26] RECOGNITION_INTERIM
+。真的
+------------------------------
+[2026-03-10 19:17:26] TRANSLATION
+这个这的一个是噢去年的
+→ 这个这的一个是噢去年的
+------------------------------
+[2026-03-10 19:17:29] RECOGNITION_INTERIM
+一点点就明显这个现在在谈公是
+------------------------------
+[2026-03-10 19:17:30] TRANSLATION
+后来不知道为什么就越来越少唉
+→ 后来不知道为什么就越来越少唉
+------------------------------
+[2026-03-10 19:17:32] RECOGNITION_INTERIM
+这到处说就一开始就那个上弄么的
+------------------------------
+[2026-03-10 19:17:34] RECOGNITION_INTERIM
+。我没一个你
+------------------------------
+[2026-03-10 19:17:35] RECOGNITION_INTERIM
+。不管没错
+------------------------------
+[2026-03-10 19:17:41] TRANSLATION
+，你是对外不是这个还的，没找为同，是在就是周一的课程，我在他来学里是吧？那周二的课程这问题就是以别人
+→ ，你是对外不是这个还的，没找为同，是在就是周一的课程，我在他来学里是吧？那周二的课程这问题就是以别人
+------------------------------
+[2026-03-10 19:17:43] TRANSLATION
+也自己怪我觉得
+→ 也自己怪我觉得
+------------------------------
+[2026-03-10 19:17:43] RECOGNITION_INTERIM
+，你但你们这一个我我们是吧？就这一对，啊你写一下，啊你看这一个函数表达式三点
+------------------------------
+[2026-03-10 19:17:45] RECOGNITION_INTERIM
+，那比较申报表
+------------------------------
+[2026-03-10 19:17:46] TRANSLATION
+先组的是个什么问这
+→ 先组的是个什么问这
+------------------------------
+[2026-03-10 19:17:47] TRANSLATION
+是这个
+→ 是这个
+------------------------------
+[2026-03-10 19:17:48] RECOGNITION_INTERIM
+，我
+------------------------------
+[2026-03-10 19:17:50] RECOGNITION_INTERIM
+嗯那啊对
+------------------------------
+[2026-03-10 19:17:51] RECOGNITION_INTERIM
+。咱们这个
+------------------------------
+[2026-03-10 19:17:52] TRANSLATION
+。正好了回来了
+→ 。正好了回来了
+------------------------------
+[2026-03-10 19:17:53] RECOGNITION_INTERIM
+情况一下唉
+------------------------------
+[2026-03-10 19:17:53] TRANSLATION
+。你继续三个了
+→ 。你继续三个了
+------------------------------
+[2026-03-10 19:17:55] TRANSLATION
+。就这样的意思
+→ 。就这样的意思
+------------------------------
+[2026-03-10 19:17:55] RECOGNITION_INTERIM
+。这么咱们的上次我们提的好
+------------------------------
+[2026-03-10 19:17:56] TRANSLATION
+。真的
+→ 。真的
+------------------------------
+[2026-03-10 19:17:58] RECOGNITION_INTERIM
+，那么就是xy
+------------------------------
+[2026-03-10 19:17:59] TRANSLATION
+一点点就明显这个现在在谈公是
+→ 一点点就明显这个现在在谈公是
+------------------------------
+[2026-03-10 19:18:02] TRANSLATION
+这到处说就一开始就那个上弄么的
+→ 这到处说就一开始就那个上弄么的
+------------------------------
+[2026-03-10 19:18:04] TRANSLATION
+。我没一个你
+→ 。我没一个你
+------------------------------
+[2026-03-10 19:18:05] TRANSLATION
+。不管没错
+→ 。不管没错
+------------------------------
+[2026-03-10 19:18:07] RECOGNITION_INTERIM
+，如果xy呢嗯
+------------------------------
+[2026-03-10 19:18:08] RECOGNITION_INTERIM
+都是出的什么
+------------------------------
+[2026-03-10 19:18:10] RECOGNITION_INTERIM
+？数值是的不率
+------------------------------
+[2026-03-10 19:18:12] RECOGNITION_INTERIM
+。对吧？这是函数表达意思
+------------------------------
+[2026-03-10 19:18:13] TRANSLATION
+，你但你们这一个我我们是吧？就这一对，啊你写一下，啊你看这一个函数表达式三点
+→ ，你但你们这一个我我们是吧？就这一对，啊你写一下，啊你看这一个函数表达式三点
+------------------------------
+[2026-03-10 19:18:15] TRANSLATION
+，那比较申报表
+→ ，那比较申报表
+------------------------------
+[2026-03-10 19:18:18] TRANSLATION
+，我
+→ ，我
+------------------------------
+[2026-03-10 19:18:20] TRANSLATION
+嗯那啊对
+→ 嗯那啊对
+------------------------------
+[2026-03-10 19:18:21] TRANSLATION
+。咱们这个
+→ 。咱们这个
+------------------------------
+[2026-03-10 19:18:23] RECOGNITION_INTERIM
+。啊这是还是这个就是题目是么？那你讨论在01年的课文性和连续性可能性上的课，然后呢
+------------------------------
+[2026-03-10 19:18:23] TRANSLATION
+情况一下唉
+→ 情况一下唉
+------------------------------
+[2026-03-10 19:18:24] RECOGNITION_INTERIM
+问题都有
+------------------------------
+[2026-03-10 19:18:25] TRANSLATION
+。这么咱们的上次我们提的好
+→ 。这么咱们的上次我们提的好
+------------------------------
+[2026-03-10 19:18:28] TRANSLATION
+，那么就是xy
+→ ，那么就是xy
+------------------------------
+[2026-03-10 19:18:30] RECOGNITION_INTERIM
+。是不会，好，然后你就是说他问你看书唉
+------------------------------
+[2026-03-10 19:18:37] RECOGNITION_INTERIM
+，他来管你，他们这一个全嘛那都来里老是到的了，ok就了
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+问题都有
+→ All questions have
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+，如果xy呢嗯
+→ , if xy then hmm
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+都是出的什么
+→ What are all these coming out
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+。对吧？这是函数表达意思
+→ Right? This is what the function expression means.
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+。对吧？这是函数表达意思
+→ Right? This is what the function expression means.
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+？数值是的不率
+→ ? The value is not a probability
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+。是不会，好，然后你就是说他问你看书唉
+→ . No, okay, then you mean he asks you to read, huh
+------------------------------
+[2026-03-10 19:18:38] TRANSLATION
+。是不会，好，然后你就是说他问你看书唉
+→ . No, okay, then you mean he asks you to read, huh
+------------------------------
+[2026-03-10 19:18:39] TRANSLATION
+。啊这是还是这个就是题目是么？那你讨论在01年的课文性和连续性可能性上的课，然后呢
+→ . Ah, is this still the topic? Then you discuss the differentiability and continuity of the function on [0,1], and then
+------------------------------
+[2026-03-10 19:18:39] TRANSLATION
+。啊这是还是这个就是题目是么？那你讨论在01年的课文性和连续性可能性上的课，然后呢
+→ . Ah, is this still the topic? Then you discuss the differentiability and continuity of the function on [0,1], and then
+------------------------------
+[2026-03-10 19:18:39] TRANSLATION
+，他来管你，他们这一个全嘛那都来里老是到的了，ok就了
+→ , he comes to manage you, they all come here always, ok then
+------------------------------
+[2026-03-10 19:18:39] TRANSLATION
+问题都有
+→ All questions have
+------------------------------
+[2026-03-10 19:18:39] RECOGNITION_INTERIM
+。第二个
+------------------------------
+[2026-03-10 19:18:41] TRANSLATION
+。第二个
+→ . Second
+------------------------------
+[2026-03-10 19:18:42] RECOGNITION_INTERIM
+。唉噢
+------------------------------
+[2026-03-10 19:18:44] TRANSLATION
+。唉噢
+→ . Oh dear
+------------------------------
+[2026-03-10 19:18:51] RECOGNITION_INTERIM
+就这一个一元函数来讲的可导
+------------------------------
+[2026-03-10 19:18:53] TRANSLATION
+就这一个一元函数来讲的可导
+→ For this univariate function, differentiability
+------------------------------
+[2026-03-10 19:19:03] RECOGNITION_INTERIM
+，我个不一定很导的才能够避点可危，但是对于多元函数二元函数来讲，可导也不可无不一样，对在二元函数来说可以比较可唉呀
+------------------------------
+[2026-03-10 19:19:06] TRANSLATION
+，我个不一定很导的才能够避点可危，但是对于多元函数二元函数来讲，可导也不可无不一样，对在二元函数来说可以比较可唉呀
+→ , I may not necessarily be very differentiable to avoid critical points, but for multivariate functions, specifically bivariate functions, differentiability and continuity are not the same; for bivariate functions, they can be compared, oh dear
+------------------------------
+[2026-03-10 19:19:12] RECOGNITION_INTERIM
+可我就想就是这个权威方是吧是存在的，啊啊你就说
+------------------------------
+[2026-03-10 19:19:13] RECOGNITION_INTERIM
+这个的方
+------------------------------
+[2026-03-10 19:19:14] TRANSLATION
+可我就想就是这个权威方是吧是存在的，啊啊你就说
+→ But I just want to say that this authoritative version exists, ah, you see
+------------------------------
+[2026-03-10 19:19:14] RECOGNITION_INTERIM
+，对吧？我们
+------------------------------
+[2026-03-10 19:19:14] TRANSLATION
+这个的方
+→ This square
+------------------------------
+[2026-03-10 19:19:16] TRANSLATION
+，对吧？我们
+→ , right? We
+------------------------------
+[2026-03-10 19:19:21] RECOGNITION_INTERIM
+。唉好的，那我们接着的问题我们怎么解呢
+------------------------------
+[2026-03-10 19:19:23] TRANSLATION
+。唉好的，那我们接着的问题我们怎么解呢
+→ . Alright, then how do we solve the problem we have next?
+------------------------------
+[2026-03-10 19:19:37] RECOGNITION_INTERIM
+？那要验证汉书在这一点处是不是可微的，那根据定义呢就是要验证，啊就是要验证F这个函数在00这一点的函数值的全改变量
+------------------------------
+[2026-03-10 19:19:39] TRANSLATION
+？那要验证汉书在这一点处是不是可微的，那根据定义呢就是要验证，啊就是要验证F这个函数在00这一点的函数值的全改变量
+→ ? Then to verify whether the function is differentiable at this point, according to the definition, we need to check, ah, we need to check the total change in the function value of F at the point (0,0)
+------------------------------
+[2026-03-10 19:19:47] RECOGNITION_INTERIM
+，噢减去一个F在00这个点对X的偏导，求以X唉再乘以X的06减限，就完全的乘以Y
+------------------------------
+[2026-03-10 19:19:54] TRANSLATION
+，噢减去一个F在00这个点对X的偏导，求以X唉再乘以X的06减限，就完全的乘以Y
+→ , oh minus the partial derivative of F with respect to X at the point (0,0), then multiplied by X, ah, and then multiplied by the change in X, Δx, plus completely multiplied by Y
+------------------------------
+[2026-03-10 19:19:59] RECOGNITION_INTERIM
+。对，唉然后他这个这什么号是下X是方加Y方，对了，在xy轴比说找谁个共同的重点
+------------------------------
+[2026-03-10 19:20:03] RECOGNITION_INTERIM
+？说你这二谁西
+------------------------------
+[2026-03-10 19:20:04] TRANSLATION
+？说你这二谁西
+→ ? Who are you?
+------------------------------
+[2026-03-10 19:20:05] RECOGNITION_INTERIM
+我们这个知道是吧
+------------------------------
+[2026-03-10 19:20:06] TRANSLATION
+。对，唉然后他这个这什么号是下X是方加Y方，对了，在xy轴比说找谁个共同的重点
+→ Yes, and then this symbol here is the square root of X squared plus Y squared, right? For example, on the xy-axis, find a common point of intersection.
+------------------------------
+[2026-03-10 19:20:06] TRANSLATION
+我们这个知道是吧
+→ We know this, right?
+------------------------------
+[2026-03-10 19:20:15] RECOGNITION_INTERIM
+？唉这就是要验证这个极限等于0
+------------------------------
+[2026-03-10 19:20:17] RECOGNITION_INTERIM
+。在函数再这个
+------------------------------
+[2026-03-10 19:20:17] TRANSLATION
+？唉这就是要验证这个极限等于0
+→ ? So this is to verify that this limit equals 0
+------------------------------
+[2026-03-10 19:20:18] TRANSLATION
+。在函数再这个
+→ . In the function, then this
+------------------------------
+[2026-03-10 19:20:21] RECOGNITION_INTERIM
+这个号我的
+------------------------------
+[2026-03-10 19:20:22] TRANSLATION
+这个号我的
+→ This is my number
+------------------------------
+[2026-03-10 19:20:22] RECOGNITION_INTERIM
+该是双怎么说
+------------------------------
+[2026-03-10 19:20:25] TRANSLATION
+该是双怎么说
+→ How should this be expressed in English?
+------------------------------
+[2026-03-10 19:20:25] RECOGNITION_INTERIM
+？如果证明了这个结论
+------------------------------
+[2026-03-10 19:20:27] TRANSLATION
+？如果证明了这个结论
+→ ? If this conclusion is proven
+------------------------------
+[2026-03-10 19:20:27] RECOGNITION_INTERIM
+是成立的，那么就得到F的
+------------------------------
+[2026-03-10 19:20:29] TRANSLATION
+是成立的，那么就得到F的
+→ is established, then we obtain F's
+------------------------------
+[2026-03-10 19:20:31] RECOGNITION_INTERIM
+。先上一个好吧，课程再讲吧
+------------------------------
+[2026-03-10 19:20:33] TRANSLATION
+。先上一个好吧，课程再讲吧
+→ . Let's start with the first one, okay, we'll continue with the lecture later.
+------------------------------
+[2026-03-10 19:20:51] RECOGNITION_INTERIM
+。噢对，稍微转过来。嗯对对对，那就是就是你是已经加入了那个小班数学课了是吧？然后呢也加入到某个小组里头了吗？加入进去。唉微信群里头微信群里面，他这个小班还是说是好几个小组的
+------------------------------
+[2026-03-10 19:20:54] TRANSLATION
+。噢对，稍微转过来。嗯对对对，那就是就是你是已经加入了那个小班数学课了是吧？然后呢也加入到某个小组里头了吗？加入进去。唉微信群里头微信群里面，他这个小班还是说是好几个小组的
+→ Oh right, turn around a bit. Yes, yes, yes, so you have already joined that small math class, right? And have you also joined a certain group? Join in. In the WeChat group, in the WeChat group, is this small class still divided into several groups?
+------------------------------
+[2026-03-10 19:21:05] RECOGNITION_INTERIM
+？噢唉小组啊每个小组是五六六七个人，像你们一定要找一班长一起车队的宇。陈明宇就好。啊陈明宇站那儿，然后呢你招呃陈泽文，还有那个就是
+------------------------------
+[2026-03-10 19:21:08] TRANSLATION
+？噢唉小组啊每个小组是五六六七个人，像你们一定要找一班长一起车队的宇。陈明宇就好。啊陈明宇站那儿，然后呢你招呃陈泽文，还有那个就是
+→ Oh, the small groups? Each group has five, six, or seven people. You must find a team leader, like Yuzhe from the class monitor's team. Chen Mingyu is fine. Ah, Chen Mingyu is standing there. Then you recruit, uh, Chen Zewen, and also that one...
+------------------------------
+[2026-03-10 19:21:18] RECOGNITION_INTERIM
+啊张哲芬，他们三个人就是小组组长，啊然后找找他们问个进入到你的小组里了，啊飞雨你们那个小组分配好了吗？这个小班呃
+------------------------------
+[2026-03-10 19:21:18] RECOGNITION_INTERIM
+？应该是说
+------------------------------
+[2026-03-10 19:21:20] TRANSLATION
+？应该是说
+→ ? It should be said
+------------------------------
+[2026-03-10 19:21:20] TRANSLATION
+啊张哲芬，他们三个人就是小组组长，啊然后找找他们问个进入到你的小组里了，啊飞雨你们那个小组分配好了吗？这个小班呃
+→ Ah, Zhang Zhefen, those three are the group leaders. Then find them and ask to join your group. Ah, Feiyu, has your group been assigned yet? This small class, uh...
+------------------------------
+[2026-03-10 19:21:22] RECOGNITION_INTERIM
+1月第二同啊
+------------------------------
+[2026-03-10 19:21:23] TRANSLATION
+1月第二同啊
+→ January, second same ah
+------------------------------
+[2026-03-10 19:21:26] RECOGNITION_INTERIM
+就张哲文和这个什么呃陈征文和张哲芬
+------------------------------
+[2026-03-10 19:21:27] RECOGNITION_INTERIM
+。张哲辉
+------------------------------
+[2026-03-10 19:21:28] TRANSLATION
+就张哲文和这个什么呃陈征文和张哲芬
+→ Zhang Zhewen and this, uh, Chen Zhengwen and Zhang Zhefen
+------------------------------
+[2026-03-10 19:21:28] RECOGNITION_INTERIM
+。不能应该好的
+------------------------------
+[2026-03-10 19:21:29] TRANSLATION
+。张哲辉
+→ Zhang Zhehui
+------------------------------
+[2026-03-10 19:21:30] TRANSLATION
+。不能应该好的
+→ . It shouldn't be okay
+------------------------------
+[2026-03-10 19:21:31] RECOGNITION_INTERIM
+。说噢对张志辉是不是今天没来在这
+------------------------------
+[2026-03-10 19:21:33] TRANSLATION
+。说噢对张志辉是不是今天没来在这
+→ Oh right, is Zhang Zhihui not here today?
+------------------------------
+[2026-03-10 19:21:44] RECOGNITION_INTERIM
+？反正你们下来微雨啊啊你们三个人下来就是讨论一下，把这个小组分好好，啊你们这个小班是是你们这个小班是我特地关注的啊
+------------------------------
+[2026-03-10 19:21:46] TRANSLATION
+？反正你们下来微雨啊啊你们三个人下来就是讨论一下，把这个小组分好好，啊你们这个小班是是你们这个小班是我特地关注的啊
+→ ? Anyway, when you come down later, you three should discuss and properly divide into groups. Your small class is one I'm paying special attention to.
+------------------------------
+[2026-03-10 19:21:46] RECOGNITION_INTERIM
+。对个我特地关注的啊来
+------------------------------
+[2026-03-10 19:21:49] TRANSLATION
+。对个我特地关注的啊来
+→ . It shouldn't be okay 
+Oh right, is Zhang Zhihui not here today? 
+? Anyway, when you come down later, you three should discuss and properly divide into groups. Your small class is one I'm paying special attention to.
+------------------------------
+[2026-03-10 19:21:58] RECOGNITION_INTERIM
+。啊因为你们小班的这个有特殊情况，啊你你跟他就那就叫出玉，你找他，然后呢进入到某一个小组里头，把这小组里面同学的讨论
+------------------------------
+[2026-03-10 19:22:01] TRANSLATION
+。啊因为你们小班的这个有特殊情况，啊你你跟他就那就叫出玉，你找他，然后呢进入到某一个小组里头，把这小组里面同学的讨论
+→ Ah, because your small class has special circumstances, ah, you and him, then call out Yu, you find him, and then enter into a certain group, and within this group, discuss with the classmates
+------------------------------
+[2026-03-10 19:22:04] RECOGNITION_INTERIM
+，你回去吧然后呢我再统一的说一下，啊回去吧呃辛苦先苦
+------------------------------
+[2026-03-10 19:22:06] TRANSLATION
+，你回去吧然后呢我再统一的说一下，啊回去吧呃辛苦先苦
+→ Go back now, and then I'll explain everything uniformly. Ah, go back, um, thank you for your hard work first.
+------------------------------
+[2026-03-10 19:22:13] RECOGNITION_INTERIM
+那什么就是一起的那个说你们谁拿了书了
+------------------------------
+[2026-03-10 19:22:15] RECOGNITION_INTERIM
+？谁手头有书唉就这个
+------------------------------
+[2026-03-10 19:22:15] TRANSLATION
+那什么就是一起的那个说你们谁拿了书了
+→ What was it about the one who said which of you took the book?
+------------------------------
+[2026-03-10 19:22:17] RECOGNITION_INTERIM
+？书你看看
+------------------------------
+[2026-03-10 19:22:18] TRANSLATION
+？谁手头有书唉就这个
+→ Does anyone have the book? Just this one.
+------------------------------
+[2026-03-10 19:22:19] TRANSLATION
+？书你看看
+→ ? Take a look at the book.
+------------------------------
+[2026-03-10 19:22:20] RECOGNITION_INTERIM
+，唉我们是学这本书是十几课
+------------------------------
+[2026-03-10 19:22:23] TRANSLATION
+，唉我们是学这本书是十几课
+→ , well, we are studying this book, which has over ten lessons.
+------------------------------
+[2026-03-10 19:22:29] RECOGNITION_INTERIM
+，这是我们教科书啊嗯好的好的，好，没事。好，这来同学们我说一下，同学们，第四
+------------------------------
+[2026-03-10 19:22:32] TRANSLATION
+，这是我们教科书啊嗯好的好的，好，没事。好，这来同学们我说一下，同学们，第四
+→ , this is our textbook. Okay, okay, good, no problem. Good, now classmates, let me say something, classmates, fourth
+------------------------------
+[2026-03-10 19:22:38] RECOGNITION_INTERIM
+，我说一下啊这个这一门课程，呢我们最后的总评成绩呢是平时成绩占30分
+------------------------------
+[2026-03-10 19:22:41] TRANSLATION
+，我说一下啊这个这一门课程，呢我们最后的总评成绩呢是平时成绩占30分
+→ Let me explain something about this course: our final overall grade consists of 30% for usual performance
+------------------------------
+[2026-03-10 19:22:49] RECOGNITION_INTERIM
+，但不是说每一个人30分都能打满的，这怎么分配的？呢30分是20+10，那20分就是来自于作业和习题课
+------------------------------
+[2026-03-10 19:22:52] TRANSLATION
+，但不是说每一个人30分都能打满的，这怎么分配的？呢30分是20+10，那20分就是来自于作业和习题课
+→ , but it's not that everyone can get the full 30 points; how is this allocated? Well, the 30 points are 20 + 10, with the 20 points coming from homework and exercise sessions.
+------------------------------
+[2026-03-10 19:22:53] RECOGNITION_INTERIM
+，啊助教能够看到的，助教管的负责这一部分是20分
+------------------------------
+[2026-03-10 19:22:56] TRANSLATION
+，啊助教能够看到的，助教管的负责这一部分是20分
+→ , which the teaching assistant can see, and the teaching assistant is responsible for this part, worth 20 points.
+------------------------------
+[2026-03-10 19:23:04] RECOGNITION_INTERIM
+，嗯那另外的10分是什么？呢另外的10分是看你的努力程度，啊你是否认真学习了，那么你是否帮助到别的同学了
+------------------------------
+[2026-03-10 19:23:07] TRANSLATION
+，嗯那另外的10分是什么？呢另外的10分是看你的努力程度，啊你是否认真学习了，那么你是否帮助到别的同学了
+→ Well, what about the other 10 points? The other 10 points are based on your level of effort, whether you have studied diligently, and whether you have helped other classmates.
+------------------------------
+[2026-03-10 19:23:10] RECOGNITION_INTERIM
+？啊是否你的基础不好，然后呢求助于同学了，我要看你的努力程度了
+------------------------------
+[2026-03-10 19:23:12] TRANSLATION
+？啊是否你的基础不好，然后呢求助于同学了，我要看你的努力程度了
+→ Ah, is it because your foundation is weak, and then you sought help from classmates? I need to see your level of effort.
+------------------------------
+[2026-03-10 19:23:12] RECOGNITION_INTERIM
+。啊所以这儿的10分呢
+------------------------------
+[2026-03-10 19:23:14] TRANSLATION
+。啊所以这儿的10分呢
+→ Ah, so the 10 points here
+------------------------------
+[2026-03-10 19:23:16] RECOGNITION_INTERIM
+那不见得所有人都能拿满分
+------------------------------
+[2026-03-10 19:23:18] TRANSLATION
+那不见得所有人都能拿满分
+→ Not everyone can get a perfect score.
+------------------------------
+[2026-03-10 19:23:28] RECOGNITION_INTERIM
+。啊我要看你如果真正你是努力了，啊那你这个差不多，啊如果你说你的基础是很弱的，但是呢我也很努力在去学习了，我确实是在求助别人了
+------------------------------
+[2026-03-10 19:23:30] TRANSLATION
+。啊我要看你如果真正你是努力了，啊那你这个差不多，啊如果你说你的基础是很弱的，但是呢我也很努力在去学习了，我确实是在求助别人了
+→ Ah, I need to see if you truly put in the effort. Ah, then you're about there. Ah, if you say your foundation is weak, but I also worked very hard to study, I really did seek help from others.
+------------------------------
+[2026-03-10 19:23:32] RECOGNITION_INTERIM
+，啊那这样的情况你的这个分数也拿的应该还是不低的
+------------------------------
+[2026-03-10 19:23:34] TRANSLATION
+，啊那这样的情况你的这个分数也拿的应该还是不低的
+→ Ah, in that case, your score should still be quite high.
+------------------------------
+[2026-03-10 19:23:39] RECOGNITION_INTERIM
+。啊所以同学们这30分平时成绩的30分并不是所有同学都给你提满了
+------------------------------
+[2026-03-10 19:23:41] TRANSLATION
+。啊所以同学们这30分平时成绩的30分并不是所有同学都给你提满了
+→ Ah, so students, these 30 points for usual performance—the full 30 points are not given to every student.
+------------------------------
+[2026-03-10 19:23:54] RECOGNITION_INTERIM
+，啊这个呃因为呢上一个学期的情况我看了看呢确实是比较糟糕，啊所以这个学期我们要改变，啊这因此呢就要成立这个小班试听课，这个学期呢和上个学期呢我们就不同了，啊虽然
+------------------------------
+[2026-03-10 19:23:57] TRANSLATION
+，啊这个呃因为呢上一个学期的情况我看了看呢确实是比较糟糕，啊所以这个学期我们要改变，啊这因此呢就要成立这个小班试听课，这个学期呢和上个学期呢我们就不同了，啊虽然
+→ Ah, well, because I looked at the situation from last semester and it was indeed quite poor, ah, so this semester we need to change, ah, therefore we are going to establish this small trial class, this semester and last semester will be different for us, ah, although
+------------------------------
+[2026-03-10 19:24:03] RECOGNITION_INTERIM
+都是小班的形式，但是呢唉这个呃操作起来就不一样了，啊也有了班长的，啊每个小班里面有班长
+------------------------------
+[2026-03-10 19:24:06] TRANSLATION
+都是小班的形式，但是呢唉这个呃操作起来就不一样了，啊也有了班长的，啊每个小班里面有班长
+→ It's all in the form of small classes, but, well, the way it's operated is different. Ah, there are also class monitors; each small class has a monitor.
+------------------------------
+[2026-03-10 19:24:12] RECOGNITION_INTERIM
+，啊班长，然后呢下面又分了几个小组，啊每一个小组里面有组长啊组长呢是负责这一些
+------------------------------
+[2026-03-10 19:24:13] RECOGNITION_INTERIM
+就是送
+------------------------------
+[2026-03-10 19:24:14] TRANSLATION
+，啊班长，然后呢下面又分了几个小组，啊每一个小组里面有组长啊组长呢是负责这一些
+→ Ah, class monitors, and then we have several small groups below, ah, each group has a leader, and the leader is responsible for these
+------------------------------
+[2026-03-10 19:24:15] TRANSLATION
+就是送
+→ It's a giveaway
+------------------------------
+[2026-03-10 19:24:23] RECOGNITION_INTERIM
+小组内的同学的学习，啊尽可能的去突出小组内同学的学习，啊有不清楚的，然后呢你就可以啊让就是呃组长去帮帮忙
+------------------------------
+[2026-03-10 19:24:26] TRANSLATION
+小组内的同学的学习，啊尽可能的去突出小组内同学的学习，啊有不清楚的，然后呢你就可以啊让就是呃组长去帮帮忙
+→ The learning within the group, ah, should try as much as possible to highlight the learning of the students in the group, ah, if there's anything unclear, then you can, ah, have the group leader help out.
+------------------------------
+[2026-03-10 19:24:30] RECOGNITION_INTERIM
+，啊那所以这样组组长呢是付出了很多，那我到最后我要给他加分的
+------------------------------
+[2026-03-10 19:24:33] TRANSLATION
+，啊那所以这样组组长呢是付出了很多，那我到最后我要给他加分的
+→ Ah, so the group leader has put in a lot of effort, and in the end, I will give them extra points.
+------------------------------
+[2026-03-10 19:24:46] RECOGNITION_INTERIM
+，啊这些组长们付出了很多的组长，呢我要给他加分的，啊如果说他小组内的所有同学的成绩，呢期中考试唉都是及格了的，啊或者说期末考试都是及格了的，啊那这个那肯定是
+------------------------------
+[2026-03-10 19:24:49] TRANSLATION
+，啊这些组长们付出了很多的组长，呢我要给他加分的，啊如果说他小组内的所有同学的成绩，呢期中考试唉都是及格了的，啊或者说期末考试都是及格了的，啊那这个那肯定是
+→ Ah, these group leaders have put in a lot of effort, so I will give them extra points. Ah, if all the students in their group have passing grades, for example, if they all passed the midterm exam, ah, or if they all passed the final exam, ah, then that is certainly...
+------------------------------
+[2026-03-10 19:24:49] RECOGNITION_INTERIM
+他又考得好，那肯定是就给a加的冲击了，对
+------------------------------
+[2026-03-10 19:24:52] TRANSLATION
+他又考得好，那肯定是就给a加的冲击了，对
+→ He did well on the exam again, so that definitely adds to the impact for giving an A, right.
+------------------------------
+[2026-03-10 19:24:53] RECOGNITION_INTERIM
+。啊我就给a加了，懂吧同学们
+------------------------------
+[2026-03-10 19:24:55] TRANSLATION
+。啊我就给a加了，懂吧同学们
+→ Ah, so I gave an A, you see, students.
+------------------------------
+[2026-03-10 19:25:00] RECOGNITION_INTERIM
+？啊其实帮助别人比你单纯的考高分这个要对于一个人的成长来说要更好
+------------------------------
+[2026-03-10 19:25:02] TRANSLATION
+？啊其实帮助别人比你单纯的考高分这个要对于一个人的成长来说要更好
+→ Ah, actually, helping others is better for a person's growth than simply getting high scores on exams.
+------------------------------
+[2026-03-10 19:25:08] RECOGNITION_INTERIM
+。啊所以我鼓励这样的同学去，你这尽自己的就自己有能力的情况下去更多的去帮助同学
+------------------------------
+[2026-03-10 19:25:10] TRANSLATION
+。啊所以我鼓励这样的同学去，你这尽自己的就自己有能力的情况下去更多的去帮助同学
+→ Ah, so I encourage such students to, within their own capabilities, go and help their classmates more.
+------------------------------
+[2026-03-10 19:25:11] RECOGNITION_INTERIM
+，啊所以这样的同学那肯定是值得给a加的
+------------------------------
+[2026-03-10 19:25:13] RECOGNITION_INTERIM
+。同学们听清楚了吧嗯
+------------------------------
+[2026-03-10 19:25:14] TRANSLATION
+，啊所以这样的同学那肯定是值得给a加的
+→ Ah, so such students are definitely worthy of an A plus.
+------------------------------
+[2026-03-10 19:25:15] RECOGNITION_INTERIM
+？好
+------------------------------
+[2026-03-10 19:25:15] TRANSLATION
+。同学们听清楚了吧嗯
+→ Students, is that clear? Hmm
+------------------------------
+[2026-03-10 19:25:17] TRANSLATION
+？好
+→ ? Okay
+------------------------------
+[2026-03-10 19:25:20] RECOGNITION_INTERIM
+，所以呢每一个同学都要进入到某一个小组里头
+------------------------------
+[2026-03-10 19:25:21] TRANSLATION
+，所以呢每一个同学都要进入到某一个小组里头
+→ , so every student must join a certain group.
+------------------------------
+[2026-03-10 19:25:23] RECOGNITION_INTERIM
+，啊都要进入到某一个小组里头啊
+------------------------------
+[2026-03-10 19:25:25] TRANSLATION
+，啊都要进入到某一个小组里头啊
+→ , ah, everyone must join a certain group, ah.
+------------------------------
+[2026-03-10 19:25:34] RECOGNITION_INTERIM
+，你不会的，然后呢就寻求啊寻求这个小组的组长，啊寻求班长班长啊和这个助教，啊几方面你都可以寻求帮助了
+------------------------------
+[2026-03-10 19:25:37] TRANSLATION
+，你不会的，然后呢就寻求啊寻求这个小组的组长，啊寻求班长班长啊和这个助教，啊几方面你都可以寻求帮助了
+→ , you won't know how, and then you can seek help from the group leader, the class monitor, and the teaching assistant—you can seek help from all these sources.
+------------------------------
+[2026-03-10 19:25:41] RECOGNITION_INTERIM
+。好，嗯扫码了，同学们
+------------------------------
+[2026-03-10 19:25:43] TRANSLATION
+。好，嗯扫码了，同学们
+→ . Okay, um, scan the code, classmates.
+------------------------------
+[2026-03-10 19:25:44] RECOGNITION_INTERIM
+。还有10个人没扫码
+------------------------------
+[2026-03-10 19:25:46] TRANSLATION
+。还有10个人没扫码
+→ There are still 10 people who haven't scanned the code.
+------------------------------
+[2026-03-10 19:25:58] RECOGNITION_INTERIM
+，你看这个态度就不行，啊这个态度那个班199个人，啊扫码的是198个人，有1个人没扫码，原因是什么？呢他说这是往届学生二一级的
+------------------------------
+[2026-03-10 19:26:01] TRANSLATION
+，你看这个态度就不行，啊这个态度那个班199个人，啊扫码的是198个人，有1个人没扫码，原因是什么？呢他说这是往届学生二一级的
+→ Look, this attitude just won't do. In that class of 199 people, 198 have scanned the code, and 1 person hasn't. What's the reason? They say it's a former student from the class of '21.
+------------------------------
+[2026-03-10 19:26:04] RECOGNITION_INTERIM
+，本应该去年毕业，结果他到今年延了一年，今年来这儿上课还是这样的状态
+------------------------------
+[2026-03-10 19:26:07] TRANSLATION
+，本应该去年毕业，结果他到今年延了一年，今年来这儿上课还是这样的状态
+→ , who should have graduated last year, ended up extending for a year until now, and still shows this attitude when attending classes here this year.
+------------------------------
+[2026-03-10 19:26:08] RECOGNITION_INTERIM
+。啊所以你看看同学们，国内的学生他就是确实是
+------------------------------
+[2026-03-10 19:26:10] RECOGNITION_INTERIM
+明显都看到了嗯
+------------------------------
+[2026-03-10 19:26:10] TRANSLATION
+。啊所以你看看同学们，国内的学生他就是确实是
+→ Ah, so you see, classmates, domestic students indeed
+------------------------------
+[2026-03-10 19:26:12] TRANSLATION
+明显都看到了嗯
+→ Clearly, everyone can see it, hmm.
+------------------------------
+[2026-03-10 19:26:15] RECOGNITION_INTERIM
+，啊一班99个人，就有198个人坐在教室里头来上课
+------------------------------
+[2026-03-10 19:26:18] TRANSLATION
+，啊一班99个人，就有198个人坐在教室里头来上课
+→ Ah, in a class of 99 people, there are 198 people sitting in the classroom to attend the lecture.
+------------------------------
+[2026-03-10 19:26:21] RECOGNITION_INTERIM
+。啊唯一一个没来上课的还是已经是延延一年延毕一年的学生
+------------------------------
+[2026-03-10 19:26:23] TRANSLATION
+。啊唯一一个没来上课的还是已经是延延一年延毕一年的学生
+→ Ah, the only one who didn't come to class is already a student who has deferred graduation for one year.
+------------------------------
+[2026-03-10 19:26:25] RECOGNITION_INTERIM
+，啊这样的情况，所以同学们从
+------------------------------
+[2026-03-10 19:26:27] TRANSLATION
+，啊这样的情况，所以同学们从
+→ Ah, such a situation, so students, from
+------------------------------
+[2026-03-10 19:26:30] RECOGNITION_INTERIM
+啊这儿就是要摇手，啊你既然来到这儿你就要扫码啊
+------------------------------
+[2026-03-10 19:26:32] TRANSLATION
+啊这儿就是要摇手，啊你既然来到这儿你就要扫码啊
+→ Ah, here you need to wave your hand, ah since you've come here you need to scan the code.
+------------------------------
+[2026-03-10 19:26:32] RECOGNITION_INTERIM
+。那没有扫码的同学呢
+------------------------------
+[2026-03-10 19:26:35] TRANSLATION
+。那没有扫码的同学呢
+→ Then what about the students who haven't scanned the code?
+------------------------------
+[2026-03-10 19:26:36] RECOGNITION_INTERIM
+就是可能是很大程度是不学的同学
+------------------------------
+[2026-03-10 19:26:39] TRANSLATION
+就是可能是很大程度是不学的同学
+→ It is likely that a large proportion of the students are not studying.
+------------------------------
+[2026-03-10 19:26:52] RECOGNITION_INTERIM
+，那那我就是我尽可你看我给你们创造的条件，尽可能的让你们能够通过这门课程的考核啊给你们成立了小组，然后能让你们找到
+------------------------------
+[2026-03-10 19:26:55] TRANSLATION
+，那那我就是我尽可你看我给你们创造的条件，尽可能的让你们能够通过这门课程的考核啊给你们成立了小组，然后能让你们找到
+→ Well, I am doing my best—look at the conditions I've created for you—to enable you to pass the assessment of this course as much as possible. I've formed groups for you so that you can find
+------------------------------
+[2026-03-10 19:26:55] RECOGNITION_INTERIM
+可找到能够帮助你们的同学
+------------------------------
+[2026-03-10 19:26:56] TRANSLATION
+可找到能够帮助你们的同学
+→ You can find classmates who can help you
+------------------------------
+[2026-03-10 19:26:57] RECOGNITION_INTERIM
+，啊但是你们一定要主动
+------------------------------
+[2026-03-10 19:26:58] TRANSLATION
+，啊但是你们一定要主动
+→ Ah, but you must take the initiative.
+------------------------------
+[2026-03-10 19:27:05] RECOGNITION_INTERIM
+，啊所以同学们要认真了，如果你自己要是不认真的话，那你这个确实是没办法
+------------------------------
+[2026-03-10 19:27:06] RECOGNITION_INTERIM
+。啊
+------------------------------
+[2026-03-10 19:27:07] TRANSLATION
+，啊所以同学们要认真了，如果你自己要是不认真的话，那你这个确实是没办法
+→ Ah, so students must be serious. If you yourselves are not serious, then there really is no way.
+------------------------------
+[2026-03-10 19:27:19] RECOGNITION_INTERIM
+那我也给你们讲，啊就是第一就是上一个学期就给你们讲过了，留学生的每年的这种就是呃
+------------------------------
+[2026-03-10 19:27:21] RECOGNITION_INTERIM
+呃怎么说就是
+------------------------------
+[2026-03-10 19:27:24] RECOGNITION_INTERIM
+？毕业率就是
+------------------------------
+[2026-03-10 19:27:26] RECOGNITION_INTERIM
+还是
+------------------------------
+[2026-03-10 19:27:28] RECOGNITION_INTERIM
+比较低的
+------------------------------
+[2026-03-10 19:27:31] RECOGNITION_INTERIM
+，啊毕业率还是比较低的
+------------------------------
+[2026-03-10 19:27:32] RECOGNITION_INTERIM
+。啊
+------------------------------
+[2026-03-10 19:27:35] RECOGNITION_INTERIM
+这个你看这个就是
+------------------------------
+[2026-03-10 19:27:36] RECOGNITION_INTERIM
+谢金伦嗯
+------------------------------
+[2026-03-10 19:27:39] RECOGNITION_INTERIM
+。就是刚才是你那出了声音了是吧嗯
+------------------------------
+[2026-03-10 19:27:42] RECOGNITION_INTERIM
+？唉这就是俄语课堂呢它有点延迟啊
+------------------------------
+[2026-03-10 19:27:49] RECOGNITION_INTERIM
+，所以当你的这个呢就把延迟的这个问题解决了是吧？对对对唉特别棒，啊跟你说大家
+------------------------------
+[2026-03-10 19:27:49] RECOGNITION_INTERIM
+啊特别好
+------------------------------
+[2026-03-10 19:27:54] RECOGNITION_INTERIM
+。啊呃他的那个对噢说到这个呢我在这儿呢要
+------------------------------
+[2026-03-10 19:27:58] RECOGNITION_INTERIM
+敬一下，就是谢金伦做了这样一件事情，就是翻译
+------------------------------
+[2026-03-10 19:28:05] RECOGNITION_INTERIM
+。同学们有需要的要翻译的同学就扫码进去了
+------------------------------
+[2026-03-10 19:28:10] RECOGNITION_INTERIM
+，啊有需要翻译的同学就扫码进去
+------------------------------
+[2026-03-10 19:28:17] RECOGNITION_INTERIM
+。好，扫了是吧？是
+------------------------------
+[2026-03-10 19:28:21] RECOGNITION_INTERIM
+。那我就退出了，啊然后呢进入到这儿
+------------------------------
+[2026-03-10 19:28:24] RECOGNITION_INTERIM
+，然后他这儿给你能够
+------------------------------
+[2026-03-10 19:28:29] RECOGNITION_INTERIM
+唉那我这儿
+------------------------------
+[2026-03-10 19:28:32] RECOGNITION_INTERIM
+。他这儿呢就是
+------------------------------
+[2026-03-10 19:28:42] RECOGNITION_INTERIM
+先天营做的好的一点是什么？呢他这儿呢是实施的，我现在说那马上那边就翻译出来了，它中间没有这个呃就是
+------------------------------
+[2026-03-10 19:28:45] RECOGNITION_INTERIM
+研研制的这种现象，啊没有这个坡
+------------------------------
+[2026-03-10 19:28:55] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-10 19:29:01] RECOGNITION_INTERIM
+，那我们
+------------------------------
+[2026-03-10 19:29:02] RECOGNITION_INTERIM
+来看啊
+------------------------------
+[2026-03-10 19:29:17] RECOGNITION_INTERIM
+。好，那么这节课呢我们首先来看一下高阶偏导数啊来看一下高阶偏导数
+------------------------------
+[2026-03-10 19:29:30] RECOGNITION_INTERIM
+。好
+------------------------------
+[2026-03-10 19:29:35] RECOGNITION_INTERIM
+，唉那假设F呢是关于xy的二元函数
+------------------------------
+[2026-03-10 19:29:42] RECOGNITION_INTERIM
+，啊如果说它在X0Y0的某个领域内有定义
+------------------------------
+[2026-03-10 19:29:59] RECOGNITION_INTERIM
+，那么同学们看那这个函数在X0Y0这一点处，关于X的偏导数怎么求？呢回顾一下，同学们
+------------------------------
+[2026-03-10 19:30:02] RECOGNITION_INTERIM
+对X求偏导
+------------------------------
+[2026-03-10 19:30:04] RECOGNITION_INTERIM
+，那就是嗯
+------------------------------
+[2026-03-10 19:30:06] RECOGNITION_INTERIM
+固定
+------------------------------
+[2026-03-10 19:30:21] RECOGNITION_INTERIM
+ Y等于Y0，唉所以这时候的函数呢就是fxy0了，唉固定了Y0以后，它是关于X的一元函数，如果说这个一元函数在X等于X0这一点处是可导的
+------------------------------
+[2026-03-10 19:30:35] RECOGNITION_INTERIM
+，那也就是这个函数在X0这一点处的函数值的改变量与自变量改变量的比值在自变量的改变量趋近于0时的极限是存在的啦
+------------------------------
+[2026-03-10 19:30:41] RECOGNITION_INTERIM
+，唉这个极限存在，那F在X0Y0这一点关于X偏导数就存在了
+------------------------------
+[2026-03-10 19:30:44] RECOGNITION_INTERIM
+。唉那关于Y的偏导数，呢我们回顾一下
+------------------------------
+[2026-03-10 19:30:48] RECOGNITION_INTERIM
+，在X0Y0这一点，关于Y求偏导它是怎么求的
+------------------------------
+[2026-03-10 19:31:05] RECOGNITION_INTERIM
+？唉固定了X等于X0，所以这时候的函数呢就是FX0Y，它是关于Y的一元函数，在Y0这一点处的导数，那么就是函数在X0Y0这点关于Y的偏导数了
+------------------------------
+[2026-03-10 19:31:18] RECOGNITION_INTERIM
+，唉所以呢是它减去一个FX0Y0比上一个Y减去一个Y0再Y趋近于Y0时，这个极限是
+------------------------------
+[2026-03-10 19:31:19] RECOGNITION_INTERIM
+存在的啦
+------------------------------
+[2026-03-10 19:31:34] RECOGNITION_INTERIM
+。唉那如果说这一点X0Y0在函数F的定义域里面变化的时候，唉那同学们看那这个时候就是对于它定义里面的每一点处
+------------------------------
+[2026-03-10 19:31:40] RECOGNITION_INTERIM
+嗯
+------------------------------
+[2026-03-10 19:31:41] RECOGNITION_INTERIM
+你稍等一下啊
+------------------------------
+[2026-03-10 19:31:43] RECOGNITION_INTERIM
+。这个手机响起来
+------------------------------
+[2026-03-10 19:31:49] RECOGNITION_INTERIM
+，我也不能接呀
+------------------------------
+[2026-03-10 19:31:52] RECOGNITION_INTERIM
+，我也不知道你哪来的电话
+------------------------------
+[2026-03-10 19:31:56] RECOGNITION_INTERIM
+。啊
+------------------------------
+[2026-03-10 19:31:59] RECOGNITION_INTERIM
+稍等一下啊这个心里边还是那个
+------------------------------
+[2026-03-10 19:32:03] RECOGNITION_INTERIM
+。噢你看他着急了
+------------------------------
+[2026-03-10 19:32:05] RECOGNITION_INTERIM
+，我我给他们那个
+------------------------------
+[2026-03-10 19:32:27] RECOGNITION_INTERIM
+好
+------------------------------
+[2026-03-10 19:32:44] RECOGNITION_INTERIM
+，嗯好，啊那我们来看，唉那如果说这个点X0Y0在函数F的定义里面变化，也就是说对于函数定义里面的任意一点xy函数F在xy这一
+------------------------------
+[2026-03-10 19:32:58] RECOGNITION_INTERIM
+点处关于X的偏导是存在的，那么在这一点处呢关于Y的偏导也是存在的，那么这样同学们看，我们就得到了两个关于xy的二元函数了
+------------------------------
+[2026-03-10 19:33:01] RECOGNITION_INTERIM
+，唉这两个二元函数呢分别称为是
+------------------------------
+[2026-03-10 19:33:07] RECOGNITION_INTERIM
+关于X的偏导函数和关于Y的偏导函数啦
+------------------------------
+[2026-03-10 19:33:18] RECOGNITION_INTERIM
+。唉既然它是函数，那么二元函数我们又可以探讨在它定义里面每一点处关于X和Y的偏导数了
+------------------------------
+[2026-03-10 19:33:33] RECOGNITION_INTERIM
+。唉所以啊那如果说X0Y0是它定义里面的一点，那在X0Y0这一点处，同学们看，我们首先来看一下关于X的偏导函数，在X0Y0
+------------------------------
+[2026-03-10 19:33:36] RECOGNITION_INTERIM
+这一点处对X的偏导数
+------------------------------
+[2026-03-10 19:33:38] RECOGNITION_INTERIM
+。啊我们首先
+------------------------------
+[2026-03-10 19:33:49] RECOGNITION_INTERIM
+求这一个2元函数在X0Y0这一点处关于X的偏导数
+------------------------------
+[2026-03-10 19:34:09] RECOGNITION_INTERIM
+。好，那么这个2元函数要在X0Y0这一点处对X求偏导，那么怎么样求呀同学们二元函数在一点处对X求偏导
+------------------------------
+[2026-03-10 19:34:11] RECOGNITION_INTERIM
+？根据定义它是什么呢
+------------------------------
+[2026-03-10 19:34:14] RECOGNITION_INTERIM
+？是哪个函数
+------------------------------
+[2026-03-10 19:34:18] RECOGNITION_INTERIM
+？对X求偏导
+------------------------------
+[2026-03-10 19:34:29] RECOGNITION_INTERIM
+，唉是这个函数在这一点处对X求偏导，那么根据求偏导数的定义怎么求
+------------------------------
+[2026-03-10 19:34:30] RECOGNITION_INTERIM
+？固定外
+------------------------------
+[2026-03-10 19:34:40] RECOGNITION_INTERIM
+，唉就这个函数我们把Y等于Y0给它固定下来，唉所以这个函数呀这就是FX
+------------------------------
+[2026-03-10 19:34:41] RECOGNITION_INTERIM
+ Y 0
+------------------------------
+[2026-03-10 19:34:54] RECOGNITION_INTERIM
+这个函数呢关于X一元函数，这个函数在X0这一点处对X求导了，所以我们在X0这一点处呢给它一个概变量是德尔塔X
+------------------------------
+[2026-03-10 19:35:01] RECOGNITION_INTERIM
+唉减去一个这个函数在X0Y0点的函数值
+------------------------------
+[2026-03-10 19:35:03] RECOGNITION_INTERIM
+，yxx的偏导数
+------------------------------
+[2026-03-10 19:35:15] RECOGNITION_INTERIM
+比上一个自变量的改变量是德尔塔X，在德尔塔X趋近于0的时候，如果说这个极限是存在的，那么
+------------------------------
+[2026-03-10 19:35:18] RECOGNITION_INTERIM
+我们就把这个极限值
+------------------------------
+[2026-03-10 19:35:23] RECOGNITION_INTERIM
+啊就把这个极限值
+------------------------------
+[2026-03-10 19:35:33] RECOGNITION_INTERIM
+称为是2元函数F在X0Y0这一点处，对
+------------------------------
+[2026-03-10 19:35:35] RECOGNITION_INTERIM
+ X的
+------------------------------
+[2026-03-10 19:35:38] RECOGNITION_INTERIM
+二阶偏导
+------------------------------
+[2026-03-10 19:35:53] RECOGNITION_INTERIM
+。关于X的偏导函数在一点处对X的偏导数，这就是F在这一点处关于X的二阶偏导
+------------------------------
+[2026-03-10 19:36:04] RECOGNITION_INTERIM
+，唉把这个极限值呢啊给它一个记号，就记为同学们看F在X0Y0这一点处对X求偏导就是这个符号啦
+------------------------------
+[2026-03-10 19:36:12] RECOGNITION_INTERIM
+。唉一阶偏导啊再对X求偏导，所以X的右下角是两个X
+------------------------------
+[2026-03-10 19:36:14] RECOGNITION_INTERIM
+，右上角是两撇
+------------------------------
+[2026-03-10 19:36:21] RECOGNITION_INTERIM
+，唉这样来表示，那么另外一个符号啊或者呢我们也可以这样来记，你看
+------------------------------
+[2026-03-10 19:36:26] RECOGNITION_INTERIM
+ F对X求偏导，这是一个函数了嗯
+------------------------------
+[2026-03-10 19:36:40] RECOGNITION_INTERIM
+，那这个函数呢我们也可以基于偏F偏X在xy这一点了，当xy变化的时候这就是个函数了，啊所以函数我们就可以把这儿的点xy给它省略掉了
+------------------------------
+[2026-03-10 19:36:43] RECOGNITION_INTERIM
+，啊所以你平常你就会看到了这样的记号
+------------------------------
+[2026-03-10 19:36:54] RECOGNITION_INTERIM
+，这样的书写嗯这就表示这是关于X的偏导函数，这是关于xy的二元函数了，啊那么这个呢也是关于X的偏导函数
+------------------------------
+[2026-03-10 19:37:07] RECOGNITION_INTERIM
+。好，所以它是关于X的偏导函数，在X0这一点处对X求偏导了，唉所以呢那就是这一个函数
+------------------------------
+[2026-03-10 19:37:17] RECOGNITION_INTERIM
+对X求偏导在哪一点？在X0Y0这一点处求的，唉所以同学们看我们把它简写简写一下
+------------------------------
+[2026-03-10 19:37:22] RECOGNITION_INTERIM
+，唉简写下来偏偏F就是偏二F
+------------------------------
+[2026-03-10 19:37:27] RECOGNITION_INTERIM
+，先X乘以偏X就记成是偏X二
+------------------------------
+[2026-03-10 19:37:42] RECOGNITION_INTERIM
+，唉在哪一点？处在X0Y0这个点处，啊所以呢二阶偏导也可以这样来记，偏2F偏X2再X0Y0这一点
+------------------------------
+[2026-03-10 19:37:48] RECOGNITION_INTERIM
+，或者把这一点呢写到了中间偏二F偏X二
+------------------------------
+[2026-03-10 19:37:53] RECOGNITION_INTERIM
+，括号里面X0Y0，啊把这一点写到了中间
+------------------------------
+[2026-03-10 19:37:55] RECOGNITION_INTERIM
+。啊
+------------------------------
+[2026-03-10 19:37:59] RECOGNITION_INTERIM
+好
+------------------------------
+[2026-03-10 19:38:02] RECOGNITION_INTERIM
+，同学们这个清楚了吧
+------------------------------
+[2026-03-10 19:38:11] RECOGNITION_INTERIM
+？唉这就是F在X0Y0这一点处对X的二阶偏导
+------------------------------
+[2026-03-10 19:38:23] RECOGNITION_INTERIM
+。好，那么你看F关于X的偏导函数，它是关于xy的二元函数了，所以它在X0Y0这一点还可以对Y求偏导啦
+------------------------------
+[2026-03-10 19:38:30] RECOGNITION_INTERIM
+，唉对Y求偏导，接下来啊我们就求这个二元函
+------------------------------
+[2026-03-10 19:38:31] RECOGNITION_INTERIM
+函数
+------------------------------
+[2026-03-10 19:38:32] RECOGNITION_INTERIM
+再
+------------------------------
+[2026-03-10 19:38:36] RECOGNITION_INTERIM
+ X 0Y0这一点处关于
+------------------------------
+[2026-03-10 19:38:38] RECOGNITION_INTERIM
+ Y的
+------------------------------
+[2026-03-10 19:38:40] RECOGNITION_INTERIM
+偏导数
+------------------------------
+[2026-03-10 19:38:49] RECOGNITION_INTERIM
+，那么这个二元函数在一点处对于Y求偏导，我们是怎么求的
+------------------------------
+[2026-03-10 19:38:51] RECOGNITION_INTERIM
+？是哪个函数
+------------------------------
+[2026-03-10 19:38:53] RECOGNITION_INTERIM
+？固定了谁
+------------------------------
+[2026-03-10 19:39:07] RECOGNITION_INTERIM
+？对，以Y求偏导数固定，xa唉把X固定成是X0，所以这个函数呢就是F
+------------------------------
+[2026-03-10 19:39:23] RECOGNITION_INTERIM
+ X 0Y，关于X，在这一点处关于X偏导了，唉它就是关于Y的一元函数，然后这个函数在Y0点给它一个改变量是德尔塔Y减去一个F在X0Y0这一点关于
+------------------------------
+[2026-03-10 19:39:25] RECOGNITION_INTERIM
+ X的偏导数
+------------------------------
+[2026-03-10 19:39:39] RECOGNITION_INTERIM
+，上一个德尔塔Y在德尔塔Y趋近于零时的极限，如果说这个极限是存在的，那我们就把这个极限值
+------------------------------
+[2026-03-10 19:39:51] RECOGNITION_INTERIM
+，啊那么我们就把这个极限值称为是二元函数F
+------------------------------
+[2026-03-10 19:39:53] RECOGNITION_INTERIM
+。在
+------------------------------
+[2026-03-10 19:39:57] RECOGNITION_INTERIM
+ X 0Y0这一点处关系
+------------------------------
+[2026-03-10 19:39:58] RECOGNITION_INTERIM
+。对
+------------------------------
+[2026-03-10 19:40:13] RECOGNITION_INTERIM
+，啊在这一点处同学们看，因为它是先对X求的偏导了，对X求偏导以后的这个2元函数在X0Y0这一点处对Y求的偏导数了，所以呢把这个极限值呢就称为是二元
+------------------------------
+[2026-03-10 19:40:19] RECOGNITION_INTERIM
+。函数F在X0Y0这一点处先对X
+------------------------------
+[2026-03-10 19:40:22] RECOGNITION_INTERIM
+后对Y的
+------------------------------
+[2026-03-10 19:40:26] RECOGNITION_INTERIM
+二阶混合偏导嗯
+------------------------------
+[2026-03-10 19:40:47] RECOGNITION_INTERIM
+，啊把它称为是2元函数F在X0Y0这一点处，先对X后对Y的二阶混合偏导唉给它一个记号
+------------------------------
+[2026-03-10 19:40:49] RECOGNITION_INTERIM
+，啊给它一个记号
+------------------------------
+[2026-03-10 19:40:59] RECOGNITION_INTERIM
+，我们把它这样来记，你看这个函数首先是对X的偏导函数了，唉在X0Y0这一点处对于Y求偏导
+------------------------------
+[2026-03-10 19:41:02] RECOGNITION_INTERIM
+，所以这样来记
+------------------------------
+[2026-03-10 19:41:12] RECOGNITION_INTERIM
+，啊 F的右下角呢是先对X先写X后写Y，那就是表示是F是先对X求偏导，再对Y求偏导呢
+------------------------------
+[2026-03-10 19:41:17] RECOGNITION_INTERIM
+。好，那也可以这样来记，同学们看
+------------------------------
+[2026-03-10 19:41:21] RECOGNITION_INTERIM
+，对X的偏导函数是它啦
+------------------------------
+[2026-03-10 19:41:25] RECOGNITION_INTERIM
+。这一个函数在X0Y0这一点处对Y求偏导
+------------------------------
+[2026-03-10 19:41:33] RECOGNITION_INTERIM
+，唉这个函数对Y求偏导，在X0Y0这一点处求的
+------------------------------
+[2026-03-10 19:41:45] RECOGNITION_INTERIM
+，所以我们把它简写啊就简写成偏二F，同学们看偏X，然后呢又对Y求，所以呢前面
+------------------------------
+[2026-03-10 19:41:46] RECOGNITION_INTERIM
+写偏Y
+------------------------------
+[2026-03-10 19:41:50] RECOGNITION_INTERIM
+在X0Y0这个点处
+------------------------------
+[2026-03-10 19:42:04] RECOGNITION_INTERIM
+，啊所以这个记号呢我们看到这个记号它表示的是函数F在X0Y0这一点中，先对右边的这个变量X求偏导，然后再对左边的变量Y求偏导了
+------------------------------
+[2026-03-10 19:42:11] RECOGNITION_INTERIM
+。嗯好，那么这样
+------------------------------
+[2026-03-10 19:42:22] RECOGNITION_INTERIM
+我们就把F关于X的偏导函数在一点处对X求了偏导，对Y求了偏导了。那接下来看还有另外一个函数了
+------------------------------
+[2026-03-10 19:42:25] RECOGNITION_INTERIM
+，还有另外一个函数就是F，对
+------------------------------
+[2026-03-10 19:42:27] RECOGNITION_INTERIM
+。Y
+------------------------------
+[2026-03-10 19:42:41] RECOGNITION_INTERIM
+求偏导得到的这个二元函数了，唉接下来我们就求这一个2元函数在X0Y0这一点处对X的偏导数
+------------------------------
+[2026-03-10 19:42:57] RECOGNITION_INTERIM
+啊它是二元函数，所以在一点处既可以对X求偏导，又可以对Y求偏导。首先我们来对X求偏导，那对X求偏导就是在这个函数表达式里面固定Y等于Y0啊包
+------------------------------
+[2026-03-10 19:43:02] RECOGNITION_INTERIM
+ Y固定下来，所以函数呢就是X
+------------------------------
+[2026-03-10 19:43:06] RECOGNITION_INTERIM
+。在X0点给它一个改变量是德尔塔X
+------------------------------
+[2026-03-10 19:43:21] RECOGNITION_INTERIM
+，啊在这个点的函数值的改变量与自变量改变量的比值，在自变量的改变量德尔塔X趋近于00:00的极限，如果说这个极限是存在的
+------------------------------
+[2026-03-10 19:43:22] RECOGNITION_INTERIM
+的那么
+------------------------------
+[2026-03-10 19:43:25] RECOGNITION_INTERIM
+，我们就把这个极限值
+------------------------------
+[2026-03-10 19:43:32] RECOGNITION_INTERIM
+啊我们把这个极限值
+------------------------------
+[2026-03-10 19:43:42] RECOGNITION_INTERIM
+成为是2元函数F在X0Y0这一点处
+------------------------------
+[2026-03-10 19:43:43] RECOGNITION_INTERIM
+。对
+------------------------------
+[2026-03-10 19:43:47] RECOGNITION_INTERIM
+。啊在这一点处先对
+------------------------------
+[2026-03-10 19:43:49] RECOGNITION_INTERIM
+歪
+------------------------------
+[2026-03-10 19:43:52] RECOGNITION_INTERIM
+后退X的
+------------------------------
+[2026-03-10 19:43:55] RECOGNITION_INTERIM
+二G混合偏导
+------------------------------
+[2026-03-10 19:44:10] RECOGNITION_INTERIM
+，唉给它一个记号，啊这个记号呢就记为是F，它是先对Y后对X求的
+------------------------------
+[2026-03-10 19:44:12] RECOGNITION_INTERIM
+。啊在X0Y0这一点处
+------------------------------
+[2026-03-10 19:44:27] RECOGNITION_INTERIM
+，啊或者同学们看，那首先我们有的函数是这样一个函数，对Y的偏导函数了，唉这个函数在X0Y0这一点处对X求偏导，所以它对X求偏导，那就是下面偏
+------------------------------
+[2026-03-10 19:44:28] RECOGNITION_INTERIM
+ X
+------------------------------
+[2026-03-10 19:44:36] RECOGNITION_INTERIM
+. 在这一点处，啊所以就简单的记为是偏二F，偏Y，偏X
+------------------------------
+[2026-03-10 19:44:40] RECOGNITION_INTERIM
+，在X0Y0这一点嗯多以
+------------------------------
+[2026-03-10 19:44:42] RECOGNITION_INTERIM
+。这是它的记号
+------------------------------
+[2026-03-10 19:44:53] RECOGNITION_INTERIM
+。啊那么这样的记号呢表示的是在这一点处先对后面的右边的这个变量Y求偏导，然后再对X求偏导了
+------------------------------
+[2026-03-10 19:44:59] RECOGNITION_INTERIM
+。同学们先对X求和先对Y求这两个
+------------------------------
+[2026-03-10 19:45:01] RECOGNITION_INTERIM
+一样吗
+------------------------------
+[2026-03-10 19:45:06] RECOGNITION_INTERIM
+？不也一样，唉因为他研究的函数是不同的啦嗯
+------------------------------
+[2026-03-10 19:45:10] RECOGNITION_INTERIM
+，啊所以呢这两个偏导数呢是不一样的
+------------------------------
+[2026-03-10 19:45:18] RECOGNITION_INTERIM
+。那么我们再来看那关于Y的偏导函数，在一点处呢又可以对变量Y求偏导数了
+------------------------------
+[2026-03-10 19:45:19] RECOGNITION_INTERIM
+。啊接下来
+------------------------------
+[2026-03-10 19:45:21] RECOGNITION_INTERIM
+我们求
+------------------------------
+[2026-03-10 19:45:25] RECOGNITION_INTERIM
+关于Y的先导函数
+------------------------------
+[2026-03-10 19:45:26] RECOGNITION_INTERIM
+，再
+------------------------------
+[2026-03-10 19:45:31] RECOGNITION_INTERIM
+ X 0Y0这一点处对Y求偏导
+------------------------------
+[2026-03-10 19:45:40] RECOGNITION_INTERIM
+。好，那么对Y求偏导，我们就是固定
+------------------------------
+[2026-03-10 19:45:56] RECOGNITION_INTERIM
+ X唉把X固定成X0，然后在Y0这一点给它一个改变量是德尔塔Y，啊那这一个一元函数在Y零这一点的函数值的改变量与自变量改变
+------------------------------
+[2026-03-10 19:46:05] RECOGNITION_INTERIM
+量的比值在德尔塔Y趋近于00:00的极限，唉如果说这个极限是存在的
+------------------------------
+[2026-03-10 19:46:06] RECOGNITION_INTERIM
+，那么
+------------------------------
+[2026-03-10 19:46:09] RECOGNITION_INTERIM
+我们就把这个极限值
+------------------------------
+[2026-03-10 19:46:23] RECOGNITION_INTERIM
+称为是2元函数F在X0Y0这一点处的
+------------------------------
+[2026-03-10 19:46:26] RECOGNITION_INTERIM
+。啊这一点处对
+------------------------------
+[2026-03-10 19:46:28] RECOGNITION_INTERIM
+变量Y的
+------------------------------
+[2026-03-10 19:46:31] RECOGNITION_INTERIM
+二阶偏导
+------------------------------
+[2026-03-10 19:46:45] RECOGNITION_INTERIM
+，把二阶偏对Y的二阶偏导就记为F的右下角呢是两个Y，啊右上角的是两撇，在X0Y0这个点处
+------------------------------
+[2026-03-10 19:46:50] RECOGNITION_INTERIM
+，或者呢偏二F
+------------------------------
+[2026-03-10 19:46:52] RECOGNITION_INTERIM
+偏Y二
+------------------------------
+[2026-03-10 19:46:59] RECOGNITION_INTERIM
+在X0Y0这个点处
+------------------------------
+[2026-03-10 19:47:10] RECOGNITION_INTERIM
+。好，同学们，二元函数在一点的二阶偏导有几个
+------------------------------
+[2026-03-10 19:47:14] RECOGNITION_INTERIM
+？4个，他最多4个了
+------------------------------
+[2026-03-10 19:47:22] RECOGNITION_INTERIM
+。啊最多4个了。好，那么接下来呢我们就来求1个啊根据这个定义来求1个
+------------------------------
+[2026-03-10 19:47:25] RECOGNITION_INTERIM
+函数在一点处的两个二阶混合偏导数
+------------------------------
+[2026-03-10 19:47:38] RECOGNITION_INTERIM
+，比如说这个函数F的表达式fxyxy在坐标原点处取值的时候呢是等为0
+------------------------------
+[2026-03-10 19:47:49] RECOGNITION_INTERIM
+，xy不在坐标原点处取值，函数表达式呢是X乘以Y乘以X平方减Y方比上X平方加Y方
+------------------------------
+[2026-03-10 19:47:53] RECOGNITION_INTERIM
+。好，我们来讨论
+------------------------------
+[2026-03-10 19:47:55] RECOGNITION_INTERIM
+这个函数
+------------------------------
+[2026-03-10 19:47:56] RECOGNITION_INTERIM
+在
+------------------------------
+[2026-03-10 19:48:05] RECOGNITION_INTERIM
+00啊求吧啊求一下，你计算一下它在00这一点处的
+------------------------------
+[2026-03-10 19:48:07] RECOGNITION_INTERIM
+两个
+------------------------------
+[2026-03-10 19:48:10] RECOGNITION_INTERIM
+二届
+------------------------------
+[2026-03-10 19:48:13] RECOGNITION_INTERIM
+混合偏导数
+------------------------------
+[2026-03-10 19:48:29] RECOGNITION_INTERIM
+，啊求一下二元函数fxy在00这一点处的两个二阶混合偏导数
+------------------------------
+[2026-03-10 19:48:44] RECOGNITION_INTERIM
+。好，那么我们首先来求一下，在00这一点处，先对X后对Y的二阶混合偏导
+------------------------------
+[2026-03-10 19:48:47] RECOGNITION_INTERIM
+，那么这一个怎么求？同学们
+------------------------------
+[2026-03-10 19:48:49] RECOGNITION_INTERIM
+？根据定义他怎么求
+------------------------------
+[2026-03-10 19:48:56] RECOGNITION_INTERIM
+？他是哪个函数先对X后对Y，所以它是哪个函数？对
+------------------------------
+[2026-03-10 19:48:58] RECOGNITION_INTERIM
+。我求偏导呢
+------------------------------
+[2026-03-10 19:49:12] RECOGNITION_INTERIM
+。F关于X的偏导函数，唉在00这一点处对Y求偏导了，在00这一点处对Y求偏导是固定
+------------------------------
+[2026-03-10 19:49:16] RECOGNITION_INTERIM
+，X等为0，唉它是
+------------------------------
+[2026-03-10 19:49:25] RECOGNITION_INTERIM
+。这一个函数固定X等于0，然后呢在Y在0这一点的改变量我们就记为是Y了，嗯啊那么
+------------------------------
+[2026-03-10 19:49:30] RECOGNITION_INTERIM
+关于Y的一元函数在
+------------------------------
+[2026-03-10 19:49:38] RECOGNITION_INTERIM
+零这一点处的函数值的改变量与自变量改变量的比值，在自变量的改变量
+------------------------------
+[2026-03-10 19:49:41] RECOGNITION_INTERIM
+ Y趋近于00:00的极限了
+------------------------------
+[2026-03-10 19:49:46] RECOGNITION_INTERIM
+，是吧？同学们
+------------------------------
+[2026-03-10 19:49:50] RECOGNITION_INTERIM
+？对吧嗯
+------------------------------
+[2026-03-10 19:49:53] RECOGNITION_INTERIM
+？好
+------------------------------
+[2026-03-10 19:50:01] RECOGNITION_INTERIM
+，那么我要求出函数在00这一点处，先对X后对Y的二阶
+------------------------------
+[2026-03-10 19:50:12] RECOGNITION_INTERIM
+混合偏导，也就是要求这个极限了。那么你看这个极限表达式里面出现了F在零外这一点处对X的偏导数
+------------------------------
+[2026-03-10 19:50:26] RECOGNITION_INTERIM
+，这是Y不等于0的时候，所以你首先要求Y不等于0的时候，F在0外这一点处对X的偏导还要求Y等于0的时候，F在00这一点处对X的偏导了
+------------------------------
+[2026-03-10 19:50:40] RECOGNITION_INTERIM
+，唉这两个表达式求出代入到上面的极限表达式里头才可以求出这个极限值了。好，我们分别来看那在Y不能为0的时候，F在0外这一点，处对X求偏导
+------------------------------
+[2026-03-10 19:50:45] RECOGNITION_INTERIM
+，在0外这一点处对X求偏导，我们是固定谁
+------------------------------
+[2026-03-10 19:50:52] RECOGNITION_INTERIM
+？嗯唉固定Y就等于Y
+------------------------------
+[2026-03-10 19:51:06] RECOGNITION_INTERIM
+，唉固定了Y，那 X在0这一点处求导数了，唉所以这个函数呢就是fxy，把Y固定下来，啊这零点的改变量用X来表示，减去一个F0Y
+------------------------------
+[2026-03-10 19:51:17] RECOGNITION_INTERIM
+，比上一个X在X趋近于零时的极限，唉这个极限就是F在零外这一点处对X的偏导数啦
+------------------------------
+[2026-03-10 19:51:32] RECOGNITION_INTERIM
+。好，我们来那这个时候X趋近于0，Y不等于0，那就是xy都不等于0的时候，fxy的表达式就是X乘以Y再乘以X平方减Y方比上X平方加Y方了
+------------------------------
+[2026-03-10 19:51:35] RECOGNITION_INTERIM
+，那F在0外点的函数值呢
+------------------------------
+[2026-03-10 19:51:50] RECOGNITION_INTERIM
+？等于0，吧唉因为它的表达式是X乘以Y再乘以它，那这儿的X趋0了，啊所以是等于0，因此除以一个X那它就是Y乘以X平方减Y方
+------------------------------
+[2026-03-10 19:51:53] RECOGNITION_INTERIM
+，比上X平方加Y方再
+------------------------------
+[2026-03-10 19:51:57] RECOGNITION_INTERIM
+ X趋近于00:00的极限
+------------------------------
+[2026-03-10 19:51:59] RECOGNITION_INTERIM
+，那这个极限等于多少
+------------------------------
+[2026-03-10 19:52:03] RECOGNITION_INTERIM
+？等于多少？同学们
+------------------------------
+[2026-03-10 19:52:09] RECOGNITION_INTERIM
+？等维
+------------------------------
+[2026-03-10 19:52:13] RECOGNITION_INTERIM
+负Y
+------------------------------
+[2026-03-10 19:52:16] RECOGNITION_INTERIM
+啊等于负为
+------------------------------
+[2026-03-10 19:52:25] RECOGNITION_INTERIM
+。啊在X趋近于0的时候，它就收敛到Y乘以负Y的平方比上Y的平方
+------------------------------
+[2026-03-10 19:52:36] RECOGNITION_INTERIM
+，啊所以就等于负Y了。好，那么在00这一点处对X求偏导，那根据定义呢它就是fxy的表达式里面，我们固定了Y等于0
+------------------------------
+[2026-03-10 19:52:53] RECOGNITION_INTERIM
+，然后这个函数呢就是FX0了，然后在0这一点处求导数了，所以在0点的改变量就用X来表示，减去一个F00比上一个X在X趋近于0时
+------------------------------
+[2026-03-10 19:52:54] RECOGNITION_INTERIM
+的极限嗯
+------------------------------
+[2026-03-10 19:52:56] RECOGNITION_INTERIM
+。那么这个极限等于
+------------------------------
+[2026-03-10 19:52:59] RECOGNITION_INTERIM
+0了，因为分子都等于0
+------------------------------
+[2026-03-10 19:53:18] RECOGNITION_INTERIM
+，是吧同学们？啊所以这个极限值等于0。好了，那这两个求出来我们代入到上面的表达式里头，因此在Y趋近于0的时候，你看这就是负Y比上一个Y了，它就收敛到-1了
+------------------------------
+[2026-03-10 19:53:19] RECOGNITION_INTERIM
+。嗯
+------------------------------
+[2026-03-10 19:53:20] RECOGNITION_INTERIM
+是吧
+------------------------------
+[2026-03-10 19:53:35] RECOGNITION_INTERIM
+？好，那么接下来我们再来求F在00这一点处先对Y后对X的二阶混合偏导，那么这个根据定义它是什么呢
+------------------------------
+[2026-03-10 19:53:42] RECOGNITION_INTERIM
+？是关于Y的偏导函数，在00这一点处对X求偏导呢
+------------------------------
+[2026-03-10 19:53:46] RECOGNITION_INTERIM
+，唉对X求偏导就是把Y固定成是0了
+------------------------------
+[2026-03-10 19:53:48] RECOGNITION_INTERIM
+，唉固定Y
+------------------------------
+[2026-03-10 19:53:56] RECOGNITION_INTERIM
+，啊然后在X这一边啊零这一边给它一个改变量，我们就用X来表示
+------------------------------
+[2026-03-10 19:54:07] RECOGNITION_INTERIM
+。啊在零关于X在0这一点的函数值的改变量与自变量改变量的比值，在自变量的改变量趋近于0时的极限了
+------------------------------
+[2026-03-10 19:54:19] RECOGNITION_INTERIM
+。好，所以要求出这个极限来，那我们看到那就是要求当X不等于0的时候，F在X0这一点处对
+------------------------------
+[2026-03-10 19:54:27] RECOGNITION_INTERIM
+ Y的偏导数，那还有一个呢要求出了F在00这一点处对于Y的偏导数了
+------------------------------
+[2026-03-10 19:54:34] RECOGNITION_INTERIM
+。好，分别求，那么首先来看一下在X0这一点处对Y求偏导，它是哪个函数
+------------------------------
+[2026-03-10 19:54:38] RECOGNITION_INTERIM
+？是固定了哪个变量
+------------------------------
+[2026-03-10 19:54:54] RECOGNITION_INTERIM
+？在X0这一点处对Y求偏导，就是固定X，啦唉 X不变，Y呢是在零点有改变量，我们就记为Y，所以这个函数就是fxy了
+------------------------------
+[2026-03-10 19:54:57] RECOGNITION_INTERIM
+，唉减去一个
+------------------------------
+[2026-03-10 19:54:58] RECOGNITION_INTERIM
+谁
+------------------------------
+[2026-03-10 19:55:00] RECOGNITION_INTERIM
+？X0，对
+------------------------------
+[2026-03-10 19:55:02] RECOGNITION_INTERIM
+。比上一个
+------------------------------
+[2026-03-10 19:55:03] RECOGNITION_INTERIM
+ Y
+------------------------------
+[2026-03-10 19:55:04] RECOGNITION_INTERIM
+在
+------------------------------
+[2026-03-10 19:55:10] RECOGNITION_INTERIM
+ Y趋近于零时的极限了。好，那这个极限我们来求一下
+------------------------------
+[2026-03-10 19:55:14] RECOGNITION_INTERIM
+，那分子fxy的表达式就是X乘以Y
+------------------------------
+[2026-03-10 19:55:26] RECOGNITION_INTERIM
+除以一个Y，那就是X了，X乘以X平方减Y方比上一个X平方加Y方再Y趋近于0时的极限，它就收敛到
+------------------------------
+[2026-03-10 19:55:28] RECOGNITION_INTERIM
+ X了
+------------------------------
+[2026-03-10 19:55:34] RECOGNITION_INTERIM
+，那 F在00这一点对Y的偏导数呢
+------------------------------

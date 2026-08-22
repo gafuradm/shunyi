@@ -1,0 +1,20 @@
+{
+  "generated": "2026-03-06T18:53:55.075409",
+  "total_entries": 1,
+  "history": [
+    {
+      "id": 0,
+      "text": " Three M, no no no no",
+      "timestamp": 1772794412.906668,
+      "datetime": "2026-03-06 18:53:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    }
+  ]
+}

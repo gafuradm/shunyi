@@ -1,0 +1,1028 @@
+{
+  "generated": "2026-03-04T20:44:53.762169",
+  "total_entries": 73,
+  "history": [
+    {
+      "id": 0,
+      "text": "那边的应该是对应的，哈不是中国人编的，就不对应了",
+      "timestamp": 1772628025.693547,
+      "datetime": "2026-03-04 20:40:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "。因为什么？呀因为中国这个以前受苏联的影响很大",
+      "timestamp": 1772628030.7796962,
+      "datetime": "2026-03-04 20:40:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "，啊共产党建立新中国以来，啊一边倒都倒向苏联，就俄罗斯的前身对吧",
+      "timestamp": 1772628038.961421,
+      "datetime": "2026-03-04 20:40:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "？但是很多方面啊都是从苏联引进的啊",
+      "timestamp": 1772628043.6036139,
+      "datetime": "2026-03-04 20:40:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "，所以这个术语体系",
+      "timestamp": 1772628046.68175,
+      "datetime": "2026-03-04 20:40:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "教材教材等等都是苏联的版本",
+      "timestamp": 1772628050.244552,
+      "datetime": "2026-03-04 20:40:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "。因是跟那个唉",
+      "timestamp": 1772628053.8165278,
+      "datetime": "2026-03-04 20:40:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "这个美西方它有一个是不一样的哈",
+      "timestamp": 1772628057.3934069,
+      "datetime": "2026-03-04 20:40:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "。再跟大家说明一下",
+      "timestamp": 1772628059.4417121,
+      "datetime": "2026-03-04 20:40:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "，就是你看见",
+      "timestamp": 1772628060.9704692,
+      "datetime": "2026-03-04 20:41:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "非中国人写的英语教材的时候",
+      "timestamp": 1772628064.5930262,
+      "datetime": "2026-03-04 20:41:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "，有同学问我要英语教材对吧？参考教材我给列了一下，在群里头列了一下哈",
+      "timestamp": 1772628070.72105,
+      "datetime": "2026-03-04 20:41:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。这个",
+      "timestamp": 1772628072.7638369,
+      "datetime": "2026-03-04 20:41:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "那是中国人写的还是啊",
+      "timestamp": 1772628075.832343,
+      "datetime": "2026-03-04 20:41:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "？你要看英国人写的话",
+      "timestamp": 1772628077.8707142,
+      "datetime": "2026-03-04 20:41:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "，呃其他国家要写的话，他有的地方是不这么说的",
+      "timestamp": 1772628082.006059,
+      "datetime": "2026-03-04 20:41:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "。那你现在既然在这里的话，你就按按这边的系统来",
+      "timestamp": 1772628087.1202528,
+      "datetime": "2026-03-04 20:41:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。呃总体来说这么说哈嗯",
+      "timestamp": 1772628090.177829,
+      "datetime": "2026-03-04 20:41:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "，西方英语教材的内容比较浅一些啊",
+      "timestamp": 1772628093.7558222,
+      "datetime": "2026-03-04 20:41:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "，内在空间的积累那就做功了嗯",
+      "timestamp": 1772628101.9311419,
+      "datetime": "2026-03-04 20:41:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "。啊这是我们",
+      "timestamp": 1772628105.041565,
+      "datetime": "2026-03-04 20:41:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "下一章的内容",
+      "timestamp": 1772628106.571724,
+      "datetime": "2026-03-04 20:41:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "。这章的话",
+      "timestamp": 1772628108.10636,
+      "datetime": "2026-03-04 20:41:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "是这个哈嗯",
+      "timestamp": 1772628109.637014,
+      "datetime": "2026-03-04 20:41:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "动量、角动量、冲量",
+      "timestamp": 1772628112.185811,
+      "datetime": "2026-03-04 20:41:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "，平动啊冲量，对动量",
+      "timestamp": 1772628114.7503622,
+      "datetime": "2026-03-04 20:41:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "冲量去对调重量",
+      "timestamp": 1772628117.8109472,
+      "datetime": "2026-03-04 20:41:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "，这些历史呃大家自己看一下就行啊",
+      "timestamp": 1772628124.497359,
+      "datetime": "2026-03-04 20:42:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "这一章内容有很多，啊有10小节",
+      "timestamp": 1772628133.692998,
+      "datetime": "2026-03-04 20:42:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "，10小节，最后一小节呢打了一个星号啊",
+      "timestamp": 1772628138.2897122,
+      "datetime": "2026-03-04 20:42:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "，这个自心系中的角度呢这个自心系啊",
+      "timestamp": 1772628143.448164,
+      "datetime": "2026-03-04 20:42:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "其实是省了两个字，自心参考系",
+      "timestamp": 1772628147.015827,
+      "datetime": "2026-03-04 20:42:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "，所以说是自心上自感性它会有自心",
+      "timestamp": 1772628152.128355,
+      "datetime": "2026-03-04 20:42:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "，找自信对吧嗯",
+      "timestamp": 1772628153.6605241,
+      "datetime": "2026-03-04 20:42:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "？嗯我们说最简单的两个字典",
+      "timestamp": 1772628156.719896,
+      "datetime": "2026-03-04 20:42:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "，还有一个自信杠杆原理对不对",
+      "timestamp": 1772628159.796673,
+      "datetime": "2026-03-04 20:42:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "？自信科研项目怎么样",
+      "timestamp": 1772628161.834906,
+      "datetime": "2026-03-04 20:42:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "？这个质量重的那一方对吧",
+      "timestamp": 1772628164.461053,
+      "datetime": "2026-03-04 20:42:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "？不是平均的",
+      "timestamp": 1772628165.455261,
+      "datetime": "2026-03-04 20:42:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "，那不止两个质点呢",
+      "timestamp": 1772628167.4968479,
+      "datetime": "2026-03-04 20:42:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "，有很多字点组成一个字典系",
+      "timestamp": 1772628170.562737,
+      "datetime": "2026-03-04 20:42:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "，啊各个字典的质量又不一样",
+      "timestamp": 1772628173.630611,
+      "datetime": "2026-03-04 20:42:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "，我们要去找自心在哪里",
+      "timestamp": 1772628176.184709,
+      "datetime": "2026-03-04 20:42:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "，然后在呢以字心为参照物，建议参考就叫做自心参考系",
+      "timestamp": 1772628181.2947142,
+      "datetime": "2026-03-04 20:43:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "，简称自心系",
+      "timestamp": 1772628182.8253922,
+      "datetime": "2026-03-04 20:43:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "，这一部分哈打了一个星号",
+      "timestamp": 1772628186.454256,
+      "datetime": "2026-03-04 20:43:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "，唉是不列入考试范围的",
+      "timestamp": 1772628189.512579,
+      "datetime": "2026-03-04 20:43:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "，嗯提前跟大家说一下哈",
+      "timestamp": 1772628192.069474,
+      "datetime": "2026-03-04 20:43:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "。所以有同学说我没有余力，我想看点别的，时间呃不用在这里那不看也也没关系啊",
+      "timestamp": 1772628201.267818,
+      "datetime": "2026-03-04 20:43:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "，想看了就看一点",
+      "timestamp": 1772628202.789939,
+      "datetime": "2026-03-04 20:43:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "，这里出现了守恒定律了啊",
+      "timestamp": 1772628208.968262,
+      "datetime": "2026-03-04 20:43:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "，动量守恒定律",
+      "timestamp": 1772628211.5211039,
+      "datetime": "2026-03-04 20:43:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "，角动量守恒定律",
+      "timestamp": 1772628214.590543,
+      "datetime": "2026-03-04 20:43:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "，还有别的什么守恒定律",
+      "timestamp": 1772628220.207564,
+      "datetime": "2026-03-04 20:43:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "？对做功的话就机械能守恒定律了，啊下一章的内容",
+      "timestamp": 1772628225.881191,
+      "datetime": "2026-03-04 20:43:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "。三个守恒定律",
+      "timestamp": 1772628227.402008,
+      "datetime": "2026-03-04 20:43:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "，现在是定义",
+      "timestamp": 1772628229.9656682,
+      "datetime": "2026-03-04 20:43:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "流动第二定律我们改写一下",
+      "timestamp": 1772628233.024516,
+      "datetime": "2026-03-04 20:43:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "，两边都乘一个dt",
+      "timestamp": 1772628236.091933,
+      "datetime": "2026-03-04 20:43:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "，力量，对时间进来这就成了个dtfdt，这边乘一个dt就dt对吧",
+      "timestamp": 1772628243.244375,
+      "datetime": "2026-03-04 20:44:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "？Dpfdt",
+      "timestamp": 1772628245.842997,
+      "datetime": "2026-03-04 20:44:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "=DP",
+      "timestamp": 1772628247.374743,
+      "datetime": "2026-03-04 20:44:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": ". Fdt呢有时候用这个写用D大a来写啊",
+      "timestamp": 1772628251.986163,
+      "datetime": "2026-03-04 20:44:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "那这个就是对时间积累了，在我们在这里定义",
+      "timestamp": 1772628258.096577,
+      "datetime": "2026-03-04 20:44:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "力的冲量",
+      "timestamp": 1772628260.65177,
+      "datetime": "2026-03-04 20:44:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "。所以这个为什么用写用那个 I大I是这么来的，哈是英语这个第一个字母",
+      "timestamp": 1772628266.3249369,
+      "datetime": "2026-03-04 20:44:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "力的冲量的这么定义哈",
+      "timestamp": 1772628268.3644202,
+      "datetime": "2026-03-04 20:44:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "。第I矢量等于F矢量乘上BT",
+      "timestamp": 1772628271.945499,
+      "datetime": "2026-03-04 20:44:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "，这个原过程啊",
+      "timestamp": 1772628274.496264,
+      "datetime": "2026-03-04 20:44:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "。这个圆呢微圆的圆",
+      "timestamp": 1772628277.5566761,
+      "datetime": "2026-03-04 20:44:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": "，我在选啊圆过程",
+      "timestamp": 1772628279.60967,
+      "datetime": "2026-03-04 20:44:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "，这个中文啊很麻烦，对吧？它同音字太多了，是不是",
+      "timestamp": 1772628284.708509,
+      "datetime": "2026-03-04 20:44:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "？这个圆啊",
+      "timestamp": 1772628290.378166,
+      "datetime": "2026-03-04 20:44:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

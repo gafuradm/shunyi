@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Защищённые данные (anti-screenshot)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none !important;
+            -webkit-user-select: none !important;
+            -moz-user-select: none !important;
+            -ms-user-select: none !important;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background: #0a0b14;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* ОСНОВНОЙ КОНТЕЙНЕР */
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            max-height: 90vh;
+            overflow: auto;
+            border-radius: 28px;
+            background: #11131f;
+            box-shadow: 0 25px 50px -8px black;
+            position: relative;
+            z-index: 10;
+            border: 1px solid #2f3555;
+        }
+
+        /* ТАБЛИЦА */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            background: #11131f;
+            color: #eaecff;
+            position: relative;
+            backdrop-filter: blur(0.3px); /* микро-блур для усложнения OCR */
+        }
+
+        thead {
+            background: #1e2340;
+            color: #b3bdff;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+
+        th, td {
+            padding: 16px 12px;
+            border-bottom: 1px solid #2a2f4a;
+            text-align: left;
+            white-space: nowrap;
+            min-width: 130px;
+            max-width: 250px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td {
+            background: #151a29;
+            color: #d3d8ff;
+            font-weight: 400;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.05); /* дополнительный шум для текста */
+        }
+
+        /* анти-выделение и анти-клики */
+        td, th, tr {
+            pointer-events: none;
+        }
+
+        /* полоса прокрутки */
+        .container::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+            background: #1a1e30;
+        }
+        .container::-webkit-scrollbar-thumb {
+            background: #3f4670;
+            border-radius: 30px;
+        }
+
+        /* ========== ЗАЩИТА ОТ СКРИНШОТОВ ========== */
+        
+        /* 1. СЛОЙ ШУМА ПОВЕРХ ТАБЛИЦЫ (делает текст нечитаемым для OCR) */
+        .noise-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: repeating-radial-gradient(circle at 1px 1px, 
+                        rgba(255, 255, 255, 0.03) 1px, 
+                        transparent 2px);
+            background-size: 4px 4px;
+            pointer-events: none;
+            z-index: 9999;
+            mix-blend-mode: overlay;
+            opacity: 0.25;
+        }
+
+        /* 2. БЛУР-СЛОЙ при попытке скриншота (активируется через JS) */
+        .screenshot-protection {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            z-index: 10000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.05s;
+            backdrop-filter: blur(10px);
+        }
+
+        .screenshot-protection.active {
+            opacity: 1;
+        }
+
+        /* 3. МИГАЮЩИЙ ЭФФЕКТ при потере фокуса */
+        .fade-protection {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+            z-index: 10001;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.1s;
+        }
+
+        /* 4. ДОПОЛНИТЕЛЬНЫЙ ТЕКСТУРНЫЙ ШУМ */
+        .texture-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none"/><rect x="0" y="0" width="1" height="1" fill="rgba(255,255,255,0.02)"/><rect x="50" y="30" width="1" height="1" fill="rgba(0,0,0,0.03)"/><rect x="20" y="80" width="1" height="1" fill="rgba(255,255,255,0.01)"/></svg>');
+            background-repeat: repeat;
+            pointer-events: none;
+            z-index: 9998;
+            mix-blend-mode: multiply;
+            opacity: 0.4;
+        }
+
+        /* затемнение текста для дополнительной защиты */
+        td {
+            color: #d0d4ff;
+            text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 2px #11131f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="tableContainer">
+    <!-- таблица будет вставлена JS -->
+</div>
+
+<!-- защитные слои -->
+<div class="noise-layer"></div>
+<div class="texture-overlay"></div>
+<div class="screenshot-protection" id="screenshotWarning">📸 Обнаружена попытка скриншота</div>
+<div class="fade-protection" id="fadeProtection"></div>
+
+<script>
+    (function() {
+        // ========== ДАННЫЕ (ТОЛЬКО ВНУТРИ ЗАМЫКАНИЯ) ==========
+        const institutions = [
+            ["Акмолинская область", "Улица А. Кунанбаева 17А", "Организации среднего образования", "87163321645", "КГУ 'Общеобразовательная школа №1...'", "1"],
+            ["Акмолинская область", "Улица Республики 42", "Организации среднего образования", "87164547042", "КГУ 'Общеобразовательная школа села Изобильное...'", "2"],
+            ["Акмолинская область", "Улица Абая Кунанбаева 11/1", "Организации среднего образования", "87163059204", "ГУ 'Кымызынайская начальная школа...'", "3"],
+            ["Акмолинская область", "Улица Мектеп 15A", "Организации среднего образования", "87164031008", "ГУ 'Михайловская начальная школа'", "4"],
+            ["Акмолинская область", "Улица Азат 21", "Организации среднего образования", "87163838130", "КГУ 'Общеобразовательная школа имени Горького...'", "5"],
+            ["Акмолинская область", "Улица Горького 8", "Организации среднего образования", "87164227180", "КГУ 'Общеобразовательная школа села Спиридоновка...'", "6"],
+            ["Акмолинская область", "Улица Ш. Уалиханова 51", "Организации среднего образования", "87163322994", "КГУ 'Школа-лицей имени Насыра Смагулова...'", "7"],
+            ["Акмолинская область", "Улица Достык 18", "Организации среднего образования", "87163350384", "КГУ 'Основная средняя школа села Ельтай...'", "8"],
+            ["Акмолинская область", "Микрорайон 4 48", "Специальные организации образования", "87164559502", "КГУ 'Cпециальная школа-интернат №3...'", "9"],
+            ["Акмолинская область", "Микрорайон Сарыарка 7А", "Организации среднего образования", "87162519330", "КГУ 'IT лицей имени аль-Фараби...'", "10"],
+            ["Акмолинская область", "Микрорайон Горный 23", "Специализированные организации образования", "87163621145", "КГУ 'IT лицей-интернат \"Білім-инновация\"'", "11"],
+            ["Акмолинская область", "Улица Желтоксан 37", "Организации среднего образования", "87023812424", "КГУ 'IT школа-лицей города Косшы'", "12"],
+            ["Акмолинская область", "Улица Зоя Космодемьянская 67", "Организации среднего образования", "87164642429", "КГУ 'Вечерняя школа города Макинск'", "13"],
+            ["Акмолинская область", "Микрорайон 1 57", "Организации среднего образования", "87164560835", "КГУ 'Вечерняя школа города Степногорск'", "14"],
+            ["Акмолинская область", "Улица Мектеп 11", "Организации среднего образования", "87163253196", "КГУ 'Казахстанская начальная школа'", "15"],
+            ["Акмолинская область", "Улица Акана Серэ 155 А", "Специализированные организации образования", "87162721129", "КГУ 'Лицей-интернат \"Білім-инновация\"'", "16"],
+            ["Акмолинская область", "Улица Капцевича 141", "Организации среднего образования", "87162255714", "КГУ 'Многопрофильная гимназия №5 \"Тандау\"'", "17"],
+            ["Акмолинская область", "Улица Тауелсиздик 10", "Организации среднего образования", "87162404590", "КГУ 'Многопрофильная школа-гимназия №3'", "18"],
+            ["Акмолинская область", "Микрорайон 4 46", "Организации среднего образования", "87164561026", "КГУ 'Многопрофильная школа-лицей №5'", "19"],
+            ["Акмолинская область", "Улица Элеватор 21", "Организации среднего образования", "87163931253", "КГУ 'Начальная школа села Актас'", "20"]
+        ];
+
+        // ========== ЗАЩИТА ОТ КОМБИНАЦИЙ КЛАВИШ ==========
+        function blockAllKeys(e) {
+            const key = e.key.toLowerCase();
+            // Блокируем всё, что связано со скриншотами, печатью, копированием, F12
+            if (e.ctrlKey || e.metaKey || e.altKey || 
+                key === 'printscreen' || 
+                e.keyCode === 44 ||        // PrintScreen
+                e.keyCode === 123 ||        // F12
+                key.includes('f12') ||
+                key === 'f12' ||
+                (e.ctrlKey && (key === 'p' || key === 's' || key === 'c' || key === 'v'))) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Показываем предупреждение
+                document.getElementById('screenshotWarning').classList.add('active');
+                setTimeout(() => {
+                    document.getElementById('screenshotWarning').classList.remove('active');
+                }, 500);
+                
+                return false;
+            }
+        }
+
+        document.addEventListener('keydown', blockAllKeys);
+        document.addEventListener('keyup', blockAllKeys);
+
+        // ========== ЗАЩИТА ОТ СКРИНШОТОВ ==========
+        // 1. Определяем попытку скриншота по комбинации Win+Shift+S, PrtSc и т.д.
+        let screenshotDetected = false;
+        
+        // 2. Защита от потери фокуса (обычно при скриншотах окно теряет фокус)
+        window.addEventListener('blur', function() {
+            // Мгновенно скрываем данные
+            document.getElementById('fadeProtection').style.opacity = '0.95';
+            document.getElementById('screenshotWarning').classList.add('active');
+            
+            setTimeout(() => {
+                document.getElementById('fadeProtection').style.opacity = '0';
+                document.getElementById('screenshotWarning').classList.remove('active');
+            }, 300);
+        });
+
+        // 3. Мониторинг разрешения экрана (обнаружение DevTools)
+        const threshold = 150;
+        function detectDevTools() {
+            const widthDiff = window.outerWidth - window.innerWidth > threshold;
+            const heightDiff = window.outerHeight - window.innerHeight > threshold;
+            
+            if (widthDiff || heightDiff) {
+                document.body.innerHTML = '<div style="background:#000; color:#f00; height:100vh; display:flex; align-items:center; justify-content:center; font-size:32px;">🔒 Доступ запрещён</div>';
+            }
+        }
+        setInterval(detectDevTools, 300);
+
+        // 4. Предотвращаем печать
+        window.matchMedia('print').addListener(function() {
+            document.body.innerHTML = '<div style="background:black; color:white;">Печать запрещена</div>';
+        });
+
+        // ========== ЗАПОЛНЕНИЕ ТАБЛИЦЫ ==========
+        const container = document.getElementById('tableContainer');
+        let html = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>Область</th>
+                        <th>Адрес</th>
+                        <th>Тип</th>
+                        <th>Телефон</th>
+                        <th>Наименование</th>
+                        <th>№</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        institutions.forEach(row => {
+            html += '<tr>';
+            row.forEach(cell => {
+                html += `<td>${cell}</td>`;
+            });
+            html += '</tr>';
+        });
+
+        html += '</tbody></table>';
+        container.innerHTML = html;
+
+        // ========== ДОПОЛНИТЕЛЬНАЯ ЗАЩИТА CANVAS ==========
+        const canvas = document.createElement('canvas');
+        canvas.width = window.innerWidth * 2;
+        canvas.height = window.innerHeight * 2;
+        canvas.style.position = 'fixed';
+        canvas.style.top = '0';
+        canvas.style.left = '0';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
+        canvas.style.pointerEvents = 'none';
+        canvas.style.zIndex = '9997';
+        canvas.style.opacity = '0.1';
+        
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#11131f';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        // Рисуем хаотичный шум
+        for (let i = 0; i < 100000; i++) {
+            ctx.fillStyle = `rgba(255,255,255,${Math.random() * 0.03})`;
+            ctx.fillRect(Math.random() * canvas.width, Math.random() * canvas.height, 1, 2);
+        }
+        
+        document.body.appendChild(canvas);
+
+        // Блокируем toDataURL
+        Object.defineProperty(HTMLCanvasElement.prototype, 'toDataURL', {
+            get: () => () => { throw new Error('Запрещено'); }
+        });
+
+        // ========== БЛОКИРУЕМ КОНТЕКСТНОЕ МЕНЮ, ВЫДЕЛЕНИЕ ==========
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+        document.addEventListener('copy', e => e.preventDefault());
+        document.addEventListener('cut', e => e.preventDefault());
+        document.addEventListener('paste', e => e.preventDefault());
+
+        // Защита всех ячеек
+        setTimeout(() => {
+            const cells = document.querySelectorAll('td, th');
+            cells.forEach(cell => {
+                cell.addEventListener('mousedown', e => e.preventDefault());
+                cell.addEventListener('mouseup', e => e.preventDefault());
+            });
+        }, 100);
+
+        // Уничтожаем данные из глобальной области
+        window.institutions = undefined;
+        window.rowData = undefined;
+    })();
+</script>
+</body>
+</html>

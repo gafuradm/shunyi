@@ -1,0 +1,235 @@
+[2026-03-06 20:49:55] RECOGNITION_INTERIM
+嗯嗯
+------------------------------
+[2026-03-06 20:49:59] RECOGNITION_INTERIM
+嗯到一嗯嗯
+------------------------------
+[2026-03-06 20:50:00] RECOGNITION_INTERIM
+嗯
+------------------------------
+[2026-03-06 20:50:01] RECOGNITION_INTERIM
+嗯嗯嗯
+------------------------------
+[2026-03-06 20:50:04] RECOGNITION_INTERIM
+嗯嗯
+------------------------------
+[2026-03-06 20:50:24] RECOGNITION_INTERIM
+嗯嗯嗯嗯
+------------------------------
+[2026-03-06 20:50:25] RECOGNITION_INTERIM
+嗯
+------------------------------
+[2026-03-06 20:50:25] TRANSLATION
+嗯嗯嗯嗯
+→ Hmm hmm hmm hmm
+------------------------------
+[2026-03-06 20:50:26] TRANSLATION
+嗯
+→ Hmm
+------------------------------
+[2026-03-06 20:50:27] RECOGNITION_INTERIM
+嗯的过了
+------------------------------
+[2026-03-06 20:50:29] TRANSLATION
+嗯的过了
+→ Hmm, it's done
+------------------------------
+[2026-03-06 20:52:04] RECOGNITION_INTERIM
+。嗯嗯
+------------------------------
+[2026-03-06 20:52:06] TRANSLATION
+。嗯嗯
+→ Hmm hmm
+------------------------------
+[2026-03-06 20:52:08] RECOGNITION_INTERIM
+嗯嗯
+------------------------------
+[2026-03-06 20:52:10] TRANSLATION
+嗯嗯
+→ Hmm hmm
+------------------------------
+[2026-03-06 20:52:34] RECOGNITION_INTERIM
+你说
+------------------------------
+[2026-03-06 20:52:36] TRANSLATION
+你说
+→ You say
+------------------------------
+[2026-03-06 20:53:26] RECOGNITION_INTERIM
+。嗯嗯扫码
+------------------------------
+[2026-03-06 20:53:29] TRANSLATION
+。嗯嗯扫码
+→ Hmm hmm scan the code
+------------------------------
+[2026-03-06 20:53:32] RECOGNITION_INTERIM
+啊达哇
+------------------------------
+[2026-03-06 20:53:33] TRANSLATION
+啊达哇
+→ Ah, that's it
+------------------------------
+[2026-03-06 20:53:36] RECOGNITION_INTERIM
+。我卡
+------------------------------
+[2026-03-06 20:53:38] TRANSLATION
+。我卡
+→ . I'm stuck
+------------------------------
+[2026-03-06 20:53:50] RECOGNITION_INTERIM
+。Come on
+------------------------------
+[2026-03-06 20:53:51] TRANSLATION
+。Come on
+→ . Come on
+------------------------------
+[2026-03-06 20:54:22] RECOGNITION_INTERIM
+. 妈妈莫贪子莫酒
+------------------------------
+[2026-03-06 20:54:23] TRANSLATION
+. 妈妈莫贪子莫酒
+→ . Mom, don't be greedy; son, don't drink.
+------------------------------
+[2026-03-06 20:54:26] RECOGNITION_INTERIM
+。啊西楼唉
+------------------------------
+[2026-03-06 20:54:27] TRANSLATION
+。啊西楼唉
+→ Ah, Xilou, sigh
+------------------------------
+[2026-03-06 20:54:28] RECOGNITION_INTERIM
+吃啥马自达
+------------------------------
+[2026-03-06 20:54:29] TRANSLATION
+吃啥马自达
+→ What to eat Mazda
+------------------------------
+[2026-03-06 20:54:33] RECOGNITION_INTERIM
+？1879爱你
+------------------------------
+[2026-03-06 20:54:34] TRANSLATION
+？1879爱你
+→ ?1879 love you
+------------------------------
+[2026-03-06 20:54:53] RECOGNITION_INTERIM
+。我们喂吧有
+------------------------------
+[2026-03-06 20:54:54] TRANSLATION
+。我们喂吧有
+→ . Let's feed it
+------------------------------
+[2026-03-06 20:54:56] RECOGNITION_INTERIM
+。我打打打爱你
+------------------------------
+[2026-03-06 20:54:57] RECOGNITION_INTERIM
+。你好
+------------------------------
+[2026-03-06 20:54:57] TRANSLATION
+。我打打打爱你
+→ . I love you so much
+------------------------------
+[2026-03-06 20:54:58] TRANSLATION
+。你好
+→ Hello
+------------------------------
+[2026-03-06 20:54:59] RECOGNITION_INTERIM
+。你说吧
+------------------------------
+[2026-03-06 20:55:00] TRANSLATION
+。你说吧
+→ . You say it
+------------------------------
+[2026-03-06 20:55:04] RECOGNITION_INTERIM
+。你大声
+------------------------------
+[2026-03-06 20:55:05] TRANSLATION
+。你大声
+→ . You say it loudly
+------------------------------
+[2026-03-06 20:56:01] RECOGNITION_INTERIM
+。Crossing entered India aha
+------------------------------
+[2026-03-06 20:56:02] TRANSLATION
+。Crossing entered India aha
+→ .Crossing entered India aha
+------------------------------
+[2026-03-06 20:56:05] RECOGNITION_INTERIM
+ with 1 rupee yes girls
+------------------------------
+[2026-03-06 20:56:07] TRANSLATION
+ with 1 rupee yes girls
+→ with 1 rupee yes girls
+------------------------------
+[2026-03-06 20:56:08] RECOGNITION_INTERIM
+. uh Can you have my it's like
+------------------------------
+[2026-03-06 20:56:12] RECOGNITION_INTERIM
+, shall I extended to be bit same
+------------------------------
+[2026-03-06 20:56:13] RECOGNITION_INTERIM
+? I the one to
+------------------------------
+[2026-03-06 20:56:15] TRANSLATION
+? I the one to
+→ ? I the one to
+------------------------------
+[2026-03-06 20:56:15] TRANSLATION
+. uh Can you have my it's like
+→ . uh Can you have my it's like
+------------------------------
+[2026-03-06 20:56:15] RECOGNITION_INTERIM
+ I told the Chinese I want toship
+------------------------------
+[2026-03-06 20:56:17] RECOGNITION_INTERIM
+ oh set
+------------------------------
+[2026-03-06 20:56:17] TRANSLATION
+ I told the Chinese I want toship
+→ I told the Chinese I want to ship
+------------------------------
+[2026-03-06 20:56:18] TRANSLATION
+, shall I extended to be bit same
+→ , shall I extend it to be a bit the same
+------------------------------
+[2026-03-06 20:56:19] TRANSLATION
+ oh set
+→ oh set
+------------------------------
+[2026-03-06 20:56:20] RECOGNITION_INTERIM
+ WOW
+------------------------------
+[2026-03-06 20:56:21] TRANSLATION
+ WOW
+→ WOW
+------------------------------
+[2026-03-06 20:56:22] RECOGNITION_INTERIM
+ and then I bought some watermelons
+------------------------------
+[2026-03-06 20:56:23] TRANSLATION
+ and then I bought some watermelons
+→ and then I bought some watermelons
+------------------------------
+[2026-03-06 20:56:23] RECOGNITION_INTERIM
+, and I got them and I sold them
+------------------------------
+[2026-03-06 20:56:24] TRANSLATION
+, and I got them and I sold them
+→ , ∧ I got them ∧ I sold them
+------------------------------
+[2026-03-06 20:56:26] RECOGNITION_INTERIM
+. My name is Cindy
+------------------------------
+[2026-03-06 20:56:28] RECOGNITION_INTERIM
+ Cindy yes E
+------------------------------
+[2026-03-06 20:56:28] TRANSLATION
+. My name is Cindy
+→ My name is Cindy
+------------------------------
+[2026-03-06 20:56:29] TRANSLATION
+ Cindy yes E
+→ Cindy yes E
+------------------------------
+[2026-03-06 20:56:37] RECOGNITION_INTERIM
+. Your name what? Wso? Wson yes wo, how guys? Normalma day, no mus day he is traveling India with only 1 rupee
+------------------------------

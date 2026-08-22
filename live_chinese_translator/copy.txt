@@ -1,0 +1,960 @@
+#!/usr/bin/env python3
+import os
+import threading
+import queue as q
+import time
+import numpy as np
+import sounddevice as sd
+import requests
+import json
+import base64
+import hmac
+import hashlib
+import websocket
+import signal
+import sys
+import logging
+import urllib.parse
+from datetime import datetime
+from time import mktime
+from wsgiref.handlers import format_date_time
+from flask import Flask, request
+from flask_socketio import SocketIO
+import re
+
+# Настройка логирования
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Загрузка переменных окружения
+from dotenv import load_dotenv
+load_dotenv()
+
+# ================= Конфигурация =================
+APPID = os.getenv("XF_APPID", "ga88408f")
+APIKey = os.getenv("XF_API_KEY", "")
+APISecret = os.getenv("XF_API_SECRET", "")
+WS_URL = "ws://ist-api-sg.xf-yun.com/v2/ist"
+
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
+
+# ================= Вспомогательные функции =================
+def float32_to_pcm16(audio):
+    """Конвертация аудио из float32 в PCM16"""
+    if len(audio) == 0:
+        return b''
+    return (audio * 32767).astype(np.int16).tobytes()
+
+def build_auth_url():
+    """Генерация URL для аутентификации WebSocket iFLYTEK согласно официальной документации"""
+    
+    # Получаем текущую дату в формате RFC1123 (GMT)
+    now = datetime.now()
+    date = format_date_time(mktime(now.timetuple()))
+    
+    # URL хоста
+    host = "ist-api-sg.xf-yun.com"
+    path = "/v2/ist"
+    
+    # Создаем строку для подписи согласно документации
+    # Формат: host: {host}\ndate: {date}\nGET {path} HTTP/1.1
+    signature_origin = f"host: {host}\ndate: {date}\nGET {path} HTTP/1.1"
+    
+    # Создаем HMAC-SHA256 подпись
+    signature_hmac = hmac.new(
+        APISecret.encode('utf-8'),
+        signature_origin.encode('utf-8'),
+        hashlib.sha256
+    ).digest()
+    
+    # Кодируем подпись в base64
+    signature_sha = base64.b64encode(signature_hmac).decode('utf-8')
+    
+    # Формируем строку authorization_origin
+    authorization_origin = f'api_key="{APIKey}", algorithm="hmac-sha256", headers="host date request-line", signature="{signature_sha}"'
+    
+    # Кодируем authorization_origin в base64
+    authorization = base64.b64encode(authorization_origin.encode('utf-8')).decode('utf-8')
+    
+    # Формируем финальный URL
+    url_params = {
+        "host": host,
+        "date": date,
+        "authorization": authorization
+    }
+    
+    # Кодируем параметры для URL
+    query_string = urllib.parse.urlencode(url_params)
+    url = f"ws://{host}{path}?{query_string}"
+    
+    # ДЕБАГ: Выведем информацию для проверки
+    logger.info(f"Генерация URL для WebSocket (официальный формат):")
+    logger.info(f"  APPID: {APPID}")
+    logger.info(f"  APIKey: {APIKey[:10]}...")
+    logger.info(f"  APISecret: {APISecret[:10]}...")
+    logger.info(f"  Date: {date}")
+    logger.info(f"  Host: {host}")
+    logger.info(f"  Signature origin: {signature_origin}")
+    logger.info(f"  Signature SHA: {signature_sha[:50]}...")
+    logger.info(f"  Authorization origin: {authorization_origin}")
+    logger.info(f"  Authorization (base64): {authorization[:50]}...")
+    logger.info(f"  Full URL: {url[:100]}...")
+    
+    return url
+
+# ================= Flask + SocketIO =================
+app = Flask(__name__)
+socketio = SocketIO(app, 
+                    cors_allowed_origins="*",
+                    async_mode='threading',
+                    logger=True,
+                    engineio_logger=False)
+
+# ================= Глобальные переменные =================
+audio_queue = q.Queue(maxsize=100)
+clients_lang = {}
+FULL_LECTURE_TEXT = []
+translation_cache = {}
+ws_connection = None
+is_running = True
+
+# ================= WebSocket обработчики =================
+def on_message(ws, message):
+    """Обработка сообщений от WebSocket"""
+    try:
+        data = json.loads(message)
+        logger.info(f"Получено сообщение с кодом: {data.get('code')}")
+        
+        if data.get('code') == 0:  # Успешный ответ
+            result_data = data.get('data', {})
+            result = result_data.get('result', {})
+            
+            # Проверяем наличие текста в результате
+            if result and 'ws' in result:
+                # Извлекаем текст из структуры ws
+                text_parts = []
+                for ws_item in result['ws']:
+                    for cw in ws_item.get('cw', []):
+                        text_parts.append(cw.get('w', ''))
+                
+                text = ''.join(text_parts)
+                
+                is_final = (result_data.get('status') == 2)
+
+                if text:
+                    for sid, lang in list(clients_lang.items()):
+                        cache_key = f"{lang}:{text}"
+                        if cache_key in translation_cache:
+                            translated = translation_cache[cache_key]
+                        else:
+                            translated = deepseek_translate(text, lang)
+                            translation_cache[cache_key] = translated
+
+                        socketio.emit("new_translation", {
+                            "original": text,
+                            "translation": translated,
+                            "is_final": is_final
+                        }, to=sid)
+
+                    if is_final:
+                        FULL_LECTURE_TEXT.append(text)
+                            
+        elif data.get('code') != 0:
+            logger.error(f"Ошибка от сервера: {data.get('message')}")
+            
+    except Exception as e:
+        logger.error(f"Ошибка обработки сообщения: {e}")
+
+def on_error(ws, error):
+    """Обработка ошибок WebSocket"""
+    logger.error(f"WebSocket ошибка: {error}")
+
+def on_close(ws, close_status_code, close_msg):
+    """Обработка закрытия WebSocket"""
+    logger.info(f"WebSocket закрыт: {close_msg}")
+
+def on_open(ws):
+    """Обработка открытия WebSocket"""
+    global ws_connection
+    logger.info("✅ WebSocket подключен")
+    ws_connection = ws
+    
+    # Отправляем начальные параметры согласно документации
+    init_params = {
+        "common": {
+            "app_id": APPID  # Здесь используется APPID
+        },
+        "business": {
+            "language": "zh_cn",  # Китайский язык
+            "domain": "ist_ed",  # Домен для распознавания
+            "accent": "mandarin",  # Мандаринский акцент
+            "punc": 1,  # Включаем пунктуацию
+            "nunum": 1   # Включаем форматирование чисел
+        },
+        "data": {
+            "status": 0,  # Первый фрейм
+            "format": "audio/L16;rate=16000",
+            "encoding": "raw",
+            "audio": ""  # Пустой для первого фрейма
+        }
+    }
+    
+    ws.send(json.dumps(init_params))
+    logger.info("Отправлены init параметры")
+
+# ================= Поток аудиозахвата =================
+def audio_callback(indata, frames, time_info, status):
+    """Callback для захвата аудио"""
+    if status:
+        logger.warning(f"Аудио статус: {status}")
+    
+    if is_running:
+        try:
+            # Конвертируем в моно и добавляем в очередь
+            audio_mono = indata.copy().flatten()
+            if len(audio_mono) > 0:
+                audio_queue.put(audio_mono, timeout=0.1)
+        except q.Full:
+            pass
+        except Exception as e:
+            logger.error(f"Ошибка в audio_callback: {e}")
+
+def audio_thread():
+    """Поток для захвата аудио с микрофона"""
+    logger.info("🎤 Запуск аудиозахвата...")
+    
+    try:
+        # Получаем список доступных устройств
+        devices = sd.query_devices()
+        default_device = sd.default.device[0]
+        logger.info(f"Используется устройство: {devices[default_device]['name']}")
+        
+        with sd.InputStream(
+            samplerate=16000,
+            channels=1,
+            dtype="float32",
+            blocksize=8192,  # Увеличим для стабильности
+            callback=audio_callback,
+            device=default_device
+        ):
+            logger.info("✅ Микрофон готов")
+            while is_running:
+                time.sleep(0.1)
+                
+    except Exception as e:
+        logger.error(f"❌ Ошибка аудиозахвата: {e}")
+        logger.error("Проверьте доступность микрофона и разрешения")
+
+# ================= Поток WebSocket =================
+def ws_thread():
+    global ws_connection, is_running
+
+    logger.info("🌐 Подключение к WebSocket...")
+    last_audio_time = time.time()
+
+    while is_running:
+        try:
+            ws = websocket.WebSocketApp(
+                build_auth_url(),
+                on_open=on_open,
+                on_message=on_message,
+                on_error=on_error,
+                on_close=on_close
+            )
+
+            wst = threading.Thread(
+                target=ws.run_forever,
+                kwargs={"ping_interval": 20, "ping_timeout": 10}
+            )
+            wst.daemon = True
+            wst.start()
+
+            logger.info("Ожидание подключения WebSocket...")
+            time.sleep(2)
+
+            # 🔁 ГЛАВНЫЙ ЦИКЛ
+            while is_running:
+                try:
+                    if not ws.sock or not ws.sock.connected:
+                        logger.warning("WebSocket не подключен")
+                        break
+
+                    chunk = audio_queue.get(timeout=0.2)
+                    last_audio_time = time.time()
+
+                    if len(chunk) > 0:
+                        chunk_pcm16 = float32_to_pcm16(chunk)
+
+                        ws.send(json.dumps({
+                            "data": {
+                                "status": 1,
+                                "format": "audio/L16;rate=16000",
+                                "encoding": "raw",
+                                "audio": base64.b64encode(chunk_pcm16).decode("utf-8")
+                            }
+                        }))
+
+                except q.Empty:
+                    # ⚠️ continue ТОЛЬКО ЗДЕСЬ — внутри while
+                    if time.time() - last_audio_time > 1.2:
+                        ws.send(json.dumps({
+                            "data": {
+                                "status": 2,
+                                "format": "audio/L16;rate=16000",
+                                "encoding": "raw",
+                                "audio": ""
+                            }
+                        }))
+                    continue
+
+                except Exception as e:
+                    logger.error(f"Ошибка отправки аудио: {e}")
+                    break
+
+            if is_running:
+                logger.info("🔁 Перезапуск WebSocket")
+                time.sleep(1)
+
+        except Exception as e:
+            logger.error(f"❌ Ошибка WebSocket: {e}")
+            if is_running:
+                time.sleep(2)
+
+def protect_math(text):
+    return re.sub(r'([A-Za-z0-9+\-*/=<>]+)', r'`\1`', text)
+
+# ================= Semantic repair =================
+def semantic_repair(text):
+    prompt = f"""
+Ты ассистент преподавателя университета.
+
+Твоя задача:
+Определи, есть ли в тексте ошибки распознавания речи (ASR),
+которые искажают математический смысл.
+
+ЕСЛИ ошибок НЕТ:
+верни текст БЕЗ ИЗМЕНЕНИЙ.
+
+ЕСЛИ ошибки ЕСТЬ:
+верни исправленный текст, используя стандартную математическую терминологию.
+
+Правила:
+- НЕ добавляй новых идей
+- НЕ объясняй
+- НЕ улучшай стиль
+- НЕ переводи
+- Возвращай ТОЛЬКО текст
+
+Текст:
+{text}
+"""
+    resp = requests.post(
+        DEEPSEEK_URL,
+        headers={
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": "deepseek-chat",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Ты автоматически исправляешь ASR ошибки в математических лекциях."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.0
+        },
+        timeout=15,
+    )
+
+    return resp.json()["choices"][0]["message"]["content"].strip()
+
+# ================= Переводчик DeepSeek =================
+def deepseek_translate(text, target_lang):
+    """Перевод текста через DeepSeek API"""
+
+    # 1️⃣ Семантическое исправление
+    try:
+        repaired = semantic_repair(text)
+        if repaired:
+            text = repaired
+    except Exception as e:
+        logger.warning(f"Semantic repair skipped: {e}")
+
+    if not text.strip():
+        return ""
+    
+    if not DEEPSEEK_API_KEY or DEEPSEEK_API_KEY == "your_deepseek_api_key_here":
+        logger.warning("⚠️ DEEPSEEK_API_KEY не установлен или установлен по умолчанию")
+        return f"[Перевод: {text}]"
+    
+    # 2️⃣ Маппинг языка
+    lang_names = {
+        "en": "английский", "de": "немецкий", "kk": "казахский",
+        "ru": "русский", "ja": "японский", "ko": "корейский",
+        "vi": "вьетнамский", "th": "тайский", "ms": "малайский",
+        "id": "индонезийский", "mn": "монгольский", "hy": "армянский",
+        "it": "итальянский", "fr": "французский", "es": "испанский"
+    }
+    
+    target_lang_name = lang_names.get(target_lang, target_lang)
+    
+    safe_text = protect_math(text)
+    prompt = f"""Ты переводишь университетскую лекцию по математике.
+Делай перевод естественным академическим английским
+Переведи следующий текст на {target_lang_name}.
+Передавай только перевод, без пояснений.
+Текст: {safe_text}"""
+    
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+    }
+    
+    body = {
+        "model": "deepseek-chat",
+        "messages": [
+            {"role": "system", "content": "Ты профессиональный переводчик."},
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": 1024,
+        "temperature": 0.3
+    }
+    
+    try:
+        logger.info(f"🌐 Перевод на {target_lang}...")
+        resp = requests.post(DEEPSEEK_URL, json=body, headers=headers, timeout=30)
+        resp.raise_for_status()
+        result = resp.json()["choices"][0]["message"]["content"].strip()
+        logger.info(f"✅ Переведено ({len(result)} символов)")
+        return result
+    except Exception as e:
+        logger.error(f"❌ Ошибка перевода: {e}")
+        return text
+
+# ================= Языки =================
+LANGUAGES = {
+    "en": "🇺🇸 英语 / English",
+    "de": "🇩🇪 德语 / Deutsch",
+    "kk": "🇰🇿 哈萨克语 / Қазақша",
+    "ru": "🇷🇺 俄语 / Русский",
+    "ja": "🇯🇵 日语 / 日本語",
+    "ko": "🇰🇷 韩语 / 한국어",
+    "vi": "🇻🇳 越南语 / Tiếng Việt",
+    "th": "🇹🇭 泰语 / ไทย",
+    "ms": "🇲🇾 马来语 / Bahasa Melayu",
+    "id": "🇮🇩 印尼语 / Bahasa Indonesia",
+    "mn": "🇲🇳 蒙古语 / Монгол",
+    "hy": "🇦🇲 亚美尼亚语 / Հայերեն",
+    "it": "🇮🇹 意大利语 / Italiano",
+    "fr": "🇫🇷 法语 / Français",
+    "es": "🇪🇸 西班牙语 / Español",
+}
+
+# ================= SocketIO обработчики =================
+@socketio.on("connect")
+def handle_connect():
+    """Обработка подключения клиента"""
+    sid = request.sid
+    logger.info(f"🔗 Клиент подключен: {sid}")
+    # Устанавливаем язык по умолчанию
+    clients_lang[sid] = "en"
+
+@socketio.on("disconnect")
+def handle_disconnect():
+    """Обработка отключения клиента"""
+    sid = request.sid
+    if sid in clients_lang:
+        del clients_lang[sid]
+    logger.info(f"🔌 Клиент отключен: {sid}")
+
+@socketio.on("set_language")
+def handle_set_language(data):
+    """Установка языка перевода"""
+    lang = data.get("lang", "en")
+    sid = request.sid
+    clients_lang[sid] = lang
+    logger.info(f"🌍 Клиент {sid[:8]}... выбрал язык: {lang}")
+    socketio.emit("language_set", {"lang": lang}, to=sid)
+
+@socketio.on("get_full_text")
+def send_full_text():
+    """Отправка полного текста лекции"""
+    sid = request.sid
+    text = "\n".join(FULL_LECTURE_TEXT[-50:])  # Последние 50 строк
+    socketio.emit("full_text", {"text": text}, to=sid)
+
+# ================= Маршруты Flask =================
+@app.route("/")
+def teacher():
+    """Страница преподавателя"""
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Лекция - Преподаватель</title>
+        <style>
+            body { 
+                font-family: Arial, sans-serif; 
+                padding: 40px; 
+                text-align: center; 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: rgba(255, 255, 255, 0.1);
+                padding: 40px;
+                border-radius: 20px;
+                backdrop-filter: blur(10px);
+            }
+            .status {
+                font-size: 24px;
+                padding: 15px;
+                border-radius: 10px;
+                margin: 20px 0;
+                background: rgba(255, 255, 255, 0.2);
+            }
+            .btn {
+                display: inline-block;
+                padding: 15px 30px;
+                margin: 10px;
+                background: white;
+                color: #667eea;
+                text-decoration: none;
+                border-radius: 50px;
+                font-weight: bold;
+                transition: all 0.3s;
+            }
+            .btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            }
+            .info {
+                text-align: left;
+                margin: 30px 0;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>👨‍🏫 Панель преподавателя</h1>
+            
+            <div class="status" id="status">
+                <span id="status-text">Загрузка...</span>
+            </div>
+            
+            <div class="info">
+                <h3>📊 Статистика:</h3>
+                <p>Подключенные студенты: <span id="client-count">0</span></p>
+                <p>Распознано фраз: <span id="phrase-count">0</span></p>
+            </div>
+            
+            <a href='/student' class='btn' target='_blank'>Открыть студенческую панель</a>
+            
+            <div class="info">
+                <h3>🎤 Инструкция:</h3>
+                <p>1. Откройте студенческую панель в новом окне</p>
+                <p>2. Говорите в микрофон четко и умеренно</p>
+                <p>3. Текст будет автоматически переводиться</p>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+        <script>
+            const socket = io();
+            
+            socket.on('connect', () => {
+                document.getElementById('status-text').innerHTML = '✅ Сервер запущен';
+                document.getElementById('status').style.background = 'rgba(76, 175, 80, 0.3)';
+            });
+            
+            socket.on('new_translation', (data) => {
+                const count = parseInt(document.getElementById('phrase-count').innerText) + 1;
+                document.getElementById('phrase-count').innerText = count;
+            });
+        </script>
+    </body>
+    </html>
+    """
+
+@app.route("/student")
+def student():
+    """Страница студента"""
+    options = "".join(
+        f'<option value="{k}">{v}</option>' for k, v in LANGUAGES.items()
+    )
+
+    return f"""
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Перевод лекции - Студент</title>
+<style>
+body {{ 
+    font-family: Arial, sans-serif; 
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}}
+.container {{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+}}
+.header {{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}}
+.controls {{
+    padding: 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}}
+select, button {{
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}}
+select:focus, button:hover {{
+    border-color: #667eea;
+    outline: none;
+}}
+button {{
+    background: #667eea;
+    color: white;
+    border: none;
+    font-weight: bold;
+}}
+button:hover {{
+    background: #5a6fd8;
+    transform: translateY(-2px);
+}}
+#translation {{
+    padding: 30px;
+    min-height: 200px;
+    font-size: 22px;
+    line-height: 1.6;
+    border-bottom: 1px solid #eee;
+}}
+#original {{
+    color: #666;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}}
+#fullText {{
+    background: #f8f9fa;
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}}
+.status {{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+}}
+#translationHistory {{
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid #eee;
+}}
+.translation-item {{
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Переводчик лекции</h1>
+            <p>Слушайте лекцию на выбранном языке</p>
+            <div class="status" id="status">Подключение...</div>
+        </div>
+        
+        <div class="controls">
+            <select id="langSelect">
+                <option value="" disabled selected>Выберите язык</option>
+                {options}
+            </select>
+            
+            <button onclick="toggleSound()" id="soundBtn">
+                🔊 Звук выключен
+            </button>
+            
+            <button onclick="clearHistory()">
+                🗑️ Очистить
+            </button>
+        </div>
+        
+        <div id="translation">
+            <div id="currentTranslation">
+                <em>Ожидание начала лекции...</em>
+            </div>
+            <div id="original"></div>
+        </div>
+        
+        <div id="fullText"></div>
+        
+        <div id="translationHistory">
+            <h3>📜 История переводов:</h3>
+            <div id="historyList"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script>
+        const socket = io();
+        let selectedLang = "en";
+        let soundEnabled = false;
+        let history = [];
+        
+        // Статус подключения
+        socket.on('connect', () => {{
+            updateStatus('✅ Подключено к серверу', 'success');
+        }});
+        
+        socket.on('disconnect', () => {{
+            updateStatus('❌ Отключено от сервера', 'error');
+        }});
+        
+        socket.on('connect_error', () => {{
+            updateStatus('⚠️ Ошибка подключения', 'warning');
+        }});
+        
+        // Выбор языка
+        document.getElementById("langSelect").onchange = (e) => {{
+            selectedLang = e.target.value;
+            socket.emit("set_language", {{lang: selectedLang}});
+            showNotification('Язык изменен на: ' + e.target.options[e.target.selectedIndex].text);
+        }};
+        
+        // Установка языка по умолчанию (английский)
+        socket.emit("set_language", {{lang: "en"}});
+        
+        // Новый перевод
+        socket.on("new_translation", (data) => {{
+            if (data.translation) {{
+                document.getElementById("currentTranslation").innerText = data.translation;
+                
+                // Добавляем в историю
+                addToHistory(data);
+                
+                // Озвучка
+                if (soundEnabled && 'speechSynthesis' in window) {{
+                    const utterance = new SpeechSynthesisUtterance(data.translation);
+                    utterance.lang = getSpeechLang(selectedLang);
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1;
+                    utterance.volume = 1;
+                    window.speechSynthesis.speak(utterance);
+                }}
+            }}
+            
+            if (data.original) {{
+                document.getElementById("original").innerHTML = 
+                    `<strong>Оригинал:</strong> <span style="color:#333">${{data.original}}</span>`;
+            }}
+        }});
+        
+        // Вспомогательные функции
+        function updateStatus(text, type) {{
+            const statusEl = document.getElementById('status');
+            statusEl.innerHTML = text;
+            statusEl.style.background = 
+                type === 'success' ? 'rgba(76, 175, 80, 0.2)' :
+                type === 'error' ? 'rgba(244, 67, 54, 0.2)' :
+                'rgba(255, 193, 7, 0.2)';
+            statusEl.style.color = 
+                type === 'success' ? '#4CAF50' :
+                type === 'error' ? '#F44336' : '#FFC107';
+        }}
+        
+        function toggleSound() {{
+            soundEnabled = !soundEnabled;
+            const btn = document.getElementById("soundBtn");
+            if (soundEnabled) {{
+                btn.innerHTML = "🔊 Звук включен";
+                btn.style.background = "#4CAF50";
+                showNotification('Озвучка включена');
+            }} else {{
+                btn.innerHTML = "🔊 Звук выключен";
+                btn.style.background = "#667eea";
+                window.speechSynthesis.cancel();
+                showNotification('Озвучка выключена');
+            }}
+        }}
+        
+        function getSpeechLang(langCode) {{
+            const map = {{
+                en: "en-US", de: "de-DE", ru: "ru-RU", 
+                ja: "ja-JP", ko: "ko-KR", fr: "fr-FR",
+                es: "es-ES", it: "it-IT", zh: "zh-CN"
+            }};
+            return map[langCode] || "en-US";
+        }}
+        
+        function addToHistory(data) {{
+            const historyItem = {{
+                timestamp: new Date().toLocaleTimeString(),
+                original: data.original || '',
+                translation: data.translation || '',
+                lang: selectedLang
+            }};
+            
+            history.unshift(historyItem); // Добавляем в начало
+            if (history.length > 10) history.pop(); // Ограничиваем
+            
+            // Обновляем отображение
+            const historyList = document.getElementById('historyList');
+            historyList.innerHTML = history.map(item => `
+                <div class="translation-item">
+                    <small style="color:#666">${{item.timestamp}}</small>
+                    <div><strong>Перевод (${{item.lang}}):</strong> ${{item.translation}}</div>
+                    <div style="font-size:12px;color:#888;margin-top:5px">
+                        ${{item.original ? 'Оригинал: ' + item.original : ''}}
+                    </div>
+                </div>
+            `).join('');
+        }}
+        
+        function clearHistory() {{
+            history = [];
+            document.getElementById('historyList').innerHTML = 
+                '<em style="color:#999">История пуста</em>';
+            showNotification('История очищена');
+        }}
+        
+        function showNotification(text) {{
+            // Простое уведомление
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #4CAF50;
+                color: white;
+                padding: 15px 25px;
+                border-radius: 5px;
+                z-index: 1000;
+                animation: slideIn 0.3s;
+            `;
+            notification.innerText = text;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {{
+                notification.remove();
+            }}, 3000);
+        }}
+        
+        // Стиль для анимации
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {{
+                from {{ transform: translateX(100%); opacity: 0; }}
+                to {{ transform: translateX(0); opacity: 1; }}
+            }}
+        `;
+        document.head.appendChild(style);
+        
+        // При загрузке выбираем английский по умолчанию
+        window.onload = () => {{
+            document.getElementById('langSelect').value = 'en';
+        }};
+    </script>
+</body>
+</html>
+"""
+
+# ================= Graceful shutdown =================
+def signal_handler(sig, frame):
+    """Обработка сигналов завершения"""
+    global is_running
+    logger.info("\n🛑 Получен сигнал завершения...")
+    is_running = False
+    time.sleep(1)
+    logger.info("✅ Сервер остановлен")
+    sys.exit(0)
+
+# ================= Запуск =================
+if __name__ == "__main__":
+    # Проверка API ключей
+    if not APIKey or not APISecret:
+        logger.warning("⚠️ Внимание: API ключи iFLYTEK не настроены!")
+        logger.warning("   Используются тестовые ключи. Для продакшена получите свои на xfyun.cn")
+    
+    if not DEEPSEEK_API_KEY or DEEPSEEK_API_KEY == "your_deepseek_api_key_here":
+        logger.warning("⚠️ Внимание: DEEPSEEK_API_KEY не настроен!")
+        logger.warning("   Получите ключ на https://platform.deepseek.com/ и добавьте в .env файл")
+    
+    # Регистрация обработчиков сигналов
+    signal.signal(signal.SIGINT, signal_handler)
+    signal.signal(signal.SIGTERM, signal_handler)
+    
+    # Запуск потоков
+    logger.info("🚀 Запуск сервера...")
+    
+    # Запускаем аудио поток
+    audio_thread_obj = threading.Thread(target=audio_thread, daemon=True)
+    audio_thread_obj.start()
+    
+    # Запускаем WebSocket поток
+    ws_thread_obj = threading.Thread(target=ws_thread, daemon=True)
+    ws_thread_obj.start()
+    
+    # Даем время на инициализацию
+    time.sleep(2)
+    
+    logger.info("✅ Сервер запущен!")
+    logger.info("👨‍🏫 Преподаватель: http://localhost:8000")
+    logger.info("🎓 Студент: http://localhost:8000/student")
+    logger.info("")
+    logger.info("🎤 Говорите в микрофон для начала перевода...")
+    logger.info("🛑 Для остановки нажмите Ctrl+C")
+    
+    # Запуск Flask приложения
+    try:
+        socketio.run(app, 
+                    host="0.0.0.0", 
+                    port=8000,
+                    debug=False,
+                    allow_unsafe_werkzeug=True)
+    except KeyboardInterrupt:
+        signal_handler(None, None)

@@ -1,0 +1,275 @@
+{
+  "generated": "2026-03-12T21:28:14.630307",
+  "total_entries": 19,
+  "history": [
+    {
+      "id": 0,
+      "text": "这比较危险",
+      "timestamp": 1773322033.38673,
+      "datetime": "2026-03-12 21:27:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "。这个我我先不管",
+      "timestamp": 1773322035.435793,
+      "datetime": "2026-03-12 21:27:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "是不申请接护人的职务",
+      "timestamp": 1773322039.0100071,
+      "datetime": "2026-03-12 21:27:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "。职务一下我嗯这",
+      "timestamp": 1773322041.050209,
+      "datetime": "2026-03-12 21:27:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "这个我的都是",
+      "timestamp": 1773322042.584404,
+      "datetime": "2026-03-12 21:27:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "什么工职务，对",
+      "timestamp": 1773322045.140942,
+      "datetime": "2026-03-12 21:27:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "。他们是基本都有",
+      "timestamp": 1773322047.181707,
+      "datetime": "2026-03-12 21:27:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "，没有是我责任，没有",
+      "timestamp": 1773322049.73689,
+      "datetime": "2026-03-12 21:27:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "我是有的，双倍的是个作",
+      "timestamp": 1773322053.358665,
+      "datetime": "2026-03-12 21:27:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "。都对，不会嗯",
+      "timestamp": 1773322056.429035,
+      "datetime": "2026-03-12 21:27:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "。这是对的",
+      "timestamp": 1773322057.959415,
+      "datetime": "2026-03-12 21:27:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "。那很多人试过，只要警告不超过三次，他就不会要求我去提交或者怎么改",
+      "timestamp": 1773322065.103158,
+      "datetime": "2026-03-12 21:27:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "，也不超不超过三次，这一这是一是三次",
+      "timestamp": 1773322069.730588,
+      "datetime": "2026-03-12 21:27:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "。就是他发给你是自己给你改，对法庭这个嗯",
+      "timestamp": 1773322074.3481128,
+      "datetime": "2026-03-12 21:27:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "啊累计的",
+      "timestamp": 1773322075.88131,
+      "datetime": "2026-03-12 21:27:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "。就是他发给你是自己给你改，对法庭这个嗯",
+      "timestamp": 1773322077.214407,
+      "datetime": "2026-03-12 21:27:57",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "He sent it to you himself to make changes for you, right? Regarding the court, um...",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 16,
+      "text": "啊累计的",
+      "timestamp": 1773322077.5618439,
+      "datetime": "2026-03-12 21:27:57",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, cumulative",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 17,
+      "text": "。累计的我不知道可能也有连续，因为我前几天抽到了一次，但我但我把那个关掉了，我现在打开Q一关已经开个",
+      "timestamp": 1773322084.568809,
+      "datetime": "2026-03-12 21:28:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "。累计的我不知道可能也有连续，因为我前几天抽到了一次，但我但我把那个关掉了，我现在打开Q一关已经开个",
+      "timestamp": 1773322087.848583,
+      "datetime": "2026-03-12 21:28:07",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Cumulative, I don't know, maybe it's also continuous, because I drew it once a few days ago, but I turned that off. Now I open it, Q1 is already open.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    }
+  ]
+}

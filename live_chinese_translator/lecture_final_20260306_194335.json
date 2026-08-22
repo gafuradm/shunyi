@@ -1,0 +1,2592 @@
+{
+  "generated": "2026-03-06T19:43:35.209461",
+  "total_entries": 182,
+  "history": [
+    {
+      "id": 0,
+      "text": "一要十色",
+      "timestamp": 1772795915.209968,
+      "datetime": "2026-03-06 19:18:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "，美罗萨么尼",
+      "timestamp": 1772795926.4500139,
+      "datetime": "2026-03-06 19:18:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "唉看了这了",
+      "timestamp": 1772796064.693291,
+      "datetime": "2026-03-06 19:21:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "。不给的是",
+      "timestamp": 1772796066.743993,
+      "datetime": "2026-03-06 19:21:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "唉看了这了",
+      "timestamp": 1772796066.814204,
+      "datetime": "2026-03-06 19:21:06",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Sigh, having seen this",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 5,
+      "text": "。不给的是",
+      "timestamp": 1772796067.972171,
+      "datetime": "2026-03-06 19:21:07",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "What is not given is",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 6,
+      "text": " oh哇",
+      "timestamp": 1772796076.5182889,
+      "datetime": "2026-03-06 19:21:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": " oh哇",
+      "timestamp": 1772796078.073962,
+      "datetime": "2026-03-06 19:21:18",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "oh wow",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 8,
+      "text": " S, let I go",
+      "timestamp": 1772796084.673387,
+      "datetime": "2026-03-06 19:21:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": " S, let I go",
+      "timestamp": 1772796085.977632,
+      "datetime": "2026-03-06 19:21:25",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "S, let I go",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 10,
+      "text": ". Run的哇的哇好那个了噢",
+      "timestamp": 1772796169.654249,
+      "datetime": "2026-03-06 19:22:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "。妈给it",
+      "timestamp": 1772796170.66122,
+      "datetime": "2026-03-06 19:22:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": ". Run的哇的哇好那个了噢",
+      "timestamp": 1772796171.43671,
+      "datetime": "2026-03-06 19:22:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Run's wow wow, that's really something, oh",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "。妈给it",
+      "timestamp": 1772796171.773678,
+      "datetime": "2026-03-06 19:22:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Mom gives it",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 14,
+      "text": "。他对一个",
+      "timestamp": 1772796172.206987,
+      "datetime": "2026-03-06 19:22:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "。他对一个",
+      "timestamp": 1772796173.6063108,
+      "datetime": "2026-03-06 19:22:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". He to a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 16,
+      "text": "唉说的塞那他们去到那等那我给他他",
+      "timestamp": 1772796179.40522,
+      "datetime": "2026-03-06 19:22:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "唉说的塞那他们去到那等那我给他他",
+      "timestamp": 1772796181.132194,
+      "datetime": "2026-03-06 19:23:01",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Sigh, talking about sine, they go there and wait, then I give it to him.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 18,
+      "text": "那个想那一个了个所有的是那一个",
+      "timestamp": 1772796181.969312,
+      "datetime": "2026-03-06 19:23:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "那个想那一个了个所有的是那一个",
+      "timestamp": 1772796183.628989,
+      "datetime": "2026-03-06 19:23:03",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "That one thought that one for all is that one",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 20,
+      "text": "。这个下呢听mi下一直在那，就规我有的在那",
+      "timestamp": 1772796184.512696,
+      "datetime": "2026-03-06 19:23:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "。这个下呢听mi下一直在那，就规我有的在那",
+      "timestamp": 1772796186.330959,
+      "datetime": "2026-03-06 19:23:06",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". This lower bound is always there, it's just that the rule I have is there",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 22,
+      "text": "唉个噢对我干什么",
+      "timestamp": 1772796213.177967,
+      "datetime": "2026-03-06 19:23:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "唉个噢对我干什么",
+      "timestamp": 1772796215.119444,
+      "datetime": "2026-03-06 19:23:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Oh, right, what am I doing?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 24,
+      "text": "？谁给的，搞了新名字的给我",
+      "timestamp": 1772796216.798439,
+      "datetime": "2026-03-06 19:23:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "？谁给的，搞了新名字的给我",
+      "timestamp": 1772796218.462511,
+      "datetime": "2026-03-06 19:23:38",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Who gave it, and gave me a new name?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 26,
+      "text": "。对了，说的这么家里呀",
+      "timestamp": 1772796220.3673532,
+      "datetime": "2026-03-06 19:23:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "。对了，说的这么家里呀",
+      "timestamp": 1772796221.6380868,
+      "datetime": "2026-03-06 19:23:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Right, what am I doing?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 28,
+      "text": "。你快走我的新的里了唉",
+      "timestamp": 1772796222.930057,
+      "datetime": "2026-03-06 19:23:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "。你快走我的新的里了唉",
+      "timestamp": 1772796224.232838,
+      "datetime": "2026-03-06 19:23:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You're almost entering my new domain, alas.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 30,
+      "text": "。大概那个",
+      "timestamp": 1772796225.99057,
+      "datetime": "2026-03-06 19:23:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "。大概那个",
+      "timestamp": 1772796227.138486,
+      "datetime": "2026-03-06 19:23:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Probably that",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 32,
+      "text": "嘟嘟",
+      "timestamp": 1772796244.4223309,
+      "datetime": "2026-03-06 19:24:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "嘟嘟",
+      "timestamp": 1772796245.8509881,
+      "datetime": "2026-03-06 19:24:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Beep beep",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 34,
+      "text": "昨天么R leiess",
+      "timestamp": 1772796249.540475,
+      "datetime": "2026-03-06 19:24:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "昨天么R leiess",
+      "timestamp": 1772796251.156925,
+      "datetime": "2026-03-06 19:24:11",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Yesterday's R classes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "哪一方",
+      "timestamp": 1772796279.254098,
+      "datetime": "2026-03-06 19:24:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "哪一方",
+      "timestamp": 1772796280.4060092,
+      "datetime": "2026-03-06 19:24:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Which side",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 38,
+      "text": "？经济思科",
+      "timestamp": 1772796364.238345,
+      "datetime": "2026-03-06 19:26:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "？经济思科",
+      "timestamp": 1772796365.859694,
+      "datetime": "2026-03-06 19:26:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Economic Thought",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 40,
+      "text": "。不你三飘不Blu是sweety大哥",
+      "timestamp": 1772796370.367826,
+      "datetime": "2026-03-06 19:26:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "。不你三飘不Blu是sweety大哥",
+      "timestamp": 1772796372.125921,
+      "datetime": "2026-03-06 19:26:12",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Not you 3 float not Blu is sweety big brother",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 42,
+      "text": "。It's experience that大哥古嘎嘎",
+      "timestamp": 1772796378.027893,
+      "datetime": "2026-03-06 19:26:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "。It's experience that大哥古嘎嘎",
+      "timestamp": 1772796379.4204469,
+      "datetime": "2026-03-06 19:26:19",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". It's experience that big brother Gu Ga Ga",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "，即便是你比刚刚",
+      "timestamp": 1772796387.274942,
+      "datetime": "2026-03-06 19:26:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "，即便是你比刚刚",
+      "timestamp": 1772796388.832986,
+      "datetime": "2026-03-06 19:26:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", even if you are more than just now",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 46,
+      "text": "落叶比D是的的线你",
+      "timestamp": 1772796393.3998039,
+      "datetime": "2026-03-06 19:26:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "落叶比D是的的线你",
+      "timestamp": 1772796394.85232,
+      "datetime": "2026-03-06 19:26:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The line where the falling leaves are more than D is indeed",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 48,
+      "text": "那三不是三的是不呢",
+      "timestamp": 1772796394.927312,
+      "datetime": "2026-03-06 19:26:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "那三不是三的是不呢",
+      "timestamp": 1772796396.718059,
+      "datetime": "2026-03-06 19:26:36",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "That three is not three, is it not?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 50,
+      "text": "？Do yussbe，your side your十S with吗",
+      "timestamp": 1772796405.7062159,
+      "datetime": "2026-03-06 19:26:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "？Do yussbe，your side your十S with吗",
+      "timestamp": 1772796412.261548,
+      "datetime": "2026-03-06 19:26:52",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Do you see, your side your 10S with?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "？40 14 4",
+      "timestamp": 1772796412.857335,
+      "datetime": "2026-03-06 19:26:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "？40 14 4",
+      "timestamp": 1772796414.202087,
+      "datetime": "2026-03-06 19:26:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "?40144",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 54,
+      "text": ". because I check给BC me",
+      "timestamp": 1772796443.610836,
+      "datetime": "2026-03-06 19:27:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": ". because I check给BC me",
+      "timestamp": 1772796445.4248629,
+      "datetime": "2026-03-06 19:27:25",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". because I check BC for me",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "。听不得了",
+      "timestamp": 1772796451.26279,
+      "datetime": "2026-03-06 19:27:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "。你母都",
+      "timestamp": 1772796452.284201,
+      "datetime": "2026-03-06 19:27:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "。听不得了",
+      "timestamp": 1772796452.349914,
+      "datetime": "2026-03-06 19:27:32",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Can't hear anymore",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 59,
+      "text": "。你母都",
+      "timestamp": 1772796453.286185,
+      "datetime": "2026-03-06 19:27:33",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Your mother",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 60,
+      "text": "我7年也不了",
+      "timestamp": 1772796454.324547,
+      "datetime": "2026-03-06 19:27:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "我7年也不了",
+      "timestamp": 1772796455.711641,
+      "datetime": "2026-03-06 19:27:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "I can't do it even in 7 years",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 62,
+      "text": "。你都是年不去没",
+      "timestamp": 1772796460.977355,
+      "datetime": "2026-03-06 19:27:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "。你都是年不去没",
+      "timestamp": 1772796462.07521,
+      "datetime": "2026-03-06 19:27:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You haven't gone for years",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 64,
+      "text": "？我不我奶奶奶",
+      "timestamp": 1772796486.093518,
+      "datetime": "2026-03-06 19:28:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "？我不我奶奶奶",
+      "timestamp": 1772796488.072099,
+      "datetime": "2026-03-06 19:28:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? I don't my grandmother",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 66,
+      "text": "嗯们no no no no",
+      "timestamp": 1772796496.308921,
+      "datetime": "2026-03-06 19:28:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "嗯们no no no no",
+      "timestamp": 1772796497.743403,
+      "datetime": "2026-03-06 19:28:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "No no no no",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "奶奶奶、奶奶",
+      "timestamp": 1772796498.352658,
+      "datetime": "2026-03-06 19:28:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "奶奶奶、奶奶",
+      "timestamp": 1772796499.896322,
+      "datetime": "2026-03-06 19:28:19",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Grandma, grandma",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 70,
+      "text": "。Do ow look K",
+      "timestamp": 1772796506.573615,
+      "datetime": "2026-03-06 19:28:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "。Do ow look K",
+      "timestamp": 1772796508.110411,
+      "datetime": "2026-03-06 19:28:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Do ow look K",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "? no no no No",
+      "timestamp": 1772796508.61392,
+      "datetime": "2026-03-06 19:28:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 73,
+      "text": ". 你no",
+      "timestamp": 1772796509.637106,
+      "datetime": "2026-03-06 19:28:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "? no no no No",
+      "timestamp": 1772796510.652549,
+      "datetime": "2026-03-06 19:28:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "No no no no \nGrandma, grandma \n. Do ow look K",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 75,
+      "text": ". 你no",
+      "timestamp": 1772796511.0263512,
+      "datetime": "2026-03-06 19:28:31",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You no",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 76,
+      "text": "。no no No啦",
+      "timestamp": 1772796513.218982,
+      "datetime": "2026-03-06 19:28:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 77,
+      "text": "。no no No啦",
+      "timestamp": 1772796514.4244092,
+      "datetime": "2026-03-06 19:28:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". no no No",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 78,
+      "text": ". 13日",
+      "timestamp": 1772796589.516352,
+      "datetime": "2026-03-06 19:29:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 79,
+      "text": "。All a lot of the是",
+      "timestamp": 1772796591.56147,
+      "datetime": "2026-03-06 19:29:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "我萨能一样",
+      "timestamp": 1772796593.095951,
+      "datetime": "2026-03-06 19:29:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "。这是的说啊",
+      "timestamp": 1772796595.133595,
+      "datetime": "2026-03-06 19:29:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": "那个就是B人，呀谁Ga in ST？我们好的眼神。And我了me眼神人",
+      "timestamp": 1772796603.821357,
+      "datetime": "2026-03-06 19:30:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "要怎么了生命要死亡呢",
+      "timestamp": 1772796616.129764,
+      "datetime": "2026-03-06 19:30:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 84,
+      "text": "？我起来了",
+      "timestamp": 1772796622.2568488,
+      "datetime": "2026-03-06 19:30:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 85,
+      "text": "。Nice because个咱say他 he take picture of because lot",
+      "timestamp": 1772796726.189575,
+      "datetime": "2026-03-06 19:32:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "。过到他了，S smokes a blow",
+      "timestamp": 1772796728.790431,
+      "datetime": "2026-03-06 19:32:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": " on的规。On the",
+      "timestamp": 1772796730.8368268,
+      "datetime": "2026-03-06 19:32:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 88,
+      "text": "。嗯",
+      "timestamp": 1772796732.368757,
+      "datetime": "2026-03-06 19:32:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "什么东西唉呀没人",
+      "timestamp": 1772796734.416042,
+      "datetime": "2026-03-06 19:32:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": "。不么噢么的呀是安安的安的，安达可的",
+      "timestamp": 1772796738.495434,
+      "datetime": "2026-03-06 19:32:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 91,
+      "text": "？安的安the E拉E Iraq more in的",
+      "timestamp": 1772796742.078141,
+      "datetime": "2026-03-06 19:32:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "。Ha跟ab blame has be a bla。aha Good luck。uh Then look a small oil for double and weekend",
+      "timestamp": 1772796749.2764852,
+      "datetime": "2026-03-06 19:32:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 93,
+      "text": "。Hows it",
+      "timestamp": 1772796749.7957618,
+      "datetime": "2026-03-06 19:32:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": ". What that",
+      "timestamp": 1772796750.806186,
+      "datetime": "2026-03-06 19:32:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 95,
+      "text": " spot the spot personalingle",
+      "timestamp": 1772796752.8435469,
+      "datetime": "2026-03-06 19:32:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": " that到ev en mistake",
+      "timestamp": 1772796754.8904488,
+      "datetime": "2026-03-06 19:32:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "。那在miss",
+      "timestamp": 1772796756.931704,
+      "datetime": "2026-03-06 19:32:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 98,
+      "text": " can you see that miss sate this is",
+      "timestamp": 1772796760.5116348,
+      "datetime": "2026-03-06 19:32:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 99,
+      "text": " 11 maybe",
+      "timestamp": 1772796763.0687711,
+      "datetime": "2026-03-06 19:32:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 100,
+      "text": ". um Yeah",
+      "timestamp": 1772796764.594121,
+      "datetime": "2026-03-06 19:32:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": " Bomb们的你 she would again",
+      "timestamp": 1772796766.6412868,
+      "datetime": "2026-03-06 19:32:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": "。Takingness",
+      "timestamp": 1772796768.18001,
+      "datetime": "2026-03-06 19:32:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 103,
+      "text": "这近呢嗯能不能都多了个人都了都都个都到了嘛",
+      "timestamp": 1772796773.327126,
+      "datetime": "2026-03-06 19:32:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "，呃不是的不是的，都到是没事的。As a re呢了",
+      "timestamp": 1772796778.948749,
+      "datetime": "2026-03-06 19:32:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 105,
+      "text": "。所以张们的他mall上ple",
+      "timestamp": 1772796781.5051289,
+      "datetime": "2026-03-06 19:33:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "这是是味的custom，是the weatherter，are you woman们呢 yes I you woman们了",
+      "timestamp": 1772796786.097412,
+      "datetime": "2026-03-06 19:33:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 107,
+      "text": "。比O我们的我们我们提近的嗯",
+      "timestamp": 1772796789.159431,
+      "datetime": "2026-03-06 19:33:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": "。唉呀我这个还是高学校，唉 yeah This is the of course I there这个唉 ncing this I",
+      "timestamp": 1772796800.960793,
+      "datetime": "2026-03-06 19:33:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "。That's my",
+      "timestamp": 1772796801.475224,
+      "datetime": "2026-03-06 19:33:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": ". 要F了",
+      "timestamp": 1772796836.8137841,
+      "datetime": "2026-03-06 19:33:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 111,
+      "text": "。小R",
+      "timestamp": 1772796837.8626711,
+      "datetime": "2026-03-06 19:33:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": "。有them you them休息吧",
+      "timestamp": 1772796841.419782,
+      "datetime": "2026-03-06 19:34:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "。东俄是",
+      "timestamp": 1772796842.440064,
+      "datetime": "2026-03-06 19:34:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "是得一",
+      "timestamp": 1772796843.456091,
+      "datetime": "2026-03-06 19:34:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": "彼得咱姆呢",
+      "timestamp": 1772796845.500654,
+      "datetime": "2026-03-06 19:34:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "？Damn呢",
+      "timestamp": 1772796847.0276742,
+      "datetime": "2026-03-06 19:34:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 117,
+      "text": ". 要F了",
+      "timestamp": 1772796848.0535629,
+      "datetime": "2026-03-06 19:34:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "。不行",
+      "timestamp": 1772796849.071531,
+      "datetime": "2026-03-06 19:34:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 119,
+      "text": "。我吗",
+      "timestamp": 1772796856.2773519,
+      "datetime": "2026-03-06 19:34:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "？Big MAC",
+      "timestamp": 1772796863.934002,
+      "datetime": "2026-03-06 19:34:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 121,
+      "text": ". The check check M你得盖",
+      "timestamp": 1772796871.0850718,
+      "datetime": "2026-03-06 19:34:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "。可是公司直接去get dick",
+      "timestamp": 1772796872.673014,
+      "datetime": "2026-03-06 19:34:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": " S and press another PVC three. Slower uh that therekill a key policy check check is the restwitch I",
+      "timestamp": 1772796877.7841332,
+      "datetime": "2026-03-06 19:34:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": ". He saidis the same mrss, oh the switch you",
+      "timestamp": 1772796880.839016,
+      "datetime": "2026-03-06 19:34:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 125,
+      "text": " SAMs broker",
+      "timestamp": 1772796882.883209,
+      "datetime": "2026-03-06 19:34:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 126,
+      "text": ". The mus got policelish yes that is on a group village. And just when is nice to put the tas, would I proker you",
+      "timestamp": 1772796894.687961,
+      "datetime": "2026-03-06 19:34:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": "? Because have a request",
+      "timestamp": 1772796900.296063,
+      "datetime": "2026-03-06 19:35:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 128,
+      "text": ". Yeah，my媳yes man，that's my D to I说你the克里说什这个这个么的",
+      "timestamp": 1772796908.474068,
+      "datetime": "2026-03-06 19:35:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 129,
+      "text": " hellolen who got slow I specialpi西吧",
+      "timestamp": 1772796914.133122,
+      "datetime": "2026-03-06 19:35:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 130,
+      "text": "。Damn it那个",
+      "timestamp": 1772796915.670917,
+      "datetime": "2026-03-06 19:35:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": "的。我是走开",
+      "timestamp": 1772796918.22294,
+      "datetime": "2026-03-06 19:35:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 132,
+      "text": "。那 check Check那你得可是公司直接去S process another",
+      "timestamp": 1772796929.981451,
+      "datetime": "2026-03-06 19:35:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 133,
+      "text": " on the border in books in the situation and baseline message and yet in your power or your Mark or anchovy deed on the very very good at the head to arrange them video call of the cure",
+      "timestamp": 1772796976.087589,
+      "datetime": "2026-03-06 19:36:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": ". Really I in certain the you qoecd recommender or这可要",
+      "timestamp": 1772796981.194192,
+      "datetime": "2026-03-06 19:36:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 135,
+      "text": " if I'm shifting Molly to choose to regard your aching up on me and Billy Bush about kids, she say door in the doors and the police a Turman N jokers underage sex toilet",
+      "timestamp": 1772796993.97431,
+      "datetime": "2026-03-06 19:36:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 136,
+      "text": ", the Gators. Usually they give him more clearly a tropical that she was based on Singapore you know about that. yeah he was She could not all about that which",
+      "timestamp": 1772797006.782188,
+      "datetime": "2026-03-06 19:36:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 137,
+      "text": " you're gonna roll the hunk of thinking. Interesting as well see you in a little under movie remote beach villa concerned with normal",
+      "timestamp": 1772797017.556643,
+      "datetime": "2026-03-06 19:36:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": " that she leave do us they give birth she had we lot of slaughter was a comes down or not again",
+      "timestamp": 1772797022.666998,
+      "datetime": "2026-03-06 19:37:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 139,
+      "text": ". Got about them. Finally at a club and government sources smart enough money, legal and cultural Fesler gosh Azerbaijan gate martial law to sell a lot of access a double million",
+      "timestamp": 1772797034.9359748,
+      "datetime": "2026-03-06 19:37:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 140,
+      "text": " who a good stand number stand and how they go了how bler is a little you a to bka just put in that a resident have been a哈 was a coms now and around the country night was",
+      "timestamp": 1772797050.3057458,
+      "datetime": "2026-03-06 19:37:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 141,
+      "text": " onion I kitchen the time in no loop",
+      "timestamp": 1772797052.851329,
+      "datetime": "2026-03-06 19:37:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 142,
+      "text": ". We are not this. They must that ha at a party, a grand motor has said commit to tope",
+      "timestamp": 1772797058.005567,
+      "datetime": "2026-03-06 19:37:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 143,
+      "text": ", uh which was a party assemble some of them a sister. Party had come to house of common stop. America's there tot was a boy and never the state steps can use more than seven hundred hundred club America",
+      "timestamp": 1772797073.8444958,
+      "datetime": "2026-03-06 19:37:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": " stood is eemiess",
+      "timestamp": 1772797075.885289,
+      "datetime": "2026-03-06 19:37:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 145,
+      "text": " but cannot open left ear surrounds me support and we're going to customer requirements of its president and premium Easter the why I'm looking videos Sheikh Mohammed bin rushing to make the system should be",
+      "timestamp": 1772797091.257584,
+      "datetime": "2026-03-06 19:38:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 146,
+      "text": " saw the bus has adopt them hook so he began as an among them. Ascii was a robot and the one who loves me Silicon Valley and share. you can You can cook hot shot",
+      "timestamp": 1772797106.126944,
+      "datetime": "2026-03-06 19:38:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 147,
+      "text": " you as a Ga billis cin on social a lot of",
+      "timestamp": 1772797109.700746,
+      "datetime": "2026-03-06 19:38:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 148,
+      "text": " yes or no money come from the bottom of the bar to beat up your mother hate him have a lot of industry and water and have a lot of person that shares",
+      "timestamp": 1772797118.9331388,
+      "datetime": "2026-03-06 19:38:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 149,
+      "text": " and there an of the not sh and W and have a lot person with themy as there to do some. Teddy, I'm an consider them啊 to what an a motherook and a son air to do. It should with any of air clu I the show is a novel for how come back with the water. Shouldn't could be the you",
+      "timestamp": 1772797135.288165,
+      "datetime": "2026-03-06 19:38:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": " would M them do that Adam general know",
+      "timestamp": 1772797137.3355572,
+      "datetime": "2026-03-06 19:38:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 151,
+      "text": "? For S long II deler show",
+      "timestamp": 1772797139.417773,
+      "datetime": "2026-03-06 19:38:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": " like so called man and we like that marks the bulletin and came to determine the cause stand I see that will not ensuring that the boy physical or can they say hello",
+      "timestamp": 1772797151.1604512,
+      "datetime": "2026-03-06 19:39:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 153,
+      "text": " the into one be and to ex on aola cinematics。So hold among the almost lot of him get好跟的book minister look能he like aleague is in the serious letter bush not understanding the kind of BI glad that",
+      "timestamp": 1772797162.458904,
+      "datetime": "2026-03-06 19:39:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 154,
+      "text": "了我need that and W blood blend me to co medical said to say I on York should to our lotable that my follow can that mostable of color to safe in Geneva",
+      "timestamp": 1772797171.640507,
+      "datetime": "2026-03-06 19:39:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": "。You can also给us not toward you will do ht me one and to Julie我能去用a to new to americaishship colum that will be get to do blood billion to on the college can",
+      "timestamp": 1772797182.93119,
+      "datetime": "2026-03-06 19:39:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 156,
+      "text": " credibility is the kitchen and proud to to to to the national down the new real media streamer and you can even call us and she can barely listen and not rule on any language just a memory and all the crown up to them",
+      "timestamp": 1772797196.215164,
+      "datetime": "2026-03-06 19:39:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 157,
+      "text": ". You to a come familiararly night I'm not told you more dark who a horrible and I after to Calvin I guil to trip six and a little to and to Mark that would get you shoulder",
+      "timestamp": 1772797205.97614,
+      "datetime": "2026-03-06 19:40:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": "可都to how come that that I that that neighbor when need can connectther feel a lot",
+      "timestamp": 1772797211.070133,
+      "datetime": "2026-03-06 19:40:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 159,
+      "text": "。If finling blue here outter get a BI amend the shows letter to lock on I have my terror and walkker on that to labor but that that S up to how can have to was a king in that your tire that man that but could to standding de but",
+      "timestamp": 1772797226.96867,
+      "datetime": "2026-03-06 19:40:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": " campus sol of that and that again in the at the wayser inspector that ruer the how a Russia to that N lot him",
+      "timestamp": 1772797238.1920772,
+      "datetime": "2026-03-06 19:40:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 161,
+      "text": " aI wonder how others double the partner last track",
+      "timestamp": 1772797241.3031669,
+      "datetime": "2026-03-06 19:40:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 162,
+      "text": ". 不，believ姆是she is，你不see你买起来时我have gonna be prettygin。Months at the guy report shut up the horse person someone does a year H",
+      "timestamp": 1772797248.469165,
+      "datetime": "2026-03-06 19:40:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 163,
+      "text": "。Billy Bragg and short initial dcba republicrat college station. Trashery vision school of public in June. Molecules of Virginia museum can a shipment of power or crisscross picture schooler. Appreciate your school or not the Montebello. Canorous",
+      "timestamp": 1772797263.832462,
+      "datetime": "2026-03-06 19:41:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": " school couldn't be a private social engine. Jared in lot aish",
+      "timestamp": 1772797267.9133492,
+      "datetime": "2026-03-06 19:41:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 165,
+      "text": ". It's not too simple yet a woman woman but the secret to build cross the Nile opponent",
+      "timestamp": 1772797273.529823,
+      "datetime": "2026-03-06 19:41:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 166,
+      "text": ". Short a cing you but Idi easy she did it tra I poli in civil look. So loveing misster, so please to you be getting a daughter should up around. but But to me now",
+      "timestamp": 1772797282.266675,
+      "datetime": "2026-03-06 19:41:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 167,
+      "text": " be very S good",
+      "timestamp": 1772797298.100697,
+      "datetime": "2026-03-06 19:41:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 168,
+      "text": ". Do me up",
+      "timestamp": 1772797299.1182258,
+      "datetime": "2026-03-06 19:41:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 169,
+      "text": ". 啊你终于屯那是不断提那个皮，我那些有中超过高的同心，他的这种他写头说给过意思密的，有高高五六表，我不是个人多大下这个退是吧？给我们的要",
+      "timestamp": 1772797309.9112651,
+      "datetime": "2026-03-06 19:41:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 170,
+      "text": "也从不能谈到了，更大的女律是银，他出其的出高路有你张卡的，他看的空突啊给我行的，起码用给这个去这也行的",
+      "timestamp": 1772797317.559316,
+      "datetime": "2026-03-06 19:41:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 171,
+      "text": "。也将前往以色列寻求为以色列与黎巴嫩真主党之间的紧张局势降温。此前以色列被指在黎巴嫩定点清除了哈马斯的二号人物阿鲁里",
+      "timestamp": 1772797329.8704581,
+      "datetime": "2026-03-06 19:42:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 172,
+      "text": "。二号人物被清除，哈马斯的损失有多大？美西方也高度担忧以色列和黎巴嫩真主党之间或爆发全面的战争，黎以之间要爆发战争了吗",
+      "timestamp": 1772797340.0888,
+      "datetime": "2026-03-06 19:42:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 173,
+      "text": "？相关话题，今天我们邀请到中国现代国际关系研究院中东研究所副所长秦天先生做分析和解读，先来通过新闻短片了解一下相关背景",
+      "timestamp": 1772797349.832208,
+      "datetime": "2026-03-06 19:42:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 174,
+      "text": "。西九龙源丰商场两死工业事故警方以涉嫌违反职安健条例拘捕一个六十二岁，判头唔排除稍后，以误杀等其他罪名再拘捕",
+      "timestamp": 1772797361.082946,
+      "datetime": "2026-03-06 19:42:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 175,
+      "text": "。噉据了解被捕嘅系二判沈时重建嘅负责人直接聘用两个工人",
+      "timestamp": 1772797366.746496,
+      "datetime": "2026-03-06 19:42:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 176,
+      "text": "。政府强调职安健法嘅主任唔会因为分配制度减少",
+      "timestamp": 1772797371.346533,
+      "datetime": "2026-03-06 19:42:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 177,
+      "text": "，唉你就有去看的我的给空给你的AD了，吧其求你阿里卡大的时呢",
+      "timestamp": 1772797377.9741912,
+      "datetime": "2026-03-06 19:42:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 178,
+      "text": "，唉妈都会今你一带一开袋都没，你就那看那个子工啊我那个对他给到我心里那的起吗？都有过多没的卡头没吗斯",
+      "timestamp": 1772797385.687888,
+      "datetime": "2026-03-06 19:43:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 179,
+      "text": "？唉肯convenient to。Stickking you发比什啊有点没去看，他们到你那里都看不起什么三呢",
+      "timestamp": 1772797391.3080761,
+      "datetime": "2026-03-06 19:43:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 180,
+      "text": "？你看什么事你在结我的探条做是发生。有了么说啊你我说你户就全都是代不的，他全都是不会，韩时带就是红白",
+      "timestamp": 1772797401.524779,
+      "datetime": "2026-03-06 19:43:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 181,
+      "text": "。我包那个他说你我通过二是上班，他是的我to the choice possi。I this would你你那个我的个生把我都去办好个听我你号码呢",
+      "timestamp": 1772797411.78262,
+      "datetime": "2026-03-06 19:43:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

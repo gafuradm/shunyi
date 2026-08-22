@@ -1,0 +1,2741 @@
+{
+  "generated": "2026-03-12T20:42:16.265798",
+  "total_entries": 189,
+  "history": [
+    {
+      "id": 0,
+      "text": "分析了你要看书上面是怎么样写的，要学会书写，好吧",
+      "timestamp": 1773318771.202733,
+      "datetime": "2026-03-12 20:32:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "？啊书上面写的啊要看书上的分析啊",
+      "timestamp": 1773318774.780637,
+      "datetime": "2026-03-12 20:32:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "，所以我就要保证学的同学能拿到高分",
+      "timestamp": 1773318783.458782,
+      "datetime": "2026-03-12 20:33:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "。啊可以明白的告诉你要考的那就是因为不学的同学我就再告诉他这个题要考，你看去年秋季啊去年秋季我就告诉了这个题要考，那依然考了几分",
+      "timestamp": 1773318795.257144,
+      "datetime": "2026-03-12 20:33:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "，啊所以明白的告诉你要考",
+      "timestamp": 1773318800.36745,
+      "datetime": "2026-03-12 20:33:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "，他不学的人就告诉他就考这道题他也不会做",
+      "timestamp": 1773318803.944028,
+      "datetime": "2026-03-12 20:33:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "，啊因为他不明白",
+      "timestamp": 1773318806.027652,
+      "datetime": "2026-03-12 20:33:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "，啊所以呢我要保证学的同学要让你们拿到高分",
+      "timestamp": 1773318812.671359,
+      "datetime": "2026-03-12 20:33:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "，好吧嗯",
+      "timestamp": 1773318813.690689,
+      "datetime": "2026-03-12 20:33:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "？嗯",
+      "timestamp": 1773318815.222742,
+      "datetime": "2026-03-12 20:33:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "好，那接下来的第三个问题，啊我们就来看一下向量的函数的微分",
+      "timestamp": 1773318822.3718112,
+      "datetime": "2026-03-12 20:33:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "。啊那我们首先来看一下线性的",
+      "timestamp": 1773318837.2362409,
+      "datetime": "2026-03-12 20:33:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。啊那我们首先来看一下线性的",
+      "timestamp": 1773318839.897557,
+      "datetime": "2026-03-12 20:33:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, then let's first take a look at linear",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 13,
+      "text": "映射，啊 F假设是从N维欧式空间到M维欧氏空间的一个映射",
+      "timestamp": 1773318846.432411,
+      "datetime": "2026-03-12 20:34:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "映射，啊 F假设是从N维欧式空间到M维欧氏空间的一个映射",
+      "timestamp": 1773318848.972051,
+      "datetime": "2026-03-12 20:34:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Mapping, ah, let F be a mapping from an N-dimensional Euclidean space to an M-dimensional Euclidean space.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "，如果说",
+      "timestamp": 1773318852.606785,
+      "datetime": "2026-03-12 20:34:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "，如果说",
+      "timestamp": 1773318854.4196029,
+      "datetime": "2026-03-12 20:34:14",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", if",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 17,
+      "text": "对于N为欧氏空间里面的任意的两点xy以及任意的两个实数阿尔法贝塔",
+      "timestamp": 1773318862.3079739,
+      "datetime": "2026-03-12 20:34:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "对于N为欧氏空间里面的任意的两点xy以及任意的两个实数阿尔法贝塔",
+      "timestamp": 1773318869.634773,
+      "datetime": "2026-03-12 20:34:29",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "For any two points x and y in an N-dimensional Euclidean space and any two real numbers α and β,",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 19,
+      "text": "，那我们都有F作用到阿尔法X，再加上一个贝塔Y上，啊这个值呢就等于阿尔法FX加上一个",
+      "timestamp": 1773318874.6224372,
+      "datetime": "2026-03-12 20:34:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "贝塔",
+      "timestamp": 1773318877.649911,
+      "datetime": "2026-03-12 20:34:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "贝塔",
+      "timestamp": 1773318879.234992,
+      "datetime": "2026-03-12 20:34:39",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Beta",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 22,
+      "text": "，那我们都有F作用到阿尔法X，再加上一个贝塔Y上，啊这个值呢就等于阿尔法FX加上一个",
+      "timestamp": 1773318880.8282938,
+      "datetime": "2026-03-12 20:34:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Then we consider \\( F \\) applied to \\( \\alpha X + \\beta Y \\), this value equals \\( \\alpha F(X) + \\beta F(Y) \\).",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 23,
+      "text": "×2法",
+      "timestamp": 1773318883.49415,
+      "datetime": "2026-03-12 20:34:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "，你知道吗",
+      "timestamp": 1773318883.495544,
+      "datetime": "2026-03-12 20:34:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "？乘",
+      "timestamp": 1773318883.49695,
+      "datetime": "2026-03-12 20:34:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "这个汉书，而不",
+      "timestamp": 1773318884.4010072,
+      "datetime": "2026-03-12 20:34:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "，你知道吗",
+      "timestamp": 1773318885.091469,
+      "datetime": "2026-03-12 20:34:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", you know",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 28,
+      "text": "？乘",
+      "timestamp": 1773318885.179171,
+      "datetime": "2026-03-12 20:34:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? times",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 29,
+      "text": "×2法",
+      "timestamp": 1773318885.261858,
+      "datetime": "2026-03-12 20:34:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "×2 method",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 30,
+      "text": "这个汉书，而不",
+      "timestamp": 1773318886.1849742,
+      "datetime": "2026-03-12 20:34:46",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "This function, however,",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 31,
+      "text": "它是由rn到RM的一个线性的",
+      "timestamp": 1773318888.985385,
+      "datetime": "2026-03-12 20:34:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "它是由rn到RM的一个线性的",
+      "timestamp": 1773318891.155929,
+      "datetime": "2026-03-12 20:34:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It is a linear mapping from ℝ^n to ℝ^m.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 33,
+      "text": "，啊这个映射呢是线性",
+      "timestamp": 1773318893.584804,
+      "datetime": "2026-03-12 20:34:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "，啊这个映射呢是线性",
+      "timestamp": 1773318895.3813682,
+      "datetime": "2026-03-12 20:34:55",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", and this mapping is linear.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 35,
+      "text": "，那 rn是N维欧式空间，RM则是M为欧氏空间，由N维欧氏空间到M维欧式空间的一个映射，它是线性的，指的是F把X和Y的线性数和因果硬",
+      "timestamp": 1773318913.677388,
+      "datetime": "2026-03-12 20:35:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "到RM",
+      "timestamp": 1773318915.576094,
+      "datetime": "2026-03-12 20:35:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "到RM",
+      "timestamp": 1773318917.139494,
+      "datetime": "2026-03-12 20:35:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "to ℝ^m",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 38,
+      "text": "里头，它是FX和fy的相应的线性组合",
+      "timestamp": 1773318921.713412,
+      "datetime": "2026-03-12 20:35:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "，那 rn是N维欧式空间，RM则是M为欧氏空间，由N维欧氏空间到M维欧式空间的一个映射，它是线性的，指的是F把X和Y的线性数和因果硬",
+      "timestamp": 1773318922.6488,
+      "datetime": "2026-03-12 20:35:22",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then ℝ^n is an N-dimensional Euclidean space, and ℝ^m is an M-dimensional Euclidean space. A mapping from the N-dimensional Euclidean space to the M-dimensional Euclidean space is linear, meaning that F preserves the linear combination of X and Y.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "里头，它是FX和fy的相应的线性组合",
+      "timestamp": 1773318923.862962,
+      "datetime": "2026-03-12 20:35:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Inside, it is the corresponding linear combination of f_x and f_y.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 41,
+      "text": "，啊这这样的映射呢就是线性的",
+      "timestamp": 1773318925.287657,
+      "datetime": "2026-03-12 20:35:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "，啊这这样的映射呢就是线性的",
+      "timestamp": 1773318927.637229,
+      "datetime": "2026-03-12 20:35:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", and such a mapping is linear.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 43,
+      "text": "。那么对于这个线性映射，那那我们有这样的结论",
+      "timestamp": 1773318929.924414,
+      "datetime": "2026-03-12 20:35:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "。那么对于这个线性映射，那那我们有这样的结论",
+      "timestamp": 1773318931.908,
+      "datetime": "2026-03-12 20:35:31",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Then for this linear mapping, we have the following conclusion",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 45,
+      "text": "。好",
+      "timestamp": 1773318933.514006,
+      "datetime": "2026-03-12 20:35:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "。好",
+      "timestamp": 1773318935.2799108,
+      "datetime": "2026-03-12 20:35:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Good",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 47,
+      "text": "，那我们说",
+      "timestamp": 1773318936.577098,
+      "datetime": "2026-03-12 20:35:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "，那我们说",
+      "timestamp": 1773318938.341318,
+      "datetime": "2026-03-12 20:35:38",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then we say",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 49,
+      "text": "线性映射",
+      "timestamp": 1773318939.124676,
+      "datetime": "2026-03-12 20:35:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "线性映射",
+      "timestamp": 1773318941.16976,
+      "datetime": "2026-03-12 20:35:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Linear mapping",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 51,
+      "text": "唉",
+      "timestamp": 1773318942.709441,
+      "datetime": "2026-03-12 20:35:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "唉",
+      "timestamp": 1773318944.1962419,
+      "datetime": "2026-03-12 20:35:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Alas",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 53,
+      "text": "从rn到RM的线性映射还",
+      "timestamp": 1773318947.8197591,
+      "datetime": "2026-03-12 20:35:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "从rn到RM的线性映射还",
+      "timestamp": 1773318949.9274921,
+      "datetime": "2026-03-12 20:35:49",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Linear mappings from ℝⁿ to ℝᵐ",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 55,
+      "text": "它与M成N阶的",
+      "timestamp": 1773318951.95218,
+      "datetime": "2026-03-12 20:35:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "矩阵",
+      "timestamp": 1773318952.9779499,
+      "datetime": "2026-03-12 20:35:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "它与M成N阶的",
+      "timestamp": 1773318953.664366,
+      "datetime": "2026-03-12 20:35:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It is of order M by N",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 58,
+      "text": "矩阵",
+      "timestamp": 1773318954.342717,
+      "datetime": "2026-03-12 20:35:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Matrix",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 59,
+      "text": "是一一对应的",
+      "timestamp": 1773318957.57131,
+      "datetime": "2026-03-12 20:35:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "是一一对应的",
+      "timestamp": 1773318959.077135,
+      "datetime": "2026-03-12 20:35:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "is one-to-one",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 61,
+      "text": "矩阵，同学们在线性代数里面都学过了是吧",
+      "timestamp": 1773318962.674943,
+      "datetime": "2026-03-12 20:36:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "矩阵，同学们在线性代数里面都学过了是吧",
+      "timestamp": 1773318965.049027,
+      "datetime": "2026-03-12 20:36:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Matrix, students have all learned it in linear algebra, right?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 63,
+      "text": "？都学了吧",
+      "timestamp": 1773318965.73873,
+      "datetime": "2026-03-12 20:36:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "？都学了吧",
+      "timestamp": 1773318967.634163,
+      "datetime": "2026-03-12 20:36:07",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Have you all learned it?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 65,
+      "text": "。好",
+      "timestamp": 1773318970.3852391,
+      "datetime": "2026-03-12 20:36:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "。好",
+      "timestamp": 1773318970.385536,
+      "datetime": "2026-03-12 20:36:10",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Good",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 67,
+      "text": "。Ma TS",
+      "timestamp": 1773318974.9771378,
+      "datetime": "2026-03-12 20:36:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "。Ma TS",
+      "timestamp": 1773318976.633087,
+      "datetime": "2026-03-12 20:36:16",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Ma TS",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 69,
+      "text": ". 好",
+      "timestamp": 1773318977.5437891,
+      "datetime": "2026-03-12 20:36:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": ". 好",
+      "timestamp": 1773318979.388176,
+      "datetime": "2026-03-12 20:36:19",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Good \n. Ma TS",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "，好，啊那线性映射以M乘N减的矩阵呢是一一对应的，啊我们来证明这样一个结论",
+      "timestamp": 1773318985.194419,
+      "datetime": "2026-03-12 20:36:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "，好，啊那线性映射以M乘N减的矩阵呢是一一对应的，啊我们来证明这样一个结论",
+      "timestamp": 1773318988.204331,
+      "datetime": "2026-03-12 20:36:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", Good, ah, then linear maps and M by N matrices are in one-to-one correspondence. Ah, let's prove such a conclusion.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 73,
+      "text": "。啊那么这个一一对应的也就是他说的是表达是什么含义呢",
+      "timestamp": 1773318993.932162,
+      "datetime": "2026-03-12 20:36:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "。啊那么这个一一对应的也就是他说的是表达是什么含义呢",
+      "timestamp": 1773318995.8745658,
+      "datetime": "2026-03-12 20:36:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, so what exactly does this one-to-one correspondence mean?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 75,
+      "text": "？一个线性映射rn到rl的线性映射与M乘N减的矩阵是一一对应的，也就是说",
+      "timestamp": 1773319001.089389,
+      "datetime": "2026-03-12 20:36:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": "？一个线性映射rn到rl的线性映射与M乘N减的矩阵是一一对应的，也就是说",
+      "timestamp": 1773319003.587724,
+      "datetime": "2026-03-12 20:36:43",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? A linear map from Rn to Rl and an M by N matrix are in one-to-one correspondence, meaning that",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 77,
+      "text": "如果说a呢是一个M乘N阶的矩阵",
+      "timestamp": 1773319005.68137,
+      "datetime": "2026-03-12 20:36:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "如果说a呢是一个M乘N阶的矩阵",
+      "timestamp": 1773319007.711968,
+      "datetime": "2026-03-12 20:36:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "If a is an M by N matrix",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 79,
+      "text": "，啊 a呢是一个F乘N减的一个矩阵，那么",
+      "timestamp": 1773319011.8413289,
+      "datetime": "2026-03-12 20:36:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "，啊 a呢是一个F乘N减的一个矩阵，那么",
+      "timestamp": 1773319013.669686,
+      "datetime": "2026-03-12 20:36:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah, a is an M by N matrix, then",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "就由AD这一个N维空间到M维空间的线性指数，也就是说对任意的X",
+      "timestamp": 1773319019.012585,
+      "datetime": "2026-03-12 20:36:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": "它是在N维空间里面确定",
+      "timestamp": 1773319021.5584042,
+      "datetime": "2026-03-12 20:37:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "它是在N维空间里面确定",
+      "timestamp": 1773319023.1502762,
+      "datetime": "2026-03-12 20:37:03",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It is determined within an N-dimensional space",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 84,
+      "text": "就由AD这一个N维空间到M维空间的线性指数，也就是说对任意的X",
+      "timestamp": 1773319026.863944,
+      "datetime": "2026-03-12 20:37:06",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It is determined by the linear mapping from an N-dimensional space to an M-dimensional space, that is, for any X",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 85,
+      "text": "。是的，这样定义ax呢就是F在X的值",
+      "timestamp": 1773319027.697515,
+      "datetime": "2026-03-12 20:37:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "。是的，这样定义ax呢就是F在X的值",
+      "timestamp": 1773319030.024908,
+      "datetime": "2026-03-12 20:37:10",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Yes, defined this way, ax is the value of F at X",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 87,
+      "text": "，啊定义FX就等于ax，那么这样它就定义了一个同学们看，a是M乘N阶的矩阵，那 X呢是N维空间里面的一个向量，a作用到X上",
+      "timestamp": 1773319041.012502,
+      "datetime": "2026-03-12 20:37:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 88,
+      "text": "，这是个哪个空间里面的一个向量",
+      "timestamp": 1773319044.5872278,
+      "datetime": "2026-03-12 20:37:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "，这是个哪个空间里面的一个向量",
+      "timestamp": 1773319046.396878,
+      "datetime": "2026-03-12 20:37:26",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", this is a vector in which space?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 90,
+      "text": "，啊定义FX就等于ax，那么这样它就定义了一个同学们看，a是M乘N阶的矩阵，那 X呢是N维空间里面的一个向量，a作用到X上",
+      "timestamp": 1773319051.089668,
+      "datetime": "2026-03-12 20:37:31",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah, defining \\( F(X) = aX \\), then in this way it defines—students, look, \\( a \\) is an \\( M \\times N \\) matrix, and \\( X \\) is a vector in an \\( N \\)-dimensional space. When \\( a \\) acts on \\( X \\)",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 91,
+      "text": "？A是个M行N列的",
+      "timestamp": 1773319051.801744,
+      "datetime": "2026-03-12 20:37:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "？A是个M行N列的",
+      "timestamp": 1773319053.5814972,
+      "datetime": "2026-03-12 20:37:33",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? A is an M by N matrix",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 93,
+      "text": " ax，这个这个向量这个向量就落在了M维欧氏空间里头",
+      "timestamp": 1773319058.931274,
+      "datetime": "2026-03-12 20:37:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": " ax，这个这个向量这个向量就落在了M维欧氏空间里头",
+      "timestamp": 1773319061.035535,
+      "datetime": "2026-03-12 20:37:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "ax, this vector, this vector then falls into the M-dimensional Euclidean space.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 95,
+      "text": "，唉所以ax呢这个 a呢就把N维空间里面的向量映射到了M维空间里头了，啊因此这个F呢它就定义了一个",
+      "timestamp": 1773319071.207083,
+      "datetime": "2026-03-12 20:37:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": "由rn到RM的一个线性的",
+      "timestamp": 1773319076.8680131,
+      "datetime": "2026-03-12 20:37:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "映射",
+      "timestamp": 1773319078.4065301,
+      "datetime": "2026-03-12 20:37:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 98,
+      "text": "，唉所以ax呢这个 a呢就把N维空间里面的向量映射到了M维空间里头了，啊因此这个F呢它就定义了一个",
+      "timestamp": 1773319079.1288111,
+      "datetime": "2026-03-12 20:37:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Well, so this matrix **A** maps vectors from the **N**-dimensional space into the **M**-dimensional space. Therefore, this linear transformation **A** defines a mapping from **R^N** to **R^M**.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 99,
+      "text": "由rn到RM的一个线性的",
+      "timestamp": 1773319079.144504,
+      "datetime": "2026-03-12 20:37:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "a linear mapping from ℝ^N to ℝ^M",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 100,
+      "text": "映射",
+      "timestamp": 1773319079.789994,
+      "datetime": "2026-03-12 20:37:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Mapping",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 101,
+      "text": "，你看它是不是线性的",
+      "timestamp": 1773319080.458751,
+      "datetime": "2026-03-12 20:38:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": "，你看它是不是线性的",
+      "timestamp": 1773319082.2394109,
+      "datetime": "2026-03-12 20:38:02",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", you see if it is linear",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 103,
+      "text": "？A作用X和Y的线性组合",
+      "timestamp": 1773319086.0832891,
+      "datetime": "2026-03-12 20:38:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "？A作用X和Y的线性组合",
+      "timestamp": 1773319087.974062,
+      "datetime": "2026-03-12 20:38:07",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? A acts on the linear combination of X and Y",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 105,
+      "text": "，也就是a阿尔法X再加上贝塔Y",
+      "timestamp": 1773319090.6657212,
+      "datetime": "2026-03-12 20:38:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "，也就是a阿尔法X再加上贝塔Y",
+      "timestamp": 1773319092.783804,
+      "datetime": "2026-03-12 20:38:12",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", which is a times alpha X plus beta Y",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 107,
+      "text": "，它就等于阿尔法ax，再加上贝塔",
+      "timestamp": 1773319095.312116,
+      "datetime": "2026-03-12 20:38:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": " ay吧",
+      "timestamp": 1773319096.8500679,
+      "datetime": "2026-03-12 20:38:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "，它就等于阿尔法ax，再加上贝塔",
+      "timestamp": 1773319097.1551921,
+      "datetime": "2026-03-12 20:38:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", it equals alpha times A of X, plus beta",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 110,
+      "text": " ay吧",
+      "timestamp": 1773319098.563314,
+      "datetime": "2026-03-12 20:38:18",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "a times Y",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 111,
+      "text": ". 所以它是线性的",
+      "timestamp": 1773319100.9309921,
+      "datetime": "2026-03-12 20:38:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": ". 所以它是线性的",
+      "timestamp": 1773319102.4915369,
+      "datetime": "2026-03-12 20:38:22",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". So it is linear",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "啊给定任给一个M乘N减的矩阵，那么由它啊",
+      "timestamp": 1773319108.5962932,
+      "datetime": "2026-03-12 20:38:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "啊给定任给一个M乘N减的矩阵，那么由它啊",
+      "timestamp": 1773319110.783433,
+      "datetime": "2026-03-12 20:38:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, given any M by N matrix, then from it, ah",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 115,
+      "text": "九定义了一个由N维空间到M维空间的线性映射，啊这个线性映射就是F了，啊定义了一个线性映射，F",
+      "timestamp": 1773319117.156283,
+      "datetime": "2026-03-12 20:38:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "九定义了一个由N维空间到M维空间的线性映射，啊这个线性映射就是F了，啊定义了一个线性映射，F",
+      "timestamp": 1773319119.989279,
+      "datetime": "2026-03-12 20:38:39",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It defines a linear mapping from an N-dimensional space to an M-dimensional space. Ah, this linear mapping is F. Ah, it defines a linear mapping, F.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 117,
+      "text": "，啊那么怎么定义的？Fxf作用在X上就等于ax",
+      "timestamp": 1773319122.233036,
+      "datetime": "2026-03-12 20:38:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "，啊那么怎么定义的？Fxf作用在X上就等于ax",
+      "timestamp": 1773319124.9299252,
+      "datetime": "2026-03-12 20:38:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah, so how is it defined? F(x), the action of F on x, equals A x.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 119,
+      "text": "。好，反过来",
+      "timestamp": 1773319125.643729,
+      "datetime": "2026-03-12 20:38:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "。好，反过来",
+      "timestamp": 1773319127.41251,
+      "datetime": "2026-03-12 20:38:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Good, conversely",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 121,
+      "text": "，如果说F呢是由N维空间到M维空间的一个线性的映射",
+      "timestamp": 1773319135.7570932,
+      "datetime": "2026-03-12 20:38:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "，如果说F呢是由N维空间到M维空间的一个线性的映射",
+      "timestamp": 1773319138.139745,
+      "datetime": "2026-03-12 20:38:58",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "If F is a linear mapping from an N-dimensional space to an M-dimensional space",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 123,
+      "text": "，那么我们一定能够找到一个",
+      "timestamp": 1773319143.4236622,
+      "datetime": "2026-03-12 20:39:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "，那么我们一定能够找到一个",
+      "timestamp": 1773319145.291062,
+      "datetime": "2026-03-12 20:39:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then we must be able to find a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 125,
+      "text": " M乘N阶的",
+      "timestamp": 1773319147.5045729,
+      "datetime": "2026-03-12 20:39:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 126,
+      "text": "举证",
+      "timestamp": 1773319149.0363169,
+      "datetime": "2026-03-12 20:39:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": " M乘N阶的",
+      "timestamp": 1773319149.099125,
+      "datetime": "2026-03-12 20:39:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "M by N order",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 128,
+      "text": "举证",
+      "timestamp": 1773319150.530101,
+      "datetime": "2026-03-12 20:39:10",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "matrix",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 129,
+      "text": "，啊一定能够找到一个M乘N阶的矩阵a",
+      "timestamp": 1773319155.212856,
+      "datetime": "2026-03-12 20:39:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 130,
+      "text": "。是的",
+      "timestamp": 1773319156.754548,
+      "datetime": "2026-03-12 20:39:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": "，啊一定能够找到一个M乘N阶的矩阵a",
+      "timestamp": 1773319157.359196,
+      "datetime": "2026-03-12 20:39:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then we must be able to find an M by N order matrix a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 132,
+      "text": "。是的",
+      "timestamp": 1773319158.331483,
+      "datetime": "2026-03-12 20:39:18",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Yes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 133,
+      "text": "。对于任意的X",
+      "timestamp": 1773319161.3394089,
+      "datetime": "2026-03-12 20:39:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": "。对于任意的X",
+      "timestamp": 1773319163.0300548,
+      "datetime": "2026-03-12 20:39:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". For any X",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 135,
+      "text": "落在了N维空间里面，啊那我们都有",
+      "timestamp": 1773319164.9115388,
+      "datetime": "2026-03-12 20:39:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 136,
+      "text": "落在了N维空间里面，啊那我们都有",
+      "timestamp": 1773319167.296077,
+      "datetime": "2026-03-12 20:39:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "falls within an N-dimensional space, ah then we all have",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 137,
+      "text": " F作用到X上就等于ax",
+      "timestamp": 1773319170.014905,
+      "datetime": "2026-03-12 20:39:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": " F作用到X上就等于ax",
+      "timestamp": 1773319171.91451,
+      "datetime": "2026-03-12 20:39:31",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "F acting on X equals a x",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 139,
+      "text": "，啊这就是rn到RM的线性映射，与M乘N减的矩阵是一一对应的，啊给定一个M乘N的矩阵，它就定义了一个有N维空间到M维空间的线性映射",
+      "timestamp": 1773319183.912401,
+      "datetime": "2026-03-12 20:39:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 140,
+      "text": "，啊这就是rn到RM的线性映射，与M乘N减的矩阵是一一对应的，啊给定一个M乘N的矩阵，它就定义了一个有N维空间到M维空间的线性映射",
+      "timestamp": 1773319187.863904,
+      "datetime": "2026-03-12 20:39:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah this is a linear mapping from R^N to R^M, which corresponds one-to-one with an M-by-N matrix. Given an M-by-N matrix, it defines a linear mapping from an N-dimensional space to an M-dimensional space.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 141,
+      "text": "。那么第一条第一小条我们刚才很容易验证了是吧？唉第二小条呢说到了N维空间到M维空间的一个线性映射呀",
+      "timestamp": 1773319193.0671868,
+      "datetime": "2026-03-12 20:39:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 142,
+      "text": "。那么第一条第一小条我们刚才很容易验证了是吧？唉第二小条呢说到了N维空间到M维空间的一个线性映射呀",
+      "timestamp": 1773319196.146784,
+      "datetime": "2026-03-12 20:39:56",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". So the first sub-item of the first rule we just easily verified, right? Ah, the second sub-item talks about a linear mapping from an N-dimensional space to an M-dimensional space.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 143,
+      "text": "，啊给定这样一个线线颜色，我们一定可以找到一个M乘N0的矩阵a",
+      "timestamp": 1773319198.227776,
+      "datetime": "2026-03-12 20:39:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": "，啊给定这样一个线线颜色，我们一定可以找到一个M乘N0的矩阵a",
+      "timestamp": 1773319200.4478579,
+      "datetime": "2026-03-12 20:40:00",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah given such a linear mapping, we can always find an M-by-N matrix a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 145,
+      "text": "，一这儿的线性映射F对应怎么对应？呢 F作用到X上就等于ax",
+      "timestamp": 1773319203.829955,
+      "datetime": "2026-03-12 20:40:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 146,
+      "text": "，啊给定一个线性映射F，就能找到一个M乘N减的矩阵a",
+      "timestamp": 1773319210.9890938,
+      "datetime": "2026-03-12 20:40:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 147,
+      "text": "，一这儿的线性映射F对应怎么对应？呢 F作用到X上就等于ax",
+      "timestamp": 1773319211.732492,
+      "datetime": "2026-03-12 20:40:11",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", how does the linear mapping F correspond here? Well, F acting on X equals aX.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 148,
+      "text": "，啊给定一个线性映射F，就能找到一个M乘N减的矩阵a",
+      "timestamp": 1773319212.9821708,
+      "datetime": "2026-03-12 20:40:12",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah given a linear mapping F, we can always find an M-by-N matrix a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 149,
+      "text": "，啊这两条合起来就是",
+      "timestamp": 1773319217.663717,
+      "datetime": "2026-03-12 20:40:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": "，啊这两条合起来就是",
+      "timestamp": 1773319219.4984572,
+      "datetime": "2026-03-12 20:40:19",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah these two together mean",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 151,
+      "text": "线性映射与M乘N减的矩阵是一一对应的，啊那么接下来我们来证明第二小条",
+      "timestamp": 1773319225.3484118,
+      "datetime": "2026-03-12 20:40:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": "线性映射与M乘N减的矩阵是一一对应的，啊那么接下来我们来证明第二小条",
+      "timestamp": 1773319227.8998542,
+      "datetime": "2026-03-12 20:40:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Linear mappings and M-by-N matrices are in one-to-one correspondence. Ah, then next we will prove the second subpoint.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 153,
+      "text": "。啊",
+      "timestamp": 1773319229.432302,
+      "datetime": "2026-03-12 20:40:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 154,
+      "text": "这么一点小条",
+      "timestamp": 1773319230.443718,
+      "datetime": "2026-03-12 20:40:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": "这么一点小条",
+      "timestamp": 1773319232.3292,
+      "datetime": "2026-03-12 20:40:32",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "This little note",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 156,
+      "text": "。啊",
+      "timestamp": 1773319233.523067,
+      "datetime": "2026-03-12 20:40:33",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, given a linear mapping F, we can always find an M-by-N matrix A. \nAh, these two together mean: \nLinear mappings and M-by-N matrices are in one-to-one correspondence. \nAh, then next we will prove the second subpoint.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 157,
+      "text": "。白虎是N维空间到M维空间的线性映射",
+      "timestamp": 1773319240.70702,
+      "datetime": "2026-03-12 20:40:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": "。白虎是N维空间到M维空间的线性映射",
+      "timestamp": 1773319242.90837,
+      "datetime": "2026-03-12 20:40:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". F is a linear mapping from an N-dimensional space to an M-dimensional space",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 159,
+      "text": "，那 N维空间那 rn里面还有一组标准",
+      "timestamp": 1773319246.325044,
+      "datetime": "2026-03-12 20:40:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": "，那 N维空间那 rn里面还有一组标准",
+      "timestamp": 1773319248.770047,
+      "datetime": "2026-03-12 20:40:48",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", then in the N-dimensional space ℝᴺ, there is also a standard",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 161,
+      "text": "，标准正交的基",
+      "timestamp": 1773319249.90094,
+      "datetime": "2026-03-12 20:40:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 162,
+      "text": "，标准正交的基",
+      "timestamp": 1773319251.480077,
+      "datetime": "2026-03-12 20:40:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", an orthonormal basis",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 163,
+      "text": "，唉那这个积呢我们用1112",
+      "timestamp": 1773319254.503484,
+      "datetime": "2026-03-12 20:40:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": "，唉那这个积呢我们用1112",
+      "timestamp": 1773319256.513296,
+      "datetime": "2026-03-12 20:40:56",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", well then this product we use 1112",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 165,
+      "text": "到en来表示了",
+      "timestamp": 1773319257.104495,
+      "datetime": "2026-03-12 20:40:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 166,
+      "text": "到en来表示了",
+      "timestamp": 1773319258.983128,
+      "datetime": "2026-03-12 20:40:58",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "then it is represented by en",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 167,
+      "text": "，对吧？唉每一个ei呢它是一个",
+      "timestamp": 1773319262.723376,
+      "datetime": "2026-03-12 20:41:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 168,
+      "text": "，对吧？唉每一个ei呢它是一个",
+      "timestamp": 1773319264.6812532,
+      "datetime": "2026-03-12 20:41:04",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", right? Well, each e_i is a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 169,
+      "text": "标准的，也就是说它是一个单位向量了",
+      "timestamp": 1773319266.804023,
+      "datetime": "2026-03-12 20:41:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 170,
+      "text": "标准的，也就是说它是一个单位向量了",
+      "timestamp": 1773319268.633413,
+      "datetime": "2026-03-12 20:41:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Standard, meaning it is a unit vector.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 171,
+      "text": "，正交的那就是ei和ej",
+      "timestamp": 1773319270.3790631,
+      "datetime": "2026-03-12 20:41:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 172,
+      "text": "是正交的啦",
+      "timestamp": 1773319271.920355,
+      "datetime": "2026-03-12 20:41:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 173,
+      "text": "，正交的那就是ei和ej",
+      "timestamp": 1773319272.0980768,
+      "datetime": "2026-03-12 20:41:12",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", orthogonal means ei and ej",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 174,
+      "text": "是正交的啦",
+      "timestamp": 1773319273.413024,
+      "datetime": "2026-03-12 20:41:13",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "they are orthogonal",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 175,
+      "text": "，唉 I不等于这的时候，ei点乘上ej是等于0的",
+      "timestamp": 1773319278.082444,
+      "datetime": "2026-03-12 20:41:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 176,
+      "text": "，啊 ei",
+      "timestamp": 1773319279.630529,
+      "datetime": "2026-03-12 20:41:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 177,
+      "text": "，唉 I不等于这的时候，ei点乘上ej是等于0的",
+      "timestamp": 1773319280.7531729,
+      "datetime": "2026-03-12 20:41:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", when I is not equal to j, the dot product of e_i and e_j is equal to 0.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 178,
+      "text": "，啊 ei",
+      "timestamp": 1773319281.336543,
+      "datetime": "2026-03-12 20:41:21",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah ei",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 179,
+      "text": " B乘上EC是等于0的，这就是两个向量是正交标准正交的一种积。那 ei呢是第二个分量是一，其他分量都等于0了",
+      "timestamp": 1773319293.933732,
+      "datetime": "2026-03-12 20:41:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 180,
+      "text": " B乘上EC是等于0的，这就是两个向量是正交标准正交的一种积。那 ei呢是第二个分量是一，其他分量都等于0了",
+      "timestamp": 1773319297.951085,
+      "datetime": "2026-03-12 20:41:37",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "B multiplied by EC equals 0, which is a product indicating that the two vectors are orthonormal. As for e_i, its i-th component is 1, and all other components are equal to 0.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 181,
+      "text": "。那么这样对于rn里面的任意的一个向量N，那么X呢都可以用这组积来线性表示啦",
+      "timestamp": 1773319304.694975,
+      "datetime": "2026-03-12 20:41:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 182,
+      "text": "。那么这样对于rn里面的任意的一个向量N，那么X呢都可以用这组积来线性表示啦",
+      "timestamp": 1773319312.528331,
+      "datetime": "2026-03-12 20:41:52",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Then, for any vector N in R^n, X can be linearly expressed by this set of basis vectors.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 183,
+      "text": "，是吧？唉 X就表示为阿尔法I乘以eii除以到N求和",
+      "timestamp": 1773319313.39331,
+      "datetime": "2026-03-12 20:41:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 184,
+      "text": "，是吧？唉 X就表示为阿尔法I乘以eii除以到N求和",
+      "timestamp": 1773319316.1045198,
+      "datetime": "2026-03-12 20:41:56",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", right? Well, X is expressed as the sum from i=1 to N of α_i times e_i.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 185,
+      "text": "。好，那么由于F呢是一个线性的映射，所以F作用到X上，也就是F作用到",
+      "timestamp": 1773319322.619482,
+      "datetime": "2026-03-12 20:42:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 186,
+      "text": "阿尔法ieii从零到N求和上了",
+      "timestamp": 1773319327.735411,
+      "datetime": "2026-03-12 20:42:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 187,
+      "text": "。好，那么由于F呢是一个线性的映射，所以F作用到X上，也就是F作用到",
+      "timestamp": 1773319328.761031,
+      "datetime": "2026-03-12 20:42:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Okay, since \\( F \\) is a linear map, applying \\( F \\) to \\( X \\), which is \\( F(X) \\)",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 188,
+      "text": "阿尔法ieii从零到N求和上了",
+      "timestamp": 1773319329.9436722,
+      "datetime": "2026-03-12 20:42:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The sum from i=0 to N of α_i e_i.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    }
+  ]
+}

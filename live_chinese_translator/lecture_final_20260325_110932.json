@@ -1,0 +1,2512 @@
+{
+  "generated": "2026-03-25T11:09:32.984753",
+  "total_entries": 179,
+  "history": [
+    {
+      "id": 0,
+      "text": "这样的电影或者是影视剧的这个视频，希望能带到大家回到那个历史场景中啊这个非常艰辛的一个过程，我们知道整个的",
+      "timestamp": 1774406618.209623,
+      "datetime": "2026-03-25 10:43:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "枣党史哈它突出一个特点就是以以小这以少胜多。啊我们今天两个小组其实也展示了这个特点，那以少胜多呢可以讲在四渡赤水中哈那是一个",
+      "timestamp": 1774406632.00966,
+      "datetime": "2026-03-25 10:43:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "啊非常有代表性的这样一个案例了，而且其实在四渡赤水的过程中，呃有很多人是不理解毛泽东的啊",
+      "timestamp": 1774406641.733967,
+      "datetime": "2026-03-25 10:44:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "，比如说林彪，啊当然毛泽东也没有跟林彪生气，哈只不过笑笑说他是个娃娃",
+      "timestamp": 1774406647.355851,
+      "datetime": "2026-03-25 10:44:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "，啊但是整个的过程相当的曲折，如果没有坚定的意志勇气，其实是很难坚持下去的",
+      "timestamp": 1774406656.0747788,
+      "datetime": "2026-03-25 10:44:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "。嗯我经常回读这个毛泽东的文献，啊哈我就把自己比作当时的这个主角，哈我觉得我其实是没有那个勇气和那个心气心劲儿啊去坚持下来的，但是他其实是非常的勇敢",
+      "timestamp": 1774406670.950403,
+      "datetime": "2026-03-25 10:44:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "，啊非常的敢闯敢拼，啊同时呢也非常乐观。所以今天我们也会讲到毛泽东的这个至暗时刻，啊就是当他被排除到了这个",
+      "timestamp": 1774406682.7166772,
+      "datetime": "2026-03-25 10:44:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "党的这个领导层，就是他已经不在C位了，啊说话也不算数了，也失去了党和军的指挥权了，啊他在这样的很落寞的很受挫的这个境地里面，他又做了什么？呢我们今天也会回顾",
+      "timestamp": 1774406698.065993,
+      "datetime": "2026-03-25 10:44:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "看这一段历史吧",
+      "timestamp": 1774406699.584033,
+      "datetime": "2026-03-25 10:44:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "，上节课是讲到了北伐战争，啊那么在北伐战争中我们知道打的是军阀，而军阀的兵力其实是挺强大的，我们看这张图哈",
+      "timestamp": 1774406711.395346,
+      "datetime": "2026-03-25 10:45:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "，啊兵力20万 20万 30万",
+      "timestamp": 1774406715.4949682,
+      "datetime": "2026-03-25 10:45:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "，而北伐军8个军总共才10万人。那么上节课其实我们也分析了，为什么北伐军啊这个其实打的还是很顺利的，啊我们分析了具体的一个原因，那么其",
+      "timestamp": 1774406729.293747,
+      "datetime": "2026-03-25 10:45:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "其中有一项原因是什么呢",
+      "timestamp": 1774406731.3695061,
+      "datetime": "2026-03-25 10:45:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "？就是中国共产党的快速成长",
+      "timestamp": 1774406734.405038,
+      "datetime": "2026-03-25 10:45:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "。我们看这张表格，啊这张表格从中共的一大",
+      "timestamp": 1774406739.014006,
+      "datetime": "2026-03-25 10:45:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "全国党员人数才50多人，到了1927年这个中共五大已经到达了57,000多人",
+      "timestamp": 1774406748.726261,
+      "datetime": "2026-03-25 10:45:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "，那么嗯这个组织触角也是辐射到全国大多数的这个基层，成长是非常的快的",
+      "timestamp": 1774406757.016602,
+      "datetime": "2026-03-25 10:45:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。但是在这个过程中，我们也有失策的地方，这个失策的地方是什么？呢就是一直以来对于蒋介石的方针是不明确的",
+      "timestamp": 1774406769.244134,
+      "datetime": "2026-03-25 10:46:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "。其实我们知道这个蒋介石嗯他对中共的这个态度我们已经觉察到了",
+      "timestamp": 1774406775.389313,
+      "datetime": "2026-03-25 10:46:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "，但是党内呢其实没有引起高度的重视，从而侧面其实助成了蒋介石地位的一个提高，啊我们其实也是过于的去侧重于民众运动，对于发展军队",
+      "timestamp": 1774406789.691732,
+      "datetime": "2026-03-25 10:46:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "啊这个我们其实是较为忽视的，啊那么后面呢也是有这样一个教训",
+      "timestamp": 1774406795.867873,
+      "datetime": "2026-03-25 10:46:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "。我们再来看国民党，国民党它是一个很复杂的一个混合体，啊呃它由这个有左啊也有这个",
+      "timestamp": 1774406807.1233,
+      "datetime": "2026-03-25 10:46:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "也有中立的，啊也有这个啊右派",
+      "timestamp": 1774406811.738039,
+      "datetime": "2026-03-25 10:46:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "，啊但是有的呢是忠实的拥护孙中山，啊有的是随风倒，啊一会儿倒向左派，一会倒向右派",
+      "timestamp": 1774406821.4312031,
+      "datetime": "2026-03-25 10:47:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "。那么在国民党内部也有非常极端的啊这个啊反对中国共产党的这个群体，啊这个群体呢在孙中山没有啊在世的时候，其实他隐藏了他的观点",
+      "timestamp": 1774406836.323835,
+      "datetime": "2026-03-25 10:47:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "，啊当孙中山逝世之后，啊这些人呢就跳了出来",
+      "timestamp": 1774406840.890647,
+      "datetime": "2026-03-25 10:47:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "，啊那么这些人如果我们用一个派别来形容他，呢就是西山会议派啊在1925年11月到26年的1月份，国民党右派分子在西山碧云寺召开了国民党一届四中",
+      "timestamp": 1774406856.26862,
+      "datetime": "2026-03-25 10:47:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "全会，从而历史上称这个派别为西山会议派，而西山会议派它的主要的目的就是分共啊就是否定全盘的否定孙中山的联俄联共的政",
+      "timestamp": 1774406871.086273,
+      "datetime": "2026-03-25 10:47:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "政策，那么西山会议派的出现呢直接导致了呃大革命的失败，啊这是中中国共产党的不幸，其实呢也是国民党的不幸",
+      "timestamp": 1774406883.9166021,
+      "datetime": "2026-03-25 10:48:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "。呃那么戴季陶主义啊就可以代表这个西山会议派它主要的一个思想了，就是什么？呢就是说国共合作啊其实是没有共同信仰的，啊这两个政党是很有",
+      "timestamp": 1774406900.3176901,
+      "datetime": "2026-03-25 10:48:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "重大的区别的，说共信不立、互信不生、互信不生、团结不固、团结不固，不能生存，啊需要啊看这个，但领头主义呢就强调说我们党要",
+      "timestamp": 1774406912.566763,
+      "datetime": "2026-03-25 10:48:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "排除啊共产党嗯",
+      "timestamp": 1774406915.654686,
+      "datetime": "2026-03-25 10:48:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "。那么我们上一节课也在讲到，这个在一战之后，哈帝国主义啊再一的一的一个侵略的方式有所改变，就是寻找代理人，啊就是不断的去寻找各种各样的军阀",
+      "timestamp": 1774406930.515658,
+      "datetime": "2026-03-25 10:48:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "来做这个代理人",
+      "timestamp": 1774406932.533762,
+      "datetime": "2026-03-25 10:48:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "。那么当北洋军阀大势已去之后，帝国主义想一个什么事？呢就是他们觉得他们应该换人了，而这个人呢就是蒋介石啊帝国主义列强看中了",
+      "timestamp": 1774406945.35312,
+      "datetime": "2026-03-25 10:49:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "蒋介石",
+      "timestamp": 1774406946.366784,
+      "datetime": "2026-03-25 10:49:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "，那么同时呢有不少的旧军阀啊也纷纷接受了蒋介石的改编，这就使蒋介石的实力呢是迅速的膨胀了",
+      "timestamp": 1774406957.137462,
+      "datetime": "2026-03-25 10:49:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "。啊那么克412政变是我们从小会学习的这样一个惨案了，哈我们接下来通过一个啊这么一个历史的纪录片，一个小片段，我们在回顾这个过程",
+      "timestamp": 1774406969.4008691,
+      "datetime": "2026-03-25 10:49:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "。1927年",
+      "timestamp": 1774406973.5596192,
+      "datetime": "2026-03-25 10:49:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "将继续签发了一条密令",
+      "timestamp": 1774406978.128742,
+      "datetime": "2026-03-25 10:49:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "，一致实行清党",
+      "timestamp": 1774406982.718921,
+      "datetime": "2026-03-25 10:49:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "上海总院",
+      "timestamp": 1774406995.488899,
+      "datetime": "2026-03-25 10:49:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "长方寿华为，上海青帮投子杜月笙诱骗杀害",
+      "timestamp": 1774407001.6631339,
+      "datetime": "2026-03-25 10:50:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "。中恩恩台同样被诱骗到国民革命军第二十六军第二师师部",
+      "timestamp": 1774407020.1587992,
+      "datetime": "2026-03-25 10:50:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "，所幸的是他被人搭救，逃过了一劫",
+      "timestamp": 1774407024.713923,
+      "datetime": "2026-03-25 10:50:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "。4月12日",
+      "timestamp": 1774407040.0886662,
+      "datetime": "2026-03-25 10:50:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "，大批全副武装的青帮分子冒充工人",
+      "timestamp": 1774407044.6958091,
+      "datetime": "2026-03-25 10:50:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "，在街头袭击工人纠察队，工人纠察队奋起抵抗",
+      "timestamp": 1774407050.288955,
+      "datetime": "2026-03-25 10:50:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "。乌期的国民革命军第二十六军第二师",
+      "timestamp": 1774407064.131003,
+      "datetime": "2026-03-25 10:51:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "。嗯什吃的",
+      "timestamp": 1774407065.655252,
+      "datetime": "2026-03-25 10:51:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "？来进视察现场，嗯大批工人纠察队员被强迫缴械",
+      "timestamp": 1774407071.2890382,
+      "datetime": "2026-03-25 10:51:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "，是能依靠的",
+      "timestamp": 1774407072.8306649,
+      "datetime": "2026-03-25 10:51:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "。残忍杀害",
+      "timestamp": 1774407074.886078,
+      "datetime": "2026-03-25 10:51:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "嗯",
+      "timestamp": 1774407076.40744,
+      "datetime": "2026-03-25 10:51:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "到4月15日",
+      "timestamp": 1774407088.6962051,
+      "datetime": "2026-03-25 10:51:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "，上海工人300多人被杀，500多人被捕",
+      "timestamp": 1774407093.293664,
+      "datetime": "2026-03-25 10:51:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "，5000多人失踪",
+      "timestamp": 1774407095.847896,
+      "datetime": "2026-03-25 10:51:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "，这就是震惊中外的412反革命政变",
+      "timestamp": 1774407100.9952798,
+      "datetime": "2026-03-25 10:51:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "。嗯嗯",
+      "timestamp": 1774407103.5699341,
+      "datetime": "2026-03-25 10:51:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "1927年4月18日",
+      "timestamp": 1774407108.659961,
+      "datetime": "2026-03-25 10:51:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "，蒋介石与汪精卫的武汉政府正式决裂",
+      "timestamp": 1774407113.3230011,
+      "datetime": "2026-03-25 10:51:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "，在南京另立中央",
+      "timestamp": 1774407115.8167338,
+      "datetime": "2026-03-25 10:51:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "。蒋介石南京国民政府成立后的第一件事就是通缉共产党的首要分子共193人",
+      "timestamp": 1774407127.6204422,
+      "datetime": "2026-03-25 10:52:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "，刹那间",
+      "timestamp": 1774407129.660362,
+      "datetime": "2026-03-25 10:52:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "血雨腥风向共产党人扑来",
+      "timestamp": 1774407132.731655,
+      "datetime": "2026-03-25 10:52:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "。蒋介石发动的412反革命政变是大革命从高潮走向失败的转折点",
+      "timestamp": 1774407163.97005,
+      "datetime": "2026-03-25 10:52:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "。好好，我们看到这样一个啊",
+      "timestamp": 1774407169.098791,
+      "datetime": "2026-03-25 10:52:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "历史啊纪录片的一个还原，哈我们知道当时的一个",
+      "timestamp": 1774407174.2145522,
+      "datetime": "2026-03-25 10:52:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "情景",
+      "timestamp": 1774407174.7199519,
+      "datetime": "2026-03-25 10:52:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "，嗯那后续哈我也会再讲到清华留美学生，我会讲到师傅其常给徐永明这一批清华的的学生，他恰恰就是在四一二政变之后加入了我们中国共产党，是一个逆行，所以我就",
+      "timestamp": 1774407190.098353,
+      "datetime": "2026-03-25 10:53:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": "非常的敬佩啊这一批清华人，啊做了一个非常有益的一个啊选择",
+      "timestamp": 1774407195.7059531,
+      "datetime": "2026-03-25 10:53:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "。啊那么在412政变之后，啊又有这个呃7这个715政变75政变，汪精卫说宁可枉杀1000不可，使一人漏网中国共产党，啊这个哪怕我们刚梳理到了那么中共5大",
+      "timestamp": 1774407211.084279,
+      "datetime": "2026-03-25 10:53:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "其实这个发展起来了",
+      "timestamp": 1774407213.637526,
+      "datetime": "2026-03-25 10:53:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 73,
+      "text": "啊57,000 58,000的样子，但是呢在此时遭受了严重的创伤，几乎呢是陷入了绝境",
+      "timestamp": 1774407221.8376,
+      "datetime": "2026-03-25 10:53:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "。那么到此呢其实我们是要有一个小的总结的，就是大革命为什么失败，啊啊那么同学们第一个反应就是，因为中国共产党没有掌握武力啊武力掌握在国民党手里",
+      "timestamp": 1774407236.140357,
+      "datetime": "2026-03-25 10:53:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 75,
+      "text": "，这也是我们上节课提到的就是莫斯科是怎么想这件事情的，莫斯科想的是先党后军，啊他甚至觉得孙中山在没有建好党的情况下，建军是不应该的",
+      "timestamp": 1774407250.513032,
+      "datetime": "2026-03-25 10:54:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": "。啊孙中山成立了黄埔军校",
+      "timestamp": 1774407253.587111,
+      "datetime": "2026-03-25 10:54:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 77,
+      "text": "，那么在夏林的这个革命的经验里面，其实是没有建立职业革命武装的一个必要性的",
+      "timestamp": 1774407262.795243,
+      "datetime": "2026-03-25 10:54:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "。1927年呢中共也是因为没有能掌握武力而失败了",
+      "timestamp": 1774407268.937428,
+      "datetime": "2026-03-25 10:54:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 79,
+      "text": "，不过如果我们把视线拉长，如果我们看到1949年",
+      "timestamp": 1774407274.0410922,
+      "datetime": "2026-03-25 10:54:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "这个先党后军其实是为中国共产党赢得最后的胜利啊打下了一个基础，就是因为很早很早的时候",
+      "timestamp": 1774407283.3336651,
+      "datetime": "2026-03-25 10:54:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "，想法就是要先建好党，先发展好群众运动",
+      "timestamp": 1774407287.888713,
+      "datetime": "2026-03-25 10:54:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": "，啊那么这个军队实际上是掌控在党的手里，我们后面要讲到张国焘啊这个张国焘闹分裂是党史上的第一次",
+      "timestamp": 1774407299.108157,
+      "datetime": "2026-03-25 10:54:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "，啊也是最后一次也是最后一次，啊就是党始终掌握着这个军队",
+      "timestamp": 1774407306.8614578,
+      "datetime": "2026-03-25 10:55:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 84,
+      "text": "，但是呢在蒋介石的意识里面，人类社会里是有效目的是军队，所以它形成了一个枪指挥党的一个局面",
+      "timestamp": 1774407315.516144,
+      "datetime": "2026-03-25 10:55:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 85,
+      "text": "。那么在1927年的8月1日，啊这个南昌起义",
+      "timestamp": 1774407321.6492958,
+      "datetime": "2026-03-25 10:55:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "啊南昌起义的这个情况，呢我们也通过啊这样一个小的这个电影的片段给大家还原一下哈",
+      "timestamp": 1774407330.3705852,
+      "datetime": "2026-03-25 10:55:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": "。嗯那么里面啊有一个场景就是朱德啊在宴请啊同学们，为什么朱德在南昌起义的前夕啊就前一个晚上",
+      "timestamp": 1774407341.615927,
+      "datetime": "2026-03-25 10:55:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 88,
+      "text": "他要宴请宾客呀",
+      "timestamp": 1774407343.657175,
+      "datetime": "2026-03-25 10:55:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "，为什么",
+      "timestamp": 1774407347.7829041,
+      "datetime": "2026-03-25 10:55:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": "？好，我们看完这个电影之后交流一下，嗯打开弹幕了吗",
+      "timestamp": 1774407353.409492,
+      "datetime": "2026-03-25 10:55:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 91,
+      "text": "？打开了哈",
+      "timestamp": 1774407354.9353569,
+      "datetime": "2026-03-25 10:55:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "我21教导团，以攻克新号第三军79团之力",
+      "timestamp": 1774407461.94384,
+      "datetime": "2026-03-25 10:57:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 93,
+      "text": "，14团已占领牛黄",
+      "timestamp": 1774407478.3152351,
+      "datetime": "2026-03-25 10:57:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": "，我车军",
+      "timestamp": 1774407480.375561,
+      "datetime": "2026-03-25 10:58:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 95,
+      "text": "我记上去",
+      "timestamp": 1774407506.4647198,
+      "datetime": "2026-03-25 10:58:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": "。中到公院黄金部第二十三团阵地",
+      "timestamp": 1774407509.0662642,
+      "datetime": "2026-03-25 10:58:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "，你先开上",
+      "timestamp": 1774407519.800239,
+      "datetime": "2026-03-25 10:58:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 98,
+      "text": "。嗯好这个",
+      "timestamp": 1774407521.82591,
+      "datetime": "2026-03-25 10:58:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 99,
+      "text": "，嗯南昌起义",
+      "timestamp": 1774407540.2641869,
+      "datetime": "2026-03-25 10:59:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 100,
+      "text": "嗯之后其实有很多的歧义",
+      "timestamp": 1774407543.350454,
+      "datetime": "2026-03-25 10:59:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": "，但是呢光启义肯定是不行的，啊此时的中国共产党意识到，除了起义还要做一件事情，就是建立根据地啊",
+      "timestamp": 1774407554.1209679,
+      "datetime": "2026-03-25 10:59:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": "，那在哪里建湿地呢",
+      "timestamp": 1774407556.1689699,
+      "datetime": "2026-03-25 10:59:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 103,
+      "text": "？毛泽东认为只有上山啊这一条道路，我上节课也和大家说，啊我这个暑期就想带着同学们上山啊去井冈山来实践",
+      "timestamp": 1774407567.384949,
+      "datetime": "2026-03-25 10:59:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "，那么我们就进入到了这个第二部分啊",
+      "timestamp": 1774407571.033628,
+      "datetime": "2026-03-25 10:59:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 105,
+      "text": "，开创新的路",
+      "timestamp": 1774407572.567521,
+      "datetime": "2026-03-25 10:59:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "。刚刚说到的是1927年8月1日南昌起义打响的这个第一枪，到了8月7日，毛泽东说了一个特别著名的论断，须知政权是由枪杆子中取得的",
+      "timestamp": 1774407587.8688939,
+      "datetime": "2026-03-25 10:59:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 107,
+      "text": "，那么到了10月份呢秋收起义受挫之后，毛泽东挺进了井冈山，啊到了28年的4月28日，朱毛红军会师由此诞生",
+      "timestamp": 1774407601.7102752,
+      "datetime": "2026-03-25 11:00:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": "。但是此时共产国际它不这么看问题，啊共产国际也一直在观察中国的情况",
+      "timestamp": 1774407610.4492328,
+      "datetime": "2026-03-25 11:00:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "，觉得上山啊去农村其实是会失败的",
+      "timestamp": 1774407616.075903,
+      "datetime": "2026-03-25 11:00:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": "。当时的共产国际领导人布哈林他说了这么一句话，他说中国红军会把农民的最后一只老母鸡吃掉",
+      "timestamp": 1774407625.758549,
+      "datetime": "2026-03-25 11:00:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 111,
+      "text": "。可是利用共产国际没有想到的是，啊中国共产党并没有失败，在农村进行的武装割据的声势呢是越来越大",
+      "timestamp": 1774407637.083957,
+      "datetime": "2026-03-25 11:00:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": "。啊那么我们请助教在咱们班级的微信群里面啊发一个问卷星，就是因为今天这个这这个主课堂也是bug了一下，哈这个我们用问卷星的形式，大家看班群哈",
+      "timestamp": 1774407651.435663,
+      "datetime": "2026-03-25 11:00:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "，啊因为这几天呢也有同学来问说我如果不做题的话，我感觉不是特别踏实，就是觉得这课堂不签到这个不踏实，哈那我们今天就",
+      "timestamp": 1774407662.640911,
+      "datetime": "2026-03-25 11:01:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "来做一道题让大家踏实一下，哈这也没有正确答案，大家这个写一句话也好，甚至写一个词也行，啊来互动回答一下中国共产党为什么选择上山，为什么选择了井冈山啊",
+      "timestamp": 1774407676.986484,
+      "datetime": "2026-03-25 11:01:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": "？想看一看大家对这个问题的理解",
+      "timestamp": 1774407679.557324,
+      "datetime": "2026-03-25 11:01:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "。好，啊同学说农村包围城市，啊山上是国民党",
+      "timestamp": 1774407704.1195772,
+      "datetime": "2026-03-25 11:01:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 117,
+      "text": "控制薄弱的环节",
+      "timestamp": 1774407706.6808178,
+      "datetime": "2026-03-25 11:01:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "，啊避国民党的锋芒，抢先有利地形",
+      "timestamp": 1774407711.766592,
+      "datetime": "2026-03-25 11:01:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 119,
+      "text": "，呃便于后期阻击敌人和建立革命根据地",
+      "timestamp": 1774407715.3895302,
+      "datetime": "2026-03-25 11:01:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "。啊敌人的力量在井冈山比较的薄弱",
+      "timestamp": 1774407719.486913,
+      "datetime": "2026-03-25 11:01:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 121,
+      "text": "。嗯有同学说避战啊这个",
+      "timestamp": 1774407728.683809,
+      "datetime": "2026-03-25 11:02:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "，井冈山是易守难攻",
+      "timestamp": 1774407731.739024,
+      "datetime": "2026-03-25 11:02:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": "，嗯当时中国的形势有关农民的力量极大，却未得到调动",
+      "timestamp": 1774407740.475374,
+      "datetime": "2026-03-25 11:02:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "。嗯",
+      "timestamp": 1774407741.484361,
+      "datetime": "2026-03-25 11:02:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 125,
+      "text": "避其锋芒，休养生息，综合考虑啊",
+      "timestamp": 1774407746.5973408,
+      "datetime": "2026-03-25 11:02:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 126,
+      "text": "，便于隐蔽",
+      "timestamp": 1774407751.1992772,
+      "datetime": "2026-03-25 11:02:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": "防守",
+      "timestamp": 1774407752.7229729,
+      "datetime": "2026-03-25 11:02:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 128,
+      "text": "易守难攻，且有群众基础啊",
+      "timestamp": 1774407756.379404,
+      "datetime": "2026-03-25 11:02:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 129,
+      "text": "。第一有民众基础，第二上山易守难攻。第三敌人力量弱，啊这个同学们答案其实都很全面，啊可以继续作答啊",
+      "timestamp": 1774407765.601943,
+      "datetime": "2026-03-25 11:02:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 130,
+      "text": "。为什么选择这个",
+      "timestamp": 1774407768.119089,
+      "datetime": "2026-03-25 11:02:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": "？啊",
+      "timestamp": 1774407769.15417,
+      "datetime": "2026-03-25 11:02:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 132,
+      "text": "井冈山啊为什么选择上山",
+      "timestamp": 1774407771.7116659,
+      "datetime": "2026-03-25 11:02:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 133,
+      "text": "？嗯我们看毛松他的诗词是大气磅礴的，啊他有啊这个大家去了这个上了井冈山，啊然后再读毛泽东诗词，其实会有不同的这种感受",
+      "timestamp": 1774407784.007647,
+      "datetime": "2026-03-25 11:03:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": "。啊他曾经写过这个西江月井冈山，然后他同时呢他也评价了",
+      "timestamp": 1774407790.6805649,
+      "datetime": "2026-03-25 11:03:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 135,
+      "text": "嗯嗯",
+      "timestamp": 1774407791.655683,
+      "datetime": "2026-03-25 11:03:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 136,
+      "text": "啊他是他当时说这个水浒啊",
+      "timestamp": 1774407794.7597802,
+      "datetime": "2026-03-25 11:03:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 137,
+      "text": "生国建立了一支武装",
+      "timestamp": 1774407800.3762329,
+      "datetime": "2026-03-25 11:03:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": "，这支队伍来自各个山头，但是统帅的很少，啊对于这个呃水浒传其实评价是非常的高的",
+      "timestamp": 1774407809.564817,
+      "datetime": "2026-03-25 11:03:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 139,
+      "text": "。但是毛泽东他还说了一句话，哈呃如果大家不看前后文呢也觉得挺震惊，他说军阀可以割据，为什么我们不能割据？啊甚至说了这样的话啊",
+      "timestamp": 1774407821.8875892,
+      "datetime": "2026-03-25 11:03:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 140,
+      "text": "，他说历史上各个朝代都有善待的",
+      "timestamp": 1774407825.456749,
+      "datetime": "2026-03-25 11:03:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 141,
+      "text": "，但是从来没有听说过谁把山大王彻底剿灭过，山大王没有什么主义，可是我们是共产党，山大王和我们比不上，那么敌人怎么能消灭我们呢",
+      "timestamp": 1774407838.272754,
+      "datetime": "2026-03-25 11:03:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 142,
+      "text": "？所以就像同学们刚刚答的这个答案啊非常好，就是毛泽东的探索伴随着是他对于中国社会中国国情的认识",
+      "timestamp": 1774407850.021981,
+      "datetime": "2026-03-25 11:04:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 143,
+      "text": "，啊这个国家",
+      "timestamp": 1774407851.553649,
+      "datetime": "2026-03-25 11:04:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": "啊他要以农民为主体啊来开展武装斗争，啊那他就会取得这个最后的",
+      "timestamp": 1774407859.263786,
+      "datetime": "2026-03-25 11:04:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 145,
+      "text": "胜利",
+      "timestamp": 1774407860.3005152,
+      "datetime": "2026-03-25 11:04:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 146,
+      "text": "。啊那么毛泽东他其实也有一个考虑的一个过程，他不是一开始就想明白这件事情的，如果我们看到这个秋风暴动计划这个秋收起义的一个经过，我们可以看到其实毛泽东一开",
+      "timestamp": 1774407876.125132,
+      "datetime": "2026-03-25 11:04:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 147,
+      "text": "开始也是和中共中央一样，啊想的呢是",
+      "timestamp": 1774407880.802494,
+      "datetime": "2026-03-25 11:04:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 148,
+      "text": "什么呀是占领大城市，但是他后来觉得这是一个旧的路子，啊这是一个旧的思维，应该跳出来，啊不应该再继续执念于进攻长沙了，所以他非常果",
+      "timestamp": 1774407895.571002,
+      "datetime": "2026-03-25 11:04:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 149,
+      "text": "果断的改变了原有的部署，转入了江西。我们看到毛泽东一生的这个军旅生涯哈有一点是值得我们很佩服的",
+      "timestamp": 1774407905.3661351,
+      "datetime": "2026-03-25 11:05:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": "，这个事情就是在战争中学会如何打仗",
+      "timestamp": 1774407909.4190102,
+      "datetime": "2026-03-25 11:05:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 151,
+      "text": "，啊而且他非常果敢的就是这此路，回头我赶紧就换一个部署，啊此时呢他就是转入了江西再图发展",
+      "timestamp": 1774407919.683707,
+      "datetime": "2026-03-25 11:05:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": "。那么这一点呢其实和国际共产主义运动的历史是不一样的，和中共中央想的也是不一样的",
+      "timestamp": 1774407930.399464,
+      "datetime": "2026-03-25 11:05:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 153,
+      "text": "。在毛泽东之前的所有的国际共产主义的这个运动都是首都的暴动，都是在首都夺取了政权，全国革命才胜利的",
+      "timestamp": 1774407941.7105138,
+      "datetime": "2026-03-25 11:05:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 154,
+      "text": "。啊那么此时中共中央的部署和他想的也不一样，所以其实他花了很长的时间啊去在党内啊去呼吁去呼声，这也是为什么啊这个",
+      "timestamp": 1774407954.9682078,
+      "datetime": "2026-03-25 11:05:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": "很长一段时间其实毛泽东是不会理解的",
+      "timestamp": 1774407959.607102,
+      "datetime": "2026-03-25 11:05:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 156,
+      "text": "，他认为应该转向两手或者数省交界的山区，啊那么从进入大城市转向向农村来进军",
+      "timestamp": 1774407970.8598678,
+      "datetime": "2026-03-25 11:06:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 157,
+      "text": "。井冈山这个地理位置，刚刚同学们也有这个啊这个写的非常的清楚，啊井冈山它是四县之交，而且呢离中心城市很远，交通也不便",
+      "timestamp": 1774407985.732977,
+      "datetime": "2026-03-25 11:06:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": "。最关键的是同学们写的非常准确，哈就是国民党的统治力量是很薄弱的，进可攻，退可守。啊昨天井冈山井冈山大学老师还在给我打电话，说呃我们布置那个思政实践的这个方案，哈他说",
+      "timestamp": 1774408001.086487,
+      "datetime": "2026-03-25 11:06:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 159,
+      "text": "张老师一看你就没有上到那个井冈山的最上面，因为我设计的这个计划是60个清华同学上井冈山，他说你这肯定行不通",
+      "timestamp": 1774408011.322616,
+      "datetime": "2026-03-25 11:06:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": "，说你都没有那个地方能站那么多的人，哈说你没去过这个狭窄的这个小路，啊我我准备啊这个这个这个熟悉也是受一下这个教育",
+      "timestamp": 1774408022.6116328,
+      "datetime": "2026-03-25 11:07:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 161,
+      "text": "。啊那么井冈山它原有啊两支陆林师的农民武装，其中有一支啊他还是这个共产党员啊袁文才还是共产党员",
+      "timestamp": 1774408032.306697,
+      "datetime": "2026-03-25 11:07:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 162,
+      "text": "，那么还有一个很",
+      "timestamp": 1774408034.337255,
+      "datetime": "2026-03-25 11:07:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 163,
+      "text": "重要的一个背景，啊就是国民党各派军事势力在进行你死我活的争夺战，一会儿我们会还原这个四渡赤水的一个经过，其实四渡赤水的过程中，国民党的军队他也是五花八门的",
+      "timestamp": 1774408049.236574,
+      "datetime": "2026-03-25 11:07:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": "，他也是有各种各样的势力的",
+      "timestamp": 1774408051.752672,
+      "datetime": "2026-03-25 11:07:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 165,
+      "text": "。那么讲到这个最后，我们看到老蒋他在这个贵阳，哈其实也有很多人问，啊其实老蒋他能够在贵阳的时候其实非常的凶险，因为红军几乎与他擦身而过，他为什么不马上跑呢",
+      "timestamp": 1774408067.1373482,
+      "datetime": "2026-03-25 11:07:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 166,
+      "text": "？嗯",
+      "timestamp": 1774408067.636053,
+      "datetime": "2026-03-25 11:07:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 167,
+      "text": "我也想到这个问题，哈我想可能就是因为国民党各派林立，非常的复杂，啊就在这个时候如果他马上就跑了，更难以难以服众，难以带队伍了",
+      "timestamp": 1774408079.385043,
+      "datetime": "2026-03-25 11:07:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 168,
+      "text": "。啊其实国民党内斗是非常的频繁的，甚至在1930年发生的中原",
+      "timestamp": 1774408086.593815,
+      "datetime": "2026-03-25 11:08:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 169,
+      "text": "空前规模的内战",
+      "timestamp": 1774408089.130336,
+      "datetime": "2026-03-25 11:08:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 170,
+      "text": "。而这一点毛泽东他在井冈山的斗争中写的就很清楚，他说一国之内在四维白色恐怖包围的中间有一个小小的",
+      "timestamp": 1774408099.859606,
+      "datetime": "2026-03-25 11:08:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 171,
+      "text": "啊有几块小小的红色政权区域，在世界上只有中国有这样的事情，那它之所以发生了，就是因为国民党内部不断的分裂，不断的战争",
+      "timestamp": 1774408113.262772,
+      "datetime": "2026-03-25 11:08:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 172,
+      "text": "。所以如果我们去设计一款啊井冈山的一个游戏，哈那么在这个这个这个",
+      "timestamp": 1774408120.882536,
+      "datetime": "2026-03-25 11:08:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 173,
+      "text": "设置里面其实我们就可以设置啊井冈山，它的优势在于它有群众，有党有力量的红军，同时他有便于作战的地形，而且有足够啊的这样一个经验",
+      "timestamp": 1774408135.7347531,
+      "datetime": "2026-03-25 11:08:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 174,
+      "text": "，协力",
+      "timestamp": 1774408136.738517,
+      "datetime": "2026-03-25 11:08:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 175,
+      "text": "嗯嗯",
+      "timestamp": 1774408137.762367,
+      "datetime": "2026-03-25 11:08:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 176,
+      "text": "嗯那么朱毛红军其实他在这个南方，哈大家注意这个图后面我们也会再讲，啊这个为什么啊国共啊在这个阶段的一个争夺是相当的激烈的",
+      "timestamp": 1774408153.1504588,
+      "datetime": "2026-03-25 11:09:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 177,
+      "text": "。我们看这个图啊苏区的发展啊是非常的迅速的",
+      "timestamp": 1774408158.747654,
+      "datetime": "2026-03-25 11:09:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 178,
+      "text": "，它像红色的烈焰，但是呢它其实也是在国民党统治的腹地形成了燎原之势",
+      "timestamp": 1774408166.981447,
+      "datetime": "2026-03-25 11:09:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

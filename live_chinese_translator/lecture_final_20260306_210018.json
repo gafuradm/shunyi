@@ -1,0 +1,49 @@
+{
+  "generated": "2026-03-06T21:00:18.269692",
+  "total_entries": 3,
+  "history": [
+    {
+      "id": 0,
+      "text": "祖国同呀的同样的",
+      "timestamp": 1772801942.5963578,
+      "datetime": "2026-03-06 20:59:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "你你呀的",
+      "timestamp": 1772801993.245857,
+      "datetime": "2026-03-06 20:59:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "你你呀的",
+      "timestamp": 1772801994.79774,
+      "datetime": "2026-03-06 20:59:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Your your ya de",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    }
+  ]
+}

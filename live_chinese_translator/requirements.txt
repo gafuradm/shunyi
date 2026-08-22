@@ -1,0 +1,16 @@
+flask
+flask-socketio
+python-dotenv
+sounddevice
+numpy
+requests
+websocket-client
+qrcode
+pymupdf
+python-socketio
+eventlet
+Pillow
+opencv-python==4.8.1.78
+pyautogui==0.9.54
+mss==9.0.1
+av==10.0.0

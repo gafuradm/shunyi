@@ -1,0 +1,3326 @@
+{
+  "generated": "2026-03-06T20:33:01.305560",
+  "total_entries": 229,
+  "history": [
+    {
+      "id": 0,
+      "text": "归乐死",
+      "timestamp": 1772798409.690561,
+      "datetime": "2026-03-06 20:00:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "归乐死",
+      "timestamp": 1772798411.843123,
+      "datetime": "2026-03-06 20:00:11",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Euthanasia",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 2,
+      "text": "，加了个",
+      "timestamp": 1772798429.660974,
+      "datetime": "2026-03-06 20:00:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "，加了个",
+      "timestamp": 1772798431.4082859,
+      "datetime": "2026-03-06 20:00:31",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", added a",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 4,
+      "text": "心心",
+      "timestamp": 1772798439.89636,
+      "datetime": "2026-03-06 20:00:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "心心",
+      "timestamp": 1772798440.850724,
+      "datetime": "2026-03-06 20:00:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Euthanasia",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 6,
+      "text": "我的汗呐茉莉安娜",
+      "timestamp": 1772798611.3837671,
+      "datetime": "2026-03-06 20:03:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "我的汗呐茉莉安娜",
+      "timestamp": 1772798612.967655,
+      "datetime": "2026-03-06 20:03:32",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "My Hanna Mariana",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 8,
+      "text": "。123",
+      "timestamp": 1772798624.7106078,
+      "datetime": "2026-03-06 20:03:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "。123",
+      "timestamp": 1772798626.135853,
+      "datetime": "2026-03-06 20:03:46",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ".123",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 10,
+      "text": ". 你7个",
+      "timestamp": 1772798653.366942,
+      "datetime": "2026-03-06 20:04:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": ". 你7个",
+      "timestamp": 1772798654.490769,
+      "datetime": "2026-03-06 20:04:14",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You 7",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。我安了三",
+      "timestamp": 1772798656.997188,
+      "datetime": "2026-03-06 20:04:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "。我安了三",
+      "timestamp": 1772798658.079201,
+      "datetime": "2026-03-06 20:04:18",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I installed three",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 14,
+      "text": "，我蓝蓝色",
+      "timestamp": 1772798666.17948,
+      "datetime": "2026-03-06 20:04:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "，我蓝蓝色",
+      "timestamp": 1772798667.3613582,
+      "datetime": "2026-03-06 20:04:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", I am blue",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 16,
+      "text": "。梦江",
+      "timestamp": 1772798777.8327801,
+      "datetime": "2026-03-06 20:06:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。梦江",
+      "timestamp": 1772798778.913013,
+      "datetime": "2026-03-06 20:06:18",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Meng Jiang",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 18,
+      "text": "向前走",
+      "timestamp": 1772798808.521802,
+      "datetime": "2026-03-06 20:06:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "向前走",
+      "timestamp": 1772798809.9383738,
+      "datetime": "2026-03-06 20:06:49",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Go forward",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 20,
+      "text": "，你笑容",
+      "timestamp": 1772798838.197974,
+      "datetime": "2026-03-06 20:07:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "，你笑容",
+      "timestamp": 1772798839.746177,
+      "datetime": "2026-03-06 20:07:19",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", your smile",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 22,
+      "text": "，我千里山川",
+      "timestamp": 1772798841.816649,
+      "datetime": "2026-03-06 20:07:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "，我千里山川",
+      "timestamp": 1772798843.2921422,
+      "datetime": "2026-03-06 20:07:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", I traverse a thousand miles of mountains and rivers",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 24,
+      "text": "越相思",
+      "timestamp": 1772798843.350347,
+      "datetime": "2026-03-06 20:07:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "，一首歌",
+      "timestamp": 1772798844.3754618,
+      "datetime": "2026-03-06 20:07:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "越相思",
+      "timestamp": 1772798844.694794,
+      "datetime": "2026-03-06 20:07:24",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Longing Across Distance",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 27,
+      "text": "，一首歌",
+      "timestamp": 1772798845.209274,
+      "datetime": "2026-03-06 20:07:25",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", a song",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 28,
+      "text": "终将去向",
+      "timestamp": 1772798849.478315,
+      "datetime": "2026-03-06 20:07:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "终将去向",
+      "timestamp": 1772798850.468553,
+      "datetime": "2026-03-06 20:07:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ultimately Heading Towards",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 30,
+      "text": "曾经的",
+      "timestamp": 1772798858.172396,
+      "datetime": "2026-03-06 20:07:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "曾经的",
+      "timestamp": 1772798859.887158,
+      "datetime": "2026-03-06 20:07:39",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Once Upon a Time",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 32,
+      "text": "我们留在心中",
+      "timestamp": 1772798861.801161,
+      "datetime": "2026-03-06 20:07:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "我们留在心中",
+      "timestamp": 1772798863.61021,
+      "datetime": "2026-03-06 20:07:43",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "We keep it in our hearts",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 34,
+      "text": "的中国",
+      "timestamp": 1772798867.926406,
+      "datetime": "2026-03-06 20:07:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "的中国",
+      "timestamp": 1772798869.135,
+      "datetime": "2026-03-06 20:07:49",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "of China",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 36,
+      "text": "未来还",
+      "timestamp": 1772798869.9716868,
+      "datetime": "2026-03-06 20:07:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "未来还",
+      "timestamp": 1772798871.357137,
+      "datetime": "2026-03-06 20:07:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The future is yet to come",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 38,
+      "text": "边走",
+      "timestamp": 1772798930.384276,
+      "datetime": "2026-03-06 20:08:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "边走",
+      "timestamp": 1772798931.320519,
+      "datetime": "2026-03-06 20:08:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Walking along",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 40,
+      "text": "。走",
+      "timestamp": 1772798931.917587,
+      "datetime": "2026-03-06 20:08:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "。走",
+      "timestamp": 1772798932.886281,
+      "datetime": "2026-03-06 20:08:52",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Walk",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 42,
+      "text": "世界持",
+      "timestamp": 1772798933.446125,
+      "datetime": "2026-03-06 20:08:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "世界持",
+      "timestamp": 1772798934.431315,
+      "datetime": "2026-03-06 20:08:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The world holds",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 44,
+      "text": "嘿嘿",
+      "timestamp": 1772799093.2017741,
+      "datetime": "2026-03-06 20:11:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "嘿嘿",
+      "timestamp": 1772799094.6231449,
+      "datetime": "2026-03-06 20:11:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Hehe",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 46,
+      "text": "嗯嗯",
+      "timestamp": 1772799261.133326,
+      "datetime": "2026-03-06 20:14:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "嗯嗯",
+      "timestamp": 1772799262.560568,
+      "datetime": "2026-03-06 20:14:22",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Okay\n\nThe world holds \nHehe",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 48,
+      "text": " B来szbr",
+      "timestamp": 1772799277.011947,
+      "datetime": "2026-03-06 20:14:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "。不给的brakt",
+      "timestamp": 1772799278.557605,
+      "datetime": "2026-03-06 20:14:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": " B来szbr",
+      "timestamp": 1772799278.6353972,
+      "datetime": "2026-03-06 20:14:38",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "B to szbr",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 51,
+      "text": "。不给的brakt",
+      "timestamp": 1772799280.190071,
+      "datetime": "2026-03-06 20:14:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". The given bracket",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 52,
+      "text": "。I这18年那会right",
+      "timestamp": 1772799282.123071,
+      "datetime": "2026-03-06 20:14:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "。I这18年那会right",
+      "timestamp": 1772799284.218671,
+      "datetime": "2026-03-06 20:14:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I was 18 years old at that time, right",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 54,
+      "text": "，我觉O得我的没GT",
+      "timestamp": 1772799288.2468789,
+      "datetime": "2026-03-06 20:14:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "。唉",
+      "timestamp": 1772799289.3152199,
+      "datetime": "2026-03-06 20:14:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "，我觉O得我的没GT",
+      "timestamp": 1772799290.4795609,
+      "datetime": "2026-03-06 20:14:50",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", I think my GT is not",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 57,
+      "text": "。唉",
+      "timestamp": 1772799291.178717,
+      "datetime": "2026-03-06 20:14:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Sigh",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 58,
+      "text": "广阔",
+      "timestamp": 1772799312.861221,
+      "datetime": "2026-03-06 20:15:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "广阔",
+      "timestamp": 1772799314.481314,
+      "datetime": "2026-03-06 20:15:14",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "=ast",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 60,
+      "text": "万丈阳光",
+      "timestamp": 1772799330.796851,
+      "datetime": "2026-03-06 20:15:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "万丈阳光",
+      "timestamp": 1772799332.347883,
+      "datetime": "2026-03-06 20:15:32",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "A thousand rays of sunlight",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 62,
+      "text": "照耀你一我",
+      "timestamp": 1772799332.834462,
+      "datetime": "2026-03-06 20:15:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "嗯嗯嗯嗯嗯",
+      "timestamp": 1772799333.849061,
+      "datetime": "2026-03-06 20:15:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "照耀你一我",
+      "timestamp": 1772799334.8206441,
+      "datetime": "2026-03-06 20:15:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Shine on you—me",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 65,
+      "text": "嗯嗯嗯嗯嗯",
+      "timestamp": 1772799335.333558,
+      "datetime": "2026-03-06 20:15:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Hmm hmm hmm hmm hmm",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 66,
+      "text": " could you please let go of my hand es",
+      "timestamp": 1772799720.928643,
+      "datetime": "2026-03-06 20:22:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "? Could you please, sir",
+      "timestamp": 1772799722.973788,
+      "datetime": "2026-03-06 20:22:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "? Could you please, sir",
+      "timestamp": 1772799724.616919,
+      "datetime": "2026-03-06 20:22:04",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Could you please, sir",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "? Sir, Jesus Christ, let go of my hand, man",
+      "timestamp": 1772799727.0612679,
+      "datetime": "2026-03-06 20:22:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": ". WOW Yeah",
+      "timestamp": 1772799728.0804422,
+      "datetime": "2026-03-06 20:22:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": " could you please let go of my hand es",
+      "timestamp": 1772799729.449406,
+      "datetime": "2026-03-06 20:22:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "could you please let go of my h∧ es",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 72,
+      "text": ". WOW Yeah",
+      "timestamp": 1772799729.876954,
+      "datetime": "2026-03-06 20:22:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". WOW Yeah",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 73,
+      "text": " I thank that",
+      "timestamp": 1772799730.129677,
+      "datetime": "2026-03-06 20:22:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": " I thank that",
+      "timestamp": 1772799732.0932548,
+      "datetime": "2026-03-06 20:22:12",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "I think that",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 75,
+      "text": ". The thing that can happen",
+      "timestamp": 1772799732.675051,
+      "datetime": "2026-03-06 20:22:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": ". The thing that can happen",
+      "timestamp": 1772799734.6784792,
+      "datetime": "2026-03-06 20:22:14",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". The thing that can happen",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 77,
+      "text": " in India that you don't know about yet can't happen",
+      "timestamp": 1772799736.770417,
+      "datetime": "2026-03-06 20:22:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "? Sir, Jesus Christ, let go of my hand, man",
+      "timestamp": 1772799737.495409,
+      "datetime": "2026-03-06 20:22:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The original sentence isn’t a math problem — it’s a line of dialogue. \nIf you’re asking for a correction to the punctuation or grammar, here’s a fixed version:\n\n**Fixed:** \n“Sir, Jesus Christ — let go of my hand, man!”\n\n(Changes: Added quotation marks, replaced the comma after “Christ” with an em dash for dramatic interruption, and kept the informal tone.)",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 79,
+      "text": ". Guess who",
+      "timestamp": 1772799738.8067572,
+      "datetime": "2026-03-06 20:22:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": ". Guess who",
+      "timestamp": 1772799740.250754,
+      "datetime": "2026-03-06 20:22:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Guess who",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "? Yeah, my you son",
+      "timestamp": 1772799741.920248,
+      "datetime": "2026-03-06 20:22:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": ". Very good",
+      "timestamp": 1772799742.927119,
+      "datetime": "2026-03-06 20:22:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "? Yeah, my you son",
+      "timestamp": 1772799743.615472,
+      "datetime": "2026-03-06 20:22:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Yeah, my you son",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 84,
+      "text": " in India that you don't know about yet can't happen",
+      "timestamp": 1772799744.099499,
+      "datetime": "2026-03-06 20:22:24",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "in India that you don't know about yet can't happen",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 85,
+      "text": ". Very good",
+      "timestamp": 1772799744.3895428,
+      "datetime": "2026-03-06 20:22:24",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "=ery good",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 86,
+      "text": ". this Is",
+      "timestamp": 1772799749.581568,
+      "datetime": "2026-03-06 20:22:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": ". this Is",
+      "timestamp": 1772799750.99673,
+      "datetime": "2026-03-06 20:22:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". this Is",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 88,
+      "text": " Trust me today. I'm very happy",
+      "timestamp": 1772799751.119255,
+      "datetime": "2026-03-06 20:22:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": ". Have a good day",
+      "timestamp": 1772799752.647679,
+      "datetime": "2026-03-06 20:22:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": ". Have a good day",
+      "timestamp": 1772799754.047733,
+      "datetime": "2026-03-06 20:22:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Have a good day",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 91,
+      "text": ". See",
+      "timestamp": 1772799755.2089431,
+      "datetime": "2026-03-06 20:22:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": ". See",
+      "timestamp": 1772799756.967697,
+      "datetime": "2026-03-06 20:22:36",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". See",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 93,
+      "text": ". I was hard a nice faces",
+      "timestamp": 1772799757.250798,
+      "datetime": "2026-03-06 20:22:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": ". That's India broke",
+      "timestamp": 1772799758.7763891,
+      "datetime": "2026-03-06 20:22:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 95,
+      "text": ". I was hard a nice faces",
+      "timestamp": 1772799759.096252,
+      "datetime": "2026-03-06 20:22:39",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I was hard a nice faces",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 96,
+      "text": ". Absolutely",
+      "timestamp": 1772799760.359641,
+      "datetime": "2026-03-06 20:22:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": ". That's India broke",
+      "timestamp": 1772799760.467134,
+      "datetime": "2026-03-06 20:22:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". That's India broke",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 98,
+      "text": " Trust me today. I'm very happy",
+      "timestamp": 1772799761.079055,
+      "datetime": "2026-03-06 20:22:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Here is the corrected version with proper grammar and punctuation:\n\n**Fixed:** Trust me today. I’m very happy.\n\n**Explanation of changes:**\n- Added an apostrophe in **I’m** (contraction of “I am”).\n- Capitalized **I**.\n- The original sentence was already understandable, but these adjustments make it grammatically standard.\n\nTranslation (mathematically accurate, in English only):",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 99,
+      "text": ". Absolutely",
+      "timestamp": 1772799762.4754071,
+      "datetime": "2026-03-06 20:22:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Absolutely",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 100,
+      "text": ". Noma girl",
+      "timestamp": 1772799765.4639292,
+      "datetime": "2026-03-06 20:22:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": ". 那们是",
+      "timestamp": 1772799766.997656,
+      "datetime": "2026-03-06 20:22:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": ". Noma girl",
+      "timestamp": 1772799767.544051,
+      "datetime": "2026-03-06 20:22:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Noma girl",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 103,
+      "text": ". 那们是",
+      "timestamp": 1772799768.8527548,
+      "datetime": "2026-03-06 20:22:48",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". That's India broke",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 104,
+      "text": " the anim, the mus got you got here. hello Hello",
+      "timestamp": 1772799770.571816,
+      "datetime": "2026-03-06 20:22:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 105,
+      "text": ". What's going on, sir? Could you please let go of my hands, sir? Could you please, sir? Stop",
+      "timestamp": 1772799776.188988,
+      "datetime": "2026-03-06 20:22:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": ". Sir, thank you",
+      "timestamp": 1772799777.2131698,
+      "datetime": "2026-03-06 20:22:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 107,
+      "text": " the anim, the mus got you got here. hello Hello",
+      "timestamp": 1772799777.8940659,
+      "datetime": "2026-03-06 20:22:57",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "the anim, the mus got you got here. hello Hello",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 108,
+      "text": ". Sir, thank you",
+      "timestamp": 1772799779.204015,
+      "datetime": "2026-03-06 20:22:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Sir, thank you",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 109,
+      "text": ". Sir, Jesus Christ, let go of my hand, man",
+      "timestamp": 1772799780.275765,
+      "datetime": "2026-03-06 20:23:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": ". What's going on, sir? Could you please let go of my hands, sir? Could you please, sir? Stop",
+      "timestamp": 1772799784.090603,
+      "datetime": "2026-03-06 20:23:04",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". What's going on, sir? Could you please let go of my h∧s, sir? Could you please, sir? Stop",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 111,
+      "text": ". Sir, Jesus Christ, let go of my hand, man",
+      "timestamp": 1772799788.2911549,
+      "datetime": "2026-03-06 20:23:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Sir, Jesus Christ, let go of my h∧, man",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 112,
+      "text": ". Man is officially the country of know here are seven things you absolutely cannot do in Japan. One giving tips is forbidden in Japan service",
+      "timestamp": 1772799905.766839,
+      "datetime": "2026-03-06 20:25:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": ". Man is officially the country of know here are seven things you absolutely cannot do in Japan. One giving tips is forbidden in Japan service",
+      "timestamp": 1772799914.028908,
+      "datetime": "2026-03-06 20:25:14",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Man is officially the country of know here are seven things you |x|ly can¬ do in Japan. One giving tips is f∨bidden in Japan service",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 114,
+      "text": ". You for me",
+      "timestamp": 1772799922.108455,
+      "datetime": "2026-03-06 20:25:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": ". You for me",
+      "timestamp": 1772799923.6910021,
+      "datetime": "2026-03-06 20:25:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You f∨ me",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 116,
+      "text": ". Do you嘎嘎",
+      "timestamp": 1772799925.216485,
+      "datetime": "2026-03-06 20:25:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 117,
+      "text": ". Do you嘎嘎",
+      "timestamp": 1772799926.710405,
+      "datetime": "2026-03-06 20:25:26",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Do you quack",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "？亚麻嘎嘎",
+      "timestamp": 1772799926.7490802,
+      "datetime": "2026-03-06 20:25:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 119,
+      "text": "打动吗",
+      "timestamp": 1772799927.772423,
+      "datetime": "2026-03-06 20:25:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "？亚麻嘎嘎",
+      "timestamp": 1772799928.8721468,
+      "datetime": "2026-03-06 20:25:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Yamagaga",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 121,
+      "text": "打动吗",
+      "timestamp": 1772799929.56925,
+      "datetime": "2026-03-06 20:25:29",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Are you moved?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 122,
+      "text": "？鸭吱嘎嘎撒UC一栋",
+      "timestamp": 1772799931.863339,
+      "datetime": "2026-03-06 20:25:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": "。一个",
+      "timestamp": 1772799933.898965,
+      "datetime": "2026-03-06 20:25:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "？鸭吱嘎嘎撒UC一栋",
+      "timestamp": 1772799934.456458,
+      "datetime": "2026-03-06 20:25:34",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Do you quack? Yamagaga \nAre you moved?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 125,
+      "text": "。一个",
+      "timestamp": 1772799935.5893261,
+      "datetime": "2026-03-06 20:25:35",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". One",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 126,
+      "text": " Train station is well known for",
+      "timestamp": 1772800104.384557,
+      "datetime": "2026-03-06 20:28:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": " Train station is well known for",
+      "timestamp": 1772800105.9935591,
+      "datetime": "2026-03-06 20:28:25",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Train station is well known f∨",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 128,
+      "text": " scam MOSS and",
+      "timestamp": 1772800106.4223309,
+      "datetime": "2026-03-06 20:28:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 129,
+      "text": " scam MOSS and",
+      "timestamp": 1772800108.1384661,
+      "datetime": "2026-03-06 20:28:28",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "scam MOSS ∧",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 130,
+      "text": " yeah took to drive us over charging foreigners",
+      "timestamp": 1772800109.548814,
+      "datetime": "2026-03-06 20:28:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": ". So let's see if I can actually get to my hotel with a fair price back that as soon as I leave the station",
+      "timestamp": 1772800115.1638021,
+      "datetime": "2026-03-06 20:28:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 132,
+      "text": " yeah took to drive us over charging foreigners",
+      "timestamp": 1772800117.542745,
+      "datetime": "2026-03-06 20:28:37",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "yeah took to drive us / charging f∨eigners",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 133,
+      "text": " that there will be many drivers approaching me",
+      "timestamp": 1772800118.7309802,
+      "datetime": "2026-03-06 20:28:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": ". There, sir, I have a class",
+      "timestamp": 1772800120.7788658,
+      "datetime": "2026-03-06 20:28:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 135,
+      "text": ". There, sir, I have a class",
+      "timestamp": 1772800122.340617,
+      "datetime": "2026-03-06 20:28:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". There, sir, I have a class",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 136,
+      "text": ". So let's see if I can actually get to my hotel with a fair price back that as soon as I leave the station",
+      "timestamp": 1772800123.000996,
+      "datetime": "2026-03-06 20:28:43",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". So let's see if I can actually get to my hotel with a fair price back that as soon as I leave the station",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 137,
+      "text": ". I will take it bus",
+      "timestamp": 1772800123.33037,
+      "datetime": "2026-03-06 20:28:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": ". I will take it bus",
+      "timestamp": 1772800124.461361,
+      "datetime": "2026-03-06 20:28:44",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I will take the bus",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 139,
+      "text": " that there will be many drivers approaching me",
+      "timestamp": 1772800125.6934662,
+      "datetime": "2026-03-06 20:28:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "that there will be many drivers approaching me",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 140,
+      "text": " not cheaper than our place",
+      "timestamp": 1772800125.890147,
+      "datetime": "2026-03-06 20:28:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 141,
+      "text": " not cheaper than our place",
+      "timestamp": 1772800127.32071,
+      "datetime": "2026-03-06 20:28:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "¬ cheaper than our place",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 142,
+      "text": ". Could you been the same price as we got基per than Uber？How much",
+      "timestamp": 1772800129.505464,
+      "datetime": "2026-03-06 20:28:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 143,
+      "text": "？One of you",
+      "timestamp": 1772800130.526028,
+      "datetime": "2026-03-06 20:28:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": ". We 20 minute",
+      "timestamp": 1772800131.550111,
+      "datetime": "2026-03-06 20:28:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 145,
+      "text": "？One of you",
+      "timestamp": 1772800131.809962,
+      "datetime": "2026-03-06 20:28:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "One of you",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 146,
+      "text": ". We 20 minute",
+      "timestamp": 1772800133.0947719,
+      "datetime": "2026-03-06 20:28:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". We 20 minute",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 147,
+      "text": ". Could you been the same price as we got基per than Uber？How much",
+      "timestamp": 1772800133.502537,
+      "datetime": "2026-03-06 20:28:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Could it be the same price as we got, ∨ cheaper than Uber? How much?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 148,
+      "text": " to my hotel yeah we took that",
+      "timestamp": 1772800133.589534,
+      "datetime": "2026-03-06 20:28:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 149,
+      "text": " I hil too much",
+      "timestamp": 1772800134.6164749,
+      "datetime": "2026-03-06 20:28:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": " I hil too much",
+      "timestamp": 1772800136.496486,
+      "datetime": "2026-03-06 20:28:56",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "I said too much",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 151,
+      "text": ". What are the differen? I double three",
+      "timestamp": 1772800137.684528,
+      "datetime": "2026-03-06 20:28:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": ". What are the differen? I double three",
+      "timestamp": 1772800139.209454,
+      "datetime": "2026-03-06 20:28:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". What are the differences? I double three",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 153,
+      "text": " to my hotel yeah we took that",
+      "timestamp": 1772800139.9571588,
+      "datetime": "2026-03-06 20:28:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "to my hotel yeah we took that",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 154,
+      "text": ". Yeah, I knowbody, but when you want to do do this one under ro this, yes",
+      "timestamp": 1772800141.252678,
+      "datetime": "2026-03-06 20:29:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": ". and we We go straight to the hotel really I'm not taking my hand",
+      "timestamp": 1772800144.834878,
+      "datetime": "2026-03-06 20:29:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 156,
+      "text": ". Yeah, I knowbody, but when you want to do do this one under ro this, yes",
+      "timestamp": 1772800148.070824,
+      "datetime": "2026-03-06 20:29:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Yeah, I know, but when you want to do this one under root, yes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 157,
+      "text": ". I how we go with that to, yes",
+      "timestamp": 1772800149.9882822,
+      "datetime": "2026-03-06 20:29:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": ". and we We go straight to the hotel really I'm not taking my hand",
+      "timestamp": 1772800153.677661,
+      "datetime": "2026-03-06 20:29:13",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "**Fixed:** \nWe go straight to the hotel. Really, I’m not taking my hand.\n\n**Explanation of changes:**\n- Removed the stray period at the beginning.\n- Capitalized “We” and “Really.”\n- Added a period after “hotel” to separate the two sentences.\n- Added a comma after “Really” for natural flow.\n- Kept the meaning and informal tone of the original.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 159,
+      "text": ". oh Maybe your stereotype of about the station well",
+      "timestamp": 1772800154.077238,
+      "datetime": "2026-03-06 20:29:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": ". The cook though yes",
+      "timestamp": 1772800155.6066911,
+      "datetime": "2026-03-06 20:29:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 161,
+      "text": ". I how we go with that to, yes",
+      "timestamp": 1772800156.717815,
+      "datetime": "2026-03-06 20:29:16",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "I know how we go with that too, yes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 162,
+      "text": ". The cook though yes",
+      "timestamp": 1772800157.297204,
+      "datetime": "2026-03-06 20:29:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "The cook though yes",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 163,
+      "text": ". We're taking your private helicopter, yes sir. oh That sounds lovely",
+      "timestamp": 1772800159.1817331,
+      "datetime": "2026-03-06 20:29:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": ". oh Maybe your stereotype of about the station well",
+      "timestamp": 1772800160.0428748,
+      "datetime": "2026-03-06 20:29:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It looks like you’re trying to say something like: \n\n**“Oh, maybe your stereotype about the station is wrong.”** \n\nIf you meant something else, feel free to clarify!",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 165,
+      "text": ". We're taking your private helicopter, yes sir. oh That sounds lovely",
+      "timestamp": 1772800162.0041149,
+      "datetime": "2026-03-06 20:29:22",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "We're taking your private helicopter, yes sir. Oh, that sounds lovely.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 166,
+      "text": ". This train",
+      "timestamp": 1772800162.760452,
+      "datetime": "2026-03-06 20:29:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 167,
+      "text": ". This train",
+      "timestamp": 1772800163.822588,
+      "datetime": "2026-03-06 20:29:23",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "This train",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 168,
+      "text": " in never probab be been take a little out but the what that they a",
+      "timestamp": 1772800182.2174962,
+      "datetime": "2026-03-06 20:29:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 169,
+      "text": " was we I look at that",
+      "timestamp": 1772800184.269794,
+      "datetime": "2026-03-06 20:29:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 170,
+      "text": " was we I look at that",
+      "timestamp": 1772800185.32865,
+      "datetime": "2026-03-06 20:29:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "was we I look at that",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 171,
+      "text": " name for you",
+      "timestamp": 1772800188.356096,
+      "datetime": "2026-03-06 20:29:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 172,
+      "text": " name for you",
+      "timestamp": 1772800189.601453,
+      "datetime": "2026-03-06 20:29:49",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "name f∨ you",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 173,
+      "text": ". 我你们在这里",
+      "timestamp": 1772800189.877655,
+      "datetime": "2026-03-06 20:29:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 174,
+      "text": ". 我你们在这里",
+      "timestamp": 1772800191.0277052,
+      "datetime": "2026-03-06 20:29:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I you are here",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 175,
+      "text": " in never probab be been take a little out but the what that they a",
+      "timestamp": 1772800191.550199,
+      "datetime": "2026-03-06 20:29:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It appears the original text is a scrambled collection of words, not a meaningful sentence. \nIf the goal is to arrange them into something that makes grammatical sense, one possible interpretation could be:\n\n> **They have never been able to take out a little of what they probably had.**\n\nBut without more context, it’s hard to know the intended meaning. \nIf you meant to fix a specific math-related phrase, please share the correct original sentence or equation.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 176,
+      "text": " up滚光管那个修，我呢我呀没过就放不多，啊应该这个感染我那就他，法法院没我们那没看到呢",
+      "timestamp": 1772800199.634392,
+      "datetime": "2026-03-06 20:29:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 177,
+      "text": "。回来了不来到这里",
+      "timestamp": 1772800201.1641119,
+      "datetime": "2026-03-06 20:30:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 178,
+      "text": " up滚光管那个修，我呢我呀没过就放不多，啊应该这个感染我那就他，法法院没我们那没看到呢",
+      "timestamp": 1772800202.507301,
+      "datetime": "2026-03-06 20:30:02",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Regarding the repair of the polished tube, I haven't left it for long, ah, this infection should be, then he, the court didn't, we didn't see it.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 179,
+      "text": "。回来了不来到这里",
+      "timestamp": 1772800202.8607879,
+      "datetime": "2026-03-06 20:30:02",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "They have returned, but not come here.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 180,
+      "text": "。不是在呢",
+      "timestamp": 1772800204.2328908,
+      "datetime": "2026-03-06 20:30:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 181,
+      "text": "。不是在呢",
+      "timestamp": 1772800205.32577,
+      "datetime": "2026-03-06 20:30:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It's not here.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 182,
+      "text": "在别了在B lab",
+      "timestamp": 1772800206.783445,
+      "datetime": "2026-03-06 20:30:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 183,
+      "text": "在别了在B lab",
+      "timestamp": 1772800208.081603,
+      "datetime": "2026-03-06 20:30:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "At B lab",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 184,
+      "text": "。回来的给来容啊刚杯。yeah Pass me我的我不要听那不是的，呀啊给往外BD马卖给烧饭嘛的说给我的谁？个说嘛啊 now PAR？E先没to。不？我说",
+      "timestamp": 1772800221.139432,
+      "datetime": "2026-03-06 20:30:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 185,
+      "text": "范冰冰呃一光旁边啊今天方冰冰那个了时好可能",
+      "timestamp": 1772800226.248777,
+      "datetime": "2026-03-06 20:30:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 186,
+      "text": "。回来的给来容啊刚杯。yeah Pass me我的我不要听那不是的，呀啊给往外BD马卖给烧饭嘛的说给我的谁？个说嘛啊 now PAR？E先没to。不？我说",
+      "timestamp": 1772800227.842593,
+      "datetime": "2026-03-06 20:30:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "They have returned, but not come here. \nIt's not here. \nAt B lab",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 187,
+      "text": "范冰冰呃一光旁边啊今天方冰冰那个了时好可能",
+      "timestamp": 1772800227.976196,
+      "datetime": "2026-03-06 20:30:27",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Fan Bingbing, uh, next to the light, today Fan Bingbing that time maybe good",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 188,
+      "text": " how to distinguish Asian accents. The Chinese accent sounds like a frustrated ambulance. Stay with me you know how a cyn sounds oh WOW now. Imagine then I go faster and some people don't know what I'm say. That's the problem哎呀",
+      "timestamp": 1772800245.194601,
+      "datetime": "2026-03-06 20:30:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 189,
+      "text": ". Korean accent sounds like sleepy drums",
+      "timestamp": 1772800247.7474968,
+      "datetime": "2026-03-06 20:30:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 190,
+      "text": " how to distinguish Asian accents. The Chinese accent sounds like a frustrated ambulance. Stay with me you know how a cyn sounds oh WOW now. Imagine then I go faster and some people don't know what I'm say. That's the problem哎呀",
+      "timestamp": 1772800254.0064042,
+      "datetime": "2026-03-06 20:30:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "How to distinguish Asian accents. The Chinese accent sounds like a frustrated ambulance. Stay with me, you know how a siren sounds, oh WOW now. Imagine then I go faster ∧ some people don't know what I'm saying. That's the problem, oh dear.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 191,
+      "text": ". Korean accent sounds like sleepy drums",
+      "timestamp": 1772800254.0851321,
+      "datetime": "2026-03-06 20:30:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". K∨ean accent sounds like sleepy drums",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 192,
+      "text": ", positive pleasure to breakfast, too, because you every one should be very pit to to bite me on this. Soon the Vietnamese accent delete a bunch of constant, so it sounds like your voice has bad reception. You don't like my English but eyes about to do man, I can't",
+      "timestamp": 1772800263.1200042,
+      "datetime": "2026-03-06 20:31:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 193,
+      "text": ", positive pleasure to breakfast, too, because you every one should be very pit to to bite me on this. Soon the Vietnamese accent delete a bunch of constant, so it sounds like your voice has bad reception. You don't like my English but eyes about to do man, I can't",
+      "timestamp": 1772800271.997571,
+      "datetime": "2026-03-06 20:31:11",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", positive pleasure to breakfast, too, because you every one should be very Πt to to bite me on this. Soon the =ietnamese accent delete a bunch of constant, so it sounds like your voice has bad reception. You don't like my English but eyes about to do man, I can't",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 194,
+      "text": " don't matter just shut up added the MacDonald took a photo booth and Filipino accent sounds like their mouth is cooking popcorn. I live on the dark floor. Facing a 711 my family there being me on the first level he don't give my brain a butter or she can not breathe",
+      "timestamp": 1772800277.465722,
+      "datetime": "2026-03-06 20:31:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 195,
+      "text": " how to distinguish Asian",
+      "timestamp": 1772800279.510983,
+      "datetime": "2026-03-06 20:31:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 196,
+      "text": " how to distinguish Asian",
+      "timestamp": 1772800284.9420831,
+      "datetime": "2026-03-06 20:31:24",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "How to distinguish Asian accents. The Chinese accent sounds like a frustrated ambulance. Stay with me, you know how a siren sounds, oh WOW now. Imagine then I go faster ∧ some people don't know what I'm saying. That's the problem, oh dear.\n. K∨ean accent sounds like sleepy drums\n, positive pleasure to breakfast, too, because you every one should be very Πt to to bite me on this. Soon the =ietnamese accent delete a bunch of constant, so it sounds like your voice has bad reception. You don't like my English but eyes about to do man, I can't",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 197,
+      "text": " don't matter just shut up added the MacDonald took a photo booth and Filipino accent sounds like their mouth is cooking popcorn. I live on the dark floor. Facing a 711 my family there being me on the first level he don't give my brain a butter or she can not breathe",
+      "timestamp": 1772800286.889461,
+      "datetime": "2026-03-06 20:31:26",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "It doesn't matter, just shut up. The MacDonald's took a photo booth ∧ The Filipino accent sounds like their mouth is cooking popcorn. I live on the dark floor. Facing a 7-11, my family is there with me on the first level. He doesn't give my brain a butter ∨ She cannot ¬ breathe.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 198,
+      "text": "? What would you like to eat chicken or beef",
+      "timestamp": 1772800298.966225,
+      "datetime": "2026-03-06 20:31:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 199,
+      "text": "? oh Brandon, I will be right back",
+      "timestamp": 1772800304.080794,
+      "datetime": "2026-03-06 20:31:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 200,
+      "text": "? oh Brandon, I will be right back",
+      "timestamp": 1772800305.363116,
+      "datetime": "2026-03-06 20:31:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? oh Br∧on, I will be right back",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 201,
+      "text": "? What would you like to eat chicken or beef",
+      "timestamp": 1772800305.858452,
+      "datetime": "2026-03-06 20:31:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? What would you like to eat chicken ∨ beef",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 202,
+      "text": ". You're the one fluent in korean, right",
+      "timestamp": 1772800306.633666,
+      "datetime": "2026-03-06 20:31:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 203,
+      "text": "? Yeah",
+      "timestamp": 1772800307.652522,
+      "datetime": "2026-03-06 20:31:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 204,
+      "text": "? Yeah",
+      "timestamp": 1772800308.640487,
+      "datetime": "2026-03-06 20:31:48",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Yeah",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 205,
+      "text": ". You're the one fluent in korean, right",
+      "timestamp": 1772800310.0539699,
+      "datetime": "2026-03-06 20:31:50",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "You’re the one fluent in Korean, right?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 206,
+      "text": " Great. We have a korean passenger in twenty. Eighty doesn't speak a word of English. ok Can you please go there and ask her what she wants to eat",
+      "timestamp": 1772800315.872958,
+      "datetime": "2026-03-06 20:31:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 207,
+      "text": " Great. We have a korean passenger in twenty. Eighty doesn't speak a word of English. ok Can you please go there and ask her what she wants to eat",
+      "timestamp": 1772800324.052255,
+      "datetime": "2026-03-06 20:32:04",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Great. We have a k∨ean passenger in twenty. Eighty doesn't speak a w∨d of English. ok Can you please go there ∧ ask her what she wants to eat",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 208,
+      "text": "? Bring you ok",
+      "timestamp": 1772800324.561392,
+      "datetime": "2026-03-06 20:32:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 209,
+      "text": "? Bring you ok",
+      "timestamp": 1772800325.8631082,
+      "datetime": "2026-03-06 20:32:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Bring you ok",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 210,
+      "text": ". 这个油墨的太不太高噢",
+      "timestamp": 1772800329.6647522,
+      "datetime": "2026-03-06 20:32:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 211,
+      "text": ". 这个油墨的太不太高噢",
+      "timestamp": 1772800330.986392,
+      "datetime": "2026-03-06 20:32:10",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "This ink is not too high, oh.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 212,
+      "text": "，这太公不的，我是一酒吧",
+      "timestamp": 1772800332.216358,
+      "datetime": "2026-03-06 20:32:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 213,
+      "text": "，这太公不的，我是一酒吧",
+      "timestamp": 1772800333.619047,
+      "datetime": "2026-03-06 20:32:13",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "This is not fair, I am a bar.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 214,
+      "text": "，太纸云柔，我去再打一点哟",
+      "timestamp": 1772800336.351181,
+      "datetime": "2026-03-06 20:32:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 215,
+      "text": "，太纸云柔，我去再打一点哟",
+      "timestamp": 1772800337.780492,
+      "datetime": "2026-03-06 20:32:17",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", the paper is too soft, I'll go get some more.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 216,
+      "text": "。我都有",
+      "timestamp": 1772800338.9149802,
+      "datetime": "2026-03-06 20:32:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 217,
+      "text": "。我都有",
+      "timestamp": 1772800340.570912,
+      "datetime": "2026-03-06 20:32:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". I have them all",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 218,
+      "text": " like to oeat chicken or beefcon",
+      "timestamp": 1772800342.991031,
+      "datetime": "2026-03-06 20:32:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 219,
+      "text": " like to oeat chicken or beefcon",
+      "timestamp": 1772800344.304,
+      "datetime": "2026-03-06 20:32:24",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "like to eat chicken ∨ beef",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 220,
+      "text": " chicken P please只嗯",
+      "timestamp": 1772800347.590081,
+      "datetime": "2026-03-06 20:32:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 221,
+      "text": " chicken P please只嗯",
+      "timestamp": 1772800349.058611,
+      "datetime": "2026-03-06 20:32:29",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "chicken P please only hmm",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 222,
+      "text": "。What would you like",
+      "timestamp": 1772800349.124458,
+      "datetime": "2026-03-06 20:32:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 223,
+      "text": "。What would you like",
+      "timestamp": 1772800350.332396,
+      "datetime": "2026-03-06 20:32:30",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". What would you like",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 224,
+      "text": "? 丢脸",
+      "timestamp": 1772800356.322376,
+      "datetime": "2026-03-06 20:32:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 225,
+      "text": "? 丢脸",
+      "timestamp": 1772800357.5180879,
+      "datetime": "2026-03-06 20:32:37",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Embarrassing",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 226,
+      "text": "。啊其",
+      "timestamp": 1772800376.807572,
+      "datetime": "2026-03-06 20:32:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 227,
+      "text": "。啊其",
+      "timestamp": 1772800378.044378,
+      "datetime": "2026-03-06 20:32:58",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Ah, indeed",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 228,
+      "text": "嗯嗯",
+      "timestamp": 1772800379.862877,
+      "datetime": "2026-03-06 20:32:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

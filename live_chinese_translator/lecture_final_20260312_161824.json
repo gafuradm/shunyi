@@ -1,0 +1,483 @@
+{
+  "generated": "2026-03-12T16:18:24.940948",
+  "total_entries": 33,
+  "history": [
+    {
+      "id": 0,
+      "text": "都都嗯嗯嗯",
+      "timestamp": 1773303018.132952,
+      "datetime": "2026-03-12 16:10:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "都都都都都",
+      "timestamp": 1773303020.1923132,
+      "datetime": "2026-03-12 16:10:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "都都嗯嗯嗯",
+      "timestamp": 1773303020.280619,
+      "datetime": "2026-03-12 16:10:20",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Dudu, um um um",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 3,
+      "text": "都都都都都",
+      "timestamp": 1773303021.763463,
+      "datetime": "2026-03-12 16:10:21",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Dudu Dudu Dudu",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 4,
+      "text": "都都都都嘟嘟嘟",
+      "timestamp": 1773303056.03925,
+      "datetime": "2026-03-12 16:10:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "。嘟嘟",
+      "timestamp": 1773303061.6495519,
+      "datetime": "2026-03-12 16:11:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "。嗯 No",
+      "timestamp": 1773303067.842318,
+      "datetime": "2026-03-12 16:11:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "。嗯 No",
+      "timestamp": 1773303069.743901,
+      "datetime": "2026-03-12 16:11:09",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Hmm No",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 8,
+      "text": ". 唉对对对，跪",
+      "timestamp": 1773303124.11084,
+      "datetime": "2026-03-12 16:12:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": ". 唉对对对，跪",
+      "timestamp": 1773303125.839682,
+      "datetime": "2026-03-12 16:12:05",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Ah yes yes yes, kneel",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "。唉就是盲症啊",
+      "timestamp": 1773303156.3990169,
+      "datetime": "2026-03-12 16:12:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "。唉就是盲症啊",
+      "timestamp": 1773303157.8346722,
+      "datetime": "2026-03-12 16:12:37",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Ah, it's just blindness.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 12,
+      "text": "。唉呀我好意思我不",
+      "timestamp": 1773303159.9704719,
+      "datetime": "2026-03-12 16:12:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "。唉呀我好意思我不",
+      "timestamp": 1773303161.463938,
+      "datetime": "2026-03-12 16:12:41",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Oh dear, I'm embarrassed, I don't",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 14,
+      "text": "唉不需要的吵",
+      "timestamp": 1773303164.614061,
+      "datetime": "2026-03-12 16:12:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "唉不需要的吵",
+      "timestamp": 1773303166.4066718,
+      "datetime": "2026-03-12 16:12:46",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Ah, no need for the noise.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 16,
+      "text": "。好好好",
+      "timestamp": 1773303169.679304,
+      "datetime": "2026-03-12 16:12:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。好好好",
+      "timestamp": 1773303171.7196531,
+      "datetime": "2026-03-12 16:12:51",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Okay, okay",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 18,
+      "text": "嗯大概什么时候",
+      "timestamp": 1773303172.785302,
+      "datetime": "2026-03-12 16:12:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "嗯大概什么时候",
+      "timestamp": 1773303174.1747992,
+      "datetime": "2026-03-12 16:12:54",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Um, about when",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 20,
+      "text": "？三次",
+      "timestamp": 1773303177.375202,
+      "datetime": "2026-03-12 16:12:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "？三次",
+      "timestamp": 1773303178.798629,
+      "datetime": "2026-03-12 16:12:58",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Cubic",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 22,
+      "text": "。行行行好的",
+      "timestamp": 1773303183.005224,
+      "datetime": "2026-03-12 16:13:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "。好的",
+      "timestamp": 1773303184.5306199,
+      "datetime": "2026-03-12 16:13:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "。行行行好的",
+      "timestamp": 1773303184.857667,
+      "datetime": "2026-03-12 16:13:04",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Okay, okay, fine.\n\nUm, about when...?\n\nCubic.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 25,
+      "text": "。好的",
+      "timestamp": 1773303186.4756548,
+      "datetime": "2026-03-12 16:13:06",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Okay, okay \nUm, about when \n? Cubic",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 26,
+      "text": "。好好好",
+      "timestamp": 1773303188.119471,
+      "datetime": "2026-03-12 16:13:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "。好好好",
+      "timestamp": 1773303188.119915,
+      "datetime": "2026-03-12 16:13:08",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Okay, okay",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 28,
+      "text": "那个全部的供电营业部这全部营业部的全部营业部的",
+      "timestamp": 1773303238.817079,
+      "datetime": "2026-03-12 16:13:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "那个全部的供电营业部这全部营业部的全部营业部的",
+      "timestamp": 1773303240.819052,
+      "datetime": "2026-03-12 16:14:00",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "That entire power supply business department, the entire business department of all business departments",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 30,
+      "text": "。你不会缺这",
+      "timestamp": 1773303283.363164,
+      "datetime": "2026-03-12 16:14:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "。你不会缺这",
+      "timestamp": 1773303285.189845,
+      "datetime": "2026-03-12 16:14:45",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". You won't be lacking this",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 32,
+      "text": "嗯嗯嗯",
+      "timestamp": 1773303463.393205,
+      "datetime": "2026-03-12 16:17:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    }
+  ]
+}

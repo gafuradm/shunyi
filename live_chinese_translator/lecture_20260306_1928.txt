@@ -1,0 +1,254 @@
+[2026-03-06 19:18:35] RECOGNITION_INTERIM
+一要十色
+------------------------------
+[2026-03-06 19:18:46] RECOGNITION_INTERIM
+，美罗萨么尼
+------------------------------
+[2026-03-06 19:21:04] RECOGNITION_INTERIM
+唉看了这了
+------------------------------
+[2026-03-06 19:21:06] RECOGNITION_INTERIM
+。不给的是
+------------------------------
+[2026-03-06 19:21:06] TRANSLATION
+唉看了这了
+→ Sigh, having seen this
+------------------------------
+[2026-03-06 19:21:07] TRANSLATION
+。不给的是
+→ What is not given is
+------------------------------
+[2026-03-06 19:21:16] RECOGNITION_INTERIM
+ oh哇
+------------------------------
+[2026-03-06 19:21:18] TRANSLATION
+ oh哇
+→ oh wow
+------------------------------
+[2026-03-06 19:21:24] RECOGNITION_INTERIM
+ S, let I go
+------------------------------
+[2026-03-06 19:21:25] TRANSLATION
+ S, let I go
+→ S, let I go
+------------------------------
+[2026-03-06 19:22:49] RECOGNITION_INTERIM
+. Run的哇的哇好那个了噢
+------------------------------
+[2026-03-06 19:22:50] RECOGNITION_INTERIM
+。妈给it
+------------------------------
+[2026-03-06 19:22:51] TRANSLATION
+. Run的哇的哇好那个了噢
+→ . Run's wow wow, that's really something, oh
+------------------------------
+[2026-03-06 19:22:51] TRANSLATION
+。妈给it
+→ . Mom gives it
+------------------------------
+[2026-03-06 19:22:52] RECOGNITION_INTERIM
+。他对一个
+------------------------------
+[2026-03-06 19:22:53] TRANSLATION
+。他对一个
+→ . He to a
+------------------------------
+[2026-03-06 19:22:59] RECOGNITION_INTERIM
+唉说的塞那他们去到那等那我给他他
+------------------------------
+[2026-03-06 19:23:01] TRANSLATION
+唉说的塞那他们去到那等那我给他他
+→ Sigh, talking about sine, they go there and wait, then I give it to him.
+------------------------------
+[2026-03-06 19:23:01] RECOGNITION_INTERIM
+那个想那一个了个所有的是那一个
+------------------------------
+[2026-03-06 19:23:03] TRANSLATION
+那个想那一个了个所有的是那一个
+→ That one thought that one for all is that one
+------------------------------
+[2026-03-06 19:23:04] RECOGNITION_INTERIM
+。这个下呢听mi下一直在那，就规我有的在那
+------------------------------
+[2026-03-06 19:23:06] TRANSLATION
+。这个下呢听mi下一直在那，就规我有的在那
+→ . This lower bound is always there, it's just that the rule I have is there
+------------------------------
+[2026-03-06 19:23:33] RECOGNITION_INTERIM
+唉个噢对我干什么
+------------------------------
+[2026-03-06 19:23:35] TRANSLATION
+唉个噢对我干什么
+→ Oh, right, what am I doing?
+------------------------------
+[2026-03-06 19:23:36] RECOGNITION_INTERIM
+？谁给的，搞了新名字的给我
+------------------------------
+[2026-03-06 19:23:38] TRANSLATION
+？谁给的，搞了新名字的给我
+→ ? Who gave it, and gave me a new name?
+------------------------------
+[2026-03-06 19:23:40] RECOGNITION_INTERIM
+。对了，说的这么家里呀
+------------------------------
+[2026-03-06 19:23:41] TRANSLATION
+。对了，说的这么家里呀
+→ . Right, what am I doing?
+------------------------------
+[2026-03-06 19:23:42] RECOGNITION_INTERIM
+。你快走我的新的里了唉
+------------------------------
+[2026-03-06 19:23:44] TRANSLATION
+。你快走我的新的里了唉
+→ . You're almost entering my new domain, alas.
+------------------------------
+[2026-03-06 19:23:45] RECOGNITION_INTERIM
+。大概那个
+------------------------------
+[2026-03-06 19:23:47] TRANSLATION
+。大概那个
+→ . Probably that
+------------------------------
+[2026-03-06 19:24:04] RECOGNITION_INTERIM
+嘟嘟
+------------------------------
+[2026-03-06 19:24:05] TRANSLATION
+嘟嘟
+→ Beep beep
+------------------------------
+[2026-03-06 19:24:09] RECOGNITION_INTERIM
+昨天么R leiess
+------------------------------
+[2026-03-06 19:24:11] TRANSLATION
+昨天么R leiess
+→ Yesterday's R classes
+------------------------------
+[2026-03-06 19:24:39] RECOGNITION_INTERIM
+哪一方
+------------------------------
+[2026-03-06 19:24:40] TRANSLATION
+哪一方
+→ Which side
+------------------------------
+[2026-03-06 19:26:04] RECOGNITION_INTERIM
+？经济思科
+------------------------------
+[2026-03-06 19:26:05] TRANSLATION
+？经济思科
+→ Economic Thought
+------------------------------
+[2026-03-06 19:26:10] RECOGNITION_INTERIM
+。不你三飘不Blu是sweety大哥
+------------------------------
+[2026-03-06 19:26:12] TRANSLATION
+。不你三飘不Blu是sweety大哥
+→ . Not you 3 float not Blu is sweety big brother
+------------------------------
+[2026-03-06 19:26:18] RECOGNITION_INTERIM
+。It's experience that大哥古嘎嘎
+------------------------------
+[2026-03-06 19:26:19] TRANSLATION
+。It's experience that大哥古嘎嘎
+→ . It's experience that big brother Gu Ga Ga
+------------------------------
+[2026-03-06 19:26:27] RECOGNITION_INTERIM
+，即便是你比刚刚
+------------------------------
+[2026-03-06 19:26:28] TRANSLATION
+，即便是你比刚刚
+→ , even if you are more than just now
+------------------------------
+[2026-03-06 19:26:33] RECOGNITION_INTERIM
+落叶比D是的的线你
+------------------------------
+[2026-03-06 19:26:34] TRANSLATION
+落叶比D是的的线你
+→ The line where the falling leaves are more than D is indeed
+------------------------------
+[2026-03-06 19:26:34] RECOGNITION_INTERIM
+那三不是三的是不呢
+------------------------------
+[2026-03-06 19:26:36] TRANSLATION
+那三不是三的是不呢
+→ That three is not three, is it not?
+------------------------------
+[2026-03-06 19:26:45] RECOGNITION_INTERIM
+？Do yussbe，your side your十S with吗
+------------------------------
+[2026-03-06 19:26:52] TRANSLATION
+？Do yussbe，your side your十S with吗
+→ Do you see, your side your 10S with?
+------------------------------
+[2026-03-06 19:26:52] RECOGNITION_INTERIM
+？40 14 4
+------------------------------
+[2026-03-06 19:26:54] TRANSLATION
+？40 14 4
+→ ?40144
+------------------------------
+[2026-03-06 19:27:23] RECOGNITION_INTERIM
+. because I check给BC me
+------------------------------
+[2026-03-06 19:27:25] TRANSLATION
+. because I check给BC me
+→ . because I check BC for me
+------------------------------
+[2026-03-06 19:27:31] RECOGNITION_INTERIM
+。听不得了
+------------------------------
+[2026-03-06 19:27:32] RECOGNITION_INTERIM
+。你母都
+------------------------------
+[2026-03-06 19:27:32] TRANSLATION
+。听不得了
+→ . Can't hear anymore
+------------------------------
+[2026-03-06 19:27:33] TRANSLATION
+。你母都
+→ Your mother
+------------------------------
+[2026-03-06 19:27:34] RECOGNITION_INTERIM
+我7年也不了
+------------------------------
+[2026-03-06 19:27:35] TRANSLATION
+我7年也不了
+→ I can't do it even in 7 years
+------------------------------
+[2026-03-06 19:27:40] RECOGNITION_INTERIM
+。你都是年不去没
+------------------------------
+[2026-03-06 19:27:42] TRANSLATION
+。你都是年不去没
+→ . You haven't gone for years
+------------------------------
+[2026-03-06 19:28:06] RECOGNITION_INTERIM
+？我不我奶奶奶
+------------------------------
+[2026-03-06 19:28:08] TRANSLATION
+？我不我奶奶奶
+→ ? I don't my grandmother
+------------------------------
+[2026-03-06 19:28:16] RECOGNITION_INTERIM
+嗯们no no no no
+------------------------------
+[2026-03-06 19:28:17] TRANSLATION
+嗯们no no no no
+→ No no no no
+------------------------------
+[2026-03-06 19:28:18] RECOGNITION_INTERIM
+奶奶奶、奶奶
+------------------------------
+[2026-03-06 19:28:19] TRANSLATION
+奶奶奶、奶奶
+→ Grandma, grandma
+------------------------------
+[2026-03-06 19:28:26] RECOGNITION_INTERIM
+。Do ow look K
+------------------------------
+[2026-03-06 19:28:28] TRANSLATION
+。Do ow look K
+→ . Do ow look K
+------------------------------
+[2026-03-06 19:28:28] RECOGNITION_INTERIM
+? no no no No
+------------------------------

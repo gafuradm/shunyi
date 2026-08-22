@@ -1,0 +1,76 @@
+{
+  "generated": "2026-03-25T11:17:48.544500",
+  "total_entries": 5,
+  "history": [
+    {
+      "id": 0,
+      "text": "性质",
+      "timestamp": 1774408620.749449,
+      "datetime": "2026-03-25 11:17:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "，啊其中非常著名的就是这个寻乌调查",
+      "timestamp": 1774408625.363318,
+      "datetime": "2026-03-25 11:17:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "，是毛泽东一生中写的篇幅最长的一篇调查报告，大家现在有各种各样的社会实践，啊像我有时候跟同学们聊天，有的同学在一个暑假里竟然参加三个以上的社会实践",
+      "timestamp": 1774408640.723543,
+      "datetime": "2026-03-25 11:17:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "，就我觉得有点多了，哈就整个暑假都在外面跑，但是实践是一个方面啊总结，我觉得更重要，因为我们做了大量的调研工作，啊比如说我们去做口述史的采访，去农村调",
+      "timestamp": 1774408655.5447612,
+      "datetime": "2026-03-25 11:17:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "调研，但实际上如果你不把这些调研报告总结起来也非常的可惜哈",
+      "timestamp": 1774408661.2067468,
+      "datetime": "2026-03-25 11:17:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

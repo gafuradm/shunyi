@@ -1,0 +1,62 @@
+{
+  "generated": "2026-03-01T06:05:55.296400",
+  "total_entries": 4,
+  "history": [
+    {
+      "id": 0,
+      "text": " A银光的吧",
+      "timestamp": 1772316250.3955112,
+      "datetime": "2026-03-01 06:04:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": " a lady you啦",
+      "timestamp": 1772316285.17059,
+      "datetime": "2026-03-01 06:04:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": ". 嗯",
+      "timestamp": 1772316328.6915588,
+      "datetime": "2026-03-01 06:05:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "嗯嗯嗯嗯",
+      "timestamp": 1772316330.258762,
+      "datetime": "2026-03-01 06:05:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,2356 @@
+{
+  "generated": "2026-03-12T19:48:33.568643",
+  "total_entries": 167,
+  "history": [
+    {
+      "id": 0,
+      "text": "时候，他的表达式呢是怀疑上级X指平方加Y的平方分之一",
+      "timestamp": 1773315224.204604,
+      "datetime": "2026-03-12 19:33:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "，如果xy在坐标原点处时，也就是X平方加Y方等于一点啊",
+      "timestamp": 1773315229.810285,
+      "datetime": "2026-03-12 19:33:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "二，那么这时候函数表达式不是等于0的",
+      "timestamp": 1773315233.903408,
+      "datetime": "2026-03-12 19:33:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "，啊可以",
+      "timestamp": 1773315264.6440609,
+      "datetime": "2026-03-12 19:34:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "，啊可以",
+      "timestamp": 1773315266.280952,
+      "datetime": "2026-03-12 19:34:26",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ", ah okay",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 5,
+      "text": "。翻译的，有同学需要翻译是吧",
+      "timestamp": 1773315267.709452,
+      "datetime": "2026-03-12 19:34:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "。翻译的，有同学需要翻译是吧",
+      "timestamp": 1773315269.8648598,
+      "datetime": "2026-03-12 19:34:29",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Translation, some students need translation, right?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 7,
+      "text": "？有吗",
+      "timestamp": 1773315270.261332,
+      "datetime": "2026-03-12 19:34:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "？在座的有吗",
+      "timestamp": 1773315271.7956,
+      "datetime": "2026-03-12 19:34:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "？有吗",
+      "timestamp": 1773315272.481087,
+      "datetime": "2026-03-12 19:34:32",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? Is there any",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 10,
+      "text": "？在座的有吗",
+      "timestamp": 1773315273.755626,
+      "datetime": "2026-03-12 19:34:33",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Is there anyone present?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 11,
+      "text": "？没人说的就说明再去要",
+      "timestamp": 1773315276.3893492,
+      "datetime": "2026-03-12 19:34:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。嗯我是话筒是不是没有开啊",
+      "timestamp": 1773315278.4833732,
+      "datetime": "2026-03-12 19:34:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "？没人说的就说明再去要",
+      "timestamp": 1773315279.0639439,
+      "datetime": "2026-03-12 19:34:39",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "If no one says anything, it means we need to ask for it again.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 14,
+      "text": "。嗯我是话筒是不是没有开啊",
+      "timestamp": 1773315280.4641259,
+      "datetime": "2026-03-12 19:34:40",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Um, is my microphone not turned on?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 15,
+      "text": "？话筒是不是没有开",
+      "timestamp": 1773315280.530543,
+      "datetime": "2026-03-12 19:34:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "？话筒是不是没有开",
+      "timestamp": 1773315282.5592902,
+      "datetime": "2026-03-12 19:34:42",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Is my microphone not turned on?",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 17,
+      "text": "？话筒没开，声音有点小。噢噢还真是没开",
+      "timestamp": 1773315285.1307578,
+      "datetime": "2026-03-12 19:34:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "。好",
+      "timestamp": 1773315286.152359,
+      "datetime": "2026-03-12 19:34:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "。好",
+      "timestamp": 1773315287.4120839,
+      "datetime": "2026-03-12 19:34:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Okay",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 20,
+      "text": "？话筒没开，声音有点小。噢噢还真是没开",
+      "timestamp": 1773315287.755824,
+      "datetime": "2026-03-12 19:34:47",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "? The microphone isn't on, the sound is a bit low. Oh, oh, it really isn't on.",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 21,
+      "text": "。啊好",
+      "timestamp": 1773315290.745405,
+      "datetime": "2026-03-12 19:34:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "。嗯",
+      "timestamp": 1773315292.276473,
+      "datetime": "2026-03-12 19:34:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "。啊好",
+      "timestamp": 1773315292.421558,
+      "datetime": "2026-03-12 19:34:52",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Ah, okay",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 24,
+      "text": "。嗯",
+      "timestamp": 1773315293.971039,
+      "datetime": "2026-03-12 19:34:53",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": ". Hmm",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 25,
+      "text": "行，啊好，假设F的表达式是它证明",
+      "timestamp": 1773315297.389277,
+      "datetime": "2026-03-12 19:34:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "行，啊好，假设F的表达式是它证明",
+      "timestamp": 1773315299.611375,
+      "datetime": "2026-03-12 19:34:59",
+      "speaker": "system",
+      "type": "translation",
+      "language": "en",
+      "translation": "Okay, ah, good. Assume the expression for F is, it proves",
+      "metadata": {
+        "original_lang": "zh",
+        "target_lang": "en",
+        "is_interim": true
+      }
+    },
+    {
+      "id": 27,
+      "text": "你怎么也不能用",
+      "timestamp": 1773315306.6269991,
+      "datetime": "2026-03-12 19:35:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "，你也不能用",
+      "timestamp": 1773315311.7321448,
+      "datetime": "2026-03-12 19:35:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "。好，证明",
+      "timestamp": 1773315323.530122,
+      "datetime": "2026-03-12 19:35:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "汉书唉",
+      "timestamp": 1773315325.575891,
+      "datetime": "2026-03-12 19:35:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "，他在00这一点处是连续",
+      "timestamp": 1773315331.1967611,
+      "datetime": "2026-03-12 19:35:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "，但是",
+      "timestamp": 1773315336.299128,
+      "datetime": "2026-03-12 19:35:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "它沿着任何方向的",
+      "timestamp": 1773315341.4562402,
+      "datetime": "2026-03-12 19:35:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "方向导数",
+      "timestamp": 1773315344.520128,
+      "datetime": "2026-03-12 19:35:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "，啊沿任意的方向V，它的方向导数呢都是不存在的",
+      "timestamp": 1773315355.761121,
+      "datetime": "2026-03-12 19:35:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "。好，那么我们来看看，首先来证明它在00这一点的连续性。同学们看函数表达式呢是Y乘以si因X的平方加Y的平方分之1",
+      "timestamp": 1773315380.8873,
+      "datetime": "2026-03-12 19:36:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "，啊那么在00这一点的连续性，也就是要证明在00这一点的极限存在等于函数值，啦唉函数的取值是零了，所以从这个表达式上来看，你来你来看看怎么样证明它在00这一点的极限存在呀",
+      "timestamp": 1773315395.698433,
+      "datetime": "2026-03-12 19:36:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "？唉特别好，啊那我们给它放作一下，这一边呢是显然恢复的那右边呢",
+      "timestamp": 1773315404.931803,
+      "datetime": "2026-03-12 19:36:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "不超过Y的绝对值了，唉所以呢当xy",
+      "timestamp": 1773315410.557892,
+      "datetime": "2026-03-12 19:36:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "趋近00的时候，一定有它是收敛到0的啦",
+      "timestamp": 1773315415.155804,
+      "datetime": "2026-03-12 19:36:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "，啊所以我们就得到了啊这个函数F",
+      "timestamp": 1773315420.260694,
+      "datetime": "2026-03-12 19:37:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "在xy趋近于00时，它是收敛到0，而0就是F在00点的函数值，啊因此这个函数呢",
+      "timestamp": 1773315431.545254,
+      "datetime": "2026-03-12 19:37:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "就在00这一点处是连续",
+      "timestamp": 1773315435.632697,
+      "datetime": "2026-03-12 19:37:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "。好",
+      "timestamp": 1773315442.322604,
+      "datetime": "2026-03-12 19:37:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "，那么再来看",
+      "timestamp": 1773315444.36717,
+      "datetime": "2026-03-12 19:37:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "，再来看啊它沿着任何方向的方向，导数都是不存在的",
+      "timestamp": 1773315451.0057259,
+      "datetime": "2026-03-12 19:37:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "，啊证明它沿着任何方向的方向导数都是不存在的",
+      "timestamp": 1773315456.628751,
+      "datetime": "2026-03-12 19:37:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "。那根据定义",
+      "timestamp": 1773315460.71345,
+      "datetime": "2026-03-12 19:37:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "，也就是要看一下F",
+      "timestamp": 1773315463.824801,
+      "datetime": "2026-03-12 19:37:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "，在00这一点处，那就是ftv1TV2减去一个0，吧对，唉就不写了，啊减去一个0比上一个",
+      "timestamp": 1773315476.0833988,
+      "datetime": "2026-03-12 19:37:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": " T在T趋近于0，唉从大于0的方向趋近于零时它的极限了，唉代入进去。那么我们来算一下这个在T趋近于0的时候，分子",
+      "timestamp": 1773315490.945239,
+      "datetime": "2026-03-12 19:38:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": " ftv一TV二它的表达式是什么呀",
+      "timestamp": 1773315494.5212538,
+      "datetime": "2026-03-12 19:38:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "？就是",
+      "timestamp": 1773315497.0732749,
+      "datetime": "2026-03-12 19:38:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": " T乘以V二Y是吧",
+      "timestamp": 1773315501.6702678,
+      "datetime": "2026-03-12 19:38:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "？唉再乘以S赛因X平方加Y方，那就是T的平方",
+      "timestamp": 1773315508.370508,
+      "datetime": "2026-03-12 19:38:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "分之一啦",
+      "timestamp": 1773315509.89472,
+      "datetime": "2026-03-12 19:38:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "，我们这儿的位去乘单位向量，好吧嗯",
+      "timestamp": 1773315513.467011,
+      "datetime": "2026-03-12 19:38:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "？唉我们为去称是单位向量",
+      "timestamp": 1773315516.537316,
+      "datetime": "2026-03-12 19:38:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "，所以问一个平方加V二的平方是等于一的了",
+      "timestamp": 1773315520.6184452,
+      "datetime": "2026-03-12 19:38:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "。那么同学们看",
+      "timestamp": 1773315524.241411,
+      "datetime": "2026-03-12 19:38:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "，当T趋近于0的时候",
+      "timestamp": 1773315529.352735,
+      "datetime": "2026-03-12 19:38:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "。嗯",
+      "timestamp": 1773315532.416658,
+      "datetime": "2026-03-12 19:38:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "因为任何方向的方向导数都不存在0除以T了啊",
+      "timestamp": 1773315538.551668,
+      "datetime": "2026-03-12 19:38:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "，他还得继以T，自变量噢还得除以T，噢分母有个T是吧？唉这就对了，我就说是怎么不存在啊除一个T就把这儿的T给约掉了",
+      "timestamp": 1773315548.3041239,
+      "datetime": "2026-03-12 19:39:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "。唉所以我们看到了当T趋近于0的时候，这个确实",
+      "timestamp": 1773315553.918868,
+      "datetime": "2026-03-12 19:39:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "确实只要V2是不等于0的",
+      "timestamp": 1773315556.4744809,
+      "datetime": "2026-03-12 19:39:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "，唉那么它都是不存在的",
+      "timestamp": 1773315559.0233338,
+      "datetime": "2026-03-12 19:39:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "。啊这个极限只要V2是不等于0的，它都是不存在的",
+      "timestamp": 1773315565.2014441,
+      "datetime": "2026-03-12 19:39:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "。对吧",
+      "timestamp": 1773315575.416654,
+      "datetime": "2026-03-12 19:39:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": "？只要V2不等于0",
+      "timestamp": 1773315579.694033,
+      "datetime": "2026-03-12 19:39:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "，它就是不存在的是吧",
+      "timestamp": 1773315584.1958668,
+      "datetime": "2026-03-12 19:39:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "？不要让等于0的这个值就等于0了",
+      "timestamp": 1773315587.722702,
+      "datetime": "2026-03-12 19:39:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 73,
+      "text": "，啊 VR等于0也就是X轴了",
+      "timestamp": 1773315591.8105779,
+      "datetime": "2026-03-12 19:39:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "。啊",
+      "timestamp": 1773315597.429302,
+      "datetime": "2026-03-12 19:39:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 75,
+      "text": "不是说任意的",
+      "timestamp": 1773315599.47051,
+      "datetime": "2026-03-12 19:39:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": "，呃他要比，所以这儿就是",
+      "timestamp": 1773315603.0513558,
+      "datetime": "2026-03-12 19:40:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 77,
+      "text": "这个地方应该说不严密是吧",
+      "timestamp": 1773315606.66814,
+      "datetime": "2026-03-12 19:40:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "？那我们还是分开来写",
+      "timestamp": 1773315608.7132359,
+      "datetime": "2026-03-12 19:40:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 79,
+      "text": "，但是沿着任意的方向",
+      "timestamp": 1773315611.276125,
+      "datetime": "2026-03-12 19:40:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "，V2不等于0",
+      "timestamp": 1773315613.311049,
+      "datetime": "2026-03-12 19:40:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "，啊加个这样一个条件，沿着任何方向V2不等于0",
+      "timestamp": 1773315617.9810188,
+      "datetime": "2026-03-12 19:40:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": "，唉就是不是X轴上方向的啊 X轴正方向和负方向，啊只要不在X轴上去",
+      "timestamp": 1773315625.122109,
+      "datetime": "2026-03-12 19:40:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "，把这个向量它的方向导数都是不存在的",
+      "timestamp": 1773315628.257718,
+      "datetime": "2026-03-12 19:40:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 84,
+      "text": "。好",
+      "timestamp": 1773315631.241136,
+      "datetime": "2026-03-12 19:40:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 85,
+      "text": "，啊那么接下来呢我们来看",
+      "timestamp": 1773315634.817112,
+      "datetime": "2026-03-12 19:40:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "7度",
+      "timestamp": 1773315635.835105,
+      "datetime": "2026-03-12 19:40:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": "。啊那么梯度这个概念呢还是很重要的，啊我们接下来看啊如何推导及梯度的计算，啊这个概念呢是重要的啊",
+      "timestamp": 1773315650.19655,
+      "datetime": "2026-03-12 19:40:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 88,
+      "text": "，啊它的计算呢也是很重要的。啊好，假设F是关于xy的二元函数，如果说它在X0Y0这一点处是可微的",
+      "timestamp": 1773315666.530499,
+      "datetime": "2026-03-12 19:41:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "，那么同学们看",
+      "timestamp": 1773315669.640699,
+      "datetime": "2026-03-12 19:41:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": "，那F在X0Y0这一点处，关于X的偏导是存在的，那么在这一点处关于Y的偏导也是存在的啦",
+      "timestamp": 1773315678.836693,
+      "datetime": "2026-03-12 19:41:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 91,
+      "text": "，唉那么它就构成一个向量",
+      "timestamp": 1773315681.900767,
+      "datetime": "2026-03-12 19:41:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "，啊那我们把这个向量",
+      "timestamp": 1773315684.460959,
+      "datetime": "2026-03-12 19:41:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 93,
+      "text": "就称为是函数F在",
+      "timestamp": 1773315688.589449,
+      "datetime": "2026-03-12 19:41:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": " X 0Y0这一点处的",
+      "timestamp": 1773315691.137909,
+      "datetime": "2026-03-12 19:41:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 95,
+      "text": "一度",
+      "timestamp": 1773315692.680319,
+      "datetime": "2026-03-12 19:41:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": "，啊所以梯度呢它是一个向量",
+      "timestamp": 1773315697.7855208,
+      "datetime": "2026-03-12 19:41:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "，啊它是一个向量，只要函数在一点处可微，那么它关于X和Y的偏导数就不存在，啊那么两个偏导数构成的这个向量唉把它称为是函数，在这一点的梯度啊梯度下",
+      "timestamp": 1773315712.65357,
+      "datetime": "2026-03-12 19:41:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 98,
+      "text": "，向量那梯度向量呢给它一个记号，啊就记为是grad",
+      "timestamp": 1773315719.2846231,
+      "datetime": "2026-03-12 19:41:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 99,
+      "text": "，FX0Y0那 grad呢就是梯度的英文单词的前4个字母了",
+      "timestamp": 1773315725.930135,
+      "datetime": "2026-03-12 19:42:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 100,
+      "text": "，唉那么在物理里头呢啊梯度用的比较多，啊那这个呃知道这个符号的呃也就是表示",
+      "timestamp": 1773315735.172527,
+      "datetime": "2026-03-12 19:42:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": "越简单，对于他们来讲呢",
+      "timestamp": 1773315737.718823,
+      "datetime": "2026-03-12 19:42:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": "应用起来更方便了，啊所以在物理里头呢给出了这样一个符号，就是下三角符号",
+      "timestamp": 1773315745.385727,
+      "datetime": "2026-03-12 19:42:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 103,
+      "text": "，啊下三角符号呢读作nebl",
+      "timestamp": 1773315749.007797,
+      "datetime": "2026-03-12 19:42:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "，啊那 E布拉圣，啊它是一个向量微分算符",
+      "timestamp": 1773315753.09868,
+      "datetime": "2026-03-12 19:42:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 105,
+      "text": "，唉那a不拉F",
+      "timestamp": 1773315755.136189,
+      "datetime": "2026-03-12 19:42:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "在X0Y0这一点处啊指的就是F",
+      "timestamp": 1773315760.756781,
+      "datetime": "2026-03-12 19:42:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 107,
+      "text": "。在",
+      "timestamp": 1773315762.028746,
+      "datetime": "2026-03-12 19:42:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": " X 0Y0这一点处的梯度",
+      "timestamp": 1773315768.417345,
+      "datetime": "2026-03-12 19:42:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "，啊这个 ne布拉，呢所以这个 ne布拉是个微分算符，它是什么？呢就是对X求偏导，对",
+      "timestamp": 1773315775.617831,
+      "datetime": "2026-03-12 19:42:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": " Y求偏导",
+      "timestamp": 1773315777.150687,
+      "datetime": "2026-03-12 19:42:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 111,
+      "text": "，啊这样一个微分算",
+      "timestamp": 1773315779.70194,
+      "datetime": "2026-03-12 19:42:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": "。啊所以呢我们也这样来记，啊你看奈布拉就用到F上，啊也就是这儿的",
+      "timestamp": 1773315793.034583,
+      "datetime": "2026-03-12 19:43:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "对X求偏导，对Y求偏导，把F写到外头来",
+      "timestamp": 1773315798.652819,
+      "datetime": "2026-03-12 19:43:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "。啊",
+      "timestamp": 1773315800.183177,
+      "datetime": "2026-03-12 19:43:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": "好，啊这是一个向量微分状态，奈不了啊这个梯度啊梯度。好，那接下来我们来看一下梯度如何来计算",
+      "timestamp": 1773315814.0250392,
+      "datetime": "2026-03-12 19:43:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "。好，假设",
+      "timestamp": 1773315817.5949702,
+      "datetime": "2026-03-12 19:43:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 117,
+      "text": " Z是关于xy的二元函数，它在一点X0Y0这一点处是可微的",
+      "timestamp": 1773315828.322499,
+      "datetime": "2026-03-12 19:43:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "。啊那么",
+      "timestamp": 1773315831.4321868,
+      "datetime": "2026-03-12 19:43:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 119,
+      "text": "这个函数",
+      "timestamp": 1773315833.9915898,
+      "datetime": "2026-03-12 19:43:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": " F",
+      "timestamp": 1773315836.5434382,
+      "datetime": "2026-03-12 19:43:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 121,
+      "text": "它在X0Y0这个点处沿着任意方向",
+      "timestamp": 1773315844.208173,
+      "datetime": "2026-03-12 19:44:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "，啊沿着任意方向位的方向导数啊人任意的方向为那我写出方向Z的方向，余弦来",
+      "timestamp": 1773315857.539753,
+      "datetime": "2026-03-12 19:44:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": "啊表示用方向余弦来表示就是cos阿尔法cos贝塔",
+      "timestamp": 1773315863.667336,
+      "datetime": "2026-03-12 19:44:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "，啊沿着任意方向的方向导数",
+      "timestamp": 1773315866.724301,
+      "datetime": "2026-03-12 19:44:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 125,
+      "text": "，啊它的计算啊我们就可以这样来计计算了，啊沿着方向位的方向导数在X0Y0这一点就等为F在X0Y0这一点处，关于X的偏导乘以",
+      "timestamp": 1773315887.726541,
+      "datetime": "2026-03-12 19:44:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 126,
+      "text": " C SS阿尔法加上F在X0Y0这一点关于Y的偏导乘以C os因贝塔",
+      "timestamp": 1773315895.434638,
+      "datetime": "2026-03-12 19:44:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": "，啊这就是计算公式，啊这个计算公式是很重要的",
+      "timestamp": 1773315900.536879,
+      "datetime": "2026-03-12 19:45:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 128,
+      "text": "。啊那么在其他学科当中呢你也会用到的啊",
+      "timestamp": 1773315905.142029,
+      "datetime": "2026-03-12 19:45:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 129,
+      "text": "。好，这是尺度",
+      "timestamp": 1773315907.174834,
+      "datetime": "2026-03-12 19:45:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 130,
+      "text": "啊速度的计算，如果看出F在X0Y0这一点处是可微的，那么函数F在这一点处沿着任何一个方向的方向导数都是存在的",
+      "timestamp": 1773315919.485114,
+      "datetime": "2026-03-12 19:45:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": "，啊沿着任何一个方向的方向导数都是存在的，而且呢它可以计算怎么计算？那就是F在这一点关于X的偏导乘以CS因再加F，在这一点关于Y的偏导乘以cos因贝塔",
+      "timestamp": 1773315934.348213,
+      "datetime": "2026-03-12 19:45:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 132,
+      "text": "，那么我们来解释一下，同学们看为",
+      "timestamp": 1773315936.905644,
+      "datetime": "2026-03-12 19:45:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 133,
+      "text": "是一个单位向量",
+      "timestamp": 1773315938.942474,
+      "datetime": "2026-03-12 19:45:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": "，是吧？嗯唉这样来书写它就是个单位向量了",
+      "timestamp": 1773315944.0483682,
+      "datetime": "2026-03-12 19:45:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 135,
+      "text": "。啊那么CS因阿尔法cos因贝塔是方向余弦了",
+      "timestamp": 1773315948.650454,
+      "datetime": "2026-03-12 19:45:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 136,
+      "text": "，那么这个阿尔法贝塔分别代表什么呢",
+      "timestamp": 1773315951.7164989,
+      "datetime": "2026-03-12 19:45:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 137,
+      "text": "？唉特别好，阿尔法代表着向量V与X轴正向的夹角",
+      "timestamp": 1773315960.969572,
+      "datetime": "2026-03-12 19:46:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": "，那贝塔呢代表着向量V与Y轴正向的夹角了",
+      "timestamp": 1773315966.066676,
+      "datetime": "2026-03-12 19:46:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 139,
+      "text": "。很好啊",
+      "timestamp": 1773315968.6180239,
+      "datetime": "2026-03-12 19:46:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 140,
+      "text": "，那么这位呢是一个",
+      "timestamp": 1773315971.1745799,
+      "datetime": "2026-03-12 19:46:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 141,
+      "text": "单位向量，好，那么接下来呢我们就来看看啊",
+      "timestamp": 1773315975.8201149,
+      "datetime": "2026-03-12 19:46:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 142,
+      "text": "如何得到",
+      "timestamp": 1773315977.8638668,
+      "datetime": "2026-03-12 19:46:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 143,
+      "text": "啊接下来我们看如何得到啊这一个",
+      "timestamp": 1773315985.528067,
+      "datetime": "2026-03-12 19:46:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": "展是",
+      "timestamp": 1773315986.545239,
+      "datetime": "2026-03-12 19:46:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 145,
+      "text": "。那么根据定义",
+      "timestamp": 1773315992.162158,
+      "datetime": "2026-03-12 19:46:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 146,
+      "text": "函数F",
+      "timestamp": 1773315993.697262,
+      "datetime": "2026-03-12 19:46:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 147,
+      "text": "在X0Y0这一点处，沿着V方向的方向，导数那根据定义它就是个极限了，是哪个极限？同学们",
+      "timestamp": 1773316005.491851,
+      "datetime": "2026-03-12 19:46:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 148,
+      "text": "，F",
+      "timestamp": 1773316007.533272,
+      "datetime": "2026-03-12 19:46:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 149,
+      "text": " X 0",
+      "timestamp": 1773316009.5767791,
+      "datetime": "2026-03-12 19:46:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": "嗯加上T",
+      "timestamp": 1773316011.626543,
+      "datetime": "2026-03-12 19:46:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 151,
+      "text": " CS因阿尔法",
+      "timestamp": 1773316014.1775959,
+      "datetime": "2026-03-12 19:46:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": " Y0加上T",
+      "timestamp": 1773316016.771977,
+      "datetime": "2026-03-12 19:46:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 153,
+      "text": "嗯23因贝塔减去",
+      "timestamp": 1773316020.354801,
+      "datetime": "2026-03-12 19:47:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 154,
+      "text": " FX 0 Y 0",
+      "timestamp": 1773316022.902781,
+      "datetime": "2026-03-12 19:47:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": "比上",
+      "timestamp": 1773316024.436773,
+      "datetime": "2026-03-12 19:47:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 156,
+      "text": " T在T从大于0的方向趋近于0时的极限了，唉这时函数F在X0Y0这一点沿着V方向的方向，导数的定义",
+      "timestamp": 1773316036.7515469,
+      "datetime": "2026-03-12 19:47:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 157,
+      "text": "。好，我们来看那这个极限呢分子涉及到的是FX0+上一个T乘以cos阿尔法，Y0加上一个T",
+      "timestamp": 1773316049.5161731,
+      "datetime": "2026-03-12 19:47:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": "乘以C os因贝塔",
+      "timestamp": 1773316052.071593,
+      "datetime": "2026-03-12 19:47:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 159,
+      "text": "，F是关于xy的二元函数",
+      "timestamp": 1773316057.235239,
+      "datetime": "2026-03-12 19:47:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": "，而且是关于xy的二元可微的函数，X呢是等于X0加T cos因尔法，它是关于T的一次函数，当然关于T可导了",
+      "timestamp": 1773316068.466711,
+      "datetime": "2026-03-12 19:47:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 161,
+      "text": "，唉 Y呢是等于Y0减T乘以C os因贝塔，它是关于T的可导函数",
+      "timestamp": 1773316075.103946,
+      "datetime": "2026-03-12 19:47:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 162,
+      "text": "，所以你看复合下来以后，这就是关于T等于这元复合函数了",
+      "timestamp": 1773316080.773491,
+      "datetime": "2026-03-12 19:48:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 163,
+      "text": "，是吧？嗯唉所以我们这儿就把它记为是zt",
+      "timestamp": 1773316088.941962,
+      "datetime": "2026-03-12 19:48:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": "。啊复合以后就是关于基本力量复合函数，那么这个力量复合函数的可导性如何呀",
+      "timestamp": 1773316097.677384,
+      "datetime": "2026-03-12 19:48:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 165,
+      "text": "？是否可导",
+      "timestamp": 1773316100.232041,
+      "datetime": "2026-03-12 19:48:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 166,
+      "text": "？可导，这就是上节课我们学习的复合函数的变式法则",
+      "timestamp": 1773316105.3377779,
+      "datetime": "2026-03-12 19:48:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

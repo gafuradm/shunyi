@@ -1,0 +1,818 @@
+{
+  "generated": "2026-03-06T19:16:59.847681",
+  "total_entries": 58,
+  "history": [
+    {
+      "id": 0,
+      "text": "我你有好你啦",
+      "timestamp": 1772795455.3716211,
+      "datetime": "2026-03-06 19:10:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "我在这里",
+      "timestamp": 1772795484.066116,
+      "datetime": "2026-03-06 19:11:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "今天",
+      "timestamp": 1772795519.904005,
+      "datetime": "2026-03-06 19:11:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "的如夏如电",
+      "timestamp": 1772795521.953287,
+      "datetime": "2026-03-06 19:12:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "，幻想着那画面人生若只如初见",
+      "timestamp": 1772795525.529954,
+      "datetime": "2026-03-06 19:12:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "，每天这个大雨年深渊永不深深，当时还以为定奖的一夜",
+      "timestamp": 1772795532.170882,
+      "datetime": "2026-03-06 19:12:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "一天开一",
+      "timestamp": 1772795533.182063,
+      "datetime": "2026-03-06 19:12:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "，直到年变成一",
+      "timestamp": 1772795535.2262452,
+      "datetime": "2026-03-06 19:12:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "，一步步流年",
+      "timestamp": 1772795536.248649,
+      "datetime": "2026-03-06 19:12:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "，用爱熬成今年",
+      "timestamp": 1772795538.849837,
+      "datetime": "2026-03-06 19:12:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "自己在更迭",
+      "timestamp": 1772795541.9138072,
+      "datetime": "2026-03-06 19:12:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "，春又归来，无奈眼睛选择",
+      "timestamp": 1772795544.4691808,
+      "datetime": "2026-03-06 19:12:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "，湖水一去就走远",
+      "timestamp": 1772795546.512993,
+      "datetime": "2026-03-06 19:12:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "，你想要春天，我就是桃花舞翩翩，如果你想要夏天，我就是板着脸和世季节转变",
+      "timestamp": 1772795555.705971,
+      "datetime": "2026-03-06 19:12:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "，不要转眼",
+      "timestamp": 1772795556.219567,
+      "datetime": "2026-03-06 19:12:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "最相信是",
+      "timestamp": 1772795557.748799,
+      "datetime": "2026-03-06 19:12:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "我为你而变",
+      "timestamp": 1772795558.819987,
+      "datetime": "2026-03-06 19:12:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。你说我",
+      "timestamp": 1772795559.840619,
+      "datetime": "2026-03-06 19:12:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "善变嗯",
+      "timestamp": 1772795560.859922,
+      "datetime": "2026-03-06 19:12:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "。你想要秋天",
+      "timestamp": 1772795563.417809,
+      "datetime": "2026-03-06 19:12:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "，我就是红颜来人间，如果你想要冬天，我就是寒江雪，可",
+      "timestamp": 1772795569.035174,
+      "datetime": "2026-03-06 19:12:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "嗯传给",
+      "timestamp": 1772795570.0559192,
+      "datetime": "2026-03-06 19:12:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "。天转给",
+      "timestamp": 1772795571.077019,
+      "datetime": "2026-03-06 19:12:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "最伤心是我因爱为名你说我",
+      "timestamp": 1772795574.6559858,
+      "datetime": "2026-03-06 19:12:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "肤浅",
+      "timestamp": 1772795575.678602,
+      "datetime": "2026-03-06 19:12:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "。雪天秋风里",
+      "timestamp": 1772795597.177632,
+      "datetime": "2026-03-06 19:13:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "的龙要的",
+      "timestamp": 1772795598.207787,
+      "datetime": "2026-03-06 19:13:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "，上那画面里的",
+      "timestamp": 1772795600.801035,
+      "datetime": "2026-03-06 19:13:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "悲欢总难掩",
+      "timestamp": 1772795602.3308392,
+      "datetime": "2026-03-06 19:13:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "，你在哪里起",
+      "timestamp": 1772795603.8752,
+      "datetime": "2026-03-06 19:13:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "？我也只有像谎言，谁能够融化爱如山像水",
+      "timestamp": 1772795608.983913,
+      "datetime": "2026-03-06 19:13:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "，眼开",
+      "timestamp": 1772795610.002957,
+      "datetime": "2026-03-06 19:13:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "融成一幕幕缠绵",
+      "timestamp": 1772795613.119838,
+      "datetime": "2026-03-06 19:13:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "，终于铸成今天",
+      "timestamp": 1772795615.615624,
+      "datetime": "2026-03-06 19:13:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "永不",
+      "timestamp": 1772795616.644376,
+      "datetime": "2026-03-06 19:13:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "自己在更迭是我的你",
+      "timestamp": 1772795619.7503731,
+      "datetime": "2026-03-06 19:13:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "，一片痴心让我最后抵挡尘埃的你",
+      "timestamp": 1772795623.05507,
+      "datetime": "2026-03-06 19:13:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "。你想要春天",
+      "timestamp": 1772795625.513345,
+      "datetime": "2026-03-06 19:13:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "，如果只是桃花舞翩翩，如果你想要夏天，我就是半截莲，可是",
+      "timestamp": 1772795630.985315,
+      "datetime": "2026-03-06 19:13:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "世界转变",
+      "timestamp": 1772795632.0065439,
+      "datetime": "2026-03-06 19:13:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "，你相信是",
+      "timestamp": 1772795634.0585,
+      "datetime": "2026-03-06 19:13:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "善变",
+      "timestamp": 1772795637.6278558,
+      "datetime": "2026-03-06 19:13:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "、野蛮人间",
+      "timestamp": 1772795641.761172,
+      "datetime": "2026-03-06 19:14:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "。你想要冬天",
+      "timestamp": 1772795643.811877,
+      "datetime": "2026-03-06 19:14:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "，我就是寒江雪",
+      "timestamp": 1772795645.337631,
+      "datetime": "2026-03-06 19:14:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "界转变",
+      "timestamp": 1772795646.8761659,
+      "datetime": "2026-03-06 19:14:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "，最伤心是我一",
+      "timestamp": 1772795649.425479,
+      "datetime": "2026-03-06 19:14:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "要下天请接下",
+      "timestamp": 1772795686.296831,
+      "datetime": "2026-03-06 19:14:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "。想要有",
+      "timestamp": 1772795696.0010471,
+      "datetime": "2026-03-06 19:14:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "也没人间",
+      "timestamp": 1772795698.556556,
+      "datetime": "2026-03-06 19:14:58",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "。没有",
+      "timestamp": 1772795748.757538,
+      "datetime": "2026-03-06 19:15:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "努力呢",
+      "timestamp": 1772795752.844007,
+      "datetime": "2026-03-06 19:15:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "啊嗯嗯嗯",
+      "timestamp": 1772795757.440649,
+      "datetime": "2026-03-06 19:15:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "我也he B",
+      "timestamp": 1772795759.995039,
+      "datetime": "2026-03-06 19:15:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "。错的",
+      "timestamp": 1772795761.020576,
+      "datetime": "2026-03-06 19:16:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "，可惜的",
+      "timestamp": 1772795769.7503,
+      "datetime": "2026-03-06 19:16:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "。He B",
+      "timestamp": 1772795777.411947,
+      "datetime": "2026-03-06 19:16:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": ". 其他的毒",
+      "timestamp": 1772795813.315092,
+      "datetime": "2026-03-06 19:16:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

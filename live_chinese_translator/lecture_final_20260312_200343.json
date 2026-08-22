@@ -1,0 +1,2372 @@
+{
+  "generated": "2026-03-12T20:03:43.696300",
+  "total_entries": 169,
+  "history": [
+    {
+      "id": 0,
+      "text": " F在",
+      "timestamp": 1773316123.739135,
+      "datetime": "2026-03-12 19:48:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": " X0加上T cos贝塔，Y0加上TCS因贝塔，这一点处关于X的偏导再乘以X，对于T的导数就是cos因阿尔法",
+      "timestamp": 1773316137.533432,
+      "datetime": "2026-03-12 19:48:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "，再加上F，在这一点处",
+      "timestamp": 1773316140.6447759,
+      "datetime": "2026-03-12 19:49:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "关于",
+      "timestamp": 1773316143.7097511,
+      "datetime": "2026-03-12 19:49:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "外求签到",
+      "timestamp": 1773316149.3281431,
+      "datetime": "2026-03-12 19:49:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "，再乘以Y对T的导数是靠os因贝塔了",
+      "timestamp": 1773316154.945295,
+      "datetime": "2026-03-12 19:49:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "，唉这是根据复合函数的练习法则，啊 Z对T的导数求出来了。好，那么现在我们要求的是F在X0Y0这一点沿着V方向的方向导数，同学们看zt的表达式是它",
+      "timestamp": 1773316169.304256,
+      "datetime": "2026-03-12 19:49:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "。那么这儿的FX0Y0它是什么呢",
+      "timestamp": 1773316177.470449,
+      "datetime": "2026-03-12 19:49:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "？就是Z在",
+      "timestamp": 1773316180.583061,
+      "datetime": "2026-03-12 19:49:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "哪一点的值",
+      "timestamp": 1773316182.121758,
+      "datetime": "2026-03-12 19:49:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "？唉 Z在0点的函数值了，唉所以我们把它带入到上面的表达式里头，因此这个极限就是zt减去一个Z0",
+      "timestamp": 1773316194.3770618,
+      "datetime": "2026-03-12 19:49:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "，B上一个T在T趋近于零时的极限了",
+      "timestamp": 1773316199.4862988,
+      "datetime": "2026-03-12 19:49:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "，这个极限是啥",
+      "timestamp": 1773316203.61533,
+      "datetime": "2026-03-12 19:50:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "？是哪个值",
+      "timestamp": 1773316205.1510038,
+      "datetime": "2026-03-12 19:50:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "？唉根据定义它就是函数Z在零点处的导数",
+      "timestamp": 1773316213.320328,
+      "datetime": "2026-03-12 19:50:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "，啊函数Z在0点处的导数了，那么刚才我们求出了zt的导数了，当然就可以求出Z在0点处的导数了，啊所以Z在0点处求导，那就是把上面的表达式里的T换成是0啦",
+      "timestamp": 1773316229.716056,
+      "datetime": "2026-03-12 19:50:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "。唉因此它就是F在X0Y0，这一点对X求导",
+      "timestamp": 1773316235.845557,
+      "datetime": "2026-03-12 19:50:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "，乘以cos因阿尔法加上F在X0Y0，这一点对Y求导",
+      "timestamp": 1773316242.537102,
+      "datetime": "2026-03-12 19:50:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "乘以CS贝塔",
+      "timestamp": 1773316244.577591,
+      "datetime": "2026-03-12 19:50:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "是吧嗯",
+      "timestamp": 1773316246.6165419,
+      "datetime": "2026-03-12 19:50:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "？唉那么这样我们就求出了，啊所以看出F",
+      "timestamp": 1773316251.72755,
+      "datetime": "2026-03-12 19:50:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "在X0Y0这一点处，沿着V方向的方向导数就等于R就等于这个数那这个数。同学们看，那就是F在X0Y0这一点",
+      "timestamp": 1773316268.63494,
+      "datetime": "2026-03-12 19:51:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "。关于X的偏导与F在X0Y0这一点，关于Y的偏导这个梯度向量与向量位的点称吧嗯",
+      "timestamp": 1773316279.359345,
+      "datetime": "2026-03-12 19:51:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "，唉啊所以我们简写 V啊简写为",
+      "timestamp": 1773316285.025093,
+      "datetime": "2026-03-12 19:51:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": " F在X0Y0这一点移动点乘上相素位",
+      "timestamp": 1773316290.643587,
+      "datetime": "2026-03-12 19:51:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "。好，那这个计算你注意到了，这个计算公式里面的这个位一定是一个单位向量",
+      "timestamp": 1773316298.308651,
+      "datetime": "2026-03-12 19:51:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "，很多时候会给你们挖坑，给足你个香蕉位，它不是一个单位向量，让你让然后让你来求它在这一点处沿轴位方向的方向导数，唉你不要看见他直接",
+      "timestamp": 1773316310.6136162,
+      "datetime": "2026-03-12 19:51:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "把这两个向量点乘起来求",
+      "timestamp": 1773316314.189663,
+      "datetime": "2026-03-12 19:51:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "？啊不注意这儿为是的单位相连那你就错了",
+      "timestamp": 1773316317.251873,
+      "datetime": "2026-03-12 19:51:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "。啊在这儿一定要注意，啊可能我考试就给你挖这样一个词",
+      "timestamp": 1773316321.851756,
+      "datetime": "2026-03-12 19:52:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "，唉我就给你这样出这样一个填空题，啊为不是个单位向量",
+      "timestamp": 1773316327.518062,
+      "datetime": "2026-03-12 19:52:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "，让你们求",
+      "timestamp": 1773316329.0477571,
+      "datetime": "2026-03-12 19:52:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "沿着这个方向的方向导数",
+      "timestamp": 1773316331.603675,
+      "datetime": "2026-03-12 19:52:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "，明白吗同学们",
+      "timestamp": 1773316334.673086,
+      "datetime": "2026-03-12 19:52:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "？啊",
+      "timestamp": 1773316336.710138,
+      "datetime": "2026-03-12 19:52:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "所以这儿考核的你就是概念概念清楚不清楚？啊概念我们在这儿根据我们的推导，啊根据我们的推导，啊那么这儿的位呢它是一个单位向量",
+      "timestamp": 1773316348.0020108,
+      "datetime": "2026-03-12 19:52:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "，啊为是个单位向量嗯",
+      "timestamp": 1773316350.041256,
+      "datetime": "2026-03-12 19:52:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "，清楚吧",
+      "timestamp": 1773316353.109066,
+      "datetime": "2026-03-12 19:52:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "？啊这样的位置的单位响亮，啊好",
+      "timestamp": 1773316356.689708,
+      "datetime": "2026-03-12 19:52:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "，嗯那么接下来我们就来分析啊",
+      "timestamp": 1773316361.280372,
+      "datetime": "2026-03-12 19:52:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 40,
+      "text": "，我们知道F在X0Y0这一点，沿着V方向的方向，导数是函数F在X0Y0这一点处沿着V方向",
+      "timestamp": 1773316373.587026,
+      "datetime": "2026-03-12 19:52:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "函数的变化率",
+      "timestamp": 1773316376.135199,
+      "datetime": "2026-03-12 19:52:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "。那么来看一下两个向量的点乘",
+      "timestamp": 1773316382.775569,
+      "datetime": "2026-03-12 19:53:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 43,
+      "text": "那一定是不超呃两个向量的点乘怎么计算呢",
+      "timestamp": 1773316387.9374871,
+      "datetime": "2026-03-12 19:53:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "？唉就是这两个向量的模",
+      "timestamp": 1773316394.5760362,
+      "datetime": "2026-03-12 19:53:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 45,
+      "text": "为",
+      "timestamp": 1773316396.108196,
+      "datetime": "2026-03-12 19:53:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "就是等模就是范数了，唉现在这位置的单位向量，所以它的范数是一，啦唉再乘以一个cos0",
+      "timestamp": 1773316404.2960372,
+      "datetime": "2026-03-12 19:53:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "，随塔这个 C塔是什么呢",
+      "timestamp": 1773316406.373552,
+      "datetime": "2026-03-12 19:53:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 48,
+      "text": "？C塔梯度和V的加",
+      "timestamp": 1773316410.4546812,
+      "datetime": "2026-03-12 19:53:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "。唉谁叹的诗",
+      "timestamp": 1773316413.0115352,
+      "datetime": "2026-03-12 19:53:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 50,
+      "text": "？函数F在X0Y0这一点的梯度与向量V的夹角",
+      "timestamp": 1773316421.18249,
+      "datetime": "2026-03-12 19:53:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "，准确来讲应该说是所成的角度",
+      "timestamp": 1773316427.36218,
+      "datetime": "2026-03-12 19:53:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 52,
+      "text": "，夹角一般来讲是这个概念应该是0~90度",
+      "timestamp": 1773316431.961961,
+      "datetime": "2026-03-12 19:53:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "，夹角",
+      "timestamp": 1773316432.98437,
+      "datetime": "2026-03-12 19:53:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "，啊所以是所成的角度",
+      "timestamp": 1773316436.044236,
+      "datetime": "2026-03-12 19:53:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 55,
+      "text": "。想，但是呢呃过去我们学的时候是夹角一定是在0~90度之间，但是呢好像现在呢把这个夹角的放宽了",
+      "timestamp": 1773316449.880658,
+      "datetime": "2026-03-12 19:54:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "，你们啊",
+      "timestamp": 1773316451.926448,
+      "datetime": "2026-03-12 19:54:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "就是你们选的这个夹角就是小于180",
+      "timestamp": 1773316455.50474,
+      "datetime": "2026-03-12 19:54:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "。小于180噢放款了是吧",
+      "timestamp": 1773316458.5686789,
+      "datetime": "2026-03-12 19:54:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 59,
+      "text": "？0~180嗯",
+      "timestamp": 1773316460.61329,
+      "datetime": "2026-03-12 19:54:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": ". 好像是",
+      "timestamp": 1773316461.636064,
+      "datetime": "2026-03-12 19:54:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 61,
+      "text": "啊我们",
+      "timestamp": 1773316463.167166,
+      "datetime": "2026-03-12 19:54:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "多少年以前学的就是0~90度",
+      "timestamp": 1773316466.2298691,
+      "datetime": "2026-03-12 19:54:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "？嗯随问题",
+      "timestamp": 1773316468.3245811,
+      "datetime": "2026-03-12 19:54:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 64,
+      "text": "。好，啊谁塔呢是这个梯度与向量V的夹角啊嗯",
+      "timestamp": 1773316476.490844,
+      "datetime": "2026-03-12 19:54:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "？啊",
+      "timestamp": 1773316477.5088189,
+      "datetime": "2026-03-12 19:54:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "那么我们来看一下，那这个时候你来看一下，那函数F在X0Y0这一点沿着哪个方向的方向导数能够取到最大值呀",
+      "timestamp": 1773316488.293196,
+      "datetime": "2026-03-12 19:54:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "？那就是这个 cos因C它是小于等于一的啦",
+      "timestamp": 1773316495.952438,
+      "datetime": "2026-03-12 19:54:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 68,
+      "text": "，所以只有当考生因C它等于一的时候，这个值是最大的嗯",
+      "timestamp": 1773316499.525221,
+      "datetime": "2026-03-12 19:54:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "。那么C os N谁它等于一，意味着C它等于多少",
+      "timestamp": 1773316503.6162188,
+      "datetime": "2026-03-12 19:55:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 70,
+      "text": "？5",
+      "timestamp": 1773316507.18798,
+      "datetime": "2026-03-12 19:55:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": ", 唉所以它等于0，也就说明这两个角呃这两个向量是怎么样的嗯",
+      "timestamp": 1773316511.833615,
+      "datetime": "2026-03-12 19:55:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 72,
+      "text": "？平行的吧嗯",
+      "timestamp": 1773316514.9068868,
+      "datetime": "2026-03-12 19:55:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 73,
+      "text": "。唉而且呢",
+      "timestamp": 1773316516.9434109,
+      "datetime": "2026-03-12 19:55:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "不仅仅是平行的，是通向的吧对对",
+      "timestamp": 1773316520.004962,
+      "datetime": "2026-03-12 19:55:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 75,
+      "text": "。唉所以这个为啊就是提度向量的",
+      "timestamp": 1773316525.6303942,
+      "datetime": "2026-03-12 19:55:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": "方向了",
+      "timestamp": 1773316527.156754,
+      "datetime": "2026-03-12 19:55:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 77,
+      "text": "，唉这个梯度呢不一定是个单位向量，那我们把它单位化",
+      "timestamp": 1773316531.2928011,
+      "datetime": "2026-03-12 19:55:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "，对吧嗯",
+      "timestamp": 1773316533.847426,
+      "datetime": "2026-03-12 19:55:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 79,
+      "text": "？唉",
+      "timestamp": 1773316535.376996,
+      "datetime": "2026-03-12 19:55:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "嗯啊这时候的芳香为的就是梯度的方向，所以从这儿我们看到了，沿着啊在一点处，只要这个梯度向量是不等于0的",
+      "timestamp": 1773316547.646819,
+      "datetime": "2026-03-12 19:55:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "，那么沿着梯度方向函数的增加是最快的",
+      "timestamp": 1773316552.284068,
+      "datetime": "2026-03-12 19:55:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 82,
+      "text": "，所以梯度方向是函数的增加最快的方向",
+      "timestamp": 1773316563.521633,
+      "datetime": "2026-03-12 19:56:03",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "。你们看过我讲的那个讲话的那一段吗",
+      "timestamp": 1773316570.207254,
+      "datetime": "2026-03-12 19:56:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 84,
+      "text": "？2023年我在教师节大会上的那一段",
+      "timestamp": 1773316573.785274,
+      "datetime": "2026-03-12 19:56:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 85,
+      "text": "，看过吗",
+      "timestamp": 1773316575.3173099,
+      "datetime": "2026-03-12 19:56:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "？忘了，其中就说到了梯度方向梯度",
+      "timestamp": 1773316580.937958,
+      "datetime": "2026-03-12 19:56:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": "。啊那么同学们在大学里面成长的梯度方向是什么呢",
+      "timestamp": 1773316587.571409,
+      "datetime": "2026-03-12 19:56:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 88,
+      "text": "？啊通过多少的",
+      "timestamp": 1773316591.708577,
+      "datetime": "2026-03-12 19:56:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "我这几个学期以来，我从18年到现在的教学改革啊那实践表明，就是在大学里面要跟同学多去交流",
+      "timestamp": 1773316601.4179041,
+      "datetime": "2026-03-12 19:56:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": "，要跟同学合作",
+      "timestamp": 1773316604.4850419,
+      "datetime": "2026-03-12 19:56:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 91,
+      "text": "，啊所以这个学期呢让你们也跟国内的学生一样，要",
+      "timestamp": 1773316609.077371,
+      "datetime": "2026-03-12 19:56:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "和大家一起讨论问题",
+      "timestamp": 1773316611.163596,
+      "datetime": "2026-03-12 19:56:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 93,
+      "text": "。啊所以这个是对于你们来讲成长最快的方向",
+      "timestamp": 1773316615.2618098,
+      "datetime": "2026-03-12 19:56:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": "。啊你看上个学期",
+      "timestamp": 1773316619.850558,
+      "datetime": "2026-03-12 19:56:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 95,
+      "text": "我没有",
+      "timestamp": 1773316620.8686779,
+      "datetime": "2026-03-12 19:57:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": "你们的习题课我没有用小班习题课的形式，啊因为别人跟我讲啊就是这个留学生的基础是呃非常非常弱的，啊你就是他们要用这个校官的话那不行",
+      "timestamp": 1773316633.1829371,
+      "datetime": "2026-03-12 19:57:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "，但是呢我看了看那去年秋季",
+      "timestamp": 1773316637.267174,
+      "datetime": "2026-03-12 19:57:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 98,
+      "text": "一半的人不及格，但是呢",
+      "timestamp": 1773316640.3342578,
+      "datetime": "2026-03-12 19:57:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 99,
+      "text": "高分的人也不少",
+      "timestamp": 1773316641.866564,
+      "datetime": "2026-03-12 19:57:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 100,
+      "text": "，所以我看了看那还得要改变",
+      "timestamp": 1773316645.9493492,
+      "datetime": "2026-03-12 19:57:25",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": "。啊当时我说你们在这个里面有确实是有基础好的同学啊",
+      "timestamp": 1773316651.615285,
+      "datetime": "2026-03-12 19:57:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 102,
+      "text": "，对吧",
+      "timestamp": 1773316653.655843,
+      "datetime": "2026-03-12 19:57:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 103,
+      "text": "？啊那么基础弱的同学，呢我们可以用基础好的同学来带动一下",
+      "timestamp": 1773316658.256604,
+      "datetime": "2026-03-12 19:57:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "，啊大家都能够进步，你基础好的同学你才给别人讲的过程当中能够深化你对这个问题的认识",
+      "timestamp": 1773316665.407095,
+      "datetime": "2026-03-12 19:57:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 105,
+      "text": "。啊国内学生很多学生通过这样的方式，他们取得了进步",
+      "timestamp": 1773316670.004849,
+      "datetime": "2026-03-12 19:57:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "，啊所以呢给你们也采取这样的方式，啊因此呢在习题课上我不强求每一个同学都要去讲，啊因为呢你在那儿讲确实你得讲出来",
+      "timestamp": 1773316681.8054981,
+      "datetime": "2026-03-12 19:58:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 107,
+      "text": "，啊但是呢鼓励啊多鼓励那些自己有",
+      "timestamp": 1773316686.4043908,
+      "datetime": "2026-03-12 19:58:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": "思想的，啊那么自己有思路的同学多在那儿去讲，多跟别人去交流",
+      "timestamp": 1773316692.582741,
+      "datetime": "2026-03-12 19:58:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "。啊那么另外呢这也",
+      "timestamp": 1773316695.638745,
+      "datetime": "2026-03-12 19:58:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": "私下呢你们成为一个小组，啊小组里面呢也多去",
+      "timestamp": 1773316699.728278,
+      "datetime": "2026-03-12 19:58:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 111,
+      "text": "帮助其他同学",
+      "timestamp": 1773316701.768855,
+      "datetime": "2026-03-12 19:58:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": "把你做一遍，和你讲一遍完全是两回事",
+      "timestamp": 1773316706.879191,
+      "datetime": "2026-03-12 19:58:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "。那过去有同学说老师你课堂上讲的东西",
+      "timestamp": 1773316713.056918,
+      "datetime": "2026-03-12 19:58:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "我都能听懂",
+      "timestamp": 1773316714.587602,
+      "datetime": "2026-03-12 19:58:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": "，课后作业吧我也会做，但是呢一到考试我就不会了",
+      "timestamp": 1773316719.181264,
+      "datetime": "2026-03-12 19:58:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "。为什么呢",
+      "timestamp": 1773316721.740159,
+      "datetime": "2026-03-12 19:58:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 117,
+      "text": "？课堂讲的是我灌输给你的东西",
+      "timestamp": 1773316724.8018959,
+      "datetime": "2026-03-12 19:58:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "，你是并没有通过自己的思考，自己的思维，你只是我告诉你什么噢它就是什么",
+      "timestamp": 1773316731.954313,
+      "datetime": "2026-03-12 19:58:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 119,
+      "text": "。课后作业呢你又是针对这节课的内容讲的这个知识点",
+      "timestamp": 1773316737.111958,
+      "datetime": "2026-03-12 19:58:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "，啊我也讲了例子了，你",
+      "timestamp": 1773316739.6643682,
+      "datetime": "2026-03-12 19:58:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 121,
+      "text": "你照着这个例子例子你自己可以去写出来，但是考试呢它是一个学期知识的综合的应用",
+      "timestamp": 1773316747.838683,
+      "datetime": "2026-03-12 19:59:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "，让这些知识没有深化到你的脑子里面，那你根本不会综合嗯",
+      "timestamp": 1773316754.0135329,
+      "datetime": "2026-03-12 19:59:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": "，啊就是不会综合用",
+      "timestamp": 1773316755.5453062,
+      "datetime": "2026-03-12 19:59:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "。啊所以这就是说我听课都能听明白，做作业吧我还也行，但是呢一到考试我就不行了，啊这在过去清华的学生里面很多那就说为什么我到了2019年要",
+      "timestamp": 1773316767.293756,
+      "datetime": "2026-03-12 19:59:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 125,
+      "text": "教学改革",
+      "timestamp": 1773316768.838659,
+      "datetime": "2026-03-12 19:59:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 126,
+      "text": "，啊改革以后的效果非常好，每一个学期你们知道上个学期你们都经历了",
+      "timestamp": 1773316776.025218,
+      "datetime": "2026-03-12 19:59:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": "，你们已经看到了国内的微积分a是全校统考，所有的一千七八百人同用一张卷子",
+      "timestamp": 1773316783.689507,
+      "datetime": "2026-03-12 19:59:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 128,
+      "text": "，考完以后呢线下考，考完了以后我们统一的扫描",
+      "timestamp": 1773316788.801397,
+      "datetime": "2026-03-12 19:59:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 129,
+      "text": "，扫描到电脑里头，然后线上统一阅卷，一条龙阅卷",
+      "timestamp": 1773316792.88481,
+      "datetime": "2026-03-12 19:59:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 130,
+      "text": "。这几个老师负责的就是一道题",
+      "timestamp": 1773316795.485941,
+      "datetime": "2026-03-12 19:59:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 131,
+      "text": "，统一阅卷，那我的班学生",
+      "timestamp": 1773316800.084126,
+      "datetime": "2026-03-12 20:00:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 132,
+      "text": "平均分优秀率、及格率都高于全年级的",
+      "timestamp": 1773316804.682488,
+      "datetime": "2026-03-12 20:00:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 133,
+      "text": "出去",
+      "timestamp": 1773316805.697952,
+      "datetime": "2026-03-12 20:00:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 134,
+      "text": "。啊所以这就是学生们的这个成绩好，就是得益于他们平时的讨论",
+      "timestamp": 1773316812.8544881,
+      "datetime": "2026-03-12 20:00:12",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 135,
+      "text": "。啊对他们的这个习题课在习题课上同学们讨论比较多，还有一个交流群",
+      "timestamp": 1773316819.029275,
+      "datetime": "2026-03-12 20:00:19",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 136,
+      "text": "，要都听明白对同学有帮助的的",
+      "timestamp": 1773316822.603389,
+      "datetime": "2026-03-12 20:00:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 137,
+      "text": "。大学习",
+      "timestamp": 1773316823.116608,
+      "datetime": "2026-03-12 20:00:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 138,
+      "text": "。挺啊所以呢对于你们也是一样，啊你们中基础好的同学们，如果你要能够跟国内的学生这样充分的利用起来，那那你们的进步也是很大",
+      "timestamp": 1773316838.996504,
+      "datetime": "2026-03-12 20:00:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 139,
+      "text": "，啊你们的收获也是很大，啊所以呢",
+      "timestamp": 1773316842.063205,
+      "datetime": "2026-03-12 20:00:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 140,
+      "text": "呃这是有目共睹的，啊这是我是从18年的春季学期到25年的",
+      "timestamp": 1773316850.2394428,
+      "datetime": "2026-03-12 20:00:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 141,
+      "text": "这个春季学期，因为25年的秋季教学评估结果还没有出来，我不知道你们是怎么样评价我的，但我相信国内学生还是前5%",
+      "timestamp": 1773316860.500107,
+      "datetime": "2026-03-12 20:01:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 142,
+      "text": "，啊因为他们实实在在的有收获的",
+      "timestamp": 1773316864.074513,
+      "datetime": "2026-03-12 20:01:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 143,
+      "text": "，啊所以这是已经是连续15个学期教评都在前5%",
+      "timestamp": 1773316871.227148,
+      "datetime": "2026-03-12 20:01:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 144,
+      "text": "，而我的课堂也都是将近200人的课堂",
+      "timestamp": 1773316873.7784052,
+      "datetime": "2026-03-12 20:01:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 145,
+      "text": "，啊每个学期都是这么大的这样的课",
+      "timestamp": 1773316876.89215,
+      "datetime": "2026-03-12 20:01:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 146,
+      "text": "，所以偶尔一次进前5%可能是偶然对吧？那我连续这么15个学期都是前5%",
+      "timestamp": 1773316887.111176,
+      "datetime": "2026-03-12 20:01:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 147,
+      "text": "，那一定是对学生",
+      "timestamp": 1773316888.640191,
+      "datetime": "2026-03-12 20:01:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 148,
+      "text": "学生收获很多的，呀他收获了才可能说你的好，你说清华的学生",
+      "timestamp": 1773316895.794014,
+      "datetime": "2026-03-12 20:01:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 149,
+      "text": "，你能糊弄他们吗",
+      "timestamp": 1773316899.9296372,
+      "datetime": "2026-03-12 20:01:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 150,
+      "text": "？对不对",
+      "timestamp": 1773316902.4784188,
+      "datetime": "2026-03-12 20:01:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 151,
+      "text": "？啊所以他们的收获来自于哪？就是让他们过去给他们创造了这样的讨论的机会",
+      "timestamp": 1773316911.6739159,
+      "datetime": "2026-03-12 20:01:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 152,
+      "text": "，啊他们是真真正正的",
+      "timestamp": 1773316913.725024,
+      "datetime": "2026-03-12 20:01:53",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 153,
+      "text": "有收获了",
+      "timestamp": 1773316915.774534,
+      "datetime": "2026-03-12 20:01:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 154,
+      "text": "。啊所以呢经过上一个学期的情况，啊因为我也了解到在座的同学们的大部分的情况，啊所以这个学期呢我们也会采取，希望你们也能够真正的想要学的同学，你还是踏踏实实的",
+      "timestamp": 1773316933.18376,
+      "datetime": "2026-03-12 20:02:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 155,
+      "text": "认真对待",
+      "timestamp": 1773316936.241898,
+      "datetime": "2026-03-12 20:02:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 156,
+      "text": "，大和参与到和同学的讨论当中，那你一定是有收获的",
+      "timestamp": 1773316940.886382,
+      "datetime": "2026-03-12 20:02:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 157,
+      "text": "。啊因为仅仅靠你一个人去学，那很多东西学的是肤浅",
+      "timestamp": 1773316949.569039,
+      "datetime": "2026-03-12 20:02:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 158,
+      "text": "，但是跟同学们去交流一去讨论，噢可能噢原来问题还可以这样去想啊",
+      "timestamp": 1773316957.747778,
+      "datetime": "2026-03-12 20:02:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 159,
+      "text": "，你想不到的东西，他从另外一个侧面去思考，这样就把你的思维给打开了",
+      "timestamp": 1773316965.969633,
+      "datetime": "2026-03-12 20:02:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 160,
+      "text": "，啊那个思路就拓宽了",
+      "timestamp": 1773316970.048977,
+      "datetime": "2026-03-12 20:02:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 161,
+      "text": "，啊当你的思路拓宽了，那你解决问题的方式那就多了，唉一个方法行不通，我可以采取别的方式",
+      "timestamp": 1773316980.8230221,
+      "datetime": "2026-03-12 20:03:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 162,
+      "text": "。啊",
+      "timestamp": 1773316986.960855,
+      "datetime": "2026-03-12 20:03:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 163,
+      "text": "好",
+      "timestamp": 1773316989.503563,
+      "datetime": "2026-03-12 20:03:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 164,
+      "text": "，那么接下来呢我们回到课堂上来啊",
+      "timestamp": 1773316993.09593,
+      "datetime": "2026-03-12 20:03:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 165,
+      "text": "。好，那么我们看到了函数F在X0Y0这一点处，沿着梯度方向函数值增加是最快的",
+      "timestamp": 1773317002.3260858,
+      "datetime": "2026-03-12 20:03:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 166,
+      "text": "。好，那么",
+      "timestamp": 1773317004.8814569,
+      "datetime": "2026-03-12 20:03:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 167,
+      "text": "并且它的最大值是什么呀",
+      "timestamp": 1773317007.944404,
+      "datetime": "2026-03-12 20:03:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 168,
+      "text": "？最大值F在X0Y0这一点处",
+      "timestamp": 1773317015.604953,
+      "datetime": "2026-03-12 20:03:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated": "2026-03-06T19:59:44.714986",
+  "total_entries": 2,
+  "history": [
+    {
+      "id": 0,
+      "text": " Produc是你的usual。The不me",
+      "timestamp": 1772798312.851069,
+      "datetime": "2026-03-06 19:58:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "。Ring the business sugar G",
+      "timestamp": 1772798314.8892338,
+      "datetime": "2026-03-06 19:58:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}

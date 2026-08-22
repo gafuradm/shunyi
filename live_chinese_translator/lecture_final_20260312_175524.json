@@ -1,0 +1,538 @@
+{
+  "generated": "2026-03-12T17:55:24.499034",
+  "total_entries": 38,
+  "history": [
+    {
+      "id": 0,
+      "text": "三国志",
+      "timestamp": 1773308748.1516118,
+      "datetime": "2026-03-12 17:45:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "曹孟德啊",
+      "timestamp": 1773308765.059674,
+      "datetime": "2026-03-12 17:46:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "、曹操",
+      "timestamp": 1773308766.585564,
+      "datetime": "2026-03-12 17:46:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 3,
+      "text": "侯爷兄",
+      "timestamp": 1773308795.7628229,
+      "datetime": "2026-03-12 17:46:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "。对你00",
+      "timestamp": 1773308820.3201,
+      "datetime": "2026-03-12 17:47:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "。嗯嗯",
+      "timestamp": 1773308821.8507469,
+      "datetime": "2026-03-12 17:47:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 6,
+      "text": "0",
+      "timestamp": 1773308825.988459,
+      "datetime": "2026-03-12 17:47:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "一一点",
+      "timestamp": 1773308827.519469,
+      "datetime": "2026-03-12 17:47:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "嗯嗯嗯",
+      "timestamp": 1773308831.094391,
+      "datetime": "2026-03-12 17:47:11",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 9,
+      "text": "有我17 10我6度的",
+      "timestamp": 1773308858.216933,
+      "datetime": "2026-03-12 17:47:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "中学我",
+      "timestamp": 1773308914.034783,
+      "datetime": "2026-03-12 17:48:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "春秋",
+      "timestamp": 1773308917.098689,
+      "datetime": "2026-03-12 17:48:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 12,
+      "text": "。你嗯嗯",
+      "timestamp": 1773308992.380384,
+      "datetime": "2026-03-12 17:49:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "你们慢啦妈妈妈好了",
+      "timestamp": 1773308996.973238,
+      "datetime": "2026-03-12 17:49:56",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "。那没没没没没噜",
+      "timestamp": 1773309004.128094,
+      "datetime": "2026-03-12 17:50:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 15,
+      "text": "。嗯嗯",
+      "timestamp": 1773309006.18151,
+      "datetime": "2026-03-12 17:50:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "嗯嗯问",
+      "timestamp": 1773309067.601894,
+      "datetime": "2026-03-12 17:51:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 17,
+      "text": "。能能能啦啦啦",
+      "timestamp": 1773309076.339231,
+      "datetime": "2026-03-12 17:51:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "。嗯能能能能",
+      "timestamp": 1773309078.380558,
+      "datetime": "2026-03-12 17:51:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 19,
+      "text": "。能能",
+      "timestamp": 1773309081.444993,
+      "datetime": "2026-03-12 17:51:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 20,
+      "text": "。今天就是你来",
+      "timestamp": 1773309088.09006,
+      "datetime": "2026-03-12 17:51:28",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "嗯嗯嗯你",
+      "timestamp": 1773309090.12803,
+      "datetime": "2026-03-12 17:51:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "变脸",
+      "timestamp": 1773309181.295115,
+      "datetime": "2026-03-12 17:53:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "嗯嗯嗯嗯嗯",
+      "timestamp": 1773309203.830705,
+      "datetime": "2026-03-12 17:53:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "嗯嗯嗯嗯",
+      "timestamp": 1773309206.3699641,
+      "datetime": "2026-03-12 17:53:26",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 25,
+      "text": "嗯嗯嗯嗯嗯",
+      "timestamp": 1773309213.52141,
+      "datetime": "2026-03-12 17:53:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 26,
+      "text": "嗯嗯好的好喽好喽",
+      "timestamp": 1773309216.6366022,
+      "datetime": "2026-03-12 17:53:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "。谢候了，你老了",
+      "timestamp": 1773309220.206097,
+      "datetime": "2026-03-12 17:53:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 28,
+      "text": "。10给的",
+      "timestamp": 1773309223.272676,
+      "datetime": "2026-03-12 17:53:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "的爹呀",
+      "timestamp": 1773309224.806326,
+      "datetime": "2026-03-12 17:53:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "，嗯你",
+      "timestamp": 1773309226.33455,
+      "datetime": "2026-03-12 17:53:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 31,
+      "text": "1000多问题",
+      "timestamp": 1773309227.3571992,
+      "datetime": "2026-03-12 17:53:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "。嗯问",
+      "timestamp": 1773309229.4028878,
+      "datetime": "2026-03-12 17:53:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 33,
+      "text": "三no no no啦啦",
+      "timestamp": 1773309232.4657311,
+      "datetime": "2026-03-12 17:53:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "。嗯妈没",
+      "timestamp": 1773309237.6247602,
+      "datetime": "2026-03-12 17:53:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 35,
+      "text": "。No",
+      "timestamp": 1773309254.481736,
+      "datetime": "2026-03-12 17:54:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": ". 嗯呢",
+      "timestamp": 1773309260.6563468,
+      "datetime": "2026-03-12 17:54:20",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 37,
+      "text": "叮叮叮叮",
+      "timestamp": 1773309322.6017432,
+      "datetime": "2026-03-12 17:55:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    }
+  ]
+}
