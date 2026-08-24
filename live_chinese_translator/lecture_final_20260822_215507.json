@@ -1,0 +1,1812 @@
+{
+  "generated": "2026-08-22T21:55:07.300967",
+  "total_entries": 129,
+  "history": [
+    {
+      "id": 0,
+      "text": "没有处理意见",
+      "timestamp": 1787397502.5722911,
+      "datetime": "2026-08-22 19:18:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 1,
+      "text": "不是",
+      "timestamp": 1787397510.275004,
+      "datetime": "2026-08-22 19:18:30",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 2,
+      "text": "不是",
+      "timestamp": 1787397510.7847838,
+      "datetime": "2026-08-22 19:18:30",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 3,
+      "text": "一个人在爱你",
+      "timestamp": 1787397729.387125,
+      "datetime": "2026-08-22 19:22:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 4,
+      "text": "播放",
+      "timestamp": 1787398043.7717388,
+      "datetime": "2026-08-22 19:27:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 5,
+      "text": "播放",
+      "timestamp": 1787398044.288794,
+      "datetime": "2026-08-22 19:27:24",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 6,
+      "text": "本来就说",
+      "timestamp": 1787398059.122057,
+      "datetime": "2026-08-22 19:27:39",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 7,
+      "text": "知道",
+      "timestamp": 1787398112.860201,
+      "datetime": "2026-08-22 19:28:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 8,
+      "text": "知道",
+      "timestamp": 1787398113.382047,
+      "datetime": "2026-08-22 19:28:33",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 9,
+      "text": "等等等等",
+      "timestamp": 1787398120.580417,
+      "datetime": "2026-08-22 19:28:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 10,
+      "text": "老师好",
+      "timestamp": 1787398218.88911,
+      "datetime": "2026-08-22 19:30:18",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 11,
+      "text": "老师好",
+      "timestamp": 1787398219.3728142,
+      "datetime": "2026-08-22 19:30:19",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 12,
+      "text": "同学们好",
+      "timestamp": 1787398227.5793579,
+      "datetime": "2026-08-22 19:30:27",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 13,
+      "text": "大家好",
+      "timestamp": 1787398234.225845,
+      "datetime": "2026-08-22 19:30:34",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 14,
+      "text": "大家好",
+      "timestamp": 1787398234.756702,
+      "datetime": "2026-08-22 19:30:34",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 15,
+      "text": "数学",
+      "timestamp": 1787398241.402784,
+      "datetime": "2026-08-22 19:30:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 16,
+      "text": "数学",
+      "timestamp": 1787398241.927209,
+      "datetime": "2026-08-22 19:30:41",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 17,
+      "text": "播放",
+      "timestamp": 1787398370.916974,
+      "datetime": "2026-08-22 19:32:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 18,
+      "text": "播放",
+      "timestamp": 1787398371.439005,
+      "datetime": "2026-08-22 19:32:51",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 19,
+      "text": "拿到我明白。",
+      "timestamp": 1787398419.589077,
+      "datetime": "2026-08-22 19:33:39",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 20,
+      "text": "这都是一种模式",
+      "timestamp": 1787398422.6147,
+      "datetime": "2026-08-22 19:33:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 21,
+      "text": "，手球手球吧",
+      "timestamp": 1787398425.6825972,
+      "datetime": "2026-08-22 19:33:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 22,
+      "text": "因为他是",
+      "timestamp": 1787398444.7331011,
+      "datetime": "2026-08-22 19:34:04",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 23,
+      "text": "求你",
+      "timestamp": 1787398495.868139,
+      "datetime": "2026-08-22 19:34:55",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 24,
+      "text": "求你",
+      "timestamp": 1787398496.494247,
+      "datetime": "2026-08-22 19:34:56",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 25,
+      "text": " S7.",
+      "timestamp": 1787398529.155057,
+      "datetime": "2026-08-22 19:35:29",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 26,
+      "text": "你别跑",
+      "timestamp": 1787398902.9059782,
+      "datetime": "2026-08-22 19:41:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 27,
+      "text": "你别跑",
+      "timestamp": 1787398903.568314,
+      "datetime": "2026-08-22 19:41:43",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 28,
+      "text": "你拍个照",
+      "timestamp": 1787399016.0469272,
+      "datetime": "2026-08-22 19:43:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 29,
+      "text": "北京理工去旅行",
+      "timestamp": 1787399056.4803462,
+      "datetime": "2026-08-22 19:44:16",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 30,
+      "text": "按照。",
+      "timestamp": 1787399181.4251,
+      "datetime": "2026-08-22 19:46:21",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 31,
+      "text": "问你吃多少钱",
+      "timestamp": 1787399198.918278,
+      "datetime": "2026-08-22 19:46:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 32,
+      "text": "Entschuldigung, aber ich kann aus den von dir bereitgestellten Daten keine Zusammenfassung erstellen. Die angegebenen Einträge enthalten nur Zeitstempel (Daten von 2026) und den Wert `None` – es gibt keinerlei inhaltliche Informationen wie Text, Folien, Notizen oder Transkripte.\n\nBitte gib mir den **tatsächlichen Inhalt der Vorlesung** (z. B. als Text, Stichpunkte, Mitschriften oder eine Zusammenfassung der Folien). Sobald du mir die Inhalte zur Verfügung stellst, strukturiere ich sie gerne wie gewünscht:\n\n1. **Hauptthemen**  \n2. **Wichtige Formeln/Konzepte**  \n3. **Wichtige Schlussfolgerungen**  \n4. **Besprochene Fragen**  \n\nIch helfe dir dann gerne auf Deutsch weiter!",
+      "timestamp": 1787399439.557178,
+      "datetime": "2026-08-22 19:50:39",
+      "speaker": "assistant",
+      "type": "summary",
+      "language": "de",
+      "translation": null,
+      "metadata": {
+        "time_range": "all",
+        "student_id": "2004990038"
+      }
+    },
+    {
+      "id": 33,
+      "text": "民",
+      "timestamp": 1787399863.934767,
+      "datetime": "2026-08-22 19:57:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 34,
+      "text": "民",
+      "timestamp": 1787399864.437533,
+      "datetime": "2026-08-22 19:57:44",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 35,
+      "text": "150",
+      "timestamp": 1787399877.2404401,
+      "datetime": "2026-08-22 19:57:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 36,
+      "text": "150",
+      "timestamp": 1787399878.2239292,
+      "datetime": "2026-08-22 19:57:58",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 37,
+      "text": "租鞋什么意思你知道",
+      "timestamp": 1787399990.597079,
+      "datetime": "2026-08-22 19:59:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 38,
+      "text": "走走走",
+      "timestamp": 1787400001.630806,
+      "datetime": "2026-08-22 20:00:01",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 39,
+      "text": "走走走",
+      "timestamp": 1787400002.153415,
+      "datetime": "2026-08-22 20:00:02",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 40,
+      "text": "一首内地",
+      "timestamp": 1787400283.7332668,
+      "datetime": "2026-08-22 20:04:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 41,
+      "text": "贝贝",
+      "timestamp": 1787400494.212117,
+      "datetime": "2026-08-22 20:08:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 42,
+      "text": "贝贝",
+      "timestamp": 1787400494.7297568,
+      "datetime": "2026-08-22 20:08:14",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 43,
+      "text": "谁知",
+      "timestamp": 1787400666.929004,
+      "datetime": "2026-08-22 20:11:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 44,
+      "text": "谁知",
+      "timestamp": 1787400667.244962,
+      "datetime": "2026-08-22 20:11:07",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 45,
+      "text": "去4店给宝骏",
+      "timestamp": 1787400691.8272471,
+      "datetime": "2026-08-22 20:11:31",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 46,
+      "text": "估计是",
+      "timestamp": 1787400837.72506,
+      "datetime": "2026-08-22 20:13:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 47,
+      "text": "估计是",
+      "timestamp": 1787400838.260067,
+      "datetime": "2026-08-22 20:13:58",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 48,
+      "text": "日本鬼",
+      "timestamp": 1787400944.853277,
+      "datetime": "2026-08-22 20:15:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 49,
+      "text": "日本鬼",
+      "timestamp": 1787400947.3369129,
+      "datetime": "2026-08-22 20:15:47",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 50,
+      "text": "知道",
+      "timestamp": 1787400969.00861,
+      "datetime": "2026-08-22 20:16:09",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 51,
+      "text": "知道",
+      "timestamp": 1787400969.348353,
+      "datetime": "2026-08-22 20:16:09",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 52,
+      "text": "我觉得不留什么意思",
+      "timestamp": 1787400993.891237,
+      "datetime": "2026-08-22 20:16:33",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 53,
+      "text": "英文",
+      "timestamp": 1787400998.4668128,
+      "datetime": "2026-08-22 20:16:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 54,
+      "text": "英文",
+      "timestamp": 1787400998.976968,
+      "datetime": "2026-08-22 20:16:38",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 55,
+      "text": "小艺小艺去哪儿",
+      "timestamp": 1787401014.908329,
+      "datetime": "2026-08-22 20:16:54",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 56,
+      "text": "屏幕模式更快点",
+      "timestamp": 1787401044.601239,
+      "datetime": "2026-08-22 20:17:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 57,
+      "text": "多谢",
+      "timestamp": 1787401055.428849,
+      "datetime": "2026-08-22 20:17:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 58,
+      "text": "多谢",
+      "timestamp": 1787401055.8404539,
+      "datetime": "2026-08-22 20:17:35",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 59,
+      "text": "打开",
+      "timestamp": 1787401066.61785,
+      "datetime": "2026-08-22 20:17:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 60,
+      "text": "打开",
+      "timestamp": 1787401067.0963001,
+      "datetime": "2026-08-22 20:17:47",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 61,
+      "text": "5:00的汽车灯",
+      "timestamp": 1787401175.166421,
+      "datetime": "2026-08-22 20:19:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 62,
+      "text": "远距离",
+      "timestamp": 1787401182.8403258,
+      "datetime": "2026-08-22 20:19:42",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 63,
+      "text": "远距离",
+      "timestamp": 1787401186.918263,
+      "datetime": "2026-08-22 20:19:46",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 64,
+      "text": "呀，他都这么文明",
+      "timestamp": 1787401210.587083,
+      "datetime": "2026-08-22 20:20:10",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 65,
+      "text": "啦啦啦啦啦",
+      "timestamp": 1787401295.496841,
+      "datetime": "2026-08-22 20:21:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 66,
+      "text": "棒棒",
+      "timestamp": 1787401304.1578948,
+      "datetime": "2026-08-22 20:21:44",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 67,
+      "text": "棒棒",
+      "timestamp": 1787401304.67783,
+      "datetime": "2026-08-22 20:21:44",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 68,
+      "text": "小白",
+      "timestamp": 1787401312.442754,
+      "datetime": "2026-08-22 20:21:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 69,
+      "text": "小白",
+      "timestamp": 1787401312.9234922,
+      "datetime": "2026-08-22 20:21:52",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 70,
+      "text": "租赁",
+      "timestamp": 1787401317.481958,
+      "datetime": "2026-08-22 20:21:57",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 71,
+      "text": "租赁",
+      "timestamp": 1787401318.0004191,
+      "datetime": "2026-08-22 20:21:58",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 72,
+      "text": "哈哈哈哈哈哈",
+      "timestamp": 1787401421.3838239,
+      "datetime": "2026-08-22 20:23:41",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 73,
+      "text": "起风",
+      "timestamp": 1787401508.6444008,
+      "datetime": "2026-08-22 20:25:08",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 74,
+      "text": "起风",
+      "timestamp": 1787401508.9630961,
+      "datetime": "2026-08-22 20:25:08",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 75,
+      "text": "过滤器",
+      "timestamp": 1787401522.2860842,
+      "datetime": "2026-08-22 20:25:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 76,
+      "text": "过滤器",
+      "timestamp": 1787401522.7987509,
+      "datetime": "2026-08-22 20:25:22",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 77,
+      "text": "我们也要去",
+      "timestamp": 1787401532.535136,
+      "datetime": "2026-08-22 20:25:32",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 78,
+      "text": "女的。",
+      "timestamp": 1787401642.198741,
+      "datetime": "2026-08-22 20:27:22",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 79,
+      "text": "放一首小电脑",
+      "timestamp": 1787402025.582124,
+      "datetime": "2026-08-22 20:33:45",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 80,
+      "text": "绝对不",
+      "timestamp": 1787402503.507314,
+      "datetime": "2026-08-22 20:41:43",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 81,
+      "text": "绝对不",
+      "timestamp": 1787402504.018729,
+      "datetime": "2026-08-22 20:41:44",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 82,
+      "text": "一直都滚",
+      "timestamp": 1787402507.16942,
+      "datetime": "2026-08-22 20:41:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 83,
+      "text": "你们的督促共同工作",
+      "timestamp": 1787402544.0336251,
+      "datetime": "2026-08-22 20:42:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 84,
+      "text": "为什么往里走",
+      "timestamp": 1787402594.657384,
+      "datetime": "2026-08-22 20:43:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 85,
+      "text": "我不愿意",
+      "timestamp": 1787402618.259736,
+      "datetime": "2026-08-22 20:43:38",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 86,
+      "text": "你这个",
+      "timestamp": 1787402627.998802,
+      "datetime": "2026-08-22 20:43:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 87,
+      "text": "你这个",
+      "timestamp": 1787402628.431836,
+      "datetime": "2026-08-22 20:43:48",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 88,
+      "text": "我说",
+      "timestamp": 1787402699.110888,
+      "datetime": "2026-08-22 20:44:59",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 89,
+      "text": "拿出来",
+      "timestamp": 1787402700.099704,
+      "datetime": "2026-08-22 20:45:00",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 1,
+        "is_final": false
+      }
+    },
+    {
+      "id": 90,
+      "text": "拿出来",
+      "timestamp": 1787402700.621141,
+      "datetime": "2026-08-22 20:45:00",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 91,
+      "text": "或者",
+      "timestamp": 1787402729.795969,
+      "datetime": "2026-08-22 20:45:29",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 92,
+      "text": "或者",
+      "timestamp": 1787402730.301451,
+      "datetime": "2026-08-22 20:45:30",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 93,
+      "text": "答案",
+      "timestamp": 1787402894.245386,
+      "datetime": "2026-08-22 20:48:14",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 94,
+      "text": "答案",
+      "timestamp": 1787402894.956935,
+      "datetime": "2026-08-22 20:48:14",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 95,
+      "text": "导航导航",
+      "timestamp": 1787403493.231112,
+      "datetime": "2026-08-22 20:58:13",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 96,
+      "text": "啊",
+      "timestamp": 1787403562.857226,
+      "datetime": "2026-08-22 20:59:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 97,
+      "text": "啊",
+      "timestamp": 1787403563.343224,
+      "datetime": "2026-08-22 20:59:23",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 98,
+      "text": "我在上次就是这个帽子",
+      "timestamp": 1787403617.6319911,
+      "datetime": "2026-08-22 21:00:17",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 99,
+      "text": "4月什么",
+      "timestamp": 1787403640.148915,
+      "datetime": "2026-08-22 21:00:40",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 100,
+      "text": "要不来必须明白吗",
+      "timestamp": 1787403695.960522,
+      "datetime": "2026-08-22 21:01:35",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 101,
+      "text": "啊，谢谢谢谢。",
+      "timestamp": 1787403731.792462,
+      "datetime": "2026-08-22 21:02:11",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 102,
+      "text": "大家都懂",
+      "timestamp": 1787403742.026398,
+      "datetime": "2026-08-22 21:02:22",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 103,
+      "text": "嗯哼",
+      "timestamp": 1787403768.1350558,
+      "datetime": "2026-08-22 21:02:48",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 104,
+      "text": "嗯哼",
+      "timestamp": 1787403768.64627,
+      "datetime": "2026-08-22 21:02:48",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 105,
+      "text": "嗯嗯嗯",
+      "timestamp": 1787403772.748016,
+      "datetime": "2026-08-22 21:02:52",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 106,
+      "text": "嗯嗯嗯",
+      "timestamp": 1787403773.266283,
+      "datetime": "2026-08-22 21:02:53",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 107,
+      "text": "到餐厅故事",
+      "timestamp": 1787403826.5213299,
+      "datetime": "2026-08-22 21:03:46",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 108,
+      "text": "以前我一直跟我说",
+      "timestamp": 1787403842.963608,
+      "datetime": "2026-08-22 21:04:02",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 109,
+      "text": "关闭音乐",
+      "timestamp": 1787403846.4970582,
+      "datetime": "2026-08-22 21:04:06",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 110,
+      "text": "而且记录不对过目",
+      "timestamp": 1787403864.43484,
+      "datetime": "2026-08-22 21:04:24",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 111,
+      "text": "你也听不到",
+      "timestamp": 1787403876.687069,
+      "datetime": "2026-08-22 21:04:36",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 112,
+      "text": "我也不知道",
+      "timestamp": 1787403907.4152708,
+      "datetime": "2026-08-22 21:05:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 113,
+      "text": "有关系就行了",
+      "timestamp": 1787404275.026142,
+      "datetime": "2026-08-22 21:11:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 114,
+      "text": "先别走前面",
+      "timestamp": 1787404335.4427269,
+      "datetime": "2026-08-22 21:12:15",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 115,
+      "text": "只有",
+      "timestamp": 1787404687.15081,
+      "datetime": "2026-08-22 21:18:07",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 116,
+      "text": "只有",
+      "timestamp": 1787404687.769502,
+      "datetime": "2026-08-22 21:18:07",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 117,
+      "text": "好吃的",
+      "timestamp": 1787404821.804725,
+      "datetime": "2026-08-22 21:20:21",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 118,
+      "text": "好吃的",
+      "timestamp": 1787404822.3186162,
+      "datetime": "2026-08-22 21:20:22",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 119,
+      "text": "摄像头",
+      "timestamp": 1787405031.220216,
+      "datetime": "2026-08-22 21:23:51",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 120,
+      "text": "摄像头",
+      "timestamp": 1787405031.865547,
+      "datetime": "2026-08-22 21:23:51",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 121,
+      "text": "唉，还可以",
+      "timestamp": 1787405389.634058,
+      "datetime": "2026-08-22 21:29:49",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 122,
+      "text": "眼睛不着急",
+      "timestamp": 1787406263.870379,
+      "datetime": "2026-08-22 21:44:23",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 123,
+      "text": "有点说啊",
+      "timestamp": 1787406407.253876,
+      "datetime": "2026-08-22 21:46:47",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 124,
+      "text": "我给你",
+      "timestamp": 1787406410.816936,
+      "datetime": "2026-08-22 21:46:50",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 125,
+      "text": "我给你",
+      "timestamp": 1787406411.325462,
+      "datetime": "2026-08-22 21:46:51",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 126,
+      "text": "声音小",
+      "timestamp": 1787406605.895155,
+      "datetime": "2026-08-22 21:50:05",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    },
+    {
+      "id": 127,
+      "text": "声音小",
+      "timestamp": 1787406606.407251,
+      "datetime": "2026-08-22 21:50:06",
+      "speaker": "teacher",
+      "type": "recognition_final",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 2,
+        "is_final": true
+      }
+    },
+    {
+      "id": 128,
+      "text": "非利沃尼克",
+      "timestamp": 1787406877.7875881,
+      "datetime": "2026-08-22 21:54:37",
+      "speaker": "teacher",
+      "type": "recognition_interim",
+      "language": "zh",
+      "translation": null,
+      "metadata": {
+        "status": 0,
+        "is_final": false
+      }
+    }
+  ]
+}
