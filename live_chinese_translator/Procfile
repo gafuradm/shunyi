@@ -1,0 +1,5 @@
+# Procfile для облачного хостинга (Railway / Render / Fly.io)
+# Запускает сервер в облачном режиме (CLOUD_MODE=1) — без локального микрофона.
+# Панель студента, ассистент Xiao Shu, история, верификация и WebRTC работают 24/7.
+# SocketIO настроен на async_mode='threading', поэтому используем обычный sync worker.
+web: gunicorn -w 1 --threads 8 --bind 0.0.0.0:$PORT app:app

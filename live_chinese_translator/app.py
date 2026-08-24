@@ -3,7 +3,8 @@ import threading
 import queue as q
 import time
 import numpy as np
-import sounddevice as sd
+# sounddevice импортируется лениво внутри audio_thread(), т.к. в облачном
+# режиме (CLOUD_MODE=1) он не нужен и может отсутствовать в окружении.
 import requests
 import json
 import base64
@@ -87,6 +88,13 @@ def signal_handler(sig, frame):
             logger.info(f"💾 Final lecture saved to {filename}")
         except Exception as e:
             logger.error(f"Final save error: {e}")
+        
+        # Автоматически отправляем лекцию в облачный архив (если настроено)
+        if not CLOUD_MODE and CLOUD_ARCHIVE_URL:
+            try:
+                save_lecture_to_archive()
+            except Exception as e:
+                logger.error(f"Cloud archive sync error: {e}")
     
     is_running = False
     time.sleep(1)
@@ -120,6 +128,23 @@ MAX_INTERMEDIATE_AGE = 3.0
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
+
+# ================= Облачный режим (гибридная схема) =================
+# CLOUD_MODE=1 => сервер работает в облаке 24/7 БЕЗ локального микрофона:
+# панель студента, ассистент Xiao Shu, история, верификация, WebRTC.
+# Захват микрофона и распознавание речи остаются на Mac преподавателя.
+# CLOUD_MODE=0/не задано => обычный локальный режим с микрофоном.
+CLOUD_MODE = os.getenv("CLOUD_MODE", "0") == "1"
+
+# ================= Архив лекций =================
+# Облако хранит прошедшие лекции, чтобы студенты могли их смотреть 24/7.
+# На Mac (локальный режим) CLOUD_ARCHIVE_URL указывает на облачный сервер,
+# куда после лекции автоматически отправляется запись.
+ARCHIVE_DIR = os.getenv("ARCHIVE_DIR", "archive")
+# Секретный ключ для защиты загрузки лекций в архив (задаётся в облаке и на Mac)
+ARCHIVE_UPLOAD_KEY = os.getenv("ARCHIVE_UPLOAD_KEY", "change_me_archive_key")
+# URL облачного сервера (задаётся на Mac для автоматической отправки лекций)
+CLOUD_ARCHIVE_URL = os.getenv("CLOUD_ARCHIVE_URL", "").rstrip("/")
 
 # Пул потоков для DeepSeek (увеличен для параллельных переводов нескольким клиентам)
 deepseek_executor = ThreadPoolExecutor(max_workers=8)
@@ -542,6 +567,17 @@ translation_cache = OrderedDict()
 MAX_CACHE = 1000
 ws_connection = None
 is_running = True
+
+# В облачном режиме (gunicorn app:app) блок __main__ не выполняется, поэтому
+# учебники загружаем здесь, если они есть в деплое (опционально, для контекста
+# ассистента Xiao Shu). Файлы не обязательны — без них ассистент тоже работает.
+if CLOUD_MODE:
+    try:
+        for _pdf in ("matan.pdf", "linalg.pdf"):
+            if os.path.exists(_pdf):
+                load_textbook_terms(_pdf)
+    except Exception as _e:
+        logger.warning(f"⚠️ Cloud textbook load skipped: {_e}")
 # Активна ли текущая сессия распознавания iFLYTEK. Сервер Short Form ASR сам
 # финализирует сессию по VAD (тишина ~10-11с), присылая status:2 (часто с пустым
 # текстом). После этого слать в сокет нельзя — сервер отвечает "invalid handle" и
@@ -915,6 +951,10 @@ def audio_callback(indata, frames, time_info, status):
 
 def audio_thread():
     logger.info("🎤 Starting optimized audio capture...")
+    
+    # Ленивый импорт: sounddevice нужен только здесь (локальный микрофон).
+    # В облачном режиме (CLOUD_MODE=1) этот поток не запускается вовсе.
+    import sounddevice as sd
     
     # Явно выбираем реальный микрофон (не BlackHole/WeMeet/агрегатное),
     # иначе device=None в фоновом процессе может захватить виртуальное
@@ -1398,6 +1438,102 @@ def auto_save_lecture():
         logger.info(f"💾 Auto-saved to {filename}")
     except Exception as e:
         logger.error(f"Auto-save error: {e}")
+
+# ================= Архив лекций =================
+def _archive_path(lecture_id):
+    """Безопасный путь к файлу лекции в архиве (защита от path traversal)."""
+    safe_id = os.path.basename(str(lecture_id))
+    return os.path.join(ARCHIVE_DIR, f"{safe_id}.json")
+
+def save_lecture_to_archive(lecture_id=None, title=None, history=None):
+    """Сохраняет лекцию в архив.
+    - В облаке (CLOUD_MODE=1): пишет файл в ARCHIVE_DIR.
+    - На Mac (локально): отправляет лекцию в облако через CLOUD_ARCHIVE_URL.
+    Возвращает (ok, message).
+    """
+    if history is None:
+        history = list(LECTURE_HISTORY)
+    if not history:
+        return False, "No lecture content to archive"
+
+    if lecture_id is None:
+        lecture_id = datetime.now().strftime('%Y%m%d_%H%M%S')
+    if title is None:
+        title = f"Lecture {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+
+    payload = {
+        "id": str(lecture_id),
+        "title": title,
+        "generated": datetime.now().isoformat(),
+        "total_entries": len(history),
+        "history": history,
+    }
+
+    # На Mac: отправляем в облако
+    if not CLOUD_MODE and CLOUD_ARCHIVE_URL:
+        try:
+            resp = requests.post(
+                f"{CLOUD_ARCHIVE_URL}/api/archive/upload",
+                json=payload,
+                headers={"X-Archive-Key": ARCHIVE_UPLOAD_KEY},
+                timeout=30,
+            )
+            if resp.status_code == 200:
+                logger.info(f"☁️ Lecture archived to cloud: {lecture_id}")
+                return True, "Archived to cloud"
+            logger.warning(f"⚠️ Cloud archive upload failed ({resp.status_code}): {resp.text[:200]}")
+            return False, f"Cloud upload failed ({resp.status_code})"
+        except Exception as e:
+            logger.error(f"Cloud archive upload error: {e}")
+            return False, f"Cloud upload error: {e}"
+
+    # В облаке: пишем файл
+    try:
+        os.makedirs(ARCHIVE_DIR, exist_ok=True)
+        with open(_archive_path(lecture_id), "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"💾 Lecture archived locally: {lecture_id}")
+        return True, "Archived locally"
+    except Exception as e:
+        logger.error(f"Local archive save error: {e}")
+        return False, f"Local archive error: {e}"
+
+def list_archive_lectures():
+    """Возвращает список лекций из архива (метаданные, без полного содержимого)."""
+    if not os.path.isdir(ARCHIVE_DIR):
+        return []
+    lectures = []
+    try:
+        for fname in sorted(os.listdir(ARCHIVE_DIR), reverse=True):
+            if not fname.endswith(".json"):
+                continue
+            fpath = os.path.join(ARCHIVE_DIR, fname)
+            try:
+                with open(fpath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                lectures.append({
+                    "id": data.get("id", fname[:-5]),
+                    "title": data.get("title", fname[:-5]),
+                    "generated": data.get("generated", ""),
+                    "total_entries": data.get("total_entries", 0),
+                })
+            except Exception:
+                continue
+    except Exception as e:
+        logger.error(f"Archive list error: {e}")
+    return lectures
+
+def read_archive_lecture(lecture_id):
+    """Возвращает полное содержимое лекции из архива или None."""
+    fpath = _archive_path(lecture_id)
+    if not os.path.isfile(fpath):
+        return None
+    try:
+        with open(fpath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Archive read error: {e}")
+        return None
 
 # ================= Languages =================
 LANGUAGES = {
@@ -2828,7 +2964,7 @@ body {
             ⚠️ Do not close this window
         </p>
     </div>
-    
+
     <div id="mainInterface" style="display: none;">
         <div class="controls">
             <select id="langSelect">
@@ -2868,6 +3004,8 @@ body {
                     <button onclick="exportLecture()">📥 Export</button>
                 </div>
             </div>
+
+            <button onclick="openArchive()" style="background: #2d3436; color: white;">🗂 Archive</button>
             
             <button onclick="checkScreenShareStatus()" style="background: #9b59b6; color: white;">📺 Check Stream</button>
             <button onclick="requestVerificationAgain()" style="margin-left: auto;">🔄 Change Code</button>
@@ -3135,6 +3273,72 @@ body {
         document.getElementById('historyModal').style.display = 'none';
     }
 
+    // ========== Архив лекций (прошедшие уроки) ==========
+    function openArchive() {
+        document.getElementById('modalTitle').innerHTML = '🗂 Lecture Archive';
+        showModal('Loading archive...');
+        fetch('/api/archive')
+            .then(r => r.json())
+            .then(data => {
+                const lectures = data.lectures || [];
+                if (lectures.length === 0) {
+                    showModal('<div style="text-align:center;color:#666;padding:30px;">📭 No archived lectures yet.<br>Archived lectures will appear here after each lesson.</div>');
+                    return;
+                }
+                let html = '<div style="margin-bottom:15px;color:#666;">Click a lecture to view its full content:</div>';
+                lectures.forEach(l => {
+                    const date = (l.generated || '').replace('T', ' ').slice(0, 16);
+                    html += `<div style="display:flex;justify-content:space-between;align-items:center;padding:12px;margin-bottom:8px;background:#f8f9fa;border:1px solid #dee2e6;border-radius:6px;cursor:pointer;" onclick="viewArchiveLecture('${l.id}')">
+                        <div>
+                            <strong>${l.title}</strong><br>
+                            <span style="color:#666;font-size:13px;">${date} · ${l.total_entries} entries</span>
+                        </div>
+                        <span style="color:#6c5ce7;">View →</span>
+                    </div>`;
+                });
+                showModal(html);
+            })
+            .catch(err => {
+                showModal('<div style="text-align:center;color:#e74c3c;padding:30px;">❌ Failed to load archive: ' + err + '</div>');
+            });
+    }
+
+    function viewArchiveLecture(id) {
+        document.getElementById('modalTitle').innerHTML = '🗂 Lecture Content';
+        showModal('Loading lecture...');
+        fetch('/api/archive/' + encodeURIComponent(id))
+            .then(r => r.json())
+            .then(data => {
+                if (data.error) {
+                    showModal('<div style="text-align:center;color:#e74c3c;padding:30px;">❌ ' + data.error + '</div>');
+                    return;
+                }
+                const history = data.history || [];
+                let html = `<div style="margin-bottom:15px;">
+                    <h3 style="margin:0;">${data.title}</h3>
+                    <span style="color:#666;font-size:13px;">${(data.generated || '').replace('T', ' ').slice(0, 16)} · ${data.total_entries} entries</span>
+                </div>
+                <button onclick="openArchive()" style="margin-bottom:15px;padding:8px 14px;background:#6c5ce7;color:white;border:none;border-radius:5px;cursor:pointer;">← Back to archive</button>
+                <div style="max-height:60vh;overflow-y:auto;">`;
+                history.forEach(e => {
+                    const speaker = e.speaker === 'student' ? '👤 Student' : '👨‍🏫 Teacher';
+                    const type = (e.type || '').toUpperCase();
+                    html += `<div style="padding:10px;margin-bottom:8px;background:#f8f9fa;border-left:3px solid #6c5ce7;border-radius:4px;">
+                        <div style="color:#666;font-size:12px;">[${e.datetime}] ${speaker} · ${type}</div>
+                        <div style="margin-top:4px;">${e.text}</div>`;
+                    if (e.translation) {
+                        html += `<div style="margin-top:4px;color:#2e7d32;">→ ${e.translation}</div>`;
+                    }
+                    html += `</div>`;
+                });
+                html += '</div>';
+                showModal(html);
+            })
+            .catch(err => {
+                showModal('<div style="text-align:center;color:#e74c3c;padding:30px;">❌ Failed to load lecture: ' + err + '</div>');
+            });
+    }
+
     function toggleAssistant() {
         const assistantBox = document.getElementById("assistantBox");
         if (!assistantVisible) {
@@ -3152,6 +3356,7 @@ body {
         const query = queryInput.value.trim();
         
         if (!query) return;
+        
         if (!studentProfile.id) {
             showNotification("❌ Please enter student ID first", "error");
             return;
@@ -4119,6 +4324,59 @@ def api_screen_share_status():
         })
     return jsonify({"active": False})
 
+# ================= Архив лекций (API) =================
+@app.route("/api/archive/upload", methods=["POST"])
+def archive_upload():
+    """Принимает запись лекции от Mac и сохраняет в архив (только в облаке)."""
+    # Проверка секретного ключа
+    if request.headers.get("X-Archive-Key") != ARCHIVE_UPLOAD_KEY:
+        return jsonify({"error": "Unauthorized"}), 401
+    data = request.json
+    if not data or not data.get("history"):
+        return jsonify({"error": "Empty lecture"}), 400
+    lecture_id = data.get("id") or datetime.now().strftime('%Y%m%d_%H%M%S')
+    title = data.get("title") or f"Lecture {lecture_id}"
+    try:
+        os.makedirs(ARCHIVE_DIR, exist_ok=True)
+        payload = {
+            "id": str(lecture_id),
+            "title": title,
+            "generated": data.get("generated", datetime.now().isoformat()),
+            "total_entries": len(data["history"]),
+            "history": data["history"],
+        }
+        with open(_archive_path(lecture_id), "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"☁️ Lecture uploaded to archive: {lecture_id}")
+        return jsonify({"status": "success", "id": str(lecture_id)})
+    except Exception as e:
+        logger.error(f"Archive upload error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/archive", methods=["GET"])
+def archive_list():
+    """Список прошедших лекций в архиве."""
+    return jsonify({"lectures": list_archive_lectures()})
+
+@app.route("/api/archive/<lecture_id>", methods=["GET"])
+def archive_get(lecture_id):
+    """Полное содержимое конкретной лекции."""
+    data = read_archive_lecture(lecture_id)
+    if data is None:
+        return jsonify({"error": "Not found"}), 404
+    return jsonify(data)
+
+@app.route("/api/archive/<lecture_id>", methods=["DELETE"])
+def archive_delete(lecture_id):
+    """Удаление лекции из архива (защищено ключом)."""
+    if request.headers.get("X-Archive-Key") != ARCHIVE_UPLOAD_KEY:
+        return jsonify({"error": "Unauthorized"}), 401
+    fpath = _archive_path(lecture_id)
+    if os.path.isfile(fpath):
+        os.remove(fpath)
+        return jsonify({"status": "deleted"})
+    return jsonify({"error": "Not found"}), 404
+
 @app.route("/api/assistant", methods=["POST"])
 def assistant_query():
     data = request.json
@@ -4314,11 +4572,18 @@ if __name__ == "__main__":
     
     logger.info("🚀 Starting optimized server with full lecture history...")
     
-    audio_thread_obj = threading.Thread(target=audio_thread, daemon=True)
-    audio_thread_obj.start()
-    
-    ws_thread_obj = threading.Thread(target=ws_thread, daemon=True)
-    ws_thread_obj.start()
+    if CLOUD_MODE:
+        # Облачный режим (гибрид): нет локального микрофона, поэтому
+        # захват аудио и распознавание речи НЕ запускаются. Сервер работает
+        # 24/7, обслуживая панель студента, ассистента Xiao Shu, историю,
+        # верификацию и WebRTC-трансляцию. Распознавание идёт на Mac.
+        logger.info("☁️ CLOUD_MODE enabled: running without local microphone (24/7)")
+    else:
+        audio_thread_obj = threading.Thread(target=audio_thread, daemon=True)
+        audio_thread_obj.start()
+        
+        ws_thread_obj = threading.Thread(target=ws_thread, daemon=True)
+        ws_thread_obj.start()
     
     time.sleep(1)
     
@@ -4327,6 +4592,8 @@ if __name__ == "__main__":
     logger.info("🎓 Student: http://localhost:8000/student")
     logger.info("📊 Metrics: http://localhost:8000/api/metrics")
     logger.info("📺 Screen sharing: WebRTC P2P with Metered.ca TURN")
+    if CLOUD_MODE:
+        logger.info("☁️ Cloud instance: student panel + Xiao Shu available 24/7")
     
     try:
         socketio.run(app, 

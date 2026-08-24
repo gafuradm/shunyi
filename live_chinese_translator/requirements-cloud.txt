@@ -1,0 +1,15 @@
+# Облегчённые зависимости для ОБЛАЧНОГО режима (CLOUD_MODE=1).
+# Без sounddevice/opencv/pyautogui/mss/av — они нужны только для локального
+# захвата микрофона и экрана на Mac преподавателя.
+flask
+flask-socketio
+python-dotenv
+numpy
+requests
+websocket-client
+qrcode
+pymupdf
+python-socketio
+eventlet
+Pillow
+gunicorn

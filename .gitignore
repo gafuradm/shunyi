@@ -10,3 +10,22 @@ venv/
 
 # macOS
 .DS_Store
+
+# Файлы лекций и вспомогательные данные (не нужны для облака)
+lecture_*.txt
+lecture_final_*.json
+cop*.txt
+copy*.txt
+pf*.txt
+pfin*.txt
+pre_fin*.txt
+table.txt
+usk.txt
+xin.txt
+正.txt
+stat.html
+test.html
+bakery.py
+
+# Папка архива лекций (создаётся в облаке)
+archive/
