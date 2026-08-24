@@ -1,0 +1,49 @@
+# ===== Render Blueprint (автоматическое развёртывание в один клик) =====
+# Этот файл позволяет развернуть проект на Render без ручной настройки.
+# Как использовать:
+#   1. Зайдите на https://dashboard.render.com
+#   2. Нажмите "New +" → "Blueprint"
+#   3. Подключите репозиторий gafuradm/shunyi
+#   4. Render сам создаст сервис и попросит ввести переменные окружения
+#   5. Вставьте значения из вашего .env (см. шаги ниже)
+#   6. Нажмите "Apply" — и всё готово!
+
+services:
+  - type: web
+    name: shunyi
+    runtime: python
+    # Файлы проекта лежат в подпапке live_chinese_translator/
+    rootDir: live_chinese_translator
+    # Render сам найдёт Procfile и requirements-cloud.txt в rootDir
+    buildCommand: pip install -r requirements-cloud.txt
+    startCommand: gunicorn -w 1 --threads 8 --bind 0.0.0.0:$PORT app:app
+    # Бесплатный тариф (спит после 15 минут без активности)
+    plan: free
+    # Переменные окружения. Секреты (ключи) введите вручную при первом запуске.
+    envVars:
+      - key: CLOUD_MODE
+        value: "1"
+      - key: PORT
+        value: "8000"
+      - key: SESSION_SECRET
+        sync: false
+      - key: GEO_SECRET_KEY
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: XF_APPID
+        sync: false
+      - key: XF_API_KEY
+        sync: false
+      - key: XF_API_SECRET
+        sync: false
+      - key: TURN_USERNAME
+        sync: false
+      - key: TURN_CREDENTIAL
+        sync: false
+      - key: TURN_URLS
+        sync: false
+      - key: ARCHIVE_DIR
+        value: archive
+      - key: ARCHIVE_UPLOAD_KEY
+        sync: false
