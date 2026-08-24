@@ -39,13 +39,32 @@
    - `ARCHIVE_UPLOAD_KEY=придумайте_секретный_ключ` (для загрузки лекций с Mac)
 6. Railway выдаст публичный URL (например `https://xxx.up.railway.app`)
 
-### Вариант 2.2 — Render
-1. Зарегистрируйтесь на https://render.com
-2. **New → Web Service → Connect GitHub repo**
-3. Build Command: `pip install -r requirements-cloud.txt`
-4. Start Command: `gunicorn -w 1 --threads 8 --bind 0.0.0.0:$PORT app:app`
-5. В **Environment** добавьте те же переменные (см. выше)
-6. Render выдаст URL (например `https://xxx.onrender.com`)
+### Вариант 2.2 — Render (рекомендую, самый простой — один клик)
+В репозитории уже есть файл [`render.yaml`](../render.yaml) (Blueprint). Он автоматически
+настраивает всё: папку проекта, команды сборки/запуска и список переменных. Вам останется
+только вставить значения ключей.
+
+1. Зарегистрируйтесь на https://render.com (бесплатно, можно через GitHub)
+2. Нажмите **New +** → **Blueprint**
+3. Выберите репозиторий **gafuradm/shunyi** → **Connect**
+4. Render прочитает `render.yaml` и покажет сервис **shunyi**
+5. Нажмите **Apply** — начнётся сборка
+6. Render попросит ввести значения для переменных (те, что без значения). Вставьте:
+   - `DEEPSEEK_API_KEY` = `sk-8ed11dc0f76c4221a3671a49384c3ee7`
+   - `XF_APPID` = `gaa75000`
+   - `XF_API_KEY` = `f18645b181ae92f10732721aaa0fddf7`
+   - `XF_API_SECRET` = `02ace055b6084c501b471f7372a75f46`
+   - `SESSION_SECRET` = `my_lecture_secret_2026`
+   - `GEO_SECRET_KEY` = `8xJ2pL9mQ4rK7vN3bT6yH1cF5dA8wE0zR4tY2uI`
+   - `TURN_USERNAME` = `50dc17955496d0b5b1c40f74`
+   - `TURN_CREDENTIAL` = `RRu50O/yhCb7qtqb`
+   - `TURN_URLS` = `turn:global.relay.metered.ca:80,turn:global.relay.metered.ca:80?transport=tcp,turn:global.relay.metered.ca:443,turns:global.relay.metered.ca:443?transport=tcp`
+   - `ARCHIVE_UPLOAD_KEY` = придумайте любой секретный ключ (например `shunyi_archive_2026`)
+7. Нажмите **Apply** ещё раз — деплой завершится через несколько минут
+8. Render выдаст публичный URL (например `https://shunyi.onrender.com`)
+
+> 💡 **Бесплатный тариф Render** спит после 15 минут без активности. Когда студент
+> зайдёт на сайт, он «проснётся» автоматически (первая загрузка займёт ~30 секунд).
 
 ### Вариант 2.3 — Fly.io
 1. Установите `flyctl` и войдите: `fly auth login`
