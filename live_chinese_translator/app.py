@@ -2254,7 +2254,10 @@ def teacher():
             // === НАСТРОЙКА ПАРАМЕТРОВ КОДИРОВАНИЯ ===
             const sender = transceiver.sender;
             
-            // Даём время на инициализацию sender'а
+            // Даём время на инициализацию sender'а.
+            // ВАЖНО: не используем scaleResolutionDownBy — на macOS Chrome
+            // при screen sharing он может вызывать чёрный экран у получателя.
+            // Ограничиваем только битрейт и FPS, это безопасно.
             setTimeout(async () => {
                 try {
                     const params = sender.getParameters();
@@ -2267,53 +2270,26 @@ def teacher():
                     const isWholeScreen = settings.width > 1900 || settings.height > 1000;
                     
                     if (isWholeScreen) {
-                        console.log('📺 Обнаружен захват всего экрана, применяем агрессивные ограничения');
-                        // Для всего экрана более агрессивные настройки
-                        params.encodings[0].maxBitrate = 800_000;      // 800 kbps
-                        params.encodings[0].scaleResolutionDownBy = 2.5; // Уменьшаем больше
-                        params.encodings[0].maxFramerate = 10;        // 10 FPS для стабильности
+                        console.log('📺 Обнаружен захват всего экрана, применяем ограничения');
+                        params.encodings[0].maxBitrate = 1_000_000;  // 1 Mbps
+                        params.encodings[0].maxFramerate = 12;       // 12 FPS
                     } else {
-                        console.log('📺 Обнаружен захват окна/вкладки, применяем умеренные ограничения');
-                        // Для окна/вкладки умеренные настройки
-                        params.encodings[0].maxBitrate = 1_500_000;    // 1.5 Mbps
-                        params.encodings[0].scaleResolutionDownBy = 1.5; // Умеренное уменьшение
-                        params.encodings[0].maxFramerate = 15;         // 15 FPS
+                        console.log('📺 Обнаружен захват окна/вкладки, применяем ограничения');
+                        params.encodings[0].maxBitrate = 1_500_000;  // 1.5 Mbps
+                        params.encodings[0].maxFramerate = 15;       // 15 FPS
                     }
                     
-                    // Дополнительные настройки для стабильности
                     params.encodings[0].priority = "medium";
                     
                     await sender.setParameters(params);
                     console.log(`✅ Параметры кодирования установлены для студента ${studentId}:`, {
                         maxBitrate: params.encodings[0].maxBitrate,
-                        scaleResolutionDownBy: params.encodings[0].scaleResolutionDownBy,
                         maxFramerate: params.encodings[0].maxFramerate
                     });
-                    
-                    // Проверяем, что параметры применились
-                    const updatedParams = sender.getParameters();
-                    console.log('📊 Текущие параметры кодирования:', updatedParams.encodings[0]);
-                    
                 } catch (e) {
                     console.warn(`❌ Не удалось установить параметры кодирования для ${studentId}:`, e);
-                    
-                    // Fallback: пробуем более мягкие настройки
-                    try {
-                        setTimeout(async () => {
-                            const fallbackParams = sender.getParameters();
-                            if (!fallbackParams.encodings) {
-                                fallbackParams.encodings = [{}];
-                            }
-                            fallbackParams.encodings[0].maxBitrate = 1_000_000;
-                            fallbackParams.encodings[0].maxFramerate = 10;
-                            await sender.setParameters(fallbackParams);
-                            console.log(`✅ Fallback параметры установлены для ${studentId}`);
-                        }, 500);
-                    } catch (fallbackError) {
-                        console.error('❌ Fallback тоже не сработал:', fallbackError);
-                    }
                 }
-            }, 200); // Увеличил задержку для надежности
+            }, 200);
         });
     }
     
@@ -2427,22 +2403,6 @@ def teacher():
         }
     };
     
-    // Обработчик получения статистики
-    pc.onicecandidate = (event) => {
-        if (event.candidate) {
-            // Отправляем кандидата
-            if (pc.remoteDescription) {
-                socket.emit('webrtc_ice_candidate', {
-                    studentId: studentId,
-                    candidate: event.candidate,
-                    target: 'student'
-                });
-            } else {
-                pendingIceCandidates[studentId].push(event.candidate);
-            }
-        }
-    };
-    
     // Добавляем метод для очистки
     pc.cleanup = function() {
         console.log(`🧹 Очистка PeerConnection для ${studentId}`);
@@ -2456,26 +2416,19 @@ def teacher():
 }
     
     // ========== ЗАПУСК ТРАНСЛЯЦИИ ==========
+// Захват экрана без жёстких ограничений разрешения, чтобы работало
+// на любой ширине/высоте экрана (Mac, Windows, любой монитор).
+// Ограничиваем только FPS для стабильности. При AbortError просто
+// повторяем попытку (пользователь мог случайно закрыть окно выбора).
 async function safeGetDisplayMedia(constraints, retries = 3) {
-    const stepResolutions = [
-        { width: 1280, height: 720, fps: 15 },   // исходные
-        { width: 1024, height: 768, fps: 10 },   // пониженные
-        { width: 800, height: 600, fps: 8 }      // очень низкие
-    ];
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
             console.log(`Attempt ${attempt} to get display media with constraints:`, constraints);
             return await navigator.mediaDevices.getDisplayMedia(constraints);
         } catch (err) {
             if (err.name === 'AbortError' && attempt < retries) {
-                console.warn(`Attempt ${attempt} failed with AbortError, retrying with lower constraints...`);
-                const next = stepResolutions[attempt] || stepResolutions[stepResolutions.length-1];
-                constraints.video = {
-                    width: { ideal: next.width, max: next.width },
-                    height: { ideal: next.height, max: next.height },
-                    frameRate: { ideal: next.fps, max: next.fps }
-                };
-                await new Promise(resolve => setTimeout(resolve, 1500)); // увеличил задержку
+                console.warn(`Attempt ${attempt} failed with AbortError, retrying...`);
+                await new Promise(resolve => setTimeout(resolve, 1500));
                 continue;
             }
             throw err;
@@ -2488,10 +2441,11 @@ startBtn.addEventListener('click', async () => {
     try {
         showNotification('📺 Выберите окно или весь экран для трансляции', 'info');
         
+        // Без жёстких ограничений разрешения — захватываем в нативном
+        // разрешении, чтобы работало на любой ширине/высоте экрана.
+        // Ограничиваем только FPS для стабильности потока.
         localStream = await safeGetDisplayMedia({
             video: {
-                width: { ideal: 1280, max: 1280 },
-                height: { ideal: 720, max: 720 },
                 frameRate: { ideal: 15, max: 15 }
             },
             audio: false
@@ -2502,17 +2456,6 @@ startBtn.addEventListener('click', async () => {
         const videoTrack = localStream.getVideoTracks()[0];
         if (videoTrack) {
             console.log('Видео трек настройки:', videoTrack.getSettings());
-            
-            // ===== ПРОВЕРКА: ЗАПРЕЩАЕМ ВЕСЬ ЭКРАН =====
-            const settings = videoTrack.getSettings();
-            if (settings.displaySurface === 'monitor') {
-                // Весь экран - отменяем трансляцию
-                showNotification('❌ Захват всего экрана не поддерживается. Пожалуйста, выберите окно или вкладку.', 'error');
-                localStream.getTracks().forEach(track => track.stop());
-                localStream = null;
-                return; // Выходим из функции, трансляция не запускается
-            }
-            // ===== КОНЕЦ ПРОВЕРКИ =====
         }
         
         // Показываем локальное видео
@@ -2552,20 +2495,12 @@ startBtn.addEventListener('click', async () => {
                 peerConnections[studentId] = pc;
                 
                 try {
-                    const offer = await pc.createOffer({
-                        offerToReceiveVideo: true,
-                        offerToReceiveAudio: false
-                    });
+                    // Создаём offer без манипуляций с SDP — браузер сам выберет
+                    // оптимальный кодек (VP8/VP9/H264). Ручная замена кодеков
+                    // может ломать кодирование и вызывать чёрный экран у студентов.
+                    const offer = await pc.createOffer();
                     
-                    let sdp = offer.sdp;
-                    if (sdp.indexOf('H264') === -1) {
-                        sdp = sdp.replace('VP9/90000', 'VP8/90000');
-                    }
-                    
-                    await pc.setLocalDescription({
-                        type: offer.type,
-                        sdp: sdp
-                    });
+                    await pc.setLocalDescription(offer);
                     
                     console.log(`📺 Offer создан для ${studentId}`);
                     
@@ -3711,8 +3646,15 @@ body {
         
         studentPeerConnection.ontrack = (event) => {
             console.log('✅ Получен видеотрек');
-            if (videoElement.srcObject !== event.streams[0]) {
-                videoElement.srcObject = event.streams[0];
+            // При screen sharing поток может не быть привязан к event.streams.
+            // Надёжно создаём MediaStream из трека, если streams пуст.
+            let stream = event.streams && event.streams[0];
+            if (!stream) {
+                stream = new MediaStream();
+                stream.addTrack(event.track);
+            }
+            if (videoElement.srcObject !== stream) {
+                videoElement.srcObject = stream;
                 videoElement.play().catch(e => console.log('Play error:', e));
                 showNotification('✅ Video stream started', 'success');
             }
